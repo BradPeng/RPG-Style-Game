@@ -14,10 +14,29 @@ function CastFire(){
 				hitByAttackList = ds_list_create();	
 			}
 			ds_list_clear(hitByAttackList);
-			with (instance_create_layer(x + 10, y - 20, "Instances", o_cast_fire)) {
+			var _x;
+			var _y;
+			switch (CARDINAL_DIR) {
+				case 0: //right
+					_x = 16;
+					_y = -10;
+					break;
+				case 1: // up
+					_x = 0;
+					_y = - 21;
+					break
+				case 2: // left
+					_x = -16;
+					_y = -10;
+					break
+				case 3:
+					_x = 0;
+					_y = 12;
+			}	
+			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_fire)) {
 				direction = other.direction;
 				direction = CARDINAL_DIR * 90;
-				speed = 5;
+				speed = 6;
 			}
 			global.playerHealth -= 1
 		}
