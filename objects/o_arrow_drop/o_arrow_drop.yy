@@ -1,0 +1,43 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "o_arrow_drop",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"value":"False",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"value":"CollectAmmo",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/p_collectable/p_collectable.yy",},"value":"[ITEM.BOW, 5]",},
+  ],
+  "parent": {
+    "name": "Drops",
+    "path": "folders/Objects/Entities/Drops.yy",
+  },
+  "parentObjectId": {
+    "name": "p_collectable",
+    "path": "objects/p_collectable/p_collectable.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "s_arrow_drop",
+    "path": "sprites/s_arrow_drop/s_arrow_drop.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

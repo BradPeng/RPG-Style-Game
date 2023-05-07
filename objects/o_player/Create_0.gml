@@ -1,0 +1,44 @@
+state = PlayerStateFree;
+stateAttack = AttackSlash;
+lastState = state;
+hitByAttackList = -1;
+
+collisionMap = layer_tilemap_get_id(layer_get_id("col"));
+
+image_speed = 0;
+hSpeed = 0;
+vSpeed = 0;
+z = 0;
+speedWalk = 2.0;
+speedRoll = 3.0;
+distanceBonk = 40;
+distanceBonkHeight = 12;
+distanceRoll = 52;
+speedBonk = 1.5
+animationEndScript = -1;
+invulnerable = 0;
+flash = 0;
+flashShader = shRedFlash;
+speedHook = 3.0;
+distanceHook = 88;
+hook = 0;
+hookX = 0;
+hookY = 0;
+hookSize = sprite_get_width(s_hook_chain)
+
+spriteRun = s_player_run;
+spriteIdle = s_player;
+spriteRoll = s_player_roll
+localFrame = 0;
+
+if (global.targetX != -1) {
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+}
+
+if (global.iLifted != noone) {
+	//spriteIdle = s_player_carrying;
+	//spriteRun = s_player_run_carrying;
+	//sprite_index = spriteIdle;
+}
