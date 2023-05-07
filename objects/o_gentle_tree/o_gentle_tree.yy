@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_pink_tree",
+  "name": "o_gentle_tree",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_pink_tree",
-    "path": "sprites/s_pink_tree/s_pink_tree.yy",
+    "name": "s_gentle_tree",
+    "path": "sprites/s_gentle_tree/s_gentle_tree.yy",
   },
   "spriteMaskId": null,
   "visible": true,

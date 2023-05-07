@@ -14,6 +14,10 @@ function PlayerCollision(){
 		_collision = true;
 	}
 	
+	if (collision_point(x+ hSpeed, y, o_solid, true, true)) {
+		hSpeed = 0;	
+	}
+	
 	// Horizontal move commit
 	x += hSpeed;
 	
@@ -26,6 +30,10 @@ function PlayerCollision(){
 		}
 		vSpeed = 0;
 		_collision = true;
+	}
+	
+	if (collision_point(x, y + vSpeed, o_solid, true, true)) {
+		vSpeed = 0;	
 	}
 	
 	// vertial move commit
