@@ -4,8 +4,8 @@
 #macro TILE_SIZE 16
 #macro CARDINAL_DIR round(direction/90)
 #macro ROOM_START rm_village
-#macro RESOLUTION_W 320	
-#macro RESOLUTION_H 180
+#macro RESOLUTION_W 640	
+#macro RESOLUTION_H 360
 #macro TRANSITION_SPEED 0.02
 #macro OUT 0
 #macro IN 1
