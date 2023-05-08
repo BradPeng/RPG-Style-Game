@@ -14,8 +14,8 @@
     "path": "folders/Objects/Entities/NPCs.yy",
   },
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_NPC",
+    "path": "objects/p_NPC/p_NPC.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

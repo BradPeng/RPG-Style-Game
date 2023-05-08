@@ -9,6 +9,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/p_entity/p_entity.yy",},"value":"EntityHitDestroy",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragmentCount","path":"objects/p_entity/p_entity.yy",},"value":"2",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragment","path":"objects/p_entity/p_entity.yy",},"value":"o_frag_plant",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"propertyId":{"name":"isSolid","path":"objects/o_solid/o_solid.yy",},"value":"False",},
   ],
   "parent": {
     "name": "Decorative",

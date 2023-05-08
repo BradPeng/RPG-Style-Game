@@ -36,9 +36,9 @@ function PlayerStateFree(){
 		
 	if (keyActivate) {
 		// check for an entity with script
-		var _activateX = x + lengthdir_x(10, direction);
-		var _activateY = y + lengthdir_y(10, direction);
-		var _activateSize = 4;
+		var _activateX = x + lengthdir_x(ACTIVATE_RANGE, direction);
+		var _activateY = y + lengthdir_y(ACTIVATE_RANGE, direction);
+		var _activateSize = 6;
 		var _activateList = ds_list_create();
 		
 		activate = noone;

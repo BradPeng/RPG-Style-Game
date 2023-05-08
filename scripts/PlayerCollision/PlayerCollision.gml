@@ -4,7 +4,7 @@ function PlayerCollision(){
 	var _collision = false;
 	
 	// horizontal tiles
-	if (tilemap_get_at_pixel(collisionMap, x + hSpeed, y)) {
+	if (tilemap_get_at_pixel(collisionMap, x +  + hSpeed, y)) {
 		// put us right agaisnt the wall
 		x -= x mod TILE_SIZE;	
 		if (sign(hSpeed) == 1) {
@@ -14,10 +14,14 @@ function PlayerCollision(){
 		_collision = true;
 	}
 	
-	if (collision_point(x+ hSpeed, y, o_solid, true, true)) {
-		hSpeed = 0;	
+	var _collidedObject = instance_place(x + hSpeed, y, o_solid)
+	if (_collidedObject != noone and _collidedObject.isSolid and _collidedObject != global.iLifted) {
+		while (!place_meeting(x + sign(hSpeed),y, o_solid)) {
+			x += sign(hSpeed);
+		}
+		hSpeed = 0;
 	}
-	
+
 	// Horizontal move commit
 	x += hSpeed;
 	
@@ -32,10 +36,14 @@ function PlayerCollision(){
 		_collision = true;
 	}
 	
-	if (collision_point(x, y + vSpeed, o_solid, true, true)) {
-		vSpeed = 0;	
+	var _collidedObject = instance_place(x, y + sign(vSpeed), o_solid)
+	if (_collidedObject != noone and _collidedObject.isSolid and _collidedObject != global.iLifted) {
+		while (!place_meeting(x, y + sign(vSpeed), o_solid)) {
+			y += sign(vSpeed);
+		}
+		vSpeed = 0;
 	}
-	
+
 	// vertial move commit
 	y += vSpeed;
 	
