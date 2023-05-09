@@ -3,6 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-image_speed = 0;
-depth = -9999
-if (global.playerItemUnlocked[item]) instance_destroy();
+depth = -200

@@ -1,3 +1,4 @@
+event_inherited();
 z = 0;
 flash = 0;
 flashShader = shWhiteFlash;
