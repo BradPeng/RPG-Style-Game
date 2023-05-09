@@ -20,3 +20,15 @@ function HurtPlayer(_direction, _force, _damage){
 		}
 	}
 }
+
+function DrainPlayerHP(_damage){
+	if (o_player.invulnerable <= 0) {
+		global.playerHealth = max(0, global.playerHealth - _damage);
+		
+		if (global.playerHealth <= 0) {
+			with (o_player) {
+				state = PlayerStateDead;
+			}
+		}
+	}
+}

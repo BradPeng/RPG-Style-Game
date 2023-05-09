@@ -32,6 +32,11 @@ function CastFire(){
 				case 3:
 					_x = 0;
 					_y = 12;
+					break;
+				default: 
+					_x = 0;
+					_y = 0;
+			
 			}	
 			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_fire)) {
 				direction = other.direction;
