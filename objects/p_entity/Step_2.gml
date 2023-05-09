@@ -11,6 +11,7 @@ if (!global.gamePaused) {
 	
 	if (!lifted) {
 		if (thrown) {
+			isSolid = true;
 			throwDistanceTravelled = min(throwDistanceTravelled + 3, throwDistance);
 			x = xstart + lengthdir_x(throwDistanceTravelled, direction);
 			y = ystart + lengthdir_y(throwDistanceTravelled, direction);
@@ -39,6 +40,9 @@ if (!global.gamePaused) {
 				grav = 0.1;	
 			}
 		}
+	} else { // is lifted
+		isSolid = false;
+		
 	}
 }
 

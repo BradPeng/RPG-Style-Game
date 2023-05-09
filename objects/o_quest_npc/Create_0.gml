@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-state = 
-sprIdle = s_merchant_b;
-//sprite_index = startingImageIndex 
+
+sprIdle = s_dancer;
+//sprite_index = startingImageIndex
