@@ -36,6 +36,9 @@
     "name": "s_dancer",
     "path": "sprites/s_dancer/s_dancer.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_dancer",
+    "path": "sprites/s_dancer/s_dancer.yy",
+  },
   "visible": true,
 }

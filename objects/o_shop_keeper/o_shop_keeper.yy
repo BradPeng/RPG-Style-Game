@@ -38,6 +38,9 @@
     "name": "s_merchant_b",
     "path": "sprites/s_merchant_b/s_merchant_b.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_merchant_b",
+    "path": "sprites/s_merchant_b/s_merchant_b.yy",
+  },
   "visible": true,
 }
