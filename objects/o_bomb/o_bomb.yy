@@ -9,9 +9,8 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityActivateScript","path":"objects/p_entity/p_entity.yy",},"value":"ActivateLiftable",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityActivateArgs","path":"objects/p_entity/p_entity.yy",},"value":"[id]",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityThrowBreak","path":"objects/p_entity/p_entity.yy",},"value":"True",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatableActivateScript","path":"objects/p_activatable/p_activatable.yy",},"value":"ActivateLiftable",},
   ],
   "parent": {
     "name": "Items",

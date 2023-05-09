@@ -1,22 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "p_NPC",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "o_dancer",
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"propertyId":{"name":"isSolid","path":"objects/o_solid/o_solid.yy",},"value":"True",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "NPCs",
     "path": "folders/Objects/Entities/NPCs.yy",
   },
-  "parentObjectId": {
-    "name": "p_activatable",
-    "path": "objects/p_activatable/p_activatable.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -32,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_dancer_walk",
+    "path": "sprites/s_dancer_walk/s_dancer_walk.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

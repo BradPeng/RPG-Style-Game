@@ -1,3 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_alpha = 0.5
+
+// Inherit the parent event
+event_inherited();
+sprMove = -1;
+sprIdle = -1;

@@ -46,7 +46,7 @@ function PlayerStateFree(){
 		// check for an entity with script
 		var _activateX = x + lengthdir_x(ACTIVATE_RANGE, direction);
 		var _activateY = y + lengthdir_y(ACTIVATE_RANGE, direction);
-		var _activateSize = 6;
+		var _activateSize = 12;
 		var _activateList = ds_list_create();
 		
 		activate = noone;
@@ -55,7 +55,7 @@ function PlayerStateFree(){
 			_activateY - _activateSize,
 			_activateX + _activateSize,
 			_activateY + _activateSize,
-			p_entity,
+			p_activatable,
 			false,
 			true,
 			_activateList,
@@ -65,7 +65,7 @@ function PlayerStateFree(){
 		// if first instance is either out lifted entry, or has no script, try next
 		while (_entitiesFound > 0) {
 			var _check = _activateList[| --_entitiesFound];	//last element in list //-- reduces then number by 1 first, then returns it
-			if (_check != global.iLifted and _check.entityActivateScript != -1) {
+			if (_check != global.iLifted and _check.activatableActivateScript != -1) {
 				activate = _check;	
 				break;
 			}
@@ -82,7 +82,7 @@ function PlayerStateFree(){
 				moveDistanceRemaining = distanceRoll;
 			}
 		} else { 
-			ScriptExecuteArray(activate.entityActivateScript, activate.entityActivateArgs);	
+			ScriptExecuteArray(activate.activatableActivateScript, activate.activatableActivateArgs);	
 			// npc face player
 			with (activate) {
 				direction = point_direction(x, y, other.x, other.y);
