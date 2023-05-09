@@ -41,6 +41,8 @@
     {"name":"Work Shop","order":4,"path":"folders/Sprites/Work Shop.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
+    {"name":"Buildings","order":11,"path":"folders/Sprites/Buildings.yy",},
+    {"name":"Buildings","order":9,"path":"folders/Objects/Buildings.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s_col","order":5,"path":"sprites/s_col/s_col.yy",},
