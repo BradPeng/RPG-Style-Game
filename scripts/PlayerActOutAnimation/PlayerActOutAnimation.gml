@@ -6,8 +6,6 @@ function PlayerActOutAnimation(sprite, endscript = -1){
 	
 	animationEndScript = endscript;
 
-	
-	
 	localFrame = 0;
 	image_index = 0;
 	PlayerAnimateSprite();

@@ -2,14 +2,22 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_dancer",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcWanderDistance","path":"objects/p_NPC/p_NPC.yy",},"value":"80",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcSpeed","path":"objects/p_NPC/p_NPC.yy",},"value":"2",},
+  ],
   "parent": {
     "name": "NPCs",
     "path": "folders/Objects/Entities/NPCs.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "p_NPC",
+    "path": "objects/p_NPC/p_NPC.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
