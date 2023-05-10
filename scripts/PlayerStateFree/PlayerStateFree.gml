@@ -13,7 +13,7 @@ function PlayerStateFree(){
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-	PlayerCollision();
+	
 
 	// Sprite Index
 	var _oldSprite = sprite_index;
@@ -62,7 +62,7 @@ function PlayerStateFree(){
 			true
 		);
 		
-		// if first instance is either out lifted entry, or has no script, try next
+		// if first instance is either our lifted entry, or has no script, try next
 		while (_entitiesFound > 0) {
 			var _check = _activateList[| --_entitiesFound];	//last element in list //-- reduces then number by 1 first, then returns it
 			if (_check != global.iLifted and _check.activatableActivateScript != -1) {
@@ -126,6 +126,8 @@ function PlayerStateFree(){
 			} until (global.playerItemUnlocked[global.playerEquipped]);
 		}
 	}
+	
+	PlayerCollision();
 }
 
 
