@@ -32,7 +32,8 @@ if(!global.gamePaused) {
 	y += lengthdir_y(spd, direction);
 	
 	// stop moving if fragment collides with the wall
-	if (tilemap_get_at_pixel(collisionMap, x, y) > 0) {
+	var _collisionId = instance_place(x, y, o_solid);
+	if (_collisionId != noone and _collisionId != o_player.id) {
 		spd = 0;	
 	}
 	

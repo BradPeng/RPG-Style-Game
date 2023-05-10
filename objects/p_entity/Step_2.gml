@@ -15,8 +15,8 @@ if (!global.gamePaused) {
 			throwDistanceTravelled = min(throwDistanceTravelled + 3, throwDistance);
 			x = xstart + lengthdir_x(throwDistanceTravelled, direction);
 			y = ystart + lengthdir_y(throwDistanceTravelled, direction);
-			
-			if (tilemap_get_at_pixel(collisionMap, x, y) > 0) {
+			var _collisionId = instance_place(x, y, o_solid);
+			if (_collisionId != noone and _collisionId != o_player.id) {
 				thrown = false;
 				grav = 0.1;
 			}
