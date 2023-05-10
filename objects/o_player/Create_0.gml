@@ -3,8 +3,6 @@ stateAttack = AttackSlash;
 lastState = state;
 hitByAttackList = -1;
 
-collisionMap = layer_tilemap_get_id(layer_get_id("col"));
-
 image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;

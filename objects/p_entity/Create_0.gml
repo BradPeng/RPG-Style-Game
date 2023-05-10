@@ -7,4 +7,3 @@ lifted = 0;
 thrown = false;
 spd = 0;
 entityDropList = -1; // items that drop when the item breaks
-collisionMap = layer_tilemap_get_id(layer_get_id("col"));
