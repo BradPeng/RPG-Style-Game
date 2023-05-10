@@ -43,6 +43,7 @@
     {"name":"Work Shop","order":4,"path":"folders/Sprites/Work Shop.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
+    {"name":"EnemyFighterStates","order":6,"path":"folders/Scripts/Enemies/EnemyFighterStates.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s_col","order":5,"path":"sprites/s_col/s_col.yy",},
@@ -86,6 +87,7 @@
     {"name":"s_merchant_b_walk","order":3,"path":"sprites/s_merchant_b_walk/s_merchant_b_walk.yy",},
     {"name":"o_solid","order":4,"path":"objects/o_solid/o_solid.yy",},
     {"name":"o_well","order":9,"path":"objects/o_well/o_well.yy",},
+    {"name":"o_enemy_fighter","order":3,"path":"objects/o_enemy_fighter/o_enemy_fighter.yy",},
     {"name":"s_col_wall","order":9,"path":"sprites/s_col_wall/s_col_wall.yy",},
     {"name":"SlimeChase","order":1,"path":"scripts/SlimeChase/SlimeChase.yy",},
     {"name":"s_healthbar_background","order":6,"path":"sprites/s_healthbar_background/s_healthbar_background.yy",},
@@ -191,6 +193,7 @@
     {"name":"EntityHitDestroy","order":5,"path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},
     {"name":"o_table","order":10,"path":"objects/o_table/o_table.yy",},
     {"name":"s_player_hook","order":8,"path":"sprites/s_player_hook/s_player_hook.yy",},
+    {"name":"EnemyFighterWander","order":1,"path":"scripts/EnemyFighterWander/EnemyFighterWander.yy",},
     {"name":"o_bomb","order":1,"path":"objects/o_bomb/o_bomb.yy",},
     {"name":"s_fire","order":14,"path":"sprites/s_fire/s_fire.yy",},
     {"name":"DialogueResponses","order":1,"path":"scripts/DialogueResponses/DialogueResponses.yy",},

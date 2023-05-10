@@ -53,6 +53,4 @@ function SlimeWander(){
 		}
 		
 	}
-	
-	
 }

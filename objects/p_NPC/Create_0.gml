@@ -3,7 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-collisionMap = layer_tilemap_get_id(layer_get_id("col"));
 sprMove = -1;
 sprIdle = -1;
 state = NPCSTATE.WANDER;
