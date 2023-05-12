@@ -11,7 +11,8 @@ timePassed = 0;
 waitDuration = 60;
 wait = 0;
 localFrame = 0
-
+animationEnd = false; 
+target = o_player
 // check for player in radius every 5 frames
 aggroCheck = 0;
 aggroCheckDuration = 5;

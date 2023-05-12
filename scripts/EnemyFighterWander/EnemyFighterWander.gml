@@ -64,9 +64,14 @@ function EnemyFighterWander(){
 	if (++aggroCheck >= aggroCheckDuration) {
 		aggroCheck = 0;
 		if (instance_exists(o_player) and point_distance(x, y, o_player.x, o_player.y) < enemyAggroRadius) {
-			state = ENEMYSTATE.CHASE;
-			target = o_player; // optional to make slime follow something other than player
+			if (target.state == PlayerStateDead) {
+				state = ENEMYSTATE.WANDER;
+			} else {
+				state = ENEMYSTATE.CHASE;
+				target = o_player; // optional to make slime follow something other than player
+			}
 		}
+		
 		
 	}
 }

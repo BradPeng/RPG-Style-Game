@@ -32,7 +32,9 @@ function EnemyFighterChase(){
 	
 	// check if close enough to attack
 	if (instance_exists(target) and point_distance(x, y, target.x, target.y) <= enemyAttackRadius) {
+		if (target.state == PlayerStateDead) {
+			state = ENEMYSTATE.WANDER;	
+		}
 		state = ENEMYSTATE.ATTACK;
-		sprite_index = sprAttack;
 	}
 }

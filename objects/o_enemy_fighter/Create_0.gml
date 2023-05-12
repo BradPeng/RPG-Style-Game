@@ -11,6 +11,6 @@ sprDie = s_player_die;
 state = ENEMYSTATE.WANDER
 enemyScript[ENEMYSTATE.WANDER] = EnemyFighterWander;
 enemyScript[ENEMYSTATE.CHASE] = EnemyFighterChase
-enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack
+enemyScript[ENEMYSTATE.ATTACK] = EnemyFighterAttack
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt
 enemyScript[ENEMYSTATE.DIE] = SlimeDie
