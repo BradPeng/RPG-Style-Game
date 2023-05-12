@@ -3,7 +3,11 @@
 function SaveGame(){
 	// Create Save Map
 	var _map = ds_map_create();
-	
+	if (instance_exists(o_player)) {
+		print("test");
+		_map[? "posX"] = o_player.x;	
+		_map[? "posY"] = o_player.y;	
+	}
 	_map[? "room"] = room;
 	_map[? "playerHealth"] = global.playerHealth;
 	_map[? "playerHealthMax"] = global.playerHealthMax;
@@ -14,6 +18,11 @@ function SaveGame(){
 	_map[? "playerHasAnyItems"] = global.playerHasAnyItems;
 	_map[? "targetX"] = global.targetX;
 	_map[? "targetY"] = global.targetY;
+	
+	_map[? "posY"] = global.targetY;
+	
+	_map[? "playerBloodAuraLevel"] = global.playerBloodAuraLevel;
+	_map[? "playerBloodAuraLevelMax"] = global.playerBloodAuraLevelMax;
 	
 	// maps hold pointers to actual map data, so we need to copy 
 	// the data in the map into a temp map, and store the temp map into the actual map

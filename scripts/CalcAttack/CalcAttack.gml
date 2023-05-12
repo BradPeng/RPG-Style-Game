@@ -16,7 +16,7 @@ function CalcAttack(hb){
 					
 					// if thing we hit is an enemy
 					if (object_is_ancestor(object_index, p_enemy)) {
-						HurtEnemy(id, 5, other.id, 10);
+						HurtEnemy(id, 5, other.id, 50);
 					} else {
 					
 						// do something to the non enemy entity we hit

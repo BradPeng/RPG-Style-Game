@@ -4,14 +4,22 @@ function LoadGame(_slot){
 	show_debug_message(_file);
 	if (file_exists(_file)) {
 		var _json = LoadJSONFromFile(_file);
+		with (instance_exists(o_player)) {
+			print("test com");
+			x = _json[? "posX"];
+			y = _json[? "posY"];
+		}
+	
 		//global variables
 		global.playerHealth = _json[? "playerHealth"];
 		global.playerHealthMax = _json[? "playerHealthMax"];
 		global.playerMoney = _json[? "playerMoney"];
 		global.playerEquipped = _json[? "playerEquipped"];
 		global.playerHasAnyItems = _json[? "playerHasAnyItems"];
-		global.targetX = _json[? "targetX"];
-		global.targetY = _json[? "targetY"];
+		//global.targetX = _json[? "targetX"];
+		//global.targetY = _json[? "targetY"];
+		global.playerBloodAuraLevel = _json[? "playerBloodAuraLevel"];
+		global.playerBloodAuraLevelMax = _json[? "playerBloodAuraLevelMax"];
 		
 		// when decoding json, the arrays we encoded are decoded as lists
 		// so we need to convert lists to arrays
