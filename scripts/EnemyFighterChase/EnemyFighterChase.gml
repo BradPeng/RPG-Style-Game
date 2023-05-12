@@ -3,6 +3,15 @@
 function EnemyFighterChase(){
 	sprite_index = sprMove;
 	if (instance_exists(target)) {
+		image_speed = 0;
+		sprite_index = sprMove;
+		var _totalFrames = sprite_get_number(sprite_index) / 4;
+		image_index = localFrame + (CARDINAL_DIR * _totalFrames);
+		localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
+		
+		if (localFrame >= _totalFrames) {
+			localFrame -= _totalFrames
+		}	
 		xTo = target.x;
 		yTo = target.y;
 		
@@ -16,10 +25,7 @@ function EnemyFighterChase(){
 			hSpeed = lengthdir_x(_distanceToGo, dir)	
 			vSpeed = lengthdir_y(_distanceToGo, dir)	
 		}
-		
-		if (hSpeed != 0) {
-			image_xscale = sign(hSpeed);	
-		}
+		direction = dir;
 		
 		EnemyTileCollision();
 	}	

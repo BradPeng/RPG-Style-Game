@@ -45,7 +45,8 @@
     {"name":"inst_77C6657B","path":"rooms/rm_village/rm_village.yy",},
     {"name":"inst_64F41F1C","path":"rooms/rm_village/rm_village.yy",},
     {"name":"inst_2159AFC8","path":"rooms/rm_village/rm_village.yy",},
-    {"name":"inst_2283BD5C","path":"rooms/rm_village/rm_village.yy",},
+    {"name":"inst_2D72B31C","path":"rooms/rm_village/rm_village.yy",},
+    {"name":"inst_71DCD76","path":"rooms/rm_village/rm_village.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -100,7 +101,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77C6657B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_barrel","path":"objects/o_barrel/o_barrel.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":408.0,"y":408.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64F41F1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":11,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_clothes_hanger","path":"objects/o_clothes_hanger/o_clothes_hanger.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":568.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2159AFC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":8,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_clothes_hanger","path":"objects/o_clothes_hanger/o_clothes_hanger.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":472.0,"y":416.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2283BD5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_enemy_fighter","path":"objects/o_enemy_fighter/o_enemy_fighter.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":280.0,"y":376.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D72B31C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_enemy_fighter","path":"objects/o_enemy_fighter/o_enemy_fighter.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":176.0,"y":400.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71DCD76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_slime","path":"objects/o_slime/o_slime.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":360.0,"y":336.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"tiles_upper","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"properties":[],"tiles":{"SerialiseHeight":50,"SerialiseWidth":50,"TileCompressedData":[
 8,120,121,122,123,124,125,126,127,-42,-2147483648,8,135,136,137,138,139,140,141,142,-42,-2147483648,8,150,151,152,153,154,155,156,157,-42,-2147483648,12,165,166,167,168,169,170,171,172,65,-2147483648,-2147483648,63,-5,-2147483648,1,65,

@@ -8,7 +8,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcWanderDistance","path":"objects/p_NPC/p_NPC.yy",},"value":"80",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcSpeed","path":"objects/p_NPC/p_NPC.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcSpeed","path":"objects/p_NPC/p_NPC.yy",},"value":"1",},
   ],
   "parent": {
     "name": "NPCs",
