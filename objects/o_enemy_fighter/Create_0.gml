@@ -12,5 +12,5 @@ state = ENEMYSTATE.WANDER
 enemyScript[ENEMYSTATE.WANDER] = EnemyFighterWander;
 enemyScript[ENEMYSTATE.CHASE] = EnemyFighterChase
 enemyScript[ENEMYSTATE.ATTACK] = EnemyFighterAttack
-enemyScript[ENEMYSTATE.HURT] = SlimeHurt
+enemyScript[ENEMYSTATE.HURT] = EnemyFighterHurt
 enemyScript[ENEMYSTATE.DIE] = SlimeDie

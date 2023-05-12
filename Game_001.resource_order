@@ -154,6 +154,7 @@
     {"name":"s_slime_hurt","order":3,"path":"sprites/s_slime_hurt/s_slime_hurt.yy",},
     {"name":"s_pink_tree","order":3,"path":"sprites/s_pink_tree/s_pink_tree.yy",},
     {"name":"s_slime","order":1,"path":"sprites/s_slime/s_slime.yy",},
+    {"name":"EnemyFighterHurt","order":3,"path":"scripts/EnemyFighterHurt/EnemyFighterHurt.yy",},
     {"name":"o_ui","order":4,"path":"objects/o_ui/o_ui.yy",},
     {"name":"s_player_attack_slash","order":11,"path":"sprites/s_player_attack_slash/s_player_attack_slash.yy",},
     {"name":"o_plantb","order":1,"path":"objects/o_plantb/o_plantb.yy",},
