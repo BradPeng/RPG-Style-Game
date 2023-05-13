@@ -48,6 +48,7 @@
   "ResourceOrderSettings": [
     {"name":"s_col","order":5,"path":"sprites/s_col/s_col.yy",},
     {"name":"o_bomb_drop","order":2,"path":"objects/o_bomb_drop/o_bomb_drop.yy",},
+    {"name":"o_village_wagon","order":16,"path":"objects/o_village_wagon/o_village_wagon.yy",},
     {"name":"s_dancer_walk","order":1,"path":"sprites/s_dancer_walk/s_dancer_walk.yy",},
     {"name":"o_frag_pot","order":2,"path":"objects/o_frag_pot/o_frag_pot.yy",},
     {"name":"s_gentle_forest","order":3,"path":"sprites/s_gentle_forest/s_gentle_forest.yy",},
@@ -205,6 +206,7 @@
     {"name":"s_slime_attack_hb","order":4,"path":"sprites/s_slime_attack_hb/s_slime_attack_hb.yy",},
     {"name":"s_player_hook","order":8,"path":"sprites/s_player_hook/s_player_hook.yy",},
     {"name":"EnemyFighterWander","order":1,"path":"scripts/EnemyFighterWander/EnemyFighterWander.yy",},
+    {"name":"s_village_wagon","order":11,"path":"sprites/s_village_wagon/s_village_wagon.yy",},
     {"name":"o_bomb","order":1,"path":"objects/o_bomb/o_bomb.yy",},
     {"name":"s_fire","order":14,"path":"sprites/s_fire/s_fire.yy",},
     {"name":"DialogueResponses","order":1,"path":"scripts/DialogueResponses/DialogueResponses.yy",},
