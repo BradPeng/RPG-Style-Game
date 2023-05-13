@@ -206,6 +206,7 @@
     {"id":{"name":"o_plantb","path":"objects/o_plantb/o_plantb.yy",},},
     {"id":{"name":"s_bomb_drop","path":"sprites/s_bomb_drop/s_bomb_drop.yy",},},
     {"id":{"name":"o_bat","path":"objects/o_bat/o_bat.yy",},},
+    {"id":{"name":"ClassDiagram","path":"sprites/ClassDiagram/ClassDiagram.yy",},},
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},},
     {"id":{"name":"s_frag_pot","path":"sprites/s_frag_pot/s_frag_pot.yy",},},
     {"id":{"name":"o_quest_npc","path":"objects/o_quest_npc/o_quest_npc.yy",},},

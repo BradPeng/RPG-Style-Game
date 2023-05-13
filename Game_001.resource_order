@@ -160,6 +160,7 @@
     {"name":"o_plantb","order":1,"path":"objects/o_plantb/o_plantb.yy",},
     {"name":"s_bomb_drop","order":1,"path":"sprites/s_bomb_drop/s_bomb_drop.yy",},
     {"name":"o_bat","order":1,"path":"objects/o_bat/o_bat.yy",},
+    {"name":"ClassDiagram","order":14,"path":"sprites/ClassDiagram/ClassDiagram.yy",},
     {"name":"PlayerStateAct","order":7,"path":"scripts/PlayerStateAct/PlayerStateAct.yy",},
     {"name":"o_quest_npc","order":1,"path":"objects/o_quest_npc/o_quest_npc.yy",},
     {"name":"s_player_attac_slash_hb","order":12,"path":"sprites/s_player_attac_slash_hb/s_player_attac_slash_hb.yy",},
