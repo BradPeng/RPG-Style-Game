@@ -1,12 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_notice_board",
+  "name": "o_village_outhouse",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"value":"False",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Decorative",
     "path": "folders/Objects/Entities/Decorative.yy",
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_notice_board",
-    "path": "sprites/s_notice_board/s_notice_board.yy",
+    "name": "s_village_outhouse",
+    "path": "sprites/s_village_outhouse/s_village_outhouse.yy",
   },
   "spriteMaskId": null,
   "visible": true,
