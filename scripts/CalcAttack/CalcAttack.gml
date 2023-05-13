@@ -15,7 +15,7 @@ function CalcAttack(hb){
 				with (hitID) {
 					
 					// if thing we hit is an enemy
-					if (object_is_ancestor(object_index, p_enemy)) {
+					if (object_is_ancestor(object_index, p_hostile_mob)) {
 						HurtEnemy(id, 5, other.id, 50);
 					} else {
 					

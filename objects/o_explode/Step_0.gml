@@ -12,7 +12,7 @@ if (!global.gamePaused) {
 			_entity = _entityList[| 0];
 			if (ds_list_find_index(collisionHistory, _entity) == -1) { // if we haven't hit this thing already
 				with (_entity) {
-					if (object_is_ancestor(object_index, p_enemy)) { // if enemy
+					if (object_is_ancestor(object_index, p_hostile_mob)) { // if enemy
 						HurtEnemy(id, 25, other.id, 20);
 					} else { // if entity
 						if (entityHitScript != -1) {

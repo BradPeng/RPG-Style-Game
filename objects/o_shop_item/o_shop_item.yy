@@ -17,8 +17,8 @@
     "path": "folders/Objects/Entities/Items.yy",
   },
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_objects",
+    "path": "objects/p_objects/p_objects.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "p_enemy",
+  "name": "p_hostile_mob",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -14,8 +14,8 @@
     "path": "folders/Objects/Entities/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_mobs",
+    "path": "objects/p_mobs/p_mobs.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

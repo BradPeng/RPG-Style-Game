@@ -9,18 +9,16 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/p_entity/p_entity.yy",},"value":"EntityHitSolid",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityCollision","path":"objects/p_entity/p_entity.yy",},"value":"True",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityNPC","path":"objects/p_entity/p_entity.yy",},"value":"True",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatableActivateScript","path":"objects/p_activatable/p_activatable.yy",},"value":"ActivateHatNPC",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"startingImageIndex","path":"objects/p_NPC/p_NPC.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"startingImageIndex","path":"objects/p_friendly/p_friendly.yy",},"value":"3",},
   ],
   "parent": {
     "name": "NPCs",
     "path": "folders/Objects/Entities/NPCs.yy",
   },
   "parentObjectId": {
-    "name": "p_NPC",
-    "path": "objects/p_NPC/p_NPC.yy",
+    "name": "p_friendly",
+    "path": "objects/p_friendly/p_friendly.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

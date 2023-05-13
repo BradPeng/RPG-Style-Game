@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "p_NPC",
+  "name": "p_friendly",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -15,8 +15,8 @@
     "path": "folders/Objects/Entities/NPCs.yy",
   },
   "parentObjectId": {
-    "name": "p_activatable",
-    "path": "objects/p_activatable/p_activatable.yy",
+    "name": "p_mobs",
+    "path": "objects/p_mobs/p_mobs.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

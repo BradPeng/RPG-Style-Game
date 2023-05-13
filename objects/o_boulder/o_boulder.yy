@@ -7,7 +7,6 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityCollision","path":"objects/p_entity/p_entity.yy",},"value":"True",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/p_entity/p_entity.yy",},"value":"EntityHitSolid",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"value":"False",},
   ],
@@ -16,8 +15,8 @@
     "path": "folders/Objects/Entities/Decorative.yy",
   },
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_objects",
+    "path": "objects/p_objects/p_objects.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

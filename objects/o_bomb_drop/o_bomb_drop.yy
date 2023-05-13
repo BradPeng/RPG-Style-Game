@@ -10,6 +10,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"value":"False",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"value":"CollectAmmo",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/p_collectable/p_collectable.yy",},"value":"[ITEM.BOMB, 1]",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragmentCount","path":"objects/p_entity/p_entity.yy",},"value":"3",},
   ],
   "parent": {
     "name": "Drops",

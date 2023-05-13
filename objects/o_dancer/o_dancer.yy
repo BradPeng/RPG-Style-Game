@@ -7,16 +7,16 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcWanderDistance","path":"objects/p_NPC/p_NPC.yy",},"value":"80",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_NPC","path":"objects/p_NPC/p_NPC.yy",},"propertyId":{"name":"npcSpeed","path":"objects/p_NPC/p_NPC.yy",},"value":"1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"npcWanderDistance","path":"objects/p_friendly/p_friendly.yy",},"value":"80",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"npcSpeed","path":"objects/p_friendly/p_friendly.yy",},"value":"1",},
   ],
   "parent": {
     "name": "NPCs",
     "path": "folders/Objects/Entities/NPCs.yy",
   },
   "parentObjectId": {
-    "name": "p_NPC",
-    "path": "objects/p_NPC/p_NPC.yy",
+    "name": "p_friendly",
+    "path": "objects/p_friendly/p_friendly.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

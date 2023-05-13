@@ -4,9 +4,7 @@
   "name": "o_frag_rock",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_fragment","path":"objects/o_fragment/o_fragment.yy",},"propertyId":{"name":"bounceCount","path":"objects/o_fragment/o_fragment.yy",},"value":"1",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Fragments",
     "path": "folders/Objects/Entities/Fragments.yy",

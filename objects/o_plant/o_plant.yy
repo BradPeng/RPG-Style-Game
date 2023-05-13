@@ -9,17 +9,17 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"value":"False",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/p_entity/p_entity.yy",},"value":"EntityHitDestroy",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragmentCount","path":"objects/p_entity/p_entity.yy",},"value":"2",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragment","path":"objects/p_entity/p_entity.yy",},"value":"o_frag_plant",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"propertyId":{"name":"isSolid","path":"objects/o_solid/o_solid.yy",},"value":"False",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragmentCount","path":"objects/p_entity/p_entity.yy",},"value":"3",},
   ],
   "parent": {
     "name": "Decorative",
     "path": "folders/Objects/Entities/Decorative.yy",
   },
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_objects",
+    "path": "objects/p_objects/p_objects.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -45,7 +45,7 @@ function PlayerStateHook(){
 				// act depending on what is hit
 				switch (_hookHit.entityHookable) {
 					default: // not hookable
-						if (object_is_ancestor(_hookHit, p_enemy)) {
+						if (object_is_ancestor(_hookHit, p_hostile_mob)) {
 							HurtEnemy(_hookHit, 1, id, 5);
 							hookStatus = HOOKSTATUS.MISSED;
 						} else {

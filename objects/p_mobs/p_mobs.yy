@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_frag_plant",
+  "name": "p_mobs",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Fragments",
-    "path": "folders/Objects/Entities/Fragments.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "o_fragment",
-    "path": "objects/o_fragment/o_fragment.yy",
+    "name": "p_activatable",
+    "path": "objects/p_activatable/p_activatable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "s_frag_plant",
-    "path": "sprites/s_frag_plant/s_frag_plant.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

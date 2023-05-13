@@ -1,17 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_frag_plant",
-  "eventList": [],
+  "name": "p_liftable",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Fragments",
-    "path": "folders/Objects/Entities/Fragments.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "o_fragment",
-    "path": "objects/o_fragment/o_fragment.yy",
+    "name": "p_objects",
+    "path": "objects/p_objects/p_objects.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "s_frag_plant",
-    "path": "sprites/s_frag_plant/s_frag_plant.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

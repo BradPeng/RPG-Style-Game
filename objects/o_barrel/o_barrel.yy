@@ -13,8 +13,8 @@
     "path": "folders/Objects/Entities/Decorative.yy",
   },
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_liftable",
+    "path": "objects/p_liftable/p_liftable.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

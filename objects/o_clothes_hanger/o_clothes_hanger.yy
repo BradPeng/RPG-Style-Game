@@ -10,8 +10,8 @@
     "path": "folders/Objects/Entities/Decorative.yy",
   },
   "parentObjectId": {
-    "name": "o_solid",
-    "path": "objects/o_solid/o_solid.yy",
+    "name": "p_objects",
+    "path": "objects/p_objects/p_objects.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
