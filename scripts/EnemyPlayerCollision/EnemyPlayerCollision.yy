@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerAnimateSprite",
+  "name": "EnemyPlayerCollision",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "Enemies",
+    "path": "folders/Scripts/Enemies.yy",
   },
 }

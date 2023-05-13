@@ -48,7 +48,7 @@ function CastFire(){
 	}
 
 	
-	PlayerAnimateSprite();
+	AnimateCardinalSprite();
 	if (animationEnd) {
 		state = PlayerStateFree;
 		animationEnd = false;

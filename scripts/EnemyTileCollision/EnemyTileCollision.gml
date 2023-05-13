@@ -8,7 +8,6 @@ function EnemyTileCollision(){
 		while (!place_meeting(x + sign(hSpeed), y, o_solid)) {
 			x += sign(hSpeed);
 		}
-
 		hSpeed = 0;
 		_collision = true;
 	}

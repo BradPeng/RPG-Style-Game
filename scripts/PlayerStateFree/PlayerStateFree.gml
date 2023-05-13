@@ -29,7 +29,7 @@ function PlayerStateFree(){
 	}
 
 	// Image index
-	PlayerAnimateSprite()
+	AnimateCardinalSprite()
 	
 	// attack
 	if (keyAttack) {

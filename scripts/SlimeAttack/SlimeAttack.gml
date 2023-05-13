@@ -13,6 +13,12 @@ function SlimeAttack(){
 	if (floor(image_index) == 11 or floor(image_index) == 22) {
 		image_speed = 0;	
 	}
+	
+	if (floor(image_index) >= 8 and floor(image_index) <= 13) {
+		if(EnemyPlayerCollision()) {
+			print("test");
+		}
+	}
 
 	 
 	// how far we have to jump

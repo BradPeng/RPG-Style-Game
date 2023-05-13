@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "EnemyAnimateSprite",
+  "name": "AnimateCardinalSprite",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

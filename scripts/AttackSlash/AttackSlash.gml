@@ -17,7 +17,7 @@ function AttackSlash(){
 	
 	CalcAttack(s_player_attac_slash_hb)
 	
-	PlayerAnimateSprite();
+	AnimateCardinalSprite();
 	if (animationEnd) {
 		state = PlayerStateFree;
 		animationEnd= false;
