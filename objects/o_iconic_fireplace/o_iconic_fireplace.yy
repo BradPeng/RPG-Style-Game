@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_solid",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "o_iconic_fireplace",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Decorative",
+    "path": "folders/Objects/Entities/Decorative.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,14 +23,12 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"isSolid","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"True","varType":3,},
-  ],
+  "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_col_wall",
-    "path": "sprites/s_col_wall/s_col_wall.yy",
+    "name": "s_iconic_fireplace",
+    "path": "sprites/s_iconic_fireplace/s_iconic_fireplace.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
