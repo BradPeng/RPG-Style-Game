@@ -71,6 +71,7 @@
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
     {"id":{"name":"o_bomb_drop","path":"objects/o_bomb_drop/o_bomb_drop.yy",},},
+    {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},},
     {"id":{"name":"o_village_wagon","path":"objects/o_village_wagon/o_village_wagon.yy",},},
     {"id":{"name":"s_dancer_walk","path":"sprites/s_dancer_walk/s_dancer_walk.yy",},},
     {"id":{"name":"o_frag_pot","path":"objects/o_frag_pot/o_frag_pot.yy",},},
@@ -127,6 +128,7 @@
     {"id":{"name":"s_healthbar_background","path":"sprites/s_healthbar_background/s_healthbar_background.yy",},},
     {"id":{"name":"o_shop_item","path":"objects/o_shop_item/o_shop_item.yy",},},
     {"id":{"name":"o_arrow","path":"objects/o_arrow/o_arrow.yy",},},
+    {"id":{"name":"aro_comn_v01","path":"sprites/aro_comn_v01/aro_comn_v01.yy",},},
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},},
     {"id":{"name":"CalcAttack","path":"scripts/CalcAttack/CalcAttack.yy",},},
     {"id":{"name":"s_healthbar","path":"sprites/s_healthbar/s_healthbar.yy",},},
@@ -249,7 +251,6 @@
     {"id":{"name":"s_bat_die","path":"sprites/s_bat_die/s_bat_die.yy",},},
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},},
     {"id":{"name":"HurtEnemy","path":"scripts/HurtEnemy/HurtEnemy.yy",},},
-    {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},},
     {"id":{"name":"s_frag_rock","path":"sprites/s_frag_rock/s_frag_rock.yy",},},
     {"id":{"name":"Bow","path":"sprites/Bow/Bow.yy",},},
     {"id":{"name":"s_item_ui_box","path":"sprites/s_item_ui_box/s_item_ui_box.yy",},},

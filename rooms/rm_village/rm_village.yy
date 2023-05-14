@@ -171,7 +171,7 @@
     "clearDisplayBuffer": true,
     "clearViewBackground": false,
     "enableViews": true,
-    "inheritViewSettings": false,
+    "inheritViewSettings": true,
   },
   "volume": 1.0,
 }

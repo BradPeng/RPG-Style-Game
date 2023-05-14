@@ -48,6 +48,7 @@
   "ResourceOrderSettings": [
     {"name":"s_col","order":5,"path":"sprites/s_col/s_col.yy",},
     {"name":"o_bomb_drop","order":2,"path":"objects/o_bomb_drop/o_bomb_drop.yy",},
+    {"name":"s_arrow","order":5,"path":"sprites/s_arrow/s_arrow.yy",},
     {"name":"o_village_wagon","order":16,"path":"objects/o_village_wagon/o_village_wagon.yy",},
     {"name":"s_dancer_walk","order":1,"path":"sprites/s_dancer_walk/s_dancer_walk.yy",},
     {"name":"o_frag_pot","order":2,"path":"objects/o_frag_pot/o_frag_pot.yy",},
@@ -96,6 +97,7 @@
     {"name":"s_healthbar_background","order":6,"path":"sprites/s_healthbar_background/s_healthbar_background.yy",},
     {"name":"o_shop_item","order":2,"path":"objects/o_shop_item/o_shop_item.yy",},
     {"name":"o_arrow","order":3,"path":"objects/o_arrow/o_arrow.yy",},
+    {"name":"aro_comn_v01","order":8,"path":"sprites/aro_comn_v01/aro_comn_v01.yy",},
     {"name":"EnemyTileCollision","order":2,"path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},
     {"name":"CalcAttack","order":3,"path":"scripts/CalcAttack/CalcAttack.yy",},
     {"name":"s_healthbar","order":5,"path":"sprites/s_healthbar/s_healthbar.yy",},
@@ -194,7 +196,6 @@
     {"name":"s_bat_die","order":1,"path":"sprites/s_bat_die/s_bat_die.yy",},
     {"name":"PlayerThrow","order":7,"path":"scripts/PlayerThrow/PlayerThrow.yy",},
     {"name":"HurtEnemy","order":7,"path":"scripts/HurtEnemy/HurtEnemy.yy",},
-    {"name":"s_arrow","order":2,"path":"sprites/s_arrow/s_arrow.yy",},
     {"name":"s_frag_rock","order":3,"path":"sprites/s_frag_rock/s_frag_rock.yy",},
     {"name":"Bow","order":7,"path":"sprites/Bow/Bow.yy",},
     {"name":"s_item_ui_box","order":1,"path":"sprites/s_item_ui_box/s_item_ui_box.yy",},

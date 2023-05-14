@@ -29,5 +29,10 @@ global.playerHasAnyItems = true;
 global.playerEquipped = ITEM.BOMB;
 global.playerItemUnlocked[ITEM.BOMB] = true; // fills array with -1's
 global.playerAmmo[ITEM.BOMB] = 99;
+
+global.playerHasAnyItems = true;
+global.playerEquipped = ITEM.BOMB;
+global.playerItemUnlocked[ITEM.BOW] = true; // fills array with -1's
+global.playerAmmo[ITEM.BOW] = 99;
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H)
 room_goto(ROOM_START);
