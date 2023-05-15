@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (global.gamePaused) {
-	keyUp = keyboard_check_pressed(ord("W")) || keyboard_check(vk_up);
-	keyDown = keyboard_check_pressed(ord("S")) || keyboard_check(vk_down);
+	keyUp = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
+	keyDown = keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
 	pauseOptionSelected += (keyDown - keyUp);
 	 if (pauseOptionSelected >= array_length(pauseOption)) pauseOptionSelected = 0;
 	 if (pauseOptionSelected < 0) pauseOptionSelected = array_length(pauseOption) - 1;
