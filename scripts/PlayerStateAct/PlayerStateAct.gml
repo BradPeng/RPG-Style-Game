@@ -5,9 +5,11 @@ function PlayerStateAct(){
 	if (animationEnd) {
 		state = PlayerStateFree;
 		animationEnd = false;
-		if (animationEndScript != -1) {
-			script_execute(animationEndScript);	
-			animationEndScript = -1;
-		}
 	}	
+
+	if (animationEndScript != -1 and actionAnimationEnd) {
+		script_execute(animationEndScript);	
+		animationEndScript = -1;
+		endActionFrame = -1
+	}
 }

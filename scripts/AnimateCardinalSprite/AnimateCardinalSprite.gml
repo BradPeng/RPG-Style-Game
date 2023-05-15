@@ -4,6 +4,12 @@ function AnimateCardinalSprite(){
 	var _totalFrames = sprite_get_number(sprite_index) / 4;
 	image_index = localFrame + (CARDINAL_DIR * _totalFrames);
 	localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
+
+	if (floor(localFrame) == endActionFrame) {
+		actionAnimationEnd = true;	
+	} else {
+		actionAnimationEnd = false;	
+	}
 	
 	if (localFrame >= _totalFrames) {
 		animationEnd = true;
@@ -11,4 +17,6 @@ function AnimateCardinalSprite(){
 	} else {
 		animationEnd = false;	
 	}
+
+	
 }
