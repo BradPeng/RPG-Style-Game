@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function EnemyFighterAttack(){
+function HostileMobAttack(){
 	if (sprite_index != sprAttack) {
 		
 		sprite_index = sprAttack
@@ -8,7 +8,7 @@ function EnemyFighterAttack(){
 		image_index = 0;
 		
 		if (instance_exists(o_player)) {
-			EnemyAttack(s_player_attac_slash_hb, point_direction(x,y,o_player.x, o_player.y), enemyForceTouch, 10);
+			EnemyAttack(sprHitbox, point_direction(x,y,o_player.x, o_player.y), enemyForceTouch, 10);
 		}
 	}
 

@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function EnemyFighterHurt(){
+function HostileMobHurt(){
 	sprite_index = sprHurt;
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
 	var _totalFrames = sprite_get_number(sprite_index) / 4;

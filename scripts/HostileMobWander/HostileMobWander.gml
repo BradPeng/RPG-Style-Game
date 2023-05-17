@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function EnemyFighterWander(){
+function HostileMobWander(){
 	sprite_index = sprMove;
 	image_speed = 0;
 	// At destination or given up

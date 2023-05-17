@@ -24,16 +24,16 @@ stateWaitDuration = 0;
 // Enemy Sprites
 sprMove = -1;
 sprDie = -1
-
+sprHitbox = -1
 // Enemy Stats
 timePassed = 0;
 
 // Enemy functions
 enemyScript[ENEMYSTATE.IDLE] = -1;
-enemyScript[ENEMYSTATE.WANDER] = -1;
-enemyScript[ENEMYSTATE.CHASE] = -1;
-enemyScript[ENEMYSTATE.ATTACK] = -1;
-enemyScript[ENEMYSTATE.HURT] = -1;
+enemyScript[ENEMYSTATE.WANDER] = HostileMobWander;
+enemyScript[ENEMYSTATE.CHASE] = HostileMobChase;
+enemyScript[ENEMYSTATE.ATTACK] = HostileMobAttack;
+enemyScript[ENEMYSTATE.HURT] = HostileMobHurt;
 enemyScript[ENEMYSTATE.DIE] = -1;
 enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
 
