@@ -51,9 +51,11 @@
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc0d73db-8ae5-4948-9085-06f8dcc73d24","blendMode":0,"displayName":"outfit","isLocked":true,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39467812-2080-409b-81e8-2e7c7ee9fec0","blendMode":0,"displayName":"Quiver front","isLocked":true,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6cb0dfd4-d0da-43c5-8790-e9db5ccc39b7","blendMode":0,"displayName":"Bow_Above","isLocked":true,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cc0d73db-8ae5-4948-9085-06f8dcc73d24","blendMode":0,"displayName":"outfit","isLocked":true,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f502b0fc-8776-4280-a0b2-d86439369695","blendMode":0,"displayName":"Base","isLocked":true,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4039733a-fa5a-4ce3-bb17-e969d13c8121","blendMode":0,"displayName":"Quiver behind","isLocked":true,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"74a16aec-0abe-468a-889e-0973aba4be6d","blendMode":0,"displayName":"Bow_behind","isLocked":true,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
