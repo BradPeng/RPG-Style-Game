@@ -3,7 +3,18 @@
 function SlimeAttack(){
 	// how fast to move
 	var _spd = enemySpeed;
-	
+
+	// just started the attack
+	if (sprite_index != sprAttack) {
+		sprite_index = sprAttack;
+		with (instance_create_layer(x, y, "Instances", o_enemy_hitbox)) {
+			sourceObject = other.id;	
+			sprite_index = other.sprHitbox
+			if (other.xTo < other.x) {
+				image_xscale = -1
+			}
+		}
+	}
 	// don't move while getting ready to jump
 	if (image_index < 8) {
 		_spd = 0;	

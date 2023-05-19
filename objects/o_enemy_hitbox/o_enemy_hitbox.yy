@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_slime_attack_hb",
+    "path": "sprites/s_slime_attack_hb/s_slime_attack_hb.yy",
+  },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
