@@ -54,6 +54,7 @@ function SlimeAttack(){
 		if (EnemyTileCollision()) {
 			xTo = x;
 			yTo = y;
+			image_speed = 1;
 		}
 	} else {
 		x = xTo;

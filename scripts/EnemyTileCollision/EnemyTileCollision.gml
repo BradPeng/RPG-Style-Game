@@ -28,4 +28,5 @@ function EnemyTileCollision(){
 
 	// vertial move commit
 	y += vSpeed;
+	return _collision
 }
