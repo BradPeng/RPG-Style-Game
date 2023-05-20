@@ -1,6 +1,8 @@
 function SlimeDie(){
 	sprite_index = sprDie;
+	entityShadow = false;
 	image_speed = 1;
+	isSolid = false;
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
 	if (_distanceToGo > enemySpeed) {
 		dir = point_direction(x, y, xTo, yTo);

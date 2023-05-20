@@ -34,5 +34,5 @@
     "path": "sprites/s_slime_attack_hb/s_slime_attack_hb.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
