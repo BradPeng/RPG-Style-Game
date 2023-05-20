@@ -6,6 +6,7 @@ function SlimeAttack(){
 
 	// just started the attack
 	if (sprite_index != sprAttack) {
+		
 		sprite_index = sprAttack;
 		with (instance_create_layer(x, y, "Instances", o_enemy_hitbox)) {
 			sourceObject = other.id;	
@@ -13,6 +14,10 @@ function SlimeAttack(){
 			if (other.xTo < other.x) {
 				image_xscale = -1
 			}
+		}
+		
+		if (xTo < x) {
+			image_xscale = sign(hSpeed);	
 		}
 	}
 	// don't move while getting ready to jump
@@ -45,10 +50,6 @@ function SlimeAttack(){
 		dir = point_direction(x, y, xTo, yTo);
 		hSpeed = lengthdir_x(_spd, dir);
 		vSpeed = lengthdir_y(_spd, dir);
-		
-		if (hSpeed != 0) {
-			image_xscale = sign(hSpeed);	
-		}
 		
 		// start moving and collide if needed
 		if (EnemyTileCollision()) {
