@@ -27,7 +27,6 @@ function SlimeChase(){
 	// check if close enough to attack
 	if (instance_exists(target) and point_distance(x, y, target.x, target.y) <= enemyAttackRadius) {
 		state = ENEMYSTATE.ATTACK;
-		image_index = 0;
 		image_speed = 1;
 		
 		//target 8px past the player

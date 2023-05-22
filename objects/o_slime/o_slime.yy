@@ -39,6 +39,9 @@
     "name": "s_slime",
     "path": "sprites/s_slime/s_slime.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_slime",
+    "path": "sprites/s_slime/s_slime.yy",
+  },
   "visible": true,
 }
