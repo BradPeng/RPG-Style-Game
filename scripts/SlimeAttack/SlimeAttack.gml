@@ -20,7 +20,7 @@ function SlimeAttack(){
 		}
 		
 		if (xTo < x) {
-			image_xscale = sign(hSpeed);	
+			image_xscale = -1
 		}
 	}
 	// don't move while getting ready to jump

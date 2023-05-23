@@ -66,7 +66,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
