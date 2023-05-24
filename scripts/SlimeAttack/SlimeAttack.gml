@@ -6,8 +6,8 @@ function SlimeAttack(){
 
 	// just started the attack
 	if (sprite_index != sprAttack) {
-		
 		sprite_index = sprAttack;
+		image_index = 0;
 		with (instance_create_layer(x, y, "Instances", o_enemy_hitbox)) {
 			sourceObject = other.id;	
 			sprite_index = other.sprHitbox
@@ -32,13 +32,6 @@ function SlimeAttack(){
 	if (floor(image_index) == 11 or floor(image_index) == 22) {
 		image_speed = 0;	
 	}
-	
-	if (floor(image_index) >= 8 and floor(image_index) <= 13) {
-		if(EnemyPlayerCollision()) {
-			print("test");
-		}
-	}
-
 	 
 	// how far we have to jump
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
@@ -68,6 +61,7 @@ function SlimeAttack(){
 			stateTarget = ENEMYSTATE.CHASE;
 			stateWaitDuration = 15;
 			state = ENEMYSTATE.WAIT;
-		}
+			image_speed = 0;
+		} 
 	}
 }

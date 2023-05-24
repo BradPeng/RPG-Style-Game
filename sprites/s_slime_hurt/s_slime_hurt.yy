@@ -33,7 +33,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0d391089-5225-487d-8852-565f35833110","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 7,
   "parent": {
     "name": "Slime",
     "path": "folders/Sprites/Entities/Enemies/Slime.yy",
@@ -80,7 +80,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 48,
-    "yorigin": 31,
+    "yorigin": 32,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
