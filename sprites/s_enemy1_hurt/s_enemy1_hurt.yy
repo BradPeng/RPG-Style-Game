@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "s_player_hurt_old2",
+  "name": "s_enemy1_hurt",
   "bbox_bottom": 63,
   "bbox_left": 0,
   "bbox_right": 63,
@@ -28,14 +28,14 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "OLD MANA SEED CHAR",
-    "path": "folders/Sprites/OLD MANA SEED CHAR.yy",
+    "name": "Enemy1",
+    "path": "folders/Sprites/Entities/Enemies/Enemy1.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "s_player_hurt_old2",
+    "name": "s_enemy1_hurt",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -57,10 +57,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"773943bd-ffcc-4654-8cb5-f3b3b9a7a622","path":"sprites/s_player_hurt_old2/s_player_hurt_old2.yy",},},},"Disabled":false,"id":"7cf4bea7-2afe-4b52-8e1b-76156b10440e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"af43df68-6e0b-4e0f-80f7-34c214c98405","path":"sprites/s_player_hurt_old2/s_player_hurt_old2.yy",},},},"Disabled":false,"id":"10cb9f05-a687-4699-a45d-486e816f63c9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20387131-5415-4094-aaf9-09fc58a1e332","path":"sprites/s_player_hurt_old2/s_player_hurt_old2.yy",},},},"Disabled":false,"id":"9b21210b-a492-4a4e-9704-f1fc2f071638","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d92c121e-7534-4080-af40-d89854b94403","path":"sprites/s_player_hurt_old2/s_player_hurt_old2.yy",},},},"Disabled":false,"id":"5a59ba97-bbc8-4a27-b0cd-cd3d2192a80a","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"773943bd-ffcc-4654-8cb5-f3b3b9a7a622","path":"sprites/s_enemy1_hurt/s_enemy1_hurt.yy",},},},"Disabled":false,"id":"7cf4bea7-2afe-4b52-8e1b-76156b10440e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"af43df68-6e0b-4e0f-80f7-34c214c98405","path":"sprites/s_enemy1_hurt/s_enemy1_hurt.yy",},},},"Disabled":false,"id":"10cb9f05-a687-4699-a45d-486e816f63c9","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20387131-5415-4094-aaf9-09fc58a1e332","path":"sprites/s_enemy1_hurt/s_enemy1_hurt.yy",},},},"Disabled":false,"id":"9b21210b-a492-4a4e-9704-f1fc2f071638","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d92c121e-7534-4080-af40-d89854b94403","path":"sprites/s_enemy1_hurt/s_enemy1_hurt.yy",},},},"Disabled":false,"id":"5a59ba97-bbc8-4a27-b0cd-cd3d2192a80a","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

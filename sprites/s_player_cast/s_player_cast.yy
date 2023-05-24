@@ -37,7 +37,7 @@
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fe27fc59-51ef-4cf7-af5c-0414a9b40bce","blendMode":0,"displayName":"Hair","isLocked":true,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b5ec605d-f453-4733-bad8-14a35c54dd20","blendMode":0,"displayName":"Cape","isLocked":true,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3bd89886-4fba-45cc-98ac-b20fc978adbc","blendMode":0,"displayName":"outfit","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3bd89886-4fba-45cc-98ac-b20fc978adbc","blendMode":0,"displayName":"outfit","isLocked":true,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb45f31b-6d53-4319-b9c9-9bad11aaa859","blendMode":0,"displayName":"Base","isLocked":true,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"386ccf27-1a80-4f9b-84a1-63dcf1ed076e","blendMode":0,"displayName":"botom cape","isLocked":true,"opacity":100.0,"visible":true,},
   ],
