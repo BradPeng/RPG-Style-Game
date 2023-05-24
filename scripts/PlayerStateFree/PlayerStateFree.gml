@@ -37,7 +37,7 @@ function PlayerStateFree(){
 		stateAttack = AttackSlash;
 	}
 	
-	if (keyCast) {
+	if (keyCast and global.iLifted == noone) {
 		state = PlayerStateCast;
 		stateCast = CastFire;
 	}

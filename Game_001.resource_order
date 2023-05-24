@@ -32,6 +32,7 @@
     {"name":"Buildings","order":11,"path":"folders/Sprites/Buildings.yy",},
     {"name":"Drops","order":5,"path":"folders/Sprites/Entities/Drops.yy",},
     {"name":"Enemies","order":2,"path":"folders/Sprites/Entities/Enemies.yy",},
+    {"name":"Enemy1","order":2,"path":"folders/Sprites/Entities/Enemies/Enemy1.yy",},
     {"name":"Slime","order":1,"path":"folders/Sprites/Entities/Enemies/Slime.yy",},
     {"name":"Fragments","order":4,"path":"folders/Sprites/Entities/Fragments.yy",},
     {"name":"Items","order":6,"path":"folders/Sprites/Entities/Items.yy",},
@@ -42,7 +43,6 @@
     {"name":"Work Shop","order":4,"path":"folders/Sprites/Work Shop.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
-    {"name":"Enemy1","order":2,"path":"folders/Sprites/Entities/Enemies/Enemy1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s_col","order":5,"path":"sprites/s_col/s_col.yy",},

@@ -27,12 +27,21 @@ global.playerAmmo[ITEM.BOW] = 0;
 
 global.playerHasAnyItems = true;
 global.playerEquipped = ITEM.BOMB;
-global.playerItemUnlocked[ITEM.BOMB] = true; // fills array with -1's
+global.playerItemUnlocked[ITEM.BOMB] = true;
 global.playerAmmo[ITEM.BOMB] = 99;
 
 global.playerHasAnyItems = true;
 global.playerEquipped = ITEM.BOMB;
-global.playerItemUnlocked[ITEM.BOW] = true; // fills array with -1's
+global.playerItemUnlocked[ITEM.BOW] = true;
 global.playerAmmo[ITEM.BOW] = 99;
+
+// Spells
+global.playerHasAnySpells = false;
+global.playerEquippedSpell = SPELL.FIREBOLT;
+global.playerSpellUnlocked = array_create(SPELL.TYPE_COUNT, -1);
+
+// temp spell setup
+global.playerHasAnySpells = true
+global.playerEquippedSpell = SPELL.FIREBOLT;
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H)
 room_goto(ROOM_START);

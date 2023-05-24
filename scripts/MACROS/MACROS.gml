@@ -28,6 +28,12 @@ enum ITEM {
 	TYPE_COUNT //easy way to get number of items in the enum
 }
 
+enum SPELL {
+	FIREBOLT,
+	SHIELD,
+	TYPE_COUNT
+}
+
 enum HOOKSTATUS {
 	EXTENDING,
 	PULLTOPLAYER,
