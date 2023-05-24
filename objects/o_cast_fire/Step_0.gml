@@ -2,7 +2,7 @@
 var _entity = instance_place(x, y, p_entity);
 if (_entity != noone) {
 	if (place_meeting(x, y,o_blood_aura)) {
-		dmg = dmg * global.playerBloodAuraLevelMax 	
+		dmg = dmg * global.playerBloodAuraLevel 	
 	}
 	with (_entity) {
 		
