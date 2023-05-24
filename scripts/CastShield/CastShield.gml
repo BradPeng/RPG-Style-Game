@@ -15,7 +15,7 @@ function CastShield(){
 					break;
 				case 1: // up
 					_x = 0;
-					_y = - 21;
+					_y = - 30;
 					break
 				case 2: // left
 					_x = -16;
@@ -31,7 +31,8 @@ function CastShield(){
 			
 			}	
 			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_shield)) {
-				hp = 15 * global.playerBloodAuraLevel 	
+				hp = 15 * global.playerBloodAuraLevel 
+				image_index = round(other.direction/90)
 			}
 			global.playerHealth -= 1
 		}
