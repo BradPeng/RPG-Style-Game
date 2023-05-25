@@ -9,6 +9,12 @@ if (sourceObject != -1) {
 		instance_destroy()		
 	}
 }
+
+var _entity = instance_place(x, y, o_cast_shield);
+if (_entity != noone) {
+	_entity.hp -= sourceDamage
+}
+
 if (animationEnd) {
 	instance_destroy()	
 }
