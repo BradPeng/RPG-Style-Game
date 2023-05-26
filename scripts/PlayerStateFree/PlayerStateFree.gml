@@ -39,7 +39,7 @@ function PlayerStateFree(){
 	
 	if (keyCast and global.iLifted == noone) {
 		state = PlayerStateCast;
-		stateCast = CastShield;
+		stateCast = CastFire;
 	}
 		
 	if (keyActivate) {
