@@ -40,6 +40,16 @@ function CastFire(){
 			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_fire)) {
 				direction = other.direction;
 				direction = CARDINAL_DIR * 90;
+				var _scale = 1 + 0.5 * global.playerBloodAuraLevel
+				image_xscale = _scale 
+				image_yscale = _scale
+				switch direction {
+					case 0:
+						break;
+					case 90: image_angle = 90; break;
+					case 180: image_xscale *= -1; break;
+					case 270: image_angle = 270; break
+				}
 				speed = 6;
 			}
 			global.playerHealth -= 1
