@@ -14,7 +14,7 @@ function SlimeAttack(){
 			if (other.xTo < other.x) {
 				image_xscale = -1
 			}
-			sourceDamage = 10;
+			sourceDamage = 100;
 			sourceDirection = point_direction(other.x, other.y, other.xTo, other.yTo);
 			sourceForce = 50
 		}
