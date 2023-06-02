@@ -39,7 +39,8 @@ global.playerAmmo[ITEM.BOW] = 99;
 global.playerHasAnySpells = false;
 global.playerEquippedSpell = SPELL.FIREBOLT;
 global.playerSpellUnlocked = array_create(SPELL.TYPE_COUNT, -1);
-
+global.playerSpellUnlocked[SPELL.FIREBOLT] = true;
+global.playerSpellUnlocked[SPELL.SHIELD] = true;
 // temp spell setup
 global.playerHasAnySpells = true
 global.playerEquippedSpell = SPELL.FIREBOLT;

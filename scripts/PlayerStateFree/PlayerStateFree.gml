@@ -39,7 +39,17 @@ function PlayerStateFree(){
 	
 	if (keyCast and global.iLifted == noone) {
 		state = PlayerStateCast;
-		stateCast = CastFire;
+		switch (global.playerEquippedSpell) {
+			case SPELL.FIREBOLT:
+				stateCast = CastFire;
+				break;
+			case SPELL.SHIELD:
+				stateCast = CastShield;
+				break;
+
+			default: break;
+		}
+		
 	}
 		
 	if (keyActivate) {
@@ -124,6 +134,26 @@ function PlayerStateFree(){
 					global.playerEquipped = 1;	
 				}
 			} until (global.playerItemUnlocked[global.playerEquipped]);
+		}
+	}
+	
+	// Cycle spells
+	if (global.playerHasAnySpells) {
+		var _spellCycleDirection = keySpellSelectUp - keySpellSelectDown;
+		if (_spellCycleDirection != 0) {
+			do {
+				global.playerEquippedSpell += _spellCycleDirection;
+
+				// If we are at first spell, go to last spell
+				if (global.playerEquippedSpell < 1) {
+					global.playerEquippedSpell = SPELL.TYPE_COUNT - 1;	
+				}
+				
+				// if we are at last spell, go to first spell
+				if (global.playerEquippedSpell >= SPELL.TYPE_COUNT) {
+					global.playerEquippedSpell = 1;	
+				}
+			} until (global.playerSpellUnlocked[global.playerEquippedSpell]);
 		}
 	}
 	

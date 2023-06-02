@@ -11,6 +11,9 @@ keyItem = keyboard_check_pressed(vk_control);
 keyItemSelectUp = keyboard_check_pressed(ord("E"));
 keyItemSelectDown = keyboard_check_pressed(ord("Q"));
 keyCast = keyboard_check_pressed(ord("F"));
+keySpellSelectUp = keyboard_check_pressed(vk_right);
+keySpellSelectDown = keyboard_check_pressed(vk_left);
+
 
 bloodAuraMagnitude = (keyBloodAuraUp - keyBloodAuraDown);
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp);

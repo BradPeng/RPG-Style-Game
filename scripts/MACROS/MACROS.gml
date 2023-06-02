@@ -29,6 +29,7 @@ enum ITEM {
 }
 
 enum SPELL {
+	NONE,
 	FIREBOLT,
 	SHIELD,
 	TYPE_COUNT
