@@ -183,6 +183,7 @@
     {"id":{"name":"s_dancer","path":"sprites/s_dancer/s_dancer.yy",},},
     {"id":{"name":"o_roomExit","path":"objects/o_roomExit/o_roomExit.yy",},},
     {"id":{"name":"s_player_carry","path":"sprites/s_player_carry/s_player_carry.yy",},},
+    {"id":{"name":"s_player_backstep","path":"sprites/s_player_backstep/s_player_backstep.yy",},},
     {"id":{"name":"s_player_cast","path":"sprites/s_player_cast/s_player_cast.yy",},},
     {"id":{"name":"o_signpost","path":"objects/o_signpost/o_signpost.yy",},},
     {"id":{"name":"s_plant","path":"sprites/s_plant/s_plant.yy",},},
