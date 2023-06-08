@@ -212,6 +212,7 @@
     {"id":{"name":"s_shield","path":"sprites/s_shield/s_shield.yy",},},
     {"id":{"name":"s_pink_tree","path":"sprites/s_pink_tree/s_pink_tree.yy",},},
     {"id":{"name":"EnemyPlayerCollision","path":"scripts/EnemyPlayerCollision/EnemyPlayerCollision.yy",},},
+    {"id":{"name":"PlayerStateDodge","path":"scripts/PlayerStateDodge/PlayerStateDodge.yy",},},
     {"id":{"name":"s_slime","path":"sprites/s_slime/s_slime.yy",},},
     {"id":{"name":"AnimateCardinalSprite","path":"scripts/AnimateCardinalSprite/AnimateCardinalSprite.yy",},},
     {"id":{"name":"o_ui","path":"objects/o_ui/o_ui.yy",},},

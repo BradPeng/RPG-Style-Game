@@ -9,6 +9,7 @@ vSpeed = 0;
 z = 0;
 speedWalk = 4.0;
 speedRoll = 5.0;
+distanceDodge = 30;
 distanceBonk = 60;
 distanceBonkHeight = 20;
 distanceRoll = 60;

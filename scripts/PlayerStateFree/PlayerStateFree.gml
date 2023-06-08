@@ -100,6 +100,10 @@ function PlayerStateFree(){
 			}
 		}
 	}
+	if (keyDodge) {
+		state = PlayerStateDodge;
+		moveDistanceRemaining = distanceDodge;
+	}
 	
 	// Use item
 	if (keyItem and !keyActivate and global.playerHasAnyItems and global.playerEquipped != ITEM.NONE) {
