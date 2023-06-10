@@ -154,6 +154,7 @@
     {"name":"s_enemy1_idle","order":1,"path":"sprites/s_enemy1_idle/s_enemy1_idle.yy",},
     {"name":"t_summer_grass","order":8,"path":"tilesets/t_summer_grass/t_summer_grass.yy",},
     {"name":"UseItemHook","order":2,"path":"scripts/UseItemHook/UseItemHook.yy",},
+    {"name":"s_player_lunge","order":17,"path":"sprites/s_player_lunge/s_player_lunge.yy",},
     {"name":"ScriptExecuteArray","order":4,"path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},
     {"name":"ActivateHatNPC","order":8,"path":"scripts/ActivateHatNPC/ActivateHatNPC.yy",},
     {"name":"s_hook_blade","order":3,"path":"sprites/s_hook_blade/s_hook_blade.yy",},
