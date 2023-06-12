@@ -23,7 +23,8 @@
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d3c5dd73-41b3-4334-9700-358a7ff38e1b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a231efb8-601a-40c7-a2f7-0e2dff114c4a","blendMode":0,"displayName":"clothes","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d3c5dd73-41b3-4334-9700-358a7ff38e1b","blendMode":0,"displayName":"default","isLocked":true,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
