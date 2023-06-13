@@ -189,6 +189,7 @@
     {"id":{"name":"s_plant","path":"sprites/s_plant/s_plant.yy",},},
     {"id":{"name":"PlayerDropItem","path":"scripts/PlayerDropItem/PlayerDropItem.yy",},},
     {"id":{"name":"s_iconic_fireplace","path":"sprites/s_iconic_fireplace/s_iconic_fireplace.yy",},},
+    {"id":{"name":"s_player_attack_slash_b","path":"sprites/s_player_attack_slash_b/s_player_attack_slash_b.yy",},},
     {"id":{"name":"s_shadow","path":"sprites/s_shadow/s_shadow.yy",},},
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},},
     {"id":{"name":"s_enemy1_idle","path":"sprites/s_enemy1_idle/s_enemy1_idle.yy",},},
