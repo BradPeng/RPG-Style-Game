@@ -19,6 +19,7 @@ function PlayerStateDodge(){
 
 	if (_collided) {
 		state = PlayerStateFree;
+		z = 0 
 		moveDistanceRemaining = 0;
 	}
 		
