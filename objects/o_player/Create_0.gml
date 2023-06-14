@@ -2,7 +2,7 @@ state = PlayerStateFree;
 stateAttack = AttackSlash;
 lastState = state;
 hitByAttackList = -1;
-
+chainAttack = false
 image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;
