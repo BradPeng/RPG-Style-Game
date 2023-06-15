@@ -16,11 +16,11 @@ function AttackSlash(){
 	}
 
 	CalcAttack(s_player_attac_slash_hb)
-
-	AnimateCardinalSprite();
 	if (keyAttack) {
 		chainAttack = true;
 	}
+	AnimateCardinalSprite();
+
 	
 	if (animationEnd) {
 		if (chainAttack) {

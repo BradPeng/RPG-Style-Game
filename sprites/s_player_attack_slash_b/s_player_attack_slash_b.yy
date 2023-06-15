@@ -35,7 +35,8 @@
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e59c393d-71ea-4427-b3b7-f11f160d4efc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e59c393d-71ea-4427-b3b7-f11f160d4efc","blendMode":0,"displayName":"default","isLocked":true,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f78e28a5-c97c-480b-b947-81c575c95055","blendMode":0,"displayName":"sword","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,

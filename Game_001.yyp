@@ -66,7 +66,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
@@ -241,6 +241,7 @@
     {"id":{"name":"p_liftable","path":"objects/p_liftable/p_liftable.yy",},},
     {"id":{"name":"PlayerFireArrow","path":"scripts/PlayerFireArrow/PlayerFireArrow.yy",},},
     {"id":{"name":"shWhiteFlash","path":"shaders/shWhiteFlash/shWhiteFlash.yy",},},
+    {"id":{"name":"swordcombatp1","path":"sprites/swordcombatp1/swordcombatp1.yy",},},
     {"id":{"name":"t_cave","path":"tilesets/t_cave/t_cave.yy",},},
     {"id":{"name":"o_transition","path":"objects/o_transition/o_transition.yy",},},
     {"id":{"name":"s_house","path":"sprites/s_house/s_house.yy",},},
