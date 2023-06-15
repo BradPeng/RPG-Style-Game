@@ -110,6 +110,7 @@
     {"id":{"name":"s_slime_die","path":"sprites/s_slime_die/s_slime_die.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
     {"id":{"name":"s_village_outhouse","path":"sprites/s_village_outhouse/s_village_outhouse.yy",},},
+    {"id":{"name":"s_player_attack_slash_b_hb","path":"sprites/s_player_attack_slash_b_hb/s_player_attack_slash_b_hb.yy",},},
     {"id":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},},
     {"id":{"name":"o_barrel","path":"objects/o_barrel/o_barrel.yy",},},
     {"id":{"name":"s_pot_large","path":"sprites/s_pot_large/s_pot_large.yy",},},

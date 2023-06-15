@@ -80,6 +80,7 @@
     {"name":"t_village_extras","order":10,"path":"tilesets/t_village_extras/t_village_extras.yy",},
     {"name":"s_slime_die","order":2,"path":"sprites/s_slime_die/s_slime_die.yy",},
     {"name":"s_village_outhouse","order":12,"path":"sprites/s_village_outhouse/s_village_outhouse.yy",},
+    {"name":"s_player_attack_slash_b_hb","order":19,"path":"sprites/s_player_attack_slash_b_hb/s_player_attack_slash_b_hb.yy",},
     {"name":"rm_forest","order":6,"path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"o_barrel","order":13,"path":"objects/o_barrel/o_barrel.yy",},
     {"name":"s_pot_large","order":3,"path":"sprites/s_pot_large/s_pot_large.yy",},

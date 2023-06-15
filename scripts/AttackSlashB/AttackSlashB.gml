@@ -14,7 +14,7 @@ function AttackSlashB(){
 		ds_list_clear(hitByAttackList);
 		
 	}
-	CalcAttack(s_player_attac_slash_hb)
+	CalcAttack(s_player_attack_slash_b_hb)
 	
 	AnimateCardinalSprite();
 	if (animationEnd) {
