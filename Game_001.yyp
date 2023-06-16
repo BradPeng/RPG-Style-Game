@@ -83,6 +83,7 @@
     {"id":{"name":"LoadGame","path":"scripts/LoadGame/LoadGame.yy",},},
     {"id":{"name":"t_iconic_interior","path":"tilesets/t_iconic_interior/t_iconic_interior.yy",},},
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
+    {"id":{"name":"s_player_thrust","path":"sprites/s_player_thrust/s_player_thrust.yy",},},
     {"id":{"name":"UseItemBomb","path":"scripts/UseItemBomb/UseItemBomb.yy",},},
     {"id":{"name":"s_blue_peasant_page2","path":"sprites/s_blue_peasant_page2/s_blue_peasant_page2.yy",},},
     {"id":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},},

@@ -58,6 +58,7 @@
     {"name":"s_tiles_cave","order":2,"path":"sprites/s_tiles_cave/s_tiles_cave.yy",},
     {"name":"LoadGame","order":1,"path":"scripts/LoadGame/LoadGame.yy",},
     {"name":"t_iconic_interior","order":9,"path":"tilesets/t_iconic_interior/t_iconic_interior.yy",},
+    {"name":"s_player_thrust","order":20,"path":"sprites/s_player_thrust/s_player_thrust.yy",},
     {"name":"UseItemBomb","order":3,"path":"scripts/UseItemBomb/UseItemBomb.yy",},
     {"name":"s_blue_peasant_page2","order":1,"path":"sprites/s_blue_peasant_page2/s_blue_peasant_page2.yy",},
     {"name":"p_activatable","order":8,"path":"objects/p_activatable/p_activatable.yy",},
