@@ -66,7 +66,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.4.0.84",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
@@ -220,6 +220,7 @@
     {"id":{"name":"s_slime","path":"sprites/s_slime/s_slime.yy",},},
     {"id":{"name":"AnimateCardinalSprite","path":"scripts/AnimateCardinalSprite/AnimateCardinalSprite.yy",},},
     {"id":{"name":"o_ui","path":"objects/o_ui/o_ui.yy",},},
+    {"id":{"name":"AttackThrust","path":"scripts/AttackThrust/AttackThrust.yy",},},
     {"id":{"name":"s_player_attack_slash","path":"sprites/s_player_attack_slash/s_player_attack_slash.yy",},},
     {"id":{"name":"o_plantb","path":"objects/o_plantb/o_plantb.yy",},},
     {"id":{"name":"s_bomb_drop","path":"sprites/s_bomb_drop/s_bomb_drop.yy",},},
