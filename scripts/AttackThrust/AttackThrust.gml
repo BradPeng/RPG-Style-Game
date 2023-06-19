@@ -14,7 +14,7 @@ function AttackTrust() {
 		ds_list_clear(hitByAttackList);
 		
 	}
-	CalcAttack(s_player_attack_slash_b_hb)
+	CalcAttack(s_player_thrust_hb)
 	
 	AnimateCardinalSprite();
 	if (animationEnd) {

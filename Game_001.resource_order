@@ -104,6 +104,7 @@
     {"name":"s_healthbar","order":5,"path":"sprites/s_healthbar/s_healthbar.yy",},
     {"name":"rm_shop","order":5,"path":"rooms/rm_shop/rm_shop.yy",},
     {"name":"s_clothes_hanger_a","order":13,"path":"sprites/s_clothes_hanger_a/s_clothes_hanger_a.yy",},
+    {"name":"s_player_thrust_hb","order":21,"path":"sprites/s_player_thrust_hb/s_player_thrust_hb.yy",},
     {"name":"PlayerStateCast","order":19,"path":"scripts/PlayerStateCast/PlayerStateCast.yy",},
     {"name":"s_frag_plant","order":4,"path":"sprites/s_frag_plant/s_frag_plant.yy",},
     {"name":"RoomTransition","order":2,"path":"scripts/RoomTransition/RoomTransition.yy",},

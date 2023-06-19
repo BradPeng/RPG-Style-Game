@@ -66,7 +66,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.4.0.84",
+    "IDEVersion": "2023.2.1.75",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
@@ -136,6 +136,7 @@
     {"id":{"name":"s_healthbar","path":"sprites/s_healthbar/s_healthbar.yy",},},
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"id":{"name":"s_clothes_hanger_a","path":"sprites/s_clothes_hanger_a/s_clothes_hanger_a.yy",},},
+    {"id":{"name":"s_player_thrust_hb","path":"sprites/s_player_thrust_hb/s_player_thrust_hb.yy",},},
     {"id":{"name":"s_bat","path":"sprites/s_bat/s_bat.yy",},},
     {"id":{"name":"PlayerStateCast","path":"scripts/PlayerStateCast/PlayerStateCast.yy",},},
     {"id":{"name":"s_frag_plant","path":"sprites/s_frag_plant/s_frag_plant.yy",},},
