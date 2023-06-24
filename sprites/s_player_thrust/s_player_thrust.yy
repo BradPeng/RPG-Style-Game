@@ -43,9 +43,10 @@
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee4f0a45-5c4e-4bab-9315-4778ec8728d9","blendMode":0,"displayName":"sword above","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee4f0a45-5c4e-4bab-9315-4778ec8728d9","blendMode":0,"displayName":"sword above","isLocked":true,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a8d8557b-7d1a-4e4f-bed6-5137e7d28054","blendMode":0,"displayName":"outfit","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6d8626d1-749c-413b-a849-a65482fb7dae","blendMode":0,"displayName":"default","isLocked":true,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"342cc76f-c841-4b0e-abcd-f47942534d1d","blendMode":0,"displayName":"sword behind","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"342cc76f-c841-4b0e-abcd-f47942534d1d","blendMode":0,"displayName":"sword behind","isLocked":true,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
