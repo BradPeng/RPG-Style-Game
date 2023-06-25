@@ -26,7 +26,7 @@ function AttackTrust() {
 		
 		}
 
-		CalcAttack(s_player_thrust_hb)
+		CalcAttack(s_player_thrust_hb, 5, 20)
 		AnimateCardinalSprite();
 	}
 	

@@ -31,7 +31,7 @@ function AttackSlash(){
 		
 		}
 
-		CalcAttack(s_player_attac_slash_hb)
+		CalcAttack(s_player_attac_slash_hb, 5, 1)
 		AnimateCardinalSprite();
 	}
 	
