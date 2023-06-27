@@ -1,6 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function AttackSlash(){
+function AttackSlash() {
+	
+	if (keyRight) direction = 0;
+	if (keyUp) direction = 90
+	if (keyDown) direction = 270;
+	if (keyLeft) direction = 180;
+	// Check chain attack
+	if (keyAttack) {
+		
+		chainAttack = true;
+		print(direction)
+	}
 	// Check chain attack
 	if (keyAttack) {
 		chainAttack = true;

@@ -1,6 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function AttackTrust() {
+	if (keyRight) direction = 0;
+	if (keyUp) direction = 90
+	if (keyDown) direction = 270;
+	if (keyLeft) direction = 180;
 	// Lag state
 	if (alarm[1] != 0 and alarm[1] != -1) {
 		// do nothing
