@@ -1,26 +1,20 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function AttackSlash() {
-	
-	if (keyRight) direction = 0;
-	if (keyUp) direction = 90
-	if (keyDown) direction = 270;
-	if (keyLeft) direction = 180;
-	// Check chain attack
-	if (keyAttack) {
-		
-		chainAttack = true;
-		print(direction)
-	}
-	// Check chain attack
-	if (keyAttack) {
-		chainAttack = true;
-	}
-	
+
 	// Lag state
 	if (alarm[1] != 0 and alarm[1] != -1) {
-		// do nothing
+
+		if (keyRight) direction = 0;
+		if (keyUp) direction = 90
+		if (keyDown) direction = 270;
+		if (keyLeft) direction = 180;
 		
+		// Check chain attack
+		if (keyAttack) {
+			chainAttack = true;
+		}
+	
 	// End of lag state	
 	} else if (alarm[1] == 0) {
 		state = PlayerStateFree;
@@ -56,7 +50,7 @@ function AttackSlash() {
 			alarm[1] = -1
 		} else {
 			if (alarm[1] == -1) {
-				alarm[1] = 5;	
+				alarm[1] = 15;	
 			} 
 		}
 	}
