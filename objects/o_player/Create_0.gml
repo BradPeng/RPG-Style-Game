@@ -44,3 +44,12 @@ if (global.iLifted != noone) {
 	//spriteRun = s_player_run_carrying;
 	//sprite_index = spriteIdle;
 }
+
+// PLATFORM VARIABLES
+
+// Platform Variables
+maxSpeed = 4;
+acceleration = 1;
+gravityAcceleration = .5;
+jumpHeight = -9;
+grabWidth = 14;
