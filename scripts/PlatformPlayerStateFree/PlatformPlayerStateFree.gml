@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlatformPlayerStateFree(){
+	
+	
 	if (!IsOnGround(o_solid)) {
 		vSpeed += gravityAcceleration;
 				
@@ -25,5 +27,14 @@ function PlatformPlayerStateFree(){
 			sprite_index = s_platform_player_run;
 		}
 	}
+	
+	if (keyRight or keyLeft) {
+		hSpeed += (keyRight - keyLeft) * acceleration;
+		hSpeed = clamp(hSpeed, -maxSpeed, maxSpeed);
+				
+	} else {
+		PlatformApplyFriction(acceleration);
+	}
+			
 	PlatformMove(o_solid)
 }

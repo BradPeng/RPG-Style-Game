@@ -22,6 +22,7 @@
     {"name":"Bat States","order":1,"path":"folders/Scripts/Enemies/Bat States.yy",},
     {"name":"EnemyFighterStates","order":6,"path":"folders/Scripts/Enemies/EnemyFighterStates.yy",},
     {"name":"Game","order":6,"path":"folders/Scripts/Game.yy",},
+    {"name":"PlatformPlayerStates","order":1,"path":"folders/Scripts/PlatformPlayerStates.yy",},
     {"name":"Player","order":3,"path":"folders/Scripts/Player.yy",},
     {"name":"Attacks","order":1,"path":"folders/Scripts/Player/Attacks.yy",},
     {"name":"Casts","order":2,"path":"folders/Scripts/Player/Casts.yy",},
@@ -43,7 +44,6 @@
     {"name":"Work Shop","order":4,"path":"folders/Sprites/Work Shop.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":13,"path":"folders/Timelines.yy",},
-    {"name":"PlatformPlayerStates","order":1,"path":"folders/Scripts/PlatformPlayerStates.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s_col","order":5,"path":"sprites/s_col/s_col.yy",},
@@ -76,6 +76,7 @@
     {"name":"o_text_queued","order":1,"path":"objects/o_text_queued/o_text_queued.yy",},
     {"name":"s_cozy_furnishing","order":8,"path":"sprites/s_cozy_furnishing/s_cozy_furnishing.yy",},
     {"name":"NPCWander","order":11,"path":"scripts/NPCWander/NPCWander.yy",},
+    {"name":"PlatformApplyFriction","order":3,"path":"scripts/PlatformApplyFriction/PlatformApplyFriction.yy",},
     {"name":"rm_p_test","order":7,"path":"rooms/rm_p_test/rm_p_test.yy",},
     {"name":"SlimeDie","order":4,"path":"scripts/SlimeDie/SlimeDie.yy",},
     {"name":"s_player_hurt","order":5,"path":"sprites/s_player_hurt/s_player_hurt.yy",},
