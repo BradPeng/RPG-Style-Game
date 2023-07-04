@@ -26,6 +26,11 @@ function PlatformPlayerStateFree(){
 		} else {
 			sprite_index = s_platform_player_run;
 		}
+		
+		//Jumping code
+		if (keyUp) {
+			vSpeed = jumpHeight;
+		}
 	}
 	
 	
