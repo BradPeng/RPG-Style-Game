@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlatformPlayerStateFree(){
-	
+	image_speed = 1;
 	
 	if (!IsOnGround(o_solid)) {
 		vSpeed += gravityAcceleration;
@@ -28,6 +28,7 @@ function PlatformPlayerStateFree(){
 		}
 	}
 	
+	
 	if (keyRight or keyLeft) {
 		hSpeed += (keyRight - keyLeft) * acceleration;
 		hSpeed = clamp(hSpeed, -maxSpeed, maxSpeed);
@@ -35,6 +36,12 @@ function PlatformPlayerStateFree(){
 	} else {
 		PlatformApplyFriction(acceleration);
 	}
+	
+	//Change direction of sprite
+	if (hSpeed != 0) {
+		image_xscale = sign(hSpeed);
+	}
+		
 			
 	PlatformMove(o_solid)
 }
