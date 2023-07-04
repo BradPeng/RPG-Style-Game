@@ -14,7 +14,7 @@ keyCast = keyboard_check_pressed(ord("F"));
 keySpellSelectUp = keyboard_check_pressed(vk_right);
 keySpellSelectDown = keyboard_check_pressed(vk_left);
 keyDodge = keyboard_check_pressed(ord("G"))
-
+keyUpRelease = keyboard_check_released(ord("W"));
 bloodAuraMagnitude = (keyBloodAuraUp - keyBloodAuraDown);
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) || (keyDown - keyUp != 0); 

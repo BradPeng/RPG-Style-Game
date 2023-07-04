@@ -14,9 +14,9 @@ function PlatformPlayerStateFree(){
 		}
 		
 		//short hopping
-		//if (up_release and vSpeed < -6) {
-		//	vSpeed = -3;
-		//}
+		if (keyUpRelease and vSpeed < -6) {
+			vSpeed = -5;
+		}
 	} else { // on the ground
 		vSpeed = 0;
 					
