@@ -50,6 +50,6 @@ if (global.iLifted != noone) {
 // Platform Variables
 maxSpeed = 4;
 acceleration = 1;
-gravityAcceleration = .5;
-jumpHeight = -9;
+gravityAcceleration = .1;
+jumpHeight = -3;
 grabWidth = 14;

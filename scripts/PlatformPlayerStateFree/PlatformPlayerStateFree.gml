@@ -6,13 +6,13 @@ function PlatformPlayerStateFree(){
 	if (!IsOnGround(o_solid)) {
 		vSpeed += gravityAcceleration;
 				
-	/*	// set jump/fall sprite
+		// set jump/fall sprite
 		if (vSpeed <= 0) {
-			sprite_index = s_warrior_jump;
-		} else if (vSpeed > 0 and state == player.moving) {
-			sprite_index = s_warrior_fall;
+			sprite_index = s_platform_player_jump;
+		} else if (vSpeed > 0 and state == PlatformPlayerStateFree) {
+			sprite_index = s_platform_player_fall;
 		}
-	*/	
+		
 		//short hopping
 		//if (up_release and vSpeed < -6) {
 		//	vSpeed = -3;
@@ -29,7 +29,10 @@ function PlatformPlayerStateFree(){
 		
 		//Jumping code
 		if (keyUp) {
-			vSpeed = jumpHeight;
+			
+			sprite_index = s_platform_player_land
+			alarm[1] = 1 // jump lag;
+			state = PlatformPlayerJumpState;
 		}
 	}
 	
