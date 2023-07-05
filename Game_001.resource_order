@@ -149,6 +149,7 @@
     {"name":"o_gentle_tree","order":8,"path":"objects/o_gentle_tree/o_gentle_tree.yy",},
     {"name":"o_roomExit","order":1,"path":"objects/o_roomExit/o_roomExit.yy",},
     {"name":"s_player_carry","order":6,"path":"sprites/s_player_carry/s_player_carry.yy",},
+    {"name":"PlatformPlayerEdgeGrabState","order":5,"path":"scripts/PlatformPlayerEdgeGrabState/PlatformPlayerEdgeGrabState.yy",},
     {"name":"s_player_backstep","order":18,"path":"sprites/s_player_backstep/s_player_backstep.yy",},
     {"name":"s_platform_player_idle","order":19,"path":"sprites/s_platform_player_idle/s_platform_player_idle.yy",},
     {"name":"s_platform_player_run","order":18,"path":"sprites/s_platform_player_run/s_platform_player_run.yy",},

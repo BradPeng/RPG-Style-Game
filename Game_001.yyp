@@ -189,6 +189,7 @@
     {"id":{"name":"s_dancer","path":"sprites/s_dancer/s_dancer.yy",},},
     {"id":{"name":"o_roomExit","path":"objects/o_roomExit/o_roomExit.yy",},},
     {"id":{"name":"s_player_carry","path":"sprites/s_player_carry/s_player_carry.yy",},},
+    {"id":{"name":"PlatformPlayerEdgeGrabState","path":"scripts/PlatformPlayerEdgeGrabState/PlatformPlayerEdgeGrabState.yy",},},
     {"id":{"name":"s_player_backstep","path":"sprites/s_player_backstep/s_player_backstep.yy",},},
     {"id":{"name":"s_platform_player_idle","path":"sprites/s_platform_player_idle/s_platform_player_idle.yy",},},
     {"id":{"name":"s_platform_player_run","path":"sprites/s_platform_player_run/s_platform_player_run.yy",},},
