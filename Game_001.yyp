@@ -237,6 +237,7 @@
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},},
     {"id":{"name":"s_platform_player_land","path":"sprites/s_platform_player_land/s_platform_player_land.yy",},},
     {"id":{"name":"s_frag_pot","path":"sprites/s_frag_pot/s_frag_pot.yy",},},
+    {"id":{"name":"s_platform_player_hang","path":"sprites/s_platform_player_hang/s_platform_player_hang.yy",},},
     {"id":{"name":"o_quest_npc","path":"objects/o_quest_npc/o_quest_npc.yy",},},
     {"id":{"name":"CastFire","path":"scripts/CastFire/CastFire.yy",},},
     {"id":{"name":"s_player_attac_slash_hb","path":"sprites/s_player_attac_slash_hb/s_player_attac_slash_hb.yy",},},

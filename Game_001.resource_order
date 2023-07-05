@@ -190,6 +190,7 @@
     {"name":"o_bat","order":1,"path":"objects/o_bat/o_bat.yy",},
     {"name":"PlayerStateAct","order":7,"path":"scripts/PlayerStateAct/PlayerStateAct.yy",},
     {"name":"s_platform_player_land","order":21,"path":"sprites/s_platform_player_land/s_platform_player_land.yy",},
+    {"name":"s_platform_player_hang","order":23,"path":"sprites/s_platform_player_hang/s_platform_player_hang.yy",},
     {"name":"o_quest_npc","order":1,"path":"objects/o_quest_npc/o_quest_npc.yy",},
     {"name":"s_player_attac_slash_hb","order":12,"path":"sprites/s_player_attac_slash_hb/s_player_attac_slash_hb.yy",},
     {"name":"CastShield","order":1,"path":"scripts/CastShield/CastShield.yy",},
