@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlatformPlayerStateFree(){
 	image_speed = 1;
+	mask_index = s_platform_player_idle;
 	
 	if (!IsOnGround(o_solid)) {
 		vSpeed += gravityAcceleration;
