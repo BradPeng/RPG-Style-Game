@@ -52,4 +52,28 @@ function PlatformPlayerStateFree(){
 		
 			
 	PlatformMove(o_solid)
+	
+	// Edge Grab
+	var _falling = y - yprevious > 0;
+	var _wasntWall = !position_meeting(x + grabWidth * image_xscale, yprevious, o_solid);
+	var _isWall = position_meeting(x + grabWidth * image_xscale, y, o_solid);
+	
+	if (_falling and _wasntWall and _isWall and alarm[1] <= 0) {
+		hSpeed = 0;
+		vSpeed = 0;
+		
+		//align to edge horizontally
+		while (!place_meeting(x + image_xscale, y, o_solid)) {
+			x += image_xscale;
+		}
+		
+		//align to edge vertically
+		while (position_meeting(x + grabWidth * image_xscale, y + 1, o_solid)) {
+			y -= 1;
+		}
+		
+		//Change sprite and state
+		sprite_index = s_platform_player_hang;
+		state = PlatformPlayerEdgeGrabState;
+	}
 }

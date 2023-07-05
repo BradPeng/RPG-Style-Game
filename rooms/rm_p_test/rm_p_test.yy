@@ -14,6 +14,7 @@
     {"name":"inst_D90B6D5_1","path":"rooms/rm_p_test/rm_p_test.yy",},
     {"name":"inst_3FBB43D4","path":"rooms/rm_p_test/rm_p_test.yy",},
     {"name":"inst_6CAD31D4","path":"rooms/rm_p_test/rm_p_test.yy",},
+    {"name":"inst_4D2D7321","path":"rooms/rm_p_test/rm_p_test.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -24,6 +25,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26F75AAB_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"rotation":0.0,"scaleX":49.0,"scaleY":1.0,"x":0.0,"y":784.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D90B6D5_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":49.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3FBB43D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"rotation":0.0,"scaleX":46.0,"scaleY":1.0,"x":16.0,"y":144.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D2D7321","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":144.0,"y":80.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6CAD31D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":64.0,},
