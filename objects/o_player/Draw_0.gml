@@ -1,4 +1,6 @@
-draw_sprite(s_shadow, 0, floor(x), floor(y));
+if (room != rm_p_test) {
+	draw_sprite(s_shadow, 0, floor(x), floor(y));
+}
 
 // draw hookshot in behind player
 if (state = PlayerStateHook and image_index != 3) {
