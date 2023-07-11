@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "s_platform_player_jump",
   "bbox_bottom": 63,
-  "bbox_left": 1,
+  "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
@@ -20,6 +20,7 @@
   "height": 64,
   "HTile": false,
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"454dff46-2569-4bf7-a1ca-33ee90b9ecd6","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"66804cc8-642f-47b9-b826-546e5e1efb09","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
