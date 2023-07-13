@@ -4,7 +4,6 @@
 // Inherit the parent event
 event_inherited();
 sprMove = -1;
-sprIdle = -1;
 state = NPCSTATE.WANDER;
 hSpeed = 0;
 vSpeed = 0;

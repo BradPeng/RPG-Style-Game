@@ -2,12 +2,11 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_p1",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatableActivateScript","path":"objects/p_activatable/p_activatable.yy",},"value":"Prologue",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"value":"s_player",},
   ],
   "parent": {
     "name": "NPCs",
