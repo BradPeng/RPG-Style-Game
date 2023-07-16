@@ -67,7 +67,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
@@ -172,12 +172,14 @@
     {"id":{"name":"shRedFlash","path":"shaders/shRedFlash/shRedFlash.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},},
+    {"id":{"name":"o_mage","path":"objects/o_mage/o_mage.yy",},},
     {"id":{"name":"s_blue_peasant_page1","path":"sprites/s_blue_peasant_page1/s_blue_peasant_page1.yy",},},
     {"id":{"name":"ClassDiagram","path":"sprites/ClassDiagram/ClassDiagram.yy",},},
     {"id":{"name":"CollectAmmo","path":"scripts/CollectAmmo/CollectAmmo.yy",},},
     {"id":{"name":"ActivateLiftable","path":"scripts/ActivateLiftable/ActivateLiftable.yy",},},
     {"id":{"name":"o_fragment","path":"objects/o_fragment/o_fragment.yy",},},
     {"id":{"name":"s_homestead","path":"tilesets/s_homestead/s_homestead.yy",},},
+    {"id":{"name":"s_mage","path":"sprites/s_mage/s_mage.yy",},},
     {"id":{"name":"s_player_bow","path":"sprites/s_player_bow/s_player_bow.yy",},},
     {"id":{"name":"s_iconic_interior","path":"sprites/s_iconic_interior/s_iconic_interior.yy",},},
     {"id":{"name":"s_item_ui","path":"sprites/s_item_ui/s_item_ui.yy",},},
