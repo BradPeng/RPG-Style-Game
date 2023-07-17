@@ -54,6 +54,7 @@
     {"name":"o_frag_pot","order":2,"path":"objects/o_frag_pot/o_frag_pot.yy",},
     {"name":"s_gentle_forest","order":3,"path":"sprites/s_gentle_forest/s_gentle_forest.yy",},
     {"name":"o_dancer","order":3,"path":"objects/o_dancer/o_dancer.yy",},
+    {"name":"s_mage_attack","order":26,"path":"sprites/s_mage_attack/s_mage_attack.yy",},
     {"name":"DropItems","order":9,"path":"scripts/DropItems/DropItems.yy",},
     {"name":"PlayerCollision","order":6,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
     {"name":"s_tiles_cave","order":2,"path":"sprites/s_tiles_cave/s_tiles_cave.yy",},

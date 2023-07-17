@@ -78,6 +78,7 @@
     {"id":{"name":"o_frag_pot","path":"objects/o_frag_pot/o_frag_pot.yy",},},
     {"id":{"name":"s_gentle_forest","path":"sprites/s_gentle_forest/s_gentle_forest.yy",},},
     {"id":{"name":"o_dancer","path":"objects/o_dancer/o_dancer.yy",},},
+    {"id":{"name":"s_mage_attack","path":"sprites/s_mage_attack/s_mage_attack.yy",},},
     {"id":{"name":"DropItems","path":"scripts/DropItems/DropItems.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"s_tiles_cave","path":"sprites/s_tiles_cave/s_tiles_cave.yy",},},
