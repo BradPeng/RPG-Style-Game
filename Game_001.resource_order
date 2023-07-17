@@ -149,6 +149,7 @@
     {"name":"s_hook_chain","order":4,"path":"sprites/s_hook_chain/s_hook_chain.yy",},
     {"name":"s_signpost","order":5,"path":"sprites/s_signpost/s_signpost.yy",},
     {"name":"o_gentle_tree","order":8,"path":"objects/o_gentle_tree/o_gentle_tree.yy",},
+    {"name":"s_mage_final","order":25,"path":"sprites/s_mage_final/s_mage_final.yy",},
     {"name":"o_roomExit","order":1,"path":"objects/o_roomExit/o_roomExit.yy",},
     {"name":"s_player_carry","order":6,"path":"sprites/s_player_carry/s_player_carry.yy",},
     {"name":"PlatformPlayerEdgeGrabState","order":5,"path":"scripts/PlatformPlayerEdgeGrabState/PlatformPlayerEdgeGrabState.yy",},
