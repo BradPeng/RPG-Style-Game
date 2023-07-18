@@ -99,6 +99,7 @@
     {"id":{"name":"PlayerStateBonk","path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},},
     {"id":{"name":"s_player_roll","path":"sprites/s_player_roll/s_player_roll.yy",},},
     {"id":{"name":"s_enemy1_hurt","path":"sprites/s_enemy1_hurt/s_enemy1_hurt.yy",},},
+    {"id":{"name":"MageIdle","path":"scripts/MageIdle/MageIdle.yy",},},
     {"id":{"name":"s_boulder","path":"sprites/s_boulder/s_boulder.yy",},},
     {"id":{"name":"v3_Cloaks","path":"sprites/v3_Cloaks/v3_Cloaks.yy",},},
     {"id":{"name":"o_text_queued","path":"objects/o_text_queued/o_text_queued.yy",},},

@@ -4,14 +4,21 @@
   "name": "o_mage",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":86,"eventType":9,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"value":"s_mage",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "p_hostile_mob",
+    "path": "objects/p_hostile_mob/p_hostile_mob.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,6 +38,9 @@
     "name": "s_mage",
     "path": "sprites/s_mage/s_mage.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "s_mage",
+    "path": "sprites/s_mage/s_mage.yy",
+  },
   "visible": true,
 }

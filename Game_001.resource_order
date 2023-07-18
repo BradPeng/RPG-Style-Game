@@ -72,6 +72,7 @@
     {"name":"s_notice_board","order":12,"path":"sprites/s_notice_board/s_notice_board.yy",},
     {"name":"PlayerStateBonk","order":3,"path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},
     {"name":"s_player_roll","order":2,"path":"sprites/s_player_roll/s_player_roll.yy",},
+    {"name":"MageIdle","order":13,"path":"scripts/MageIdle/MageIdle.yy",},
     {"name":"s_boulder","order":2,"path":"sprites/s_boulder/s_boulder.yy",},
     {"name":"v3_Cloaks","order":4,"path":"sprites/v3_Cloaks/v3_Cloaks.yy",},
     {"name":"o_text_queued","order":1,"path":"objects/o_text_queued/o_text_queued.yy",},
