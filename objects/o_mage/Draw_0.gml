@@ -10,7 +10,7 @@ draw_sprite_ext(
 	sprite_index,
 	image_index,
 	floor(x),
-	floor(y + 5 * sin(levitationHeight)),
+	floor(y - 20 + 5 * sin(levitationHeight)),
 	image_xscale,
 	image_yscale,
 	image_angle,
