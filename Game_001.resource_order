@@ -243,6 +243,7 @@
     {"name":"rm_p_test","order":7,"path":"rooms/rm_p_test/rm_p_test.yy",},
     {"name":"s_summer_grass","order":5,"path":"sprites/s_summer_grass/s_summer_grass.yy",},
     {"name":"s_textbox_bg","order":4,"path":"sprites/s_textbox_bg/s_textbox_bg.yy",},
+    {"name":"MageHurt","order":14,"path":"scripts/MageHurt/MageHurt.yy",},
     {"name":"EntityHitDestroy","order":7,"path":"scripts/EntityHitDestroy/EntityHitDestroy.yy",},
     {"name":"HostileMobAttack","order":6,"path":"scripts/HostileMobAttack/HostileMobAttack.yy",},
     {"name":"o_table","order":11,"path":"objects/o_table/o_table.yy",},
