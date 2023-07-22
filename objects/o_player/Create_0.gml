@@ -1,3 +1,25 @@
+// set in create event
+keyLeft;
+keyRight;
+keyUp;
+keyDown;
+keyBloodAuraUp;
+keyBloodAuraDown;
+keyActivate;
+keyAttack;
+keyItem;
+keyItemSelectUp;
+keyItemSelectDown;
+keyCast;
+keySpellSelectUp;
+keySpellSelectDown;;
+keyDodge;
+keyUpRelease;
+bloodAuraMagnitude;
+inputDirection;
+inputMagnitude;
+
+
 state = PlayerStateFree;
 stateAttack = AttackSlash;
 lastState = state;
