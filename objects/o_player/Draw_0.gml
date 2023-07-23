@@ -47,8 +47,7 @@ function DrawHookChain() {
 	var _hookDirY = sign(hookY);
 	
 	for (var i = 0; i < _chains; i++) {
-		draw_sprite ( //draw chains backward starting from blade of hook
-			s_hook_chain,
+		draw_sprite (s_hook_chain,
 			0,
 			_originX + hookX - (i * hookSize * _hookDirX),
 			_originY + hookY - (i * hookSize * _hookDirY),

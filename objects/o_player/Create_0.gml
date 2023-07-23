@@ -1,25 +1,3 @@
-// set in create event
-keyLeft;
-keyRight;
-keyUp;
-keyDown;
-keyBloodAuraUp;
-keyBloodAuraDown;
-keyActivate;
-keyAttack;
-keyItem;
-keyItemSelectUp;
-keyItemSelectDown;
-keyCast;
-keySpellSelectUp;
-keySpellSelectDown;;
-keyDodge;
-keyUpRelease;
-bloodAuraMagnitude;
-inputDirection;
-inputMagnitude;
-
-
 state = PlayerStateFree;
 stateAttack = AttackSlash;
 lastState = state;
@@ -48,7 +26,7 @@ distanceHook = 88;
 hook = 0;
 hookX = 0;
 hookY = 0;
-hookSize = sprite_get_width(s_hook_chain)
+hookSize = sprite_get_width(spr_s_hook_chain)
 
 spriteRun = s_player_run;
 spriteIdle = s_player;
