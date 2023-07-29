@@ -6,4 +6,4 @@ uFlash = shader_get_uniform(flashShader, "flash");
 lifted = 0;
 thrown = false;
 spd = 0;
-entityDropList = -1; // items that drop when the item breaks
+entityDropList = []; // items that drop when the item breaks
