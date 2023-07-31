@@ -12,5 +12,5 @@ textProgress = 0;
 responses = [];
 
 responseSelected = 0;
-background = -1;
+
 // Holds the id that corresponds with the case in DialogueReponses
