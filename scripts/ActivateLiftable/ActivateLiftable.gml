@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ActivateLiftable(ID){
 	 if (global.iLifted == noone) {
-		PlayerActOutAnimation(s_player_lift, -1);
+		PlayerActOutAnimation(s_player_lift);
 		spriteIdle = s_player_carry;
 		spriteRun = s_player_carry_run;
 		

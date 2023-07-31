@@ -17,7 +17,7 @@ function PlayerThrow(){
 		ystart = y;  
 	}
 	
-	PlayerActOutAnimation(s_player_lift, -1);
+	PlayerActOutAnimation(s_player_lift);
 	global.iLifted = noone;
 	spriteIdle = s_player;
 	spriteRun = s_player_run;
