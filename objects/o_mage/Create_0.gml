@@ -11,3 +11,4 @@ enemyScript[ENEMYSTATE.WANDER] = -1;
 enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
 
+instance_create_layer(x, y, "Instances", o_shadow);
