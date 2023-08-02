@@ -10,5 +10,8 @@ levitationHeight = 0;
 enemyScript[ENEMYSTATE.WANDER] = -1;
 enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
-
-instance_create_layer(x, y, "Instances", o_shadow);
+z = 0;
+print(id)
+with(instance_create_layer(x, y, "Instances", o_shadow)) {
+	boundEntity = id;
+}

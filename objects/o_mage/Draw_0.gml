@@ -9,11 +9,12 @@ if (flash != 0) {
 	shader_set(flashShader);	
 	shader_set_uniform_f(uFlash, flash);
 }
+z = 15 + 5 * sin(levitationHeight);
 draw_sprite_ext(
 	sprite_index,
 	image_index,
 	floor(x),
-	floor(y - 20 + 5 * sin(levitationHeight)),
+	floor(y - z),
 	image_xscale,
 	image_yscale,
 	image_angle,

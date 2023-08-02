@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "temp_shadow",
-    "path": "sprites/temp_shadow/temp_shadow.yy",
+    "name": "s_shadow",
+    "path": "sprites/s_shadow/s_shadow.yy",
   },
   "spriteMaskId": null,
   "visible": true,
