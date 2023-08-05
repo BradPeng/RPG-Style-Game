@@ -12,6 +12,4 @@ enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
 z = 0;
 print(id)
-with(instance_create_layer(x, y, "Instances", o_shadow)) {
-	boundEntity = id;
-}
+instanceShadow = instance_create_layer(x, y, "Instances", o_shadow);
