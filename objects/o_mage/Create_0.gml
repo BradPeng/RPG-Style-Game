@@ -10,6 +10,10 @@ levitationHeight = 0;
 enemyScript[ENEMYSTATE.WANDER] = -1;
 enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
-z = 0;
-print(id)
+z = 15 + 5 * sin(levitationHeight);
+
 instanceShadow = instance_create_layer(x, y, "Instances", o_shadow);
+/*with (instanceShadow) {
+	instance_to_follow = other.id;	
+}*/
+instanceShadow.instance_to_follow = id;
