@@ -167,6 +167,7 @@
     {"id":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},},
     {"id":{"name":"s_player_dead","path":"sprites/s_player_dead/s_player_dead.yy",},},
     {"id":{"name":"AttackSlash","path":"scripts/AttackSlash/AttackSlash.yy",},},
+    {"id":{"name":"MageAttackS1","path":"scripts/MageAttackS1/MageAttackS1.yy",},},
     {"id":{"name":"o_shop_keeper","path":"objects/o_shop_keeper/o_shop_keeper.yy",},},
     {"id":{"name":"o_cast_shield","path":"objects/o_cast_shield/o_cast_shield.yy",},},
     {"id":{"name":"o_village_outhouse","path":"objects/o_village_outhouse/o_village_outhouse.yy",},},

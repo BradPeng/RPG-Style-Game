@@ -131,6 +131,7 @@
     {"name":"PlayerStateRoll","order":2,"path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},
     {"name":"p_mobs","order":9,"path":"objects/p_mobs/p_mobs.yy",},
     {"name":"s_player_dead","order":9,"path":"sprites/s_player_dead/s_player_dead.yy",},
+    {"name":"MageAttackS1","order":15,"path":"scripts/MageAttackS1/MageAttackS1.yy",},
     {"name":"o_shop_keeper","order":2,"path":"objects/o_shop_keeper/o_shop_keeper.yy",},
     {"name":"o_cast_shield","order":12,"path":"objects/o_cast_shield/o_cast_shield.yy",},
     {"name":"o_village_outhouse","order":16,"path":"objects/o_village_outhouse/o_village_outhouse.yy",},
