@@ -329,6 +329,7 @@
     {"id":{"name":"Quiver","path":"sprites/Quiver/Quiver.yy",},},
     {"id":{"name":"o_pink_tree","path":"objects/o_pink_tree/o_pink_tree.yy",},},
     {"id":{"name":"rm_village","path":"rooms/rm_village/rm_village.yy",},},
+    {"id":{"name":"o_projectile","path":"objects/o_projectile/o_projectile.yy",},},
     {"id":{"name":"CollectCoin","path":"scripts/CollectCoin/CollectCoin.yy",},},
     {"id":{"name":"s_bat_hurt","path":"sprites/s_bat_hurt/s_bat_hurt.yy",},},
     {"id":{"name":"PlayerActOutAnimation","path":"scripts/PlayerActOutAnimation/PlayerActOutAnimation.yy",},},

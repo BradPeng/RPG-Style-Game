@@ -10,7 +10,7 @@ function MageAttackS1(){
 	sprite_index = s_mage_attack;
 	
 	if (fireboltTimer <= 0) {
-    var projectile = instance_create_layer(x, y, "Instances", o_cast_fire);
+    var projectile = instance_create_layer(x, y, "Instances", o_projectile);
     
     // Calculate direction towards player
     var dir = point_direction(x, y, o_player.x, o_player.y);
@@ -18,7 +18,7 @@ function MageAttackS1(){
     // Set projectile's speed and direction
     projectile.speed = 8; // Adjust this value as needed
     projectile.direction = dir;
-    
+    projectile.sprite_index = temp_shadow
     fireboltTimer = fireboltCooldown; // Reset the timer
 } else {
     fireboltTimer--;

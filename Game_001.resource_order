@@ -269,6 +269,7 @@
     {"name":"Quiver","order":6,"path":"sprites/Quiver/Quiver.yy",},
     {"name":"o_pink_tree","order":5,"path":"objects/o_pink_tree/o_pink_tree.yy",},
     {"name":"rm_village","order":1,"path":"rooms/rm_village/rm_village.yy",},
+    {"name":"o_projectile","order":16,"path":"objects/o_projectile/o_projectile.yy",},
     {"name":"CollectCoin","order":10,"path":"scripts/CollectCoin/CollectCoin.yy",},
     {"name":"s_bat_hurt","order":2,"path":"sprites/s_bat_hurt/s_bat_hurt.yy",},
     {"name":"PlayerActOutAnimation","order":4,"path":"scripts/PlayerActOutAnimation/PlayerActOutAnimation.yy",},
