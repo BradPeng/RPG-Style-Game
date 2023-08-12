@@ -258,6 +258,7 @@
     {"name":"DialogueResponses","order":1,"path":"scripts/DialogueResponses/DialogueResponses.yy",},
     {"name":"o_cast_fire","order":5,"path":"objects/o_cast_fire/o_cast_fire.yy",},
     {"name":"s_blood_aura","order":10,"path":"sprites/s_blood_aura/s_blood_aura.yy",},
+    {"name":"o_enemy_projectile","order":17,"path":"objects/o_enemy_projectile/o_enemy_projectile.yy",},
     {"name":"o_arrow_drop","order":3,"path":"objects/o_arrow_drop/o_arrow_drop.yy",},
     {"name":"s_hat","order":7,"path":"sprites/s_hat/s_hat.yy",},
     {"name":"s_pot_medium","order":1,"path":"sprites/s_pot_medium/s_pot_medium.yy",},

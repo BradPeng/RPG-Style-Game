@@ -317,6 +317,7 @@
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},},
     {"id":{"name":"o_cast_fire","path":"objects/o_cast_fire/o_cast_fire.yy",},},
     {"id":{"name":"s_blood_aura","path":"sprites/s_blood_aura/s_blood_aura.yy",},},
+    {"id":{"name":"o_enemy_projectile","path":"objects/o_enemy_projectile/o_enemy_projectile.yy",},},
     {"id":{"name":"o_arrow_drop","path":"objects/o_arrow_drop/o_arrow_drop.yy",},},
     {"id":{"name":"s_hat","path":"sprites/s_hat/s_hat.yy",},},
     {"id":{"name":"s_pot_medium","path":"sprites/s_pot_medium/s_pot_medium.yy",},},
