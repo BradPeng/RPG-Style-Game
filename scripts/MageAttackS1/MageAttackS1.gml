@@ -16,9 +16,9 @@ function MageAttackS1(){
     var dir = point_direction(x, y, o_player.x, o_player.y);
     
     // Set projectile's speed and direction
-    projectile.speed = 8; // Adjust this value as needed
+    projectile.speed = 3; // Adjust this value as needed
     projectile.direction = dir;
-    projectile.sprite_index = temp_shadow
+    projectile.sprite_index = s_nebula_effect
     projectile.damageToPlayer = 10;
 	projectile.force = 50;
 	fireboltTimer = fireboltCooldown; // Reset the timer

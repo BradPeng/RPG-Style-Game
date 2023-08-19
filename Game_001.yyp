@@ -314,6 +314,7 @@
     {"id":{"name":"o_bomb","path":"objects/o_bomb/o_bomb.yy",},},
     {"id":{"name":"s_fire","path":"sprites/s_fire/s_fire.yy",},},
     {"id":{"name":"PlatformPlayerStateFree","path":"scripts/PlatformPlayerStateFree/PlatformPlayerStateFree.yy",},},
+    {"id":{"name":"s_nebula_effect","path":"sprites/s_nebula_effect/s_nebula_effect.yy",},},
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},},
     {"id":{"name":"o_cast_fire","path":"objects/o_cast_fire/o_cast_fire.yy",},},
     {"id":{"name":"s_blood_aura","path":"sprites/s_blood_aura/s_blood_aura.yy",},},
