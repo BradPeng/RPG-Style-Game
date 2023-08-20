@@ -80,6 +80,7 @@
     {"name":"NPCWander","order":11,"path":"scripts/NPCWander/NPCWander.yy",},
     {"name":"PlatformApplyFriction","order":3,"path":"scripts/PlatformApplyFriction/PlatformApplyFriction.yy",},
     {"name":"SlimeDie","order":4,"path":"scripts/SlimeDie/SlimeDie.yy",},
+    {"name":"Sprite114","order":15,"path":"sprites/Sprite114/Sprite114.yy",},
     {"name":"s_player_hurt","order":5,"path":"sprites/s_player_hurt/s_player_hurt.yy",},
     {"name":"rm_river","order":3,"path":"rooms/rm_river/rm_river.yy",},
     {"name":"t_village_extras","order":10,"path":"tilesets/t_village_extras/t_village_extras.yy",},

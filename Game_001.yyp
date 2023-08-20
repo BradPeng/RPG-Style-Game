@@ -109,6 +109,7 @@
     {"id":{"name":"NPCWander","path":"scripts/NPCWander/NPCWander.yy",},},
     {"id":{"name":"PlatformApplyFriction","path":"scripts/PlatformApplyFriction/PlatformApplyFriction.yy",},},
     {"id":{"name":"SlimeDie","path":"scripts/SlimeDie/SlimeDie.yy",},},
+    {"id":{"name":"Sprite114","path":"sprites/Sprite114/Sprite114.yy",},},
     {"id":{"name":"s_player_hurt","path":"sprites/s_player_hurt/s_player_hurt.yy",},},
     {"id":{"name":"rm_river","path":"rooms/rm_river/rm_river.yy",},},
     {"id":{"name":"t_village_extras","path":"tilesets/t_village_extras/t_village_extras.yy",},},
