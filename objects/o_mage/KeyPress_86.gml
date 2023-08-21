@@ -10,5 +10,9 @@ for (var i = 0; i < numObjects; i++) {
     var yOffset = circleRadius * sin(radians);
     
     // Create the object at the calculated position
-    instance_create_layer(x + xOffset, y + yOffset - levitationHeight - 20, "Instances", o_explosion);
+    var _proj = instance_create_layer(x + xOffset, y + yOffset - levitationHeight - 20, "Instances", o_mage_nebula_projectile);
+	_proj.sprite_index = s_nebula_effect;
+	_proj.alarm[1] = 30 * (i + 1);
+	_proj.spd = 7;
+	
 }
