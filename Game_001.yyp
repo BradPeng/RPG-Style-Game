@@ -242,6 +242,7 @@
     {"id":{"name":"s_platform_player_fall","path":"sprites/s_platform_player_fall/s_platform_player_fall.yy",},},
     {"id":{"name":"s_bomb_drop","path":"sprites/s_bomb_drop/s_bomb_drop.yy",},},
     {"id":{"name":"o_bat","path":"objects/o_bat/o_bat.yy",},},
+    {"id":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},},
     {"id":{"name":"s_platform_player_land","path":"sprites/s_platform_player_land/s_platform_player_land.yy",},},
     {"id":{"name":"s_frag_pot","path":"sprites/s_frag_pot/s_frag_pot.yy",},},
@@ -313,6 +314,7 @@
     {"id":{"name":"s_village_wagon","path":"sprites/s_village_wagon/s_village_wagon.yy",},},
     {"id":{"name":"o_bomb","path":"objects/o_bomb/o_bomb.yy",},},
     {"id":{"name":"s_fire","path":"sprites/s_fire/s_fire.yy",},},
+    {"id":{"name":"t_cozy_furnishings","path":"tilesets/t_cozy_furnishings/t_cozy_furnishings.yy",},},
     {"id":{"name":"PlatformPlayerStateFree","path":"scripts/PlatformPlayerStateFree/PlatformPlayerStateFree.yy",},},
     {"id":{"name":"s_nebula_effect","path":"sprites/s_nebula_effect/s_nebula_effect.yy",},},
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},},
@@ -349,6 +351,7 @@
     {"roomId":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
     {"roomId":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},},
     {"roomId":{"name":"rm_p_test","path":"rooms/rm_p_test/rm_p_test.yy",},},
+    {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
