@@ -1,4 +1,4 @@
-/// @description Firebolt timer
+/// @description Attack delay timer
 
 
 
