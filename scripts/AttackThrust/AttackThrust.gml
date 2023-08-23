@@ -37,7 +37,7 @@ function AttackTrust() {
 	// When animation ends, begin lag timer
 	if (animationEnd) {
 		if (alarm[1] == -1) {
-			alarm[1] = 15;	
+			alarm[1] = 5;	
 		} 
 	}
 }

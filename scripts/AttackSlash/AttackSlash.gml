@@ -50,7 +50,7 @@ function AttackSlash() {
 			alarm[1] = -1
 		} else {
 			if (alarm[1] == -1) {
-				alarm[1] = 15;	
+				alarm[1] = 10;	
 			} 
 		}
 	}

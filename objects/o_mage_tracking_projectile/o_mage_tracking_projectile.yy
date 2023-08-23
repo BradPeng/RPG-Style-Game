@@ -14,8 +14,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "o_projectile",
-    "path": "objects/o_projectile/o_projectile.yy",
+    "name": "o_enemy_projectile",
+    "path": "objects/o_enemy_projectile/o_enemy_projectile.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
