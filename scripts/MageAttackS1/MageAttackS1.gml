@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function MageAttackS1(){
+	print(enemyHP)
 	if (levitationHeight <= 2 * pi) {
 		levitationHeight += pi/60;	
 	} else {
@@ -11,24 +12,25 @@ function MageAttackS1(){
 	
 	if (attackTimer <= 0) {
 		var randomNumber = irandom_range(3, 3);
-		attackTimer = attackCooldown; // Reset the timer
+	
 		
 		if (randomNumber == 1) {
+			attackTimer = 180;
 			// Shoot one
-		    var projectile = instance_create_layer(x, y, "Instances", o_enemy_projectile);
+		    var projectile = instance_create_layer(x, y, "Instances", p_mage_projectile);
     
 		    // Calculate direction towards player
 		    var dir = point_direction(x, y, o_player.x, o_player.y);
     
 		    // Set projectile's speed and direction
-		    projectile.speed = 3; // Adjust this value as needed
+		    projectile.spd = 3; // Adjust this value as needed
 		    projectile.direction = dir;
 		    projectile.sprite_index = s_nebula_effect
 		    projectile.damageToPlayer = 10;
 			projectile.force = 50;
-			
+			projectile.alarm[1] = 30
 		} else if (randomNumber == 2) {
-			attackTimer = 200;
+			attackTimer = 480;
 			// Nebula attack
 			var circleRadius = 70; // Adjust this value to set the radius of the circle
 			var numObjects = 8; // Adjust this value to set the number of objects
@@ -48,13 +50,14 @@ function MageAttackS1(){
 				_proj.spd = 7;
 			}
 		} else if (randomNumber == 3) {
-			attackTimer = 600;
+			attackTimer = 360;
 			var projectile = instance_create_layer(x, y, "Instances", o_mage_tracking_projectile);
 			
 		    // Set projectile's speed and direction
-		    projectile.speed = 3; 
+		    projectile.spd = 3;
 		    projectile.damageToPlayer = 10;
 			projectile.force = 50;
+			projectile.alarm[1] = 30
 		}
 	} else {
 	    attackTimer--;

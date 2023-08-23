@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+event_inherited()
 // Set initial position and speed
 target = o_player; // The player object to follow
 

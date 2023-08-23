@@ -1,11 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "o_mage_tracking_projectile",
+  "name": "p_mage_projectile",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -14,8 +13,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "p_mage_projectile",
-    "path": "objects/p_mage_projectile/p_mage_projectile.yy",
+    "name": "o_enemy_projectile",
+    "path": "objects/o_enemy_projectile/o_enemy_projectile.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "s_vortex",
-    "path": "sprites/s_vortex/s_vortex.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

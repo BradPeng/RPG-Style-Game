@@ -215,6 +215,7 @@
     {"id":{"name":"UseItemHook","path":"scripts/UseItemHook/UseItemHook.yy",},},
     {"id":{"name":"o_text","path":"objects/o_text/o_text.yy",},},
     {"id":{"name":"s_player_lunge","path":"sprites/s_player_lunge/s_player_lunge.yy",},},
+    {"id":{"name":"p_mage_projectile","path":"objects/p_mage_projectile/p_mage_projectile.yy",},},
     {"id":{"name":"ScriptExecuteArray","path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},},
     {"id":{"name":"ActivateHatNPC","path":"scripts/ActivateHatNPC/ActivateHatNPC.yy",},},
     {"id":{"name":"s_hook_blade","path":"sprites/s_hook_blade/s_hook_blade.yy",},},

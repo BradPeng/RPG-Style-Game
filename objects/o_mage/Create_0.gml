@@ -6,7 +6,7 @@ event_inherited();
 enemyScript[ENEMYSTATE.IDLE] = MageIdle
 enemyScript[ENEMYSTATE.HURT] = MageHurt;
 levitationHeight = 0;
-attackCooldown = 180;
+attackCooldown = 120;
 attackTimer = attackCooldown;
 enemyScript[ENEMYSTATE.WANDER] = -1;
 enemyScript[ENEMYSTATE.CHASE] = -1;
