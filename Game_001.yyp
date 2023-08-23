@@ -277,6 +277,7 @@
     {"id":{"name":"s_player_lift","path":"sprites/s_player_lift/s_player_lift.yy",},},
     {"id":{"name":"o_notice_board","path":"objects/o_notice_board/o_notice_board.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
+    {"id":{"name":"s_vortex","path":"sprites/s_vortex/s_vortex.yy",},},
     {"id":{"name":"s_player_die","path":"sprites/s_player_die/s_player_die.yy",},},
     {"id":{"name":"s_human_master","path":"sprites/s_human_master/s_human_master.yy",},},
     {"id":{"name":"s_player_carry_run","path":"sprites/s_player_carry_run/s_player_carry_run.yy",},},

@@ -10,7 +10,7 @@ function MageAttackS1(){
 	sprite_index = s_mage_attack;
 	
 	if (attackTimer <= 0) {
-		var randomNumber = irandom_range(1, 2);
+		var randomNumber = irandom_range(1, 3);
 		attackTimer = attackCooldown; // Reset the timer
 		
 		if (randomNumber == 1) {
@@ -28,7 +28,7 @@ function MageAttackS1(){
 			projectile.force = 50;
 			
 		} else if (randomNumber == 2) {
-			attackTimer = 500;
+			attackTimer = 200;
 			// Nebula attack
 			var circleRadius = 70; // Adjust this value to set the radius of the circle
 			var numObjects = 8; // Adjust this value to set the number of objects
@@ -47,6 +47,13 @@ function MageAttackS1(){
 				_proj.alarm[1] = 30 * (i + 1);
 				_proj.spd = 7;
 			}
+		} else if (randomNumber == 3) {
+			var projectile = instance_create_layer(x, y, "Instances", o_mage_tracking_projectile);
+    
+		    // Set projectile's speed and direction
+		    projectile.speed = 3; 
+		    projectile.damageToPlayer = 10;
+			projectile.force = 50;
 		}
 	} else {
 	    attackTimer--;
