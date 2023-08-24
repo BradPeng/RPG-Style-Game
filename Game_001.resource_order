@@ -175,6 +175,7 @@
     {"name":"UseItemHook","order":1,"path":"scripts/UseItemHook/UseItemHook.yy",},
     {"name":"s_player_lunge","order":19,"path":"sprites/s_player_lunge/s_player_lunge.yy",},
     {"name":"p_mage_projectile","order":18,"path":"objects/p_mage_projectile/p_mage_projectile.yy",},
+    {"name":"MageLevitate","order":16,"path":"scripts/MageLevitate/MageLevitate.yy",},
     {"name":"ScriptExecuteArray","order":4,"path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},
     {"name":"ActivateHatNPC","order":9,"path":"scripts/ActivateHatNPC/ActivateHatNPC.yy",},
     {"name":"s_hook_blade","order":3,"path":"sprites/s_hook_blade/s_hook_blade.yy",},
