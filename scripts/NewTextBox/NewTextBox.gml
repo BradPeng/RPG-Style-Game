@@ -14,7 +14,11 @@ function NewTextBox(_message, _background = 0, _responses) {
 		_obj = o_text; 	
 	}
 	
-	with (instance_create_layer(0, 0, "Instances", _obj)) {
+
+	var _textBox = instance_create_layer(0, 0, "Instances", _obj)
+	var _objId = _textBox.id;
+	with (_textBox) {
+		_objId = id;
 		messageText = _message
 		background = _background
 		if (instance_exists(other)) {
@@ -47,4 +51,5 @@ function NewTextBox(_message, _background = 0, _responses) {
 			state = PlayerStateLocked
 		}
 	}
+	return _textBox.id;
 }

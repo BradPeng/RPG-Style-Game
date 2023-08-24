@@ -15,3 +15,5 @@ z = 15 + 5 * sin(levitationHeight);
 
 instanceShadow = instance_create_layer(x, y, "Instances", o_shadow);
 instanceShadow.instance_to_follow = id;
+aggro_dialogue = false;
+aggro_textbox = -1;
