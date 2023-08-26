@@ -11,7 +11,7 @@ attackTimer = attackCooldown;
 enemyScript[ENEMYSTATE.WANDER] = -1;
 enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = MageAttackS1;
-z = 15 + 5 * sin(levitationHeight);
+z = 0;
 
 instanceShadow = instance_create_layer(x, y, "Instances", o_shadow);
 instanceShadow.instance_to_follow = id;

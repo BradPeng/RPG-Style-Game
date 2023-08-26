@@ -6,4 +6,5 @@ function MageLevitate(){
 	} else {
 		levitationHeight = 0;	
 	}
+	z = 15 + 5 * sin(levitationHeight);
 }
