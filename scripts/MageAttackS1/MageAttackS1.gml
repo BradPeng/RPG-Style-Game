@@ -6,7 +6,7 @@ function MageAttackS1(){
 	sprite_index = s_mage_attack;
 	
 	if (attackTimer <= 0) {
-		var randomNumber = irandom_range(3, 3);
+		var randomNumber = irandom_range(1, 3);
 	
 		
 		if (randomNumber == 1) {
@@ -45,6 +45,7 @@ function MageAttackS1(){
 				_proj.spd = 7;
 			}
 		} else if (randomNumber == 3) {
+			// tracking projectile
 			attackTimer = 360;
 			var projectile = instance_create_layer(x, y, "Instances", o_mage_tracking_projectile);
 			

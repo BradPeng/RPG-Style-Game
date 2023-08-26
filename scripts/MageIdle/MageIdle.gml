@@ -8,13 +8,13 @@ function MageIdle(){
 			NewTextBox("Instead of running away, you come right to me?", 1)
 			aggro_textbox = NewTextBox("Even though your grandfather, Joseph, told you the secret of The World,\n like an exam student scrambling to finish the problems\non an exam until the last moments before the chime?", 1)
 		}
-		if (aggro_textbox != -1 and !instance_exists(aggro_textbox)) {
+	}
+	
+	if (aggro_textbox != -1 and !instance_exists(aggro_textbox)) {
 			// Start increasing z height. When reach treshold, enter attack state
 			z += 0.5;
 			if (z >= 15) {
 				state = ENEMYSTATE.ATTACK;
 			}
-	}
-		
-	}
+		}
 }
