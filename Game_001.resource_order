@@ -279,6 +279,7 @@
     {"name":"s_pot_medium","order":1,"path":"sprites/s_pot_medium/s_pot_medium.yy",},
     {"name":"s_human_masterTemp","order":5,"path":"sprites/s_human_masterTemp/s_human_masterTemp.yy",},
     {"name":"s_enemy1_walk","order":2,"path":"sprites/s_enemy1_walk/s_enemy1_walk.yy",},
+    {"name":"MageAttackS2","order":17,"path":"scripts/MageAttackS2/MageAttackS2.yy",},
     {"name":"o_slime","order":2,"path":"objects/o_slime/o_slime.yy",},
     {"name":"s_pot_small","order":2,"path":"sprites/s_pot_small/s_pot_small.yy",},
     {"name":"s_trigger","order":7,"path":"sprites/s_trigger/s_trigger.yy",},

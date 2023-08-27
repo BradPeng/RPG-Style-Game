@@ -3,17 +3,29 @@
 
 // Inherit the parent event
 event_inherited();
-enemyScript[ENEMYSTATE.IDLE] = MageIdle
-enemyScript[ENEMYSTATE.HURT] = MageHurt;
+enum MAGESTATE {
+	IDLE,
+	WANDER,
+	CHASE,
+	ATTACK,
+	HURT,
+	DIE,
+	WAIT,
+	ATTACK2,
+}
+enemyScript[ENEMYSTATE.HURT] = MageHurt
+enemyScript[MAGESTATE.IDLE] = MageIdle
 levitationHeight = 0;
 attackCooldown = 120;
 attackTimer = attackCooldown;
-enemyScript[ENEMYSTATE.WANDER] = -1;
-enemyScript[ENEMYSTATE.CHASE] = -1;
-enemyScript[ENEMYSTATE.ATTACK] = MageAttackS1;
+enemyScript[MAGESTATE.WANDER] = -1;
+enemyScript[MAGESTATE.CHASE] = -1;
+enemyScript[MAGESTATE.ATTACK] = MageAttackS1;
+enemyScript[MAGESTATE.ATTACK2] = MageAttackS2
 z = 0;
-
+state = MAGESTATE.IDLE
 instanceShadow = instance_create_layer(x, y, "Instances", o_shadow);
 instanceShadow.instance_to_follow = id;
 aggro_dialogue = false;
-aggro_textbox = -1;
+phase2Dialogue = false;
+actionTextbox = -1;

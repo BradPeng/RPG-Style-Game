@@ -338,6 +338,7 @@
     {"id":{"name":"s_pot_medium","path":"sprites/s_pot_medium/s_pot_medium.yy",},},
     {"id":{"name":"s_human_masterTemp","path":"sprites/s_human_masterTemp/s_human_masterTemp.yy",},},
     {"id":{"name":"s_enemy1_walk","path":"sprites/s_enemy1_walk/s_enemy1_walk.yy",},},
+    {"id":{"name":"MageAttackS2","path":"scripts/MageAttackS2/MageAttackS2.yy",},},
     {"id":{"name":"o_slime","path":"objects/o_slime/o_slime.yy",},},
     {"id":{"name":"s_pot_small","path":"sprites/s_pot_small/s_pot_small.yy",},},
     {"id":{"name":"s_trigger","path":"sprites/s_trigger/s_trigger.yy",},},
