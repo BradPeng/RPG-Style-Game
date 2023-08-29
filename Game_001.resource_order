@@ -195,6 +195,7 @@
     {"name":"s_slime","order":1,"path":"sprites/s_slime/s_slime.yy",},
     {"name":"AnimateCardinalSprite","order":10,"path":"scripts/AnimateCardinalSprite/AnimateCardinalSprite.yy",},
     {"name":"o_ui","order":4,"path":"objects/o_ui/o_ui.yy",},
+    {"name":"s_sunburn","order":34,"path":"sprites/s_sunburn/s_sunburn.yy",},
     {"name":"AttackThrust","order":8,"path":"scripts/AttackThrust/AttackThrust.yy",},
     {"name":"Prologue","order":12,"path":"scripts/Prologue/Prologue.yy",},
     {"name":"s_player_attack_slash","order":11,"path":"sprites/s_player_attack_slash/s_player_attack_slash.yy",},
