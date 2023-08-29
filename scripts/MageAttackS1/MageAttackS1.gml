@@ -6,12 +6,14 @@ function MageAttackS1(){
 	// Prepare to enter phase 2
 	if (enemyHP <= 75) {
 		if (phase2Dialogue == false) {
-			actionTextbox = NewTextBox("Okay bro now I'm mad", 1);
+			NewTextBox("Okay bro now I'm mad", 1);
+			actionTextbox = NewTextBox("Prepare for my ultimate form!", 1);
 			phase2Dialogue = true;
 		}
 		
 		if (actionTextbox != -1 and !instance_exists(actionTextbox)) {
 			state = MAGESTATE.ATTACK2;
+			sprite_index = s_mage_final;
 			actionTextbox = -1;
 		}
 	} else {
