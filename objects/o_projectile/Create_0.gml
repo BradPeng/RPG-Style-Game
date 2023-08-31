@@ -4,4 +4,4 @@
 speed = 0;
 spd = 0;
 
-
+depth = -99999;
