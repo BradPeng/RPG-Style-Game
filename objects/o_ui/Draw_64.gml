@@ -1,25 +1,20 @@
 var _playerHealth = global.playerHealth;
 var _playerHealthMax = global.playerHealthMax;
+var _bossId = global.currentBoss;
+
+if (_bossId != -1) {	
+	var _currentBoss = instance_find(global.currentBoss, 0);
+	// Draw boss healthbar
+	print(_currentBoss.enemyHP)
+	print(_currentBoss.enemyHPMax);
+	draw_sprite_stretched(s_healthbar, 0, RESOLUTION_W/2, RESOLUTION_H/2, 100 * _currentBoss.enemyHP/_currentBoss.enemyHPMax, 12);
+	draw_sprite_stretched(s_healthbar_background, 0, RESOLUTION_W/2, RESOLUTION_H/2, 100, 12);
+
+}
 /// Draw health bar
 draw_sprite_stretched(s_healthbar, 0, 8, 8, 100 * _playerHealth/_playerHealthMax, 12);
 draw_sprite_stretched(s_healthbar_background, 0, 8, 8, 100, 12);
 
-// Old heart container render
-/*var _playerHealth = global.playerHealth;
-var _playerHealthMax = global.playerHealthMax;
-var _playerHealthFrac = frac(_playerHealth); // gets the decimal
-_playerHealth -= _playerHealthFrac; // _playerHealth will have # of full hearts we want to draw
-
-for (var i = 1; i <= _playerHealthMax; i++) {
-	var _imageIndex = i > _playerHealth;
-	if (i == _playerHealth + 1) {
-		_imageIndex += _playerHealthFrac > 0;
-		_imageIndex += _playerHealthFrac > 0.25;
-		_imageIndex += _playerHealthFrac > 0.5;
-	}
-	
-	draw_sprite(s_health, _imageIndex, 8 + (i - 1) * 16, 8);
-} */
 
 // Draw money
 var _xx

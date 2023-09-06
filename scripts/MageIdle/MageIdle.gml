@@ -16,6 +16,8 @@ function MageIdle(){
 		z += 0.5;
 		if (z >= 15) {
 			state = MAGESTATE.ATTACK;
+			global.currentBoss = id
+
 			// reset actionTextbox so it can be reused to enter attack state 2
 			actionTextbox = -1;
 		}

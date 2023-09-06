@@ -29,3 +29,4 @@ instanceShadow.instance_to_follow = id;
 aggro_dialogue = false;
 phase2Dialogue = false;
 actionTextbox = -1;
+print(id)

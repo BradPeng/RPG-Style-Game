@@ -20,7 +20,7 @@ stateTarget = state;
 statePrevious = state;
 stateWait = 0;
 stateWaitDuration = 0;
-
+enemyHPMax = enemyHP;
 // Enemy Sprites
 sprMove = -1;
 sprDie = -1

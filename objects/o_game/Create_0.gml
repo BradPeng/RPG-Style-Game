@@ -16,7 +16,7 @@ global.playerBloodAuraLevelMax = 5;
 global.playerMoney = 100;
 global.questStatus = ds_map_create();
 global.questStatus[? "TheHatQuest"] = 0;
-
+global.currentBoss = -1;
 // items
 global.playerHasAnyItems = false;
 global.playerEquipped = ITEM.BOMB;
