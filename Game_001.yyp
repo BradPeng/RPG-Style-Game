@@ -173,6 +173,7 @@
     {"id":{"name":"o_shop_keeper","path":"objects/o_shop_keeper/o_shop_keeper.yy",},},
     {"id":{"name":"o_cast_shield","path":"objects/o_cast_shield/o_cast_shield.yy",},},
     {"id":{"name":"o_village_outhouse","path":"objects/o_village_outhouse/o_village_outhouse.yy",},},
+    {"id":{"name":"MageMove","path":"scripts/MageMove/MageMove.yy",},},
     {"id":{"name":"t_forest","path":"tilesets/t_forest/t_forest.yy",},},
     {"id":{"name":"shRedFlash","path":"shaders/shRedFlash/shRedFlash.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},

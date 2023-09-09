@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function MageAttackS1(){
 	MageLevitate();
-	
+	MageMove();
 	// Prepare to enter phase 2
 	if (enemyHP <= 75) {
 		if (phase2Dialogue == false) {
