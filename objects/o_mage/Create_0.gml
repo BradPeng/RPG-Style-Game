@@ -29,4 +29,11 @@ instanceShadow.instance_to_follow = id;
 aggro_dialogue = false;
 phase2Dialogue = false;
 actionTextbox = -1;
-print(id)
+
+// Circular movmement
+centerX = 340;
+centerY = 250;
+circleRadius = 100;
+theta = 0;
+theta_speed = 2;
+
