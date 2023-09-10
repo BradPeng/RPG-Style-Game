@@ -21,7 +21,7 @@ function MageAttackS1(){
 		sprite_index = s_mage_attack;
 	
 		if (attackTimer <= 0) {
-			var randomNumber = irandom_range(1, 3);
+			var randomNumber = irandom_range(0, 0);
 	
 		
 			if (randomNumber == 1) {

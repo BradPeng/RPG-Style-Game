@@ -8,8 +8,6 @@ if (_bossId != -1) {
 	var _healthbarScale = 150
 	
 	// Draw boss healthbar
-	print(_currentBoss.enemyHP)
-	print(_currentBoss.enemyHPMax);
 	draw_sprite_stretched(s_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(s_healthbar) * _healthbarScale/2), 8, _healthbarScale * _currentBoss.enemyHP/_currentBoss.enemyHPMax, 12);
 	draw_sprite_stretched(s_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(s_healthbar) * _healthbarScale/2), 8, _healthbarScale, 12);
 

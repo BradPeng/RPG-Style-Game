@@ -36,4 +36,6 @@ centerY = 250;
 circleRadius = 100;
 theta = 0;
 theta_speed = 2;
-
+xTo = 300;
+yTo = 200;
+movementType = true;
