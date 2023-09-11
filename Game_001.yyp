@@ -67,7 +67,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
@@ -369,6 +369,7 @@
     {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_boss_bar","path":"rooms/rm_boss_bar/rm_boss_bar.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],

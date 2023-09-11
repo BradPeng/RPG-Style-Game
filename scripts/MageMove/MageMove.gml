@@ -9,8 +9,16 @@ function MageMove(){
 		//var _dir = point_direction(x, y, centerX + lengthdir_x(circleRadius, theta), centerY + lengthdir_y(circleRadius, theta))
 		//x += lengthdir_x(2, _dir);
 		//y += lengthdir_y(2, _dir);
+		//centerX += irandom_range(-5, 5);
+		//centerY += irandom_range(-5, 5);
 		x = centerX + lengthdir_x(circleRadius, theta);
 		y = centerY + lengthdir_y(circleRadius, theta);
+		
+		var _player = instance_find(o_player, 0);
+		//x = _player.x + lengthdir_x(circleRadius, theta);
+		//y = _player.y + lengthdir_y(circleRadius, theta);
+		//x = mouse_x + lengthdir_x(circleRadius, theta);
+		//y = mouse_y + lengthdir_y(circleRadius, theta);
 	} else {
 		if ((x <= xTo - 10 or x >= xTo + 10) and (y<= yTo -10 or y >= yTo + 10)) {
 
