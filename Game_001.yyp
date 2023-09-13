@@ -299,6 +299,7 @@
     {"id":{"name":"s_bat_die","path":"sprites/s_bat_die/s_bat_die.yy",},},
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},},
     {"id":{"name":"HurtEnemy","path":"scripts/HurtEnemy/HurtEnemy.yy",},},
+    {"id":{"name":"s_player_push","path":"sprites/s_player_push/s_player_push.yy",},},
     {"id":{"name":"s_frag_rock","path":"sprites/s_frag_rock/s_frag_rock.yy",},},
     {"id":{"name":"o_p1","path":"objects/o_p1/o_p1.yy",},},
     {"id":{"name":"Bow","path":"sprites/Bow/Bow.yy",},},
