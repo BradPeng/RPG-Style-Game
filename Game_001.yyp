@@ -67,7 +67,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"s_col","path":"sprites/s_col/s_col.yy",},},
@@ -180,6 +180,7 @@
     {"id":{"name":"o_explosion","path":"objects/o_explosion/o_explosion.yy",},},
     {"id":{"name":"o_mage","path":"objects/o_mage/o_mage.yy",},},
     {"id":{"name":"s_blue_peasant_page1","path":"sprites/s_blue_peasant_page1/s_blue_peasant_page1.yy",},},
+    {"id":{"name":"p_pushable","path":"objects/p_pushable/p_pushable.yy",},},
     {"id":{"name":"ClassDiagram","path":"sprites/ClassDiagram/ClassDiagram.yy",},},
     {"id":{"name":"CollectAmmo","path":"scripts/CollectAmmo/CollectAmmo.yy",},},
     {"id":{"name":"ActivateLiftable","path":"scripts/ActivateLiftable/ActivateLiftable.yy",},},
@@ -252,6 +253,7 @@
     {"id":{"name":"o_bat","path":"objects/o_bat/o_bat.yy",},},
     {"id":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},},
+    {"id":{"name":"s_pushable_box","path":"sprites/s_pushable_box/s_pushable_box.yy",},},
     {"id":{"name":"s_platform_player_land","path":"sprites/s_platform_player_land/s_platform_player_land.yy",},},
     {"id":{"name":"s_frag_pot","path":"sprites/s_frag_pot/s_frag_pot.yy",},},
     {"id":{"name":"s_platform_player_hang","path":"sprites/s_platform_player_hang/s_platform_player_hang.yy",},},
@@ -327,6 +329,7 @@
     {"id":{"name":"s_village_wagon","path":"sprites/s_village_wagon/s_village_wagon.yy",},},
     {"id":{"name":"o_cozy_chair","path":"objects/o_cozy_chair/o_cozy_chair.yy",},},
     {"id":{"name":"o_bomb","path":"objects/o_bomb/o_bomb.yy",},},
+    {"id":{"name":"o_box","path":"objects/o_box/o_box.yy",},},
     {"id":{"name":"s_fire","path":"sprites/s_fire/s_fire.yy",},},
     {"id":{"name":"t_cozy_furnishings","path":"tilesets/t_cozy_furnishings/t_cozy_furnishings.yy",},},
     {"id":{"name":"PlatformPlayerStateFree","path":"scripts/PlatformPlayerStateFree/PlatformPlayerStateFree.yy",},},
@@ -370,7 +373,6 @@
     {"roomId":{"name":"rm_interior","path":"rooms/rm_interior/rm_interior.yy",},},
     {"roomId":{"name":"rm_boss_bar","path":"rooms/rm_boss_bar/rm_boss_bar.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
