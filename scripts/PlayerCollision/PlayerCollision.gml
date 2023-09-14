@@ -12,6 +12,11 @@ function PlayerCollision(){
 		hSpeed = 0;
 		_collision = true;
 	}
+	
+
+	if (_collidedObject != noone and _collidedObject.object_index == p_pushable.object_index) {
+		state = PlayerStatePush;
+	}
 
 	// Horizontal move commit
 	x += hSpeed;

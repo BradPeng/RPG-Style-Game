@@ -141,6 +141,7 @@
     {"id":{"name":"CalcAttack","path":"scripts/CalcAttack/CalcAttack.yy",},},
     {"id":{"name":"s_healthbar","path":"sprites/s_healthbar/s_healthbar.yy",},},
     {"id":{"name":"rm_shop","path":"rooms/rm_shop/rm_shop.yy",},},
+    {"id":{"name":"PlayerStatePush","path":"scripts/PlayerStatePush/PlayerStatePush.yy",},},
     {"id":{"name":"s_clothes_hanger_a","path":"sprites/s_clothes_hanger_a/s_clothes_hanger_a.yy",},},
     {"id":{"name":"s_player_thrust_hb","path":"sprites/s_player_thrust_hb/s_player_thrust_hb.yy",},},
     {"id":{"name":"s_bat","path":"sprites/s_bat/s_bat.yy",},},
