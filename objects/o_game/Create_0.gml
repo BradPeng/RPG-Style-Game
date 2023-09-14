@@ -9,6 +9,7 @@ global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = 0;
 global.iLifted = noone;
+global.iPushing = noone;
 global.playerHealthMax = 100;
 global.playerHealth = global.playerHealthMax;
 global.playerBloodAuraLevel = 0;
