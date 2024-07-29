@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SlimeAttack",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "SlimeStates",
-    "path": "folders/Scripts/Enemies/SlimeStates.yy",
+  "$GMScript":"v1",
+  "%Name":"SlimeAttack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SlimeAttack",
+  "parent":{
+    "name":"SlimeStates",
+    "path":"folders/Scripts/Enemies/SlimeStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

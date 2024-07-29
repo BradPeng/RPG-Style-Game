@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SlimeWander",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "SlimeStates",
-    "path": "folders/Scripts/Enemies/SlimeStates.yy",
+  "$GMScript":"v1",
+  "%Name":"SlimeWander",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SlimeWander",
+  "parent":{
+    "name":"SlimeStates",
+    "path":"folders/Scripts/Enemies/SlimeStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "AttackSlash",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Attacks",
-    "path": "folders/Scripts/Player/Attacks.yy",
+  "$GMScript":"v1",
+  "%Name":"AttackSlash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AttackSlash",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Scripts/Player/Attacks.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PlayerActOutAnimation",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+  "$GMScript":"v1",
+  "%Name":"PlayerActOutAnimation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerActOutAnimation",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

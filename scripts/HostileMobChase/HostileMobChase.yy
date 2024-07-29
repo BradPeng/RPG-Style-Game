@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "HostileMobChase",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "EnemyFighterStates",
-    "path": "folders/Scripts/Enemies/EnemyFighterStates.yy",
+  "$GMScript":"v1",
+  "%Name":"HostileMobChase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"HostileMobChase",
+  "parent":{
+    "name":"EnemyFighterStates",
+    "path":"folders/Scripts/Enemies/EnemyFighterStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

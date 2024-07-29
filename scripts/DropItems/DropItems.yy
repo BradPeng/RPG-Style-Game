@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "DropItems",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+  "$GMScript":"v1",
+  "%Name":"DropItems",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DropItems",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PlatformPlayerJumpState",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "PlatformPlayerStates",
-    "path": "folders/Scripts/PlatformPlayerStates.yy",
+  "$GMScript":"v1",
+  "%Name":"PlatformPlayerJumpState",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlatformPlayerJumpState",
+  "parent":{
+    "name":"PlatformPlayerStates",
+    "path":"folders/Scripts/PlatformPlayerStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

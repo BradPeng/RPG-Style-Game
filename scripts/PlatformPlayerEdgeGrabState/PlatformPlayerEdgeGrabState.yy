@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PlatformPlayerEdgeGrabState",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "PlatformPlayerStates",
-    "path": "folders/Scripts/PlatformPlayerStates.yy",
+  "$GMScript":"v1",
+  "%Name":"PlatformPlayerEdgeGrabState",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlatformPlayerEdgeGrabState",
+  "parent":{
+    "name":"PlatformPlayerStates",
+    "path":"folders/Scripts/PlatformPlayerStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

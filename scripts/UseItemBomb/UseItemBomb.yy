@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "UseItemBomb",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Attacks",
-    "path": "folders/Scripts/Player/Attacks.yy",
+  "$GMScript":"v1",
+  "%Name":"UseItemBomb",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"UseItemBomb",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Scripts/Player/Attacks.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

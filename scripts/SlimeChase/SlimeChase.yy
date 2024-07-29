@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SlimeChase",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "SlimeStates",
-    "path": "folders/Scripts/Enemies/SlimeStates.yy",
+  "$GMScript":"v1",
+  "%Name":"SlimeChase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SlimeChase",
+  "parent":{
+    "name":"SlimeStates",
+    "path":"folders/Scripts/Enemies/SlimeStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

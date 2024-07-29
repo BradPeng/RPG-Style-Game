@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "CastFire",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Casts",
-    "path": "folders/Scripts/Player/Casts.yy",
+  "$GMScript":"v1",
+  "%Name":"CastFire",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CastFire",
+  "parent":{
+    "name":"Casts",
+    "path":"folders/Scripts/Player/Casts.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

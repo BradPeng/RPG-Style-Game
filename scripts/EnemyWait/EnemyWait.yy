@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "EnemyWait",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Enemies",
-    "path": "folders/Scripts/Enemies.yy",
+  "$GMScript":"v1",
+  "%Name":"EnemyWait",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EnemyWait",
+  "parent":{
+    "name":"Enemies",
+    "path":"folders/Scripts/Enemies.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

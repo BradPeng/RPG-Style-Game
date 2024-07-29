@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PlayerStateLocked",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "PlayerStates",
-    "path": "folders/Scripts/Player/PlayerStates.yy",
+  "$GMScript":"v1",
+  "%Name":"PlayerStateLocked",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerStateLocked",
+  "parent":{
+    "name":"PlayerStates",
+    "path":"folders/Scripts/Player/PlayerStates.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
