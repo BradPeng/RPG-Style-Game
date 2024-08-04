@@ -37,7 +37,7 @@ function cast_fire(){
 					_y = 0;
 			
 			}	
-			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_fire)) {
+			with (instance_create_layer(x + _x, y + _y, "Instances", obj_cast_fire)) {
 				direction = other.direction;
 				direction = CARDINAL_DIR * 90;
 				var _scale = 1 + 0.5 * global.player_blood_aura_level

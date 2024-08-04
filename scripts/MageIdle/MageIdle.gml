@@ -1,6 +1,6 @@
 function MageIdle(){	
 
-	if (instance_exists(o_player) and point_distance(x, y, o_player.x, o_player.y) < enemyAggroRadius) {
+	if (instance_exists(obj_player) and point_distance(x, y, obj_player.x, obj_player.y) < enemyAggroRadius) {
 		var _actionTextBox = -1;
 		if (aggro_dialogue == false) {
 			aggro_dialogue = true

@@ -7,15 +7,15 @@ function HostileMobAttack(){
 		localFrame = 0;
 		image_index = 0;
 		
-		if (instance_exists(o_player)) {
-			EnemyAttack(sprHitbox, point_direction(x,y,o_player.x, o_player.y), enemyForceTouch, 10);
+		if (instance_exists(obj_player)) {
+			EnemyAttack(sprHitbox, point_direction(x,y,obj_player.x, obj_player.y), enemyForceTouch, 10);
 		}
 	}
 
 	
 	animate_cardinal_sprite();
 	if (animationEnd) {
-		if (instance_exists(o_player) and (o_player.state != PlayerStateDead)) {
+		if (instance_exists(obj_player) and (obj_player.state != PlayerStateDead)) {
 			state = ENEMYSTATE.CHASE;
 		} else {
 			state = ENEMYSTATE.WANDER;

@@ -8,7 +8,7 @@ function SlimeAttack(){
 	if (sprite_index != sprAttack) {
 		sprite_index = sprAttack;
 		image_index = 0;
-		with (instance_create_layer(x, y, "Instances", o_enemy_hitbox)) {
+		with (instance_create_layer(x, y, "Instances", obj_enemy_hitbox)) {
 			sourceObject = other.id;	
 			sprite_index = other.sprHitbox
 			if (other.xTo < other.x) {

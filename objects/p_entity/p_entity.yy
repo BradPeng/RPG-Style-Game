@@ -10,16 +10,14 @@
   ],
   "managed":true,
   "name":"p_entity",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatableActivateScript","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Entities",
     "path":"folders/Objects/Entities.yy",
   },
   "parentObjectId":{
-    "name":"o_solid",
-    "path":"objects/o_solid/o_solid.yy",
+    "name":"obj_solid",
+    "path":"objects/obj_solid/obj_solid.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

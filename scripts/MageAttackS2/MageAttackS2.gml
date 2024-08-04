@@ -5,7 +5,7 @@ function MageAttackS2(){
 	if (attackTimer <= 0) {
 		with (instance_create_layer(x, y-60, "Instances", p_mage_projectile)) {
 			spd = 5;
-			var directionToPlayer = point_direction(x, y, o_player.x, o_player.y);
+			var directionToPlayer = point_direction(x, y, obj_player.x, obj_player.y);
 			direction = directionToPlayer + random_range(-30, 30);
 			sprite_index = spr_sunburn
 			 damageToPlayer = 10;

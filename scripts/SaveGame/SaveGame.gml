@@ -3,10 +3,10 @@
 function SaveGame(){
 	// Create Save Map
 	var _map = ds_map_create();
-	if (instance_exists(o_player)) {
+	if (instance_exists(obj_player)) {
 		print("test");
-		_map[? "posX"] = o_player.x;	
-		_map[? "posY"] = o_player.y;	
+		_map[? "posX"] = obj_player.x;	
+		_map[? "posY"] = obj_player.y;	
 	}
 	_map[? "room"] = room;
 	_map[? "playerHealth"] = global.player_health;

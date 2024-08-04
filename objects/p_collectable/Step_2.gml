@@ -7,9 +7,9 @@ if (z == 0) {
 }
 
 // magnetize
-if (instance_exists(o_player)) {
-	var _px = o_player.x;
-	var _py = o_player.y;
+if (instance_exists(obj_player)) {
+	var _px = obj_player.x;
+	var _py = obj_player.y;
 	var _dist = point_distance(x, y, _px, _py); 
 	if (_dist < 16) {
 		spd += 0.25;

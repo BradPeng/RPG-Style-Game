@@ -4,7 +4,7 @@ function PlatformPlayerStateFree(){
 	image_speed = 1;
 	mask_index = spr_platform_player_idle;
 	
-	if (!IsOnGround(o_solid)) {
+	if (!IsOnGround(obj_solid)) {
 		vSpeed += gravityAcceleration;
 				
 		// set jump/fall sprite
@@ -52,24 +52,24 @@ function PlatformPlayerStateFree(){
 	}
 		
 			
-	PlatformMove(o_solid)
+	PlatformMove(obj_solid)
 	
 	// Edge Grab
 	var _falling = y - yprevious > 0;
-	var _wasntWall = !position_meeting(x + grabWidth * image_xscale, yprevious, o_solid);
-	var _isWall = position_meeting(x + grabWidth * image_xscale, y, o_solid);
+	var _wasntWall = !position_meeting(x + grabWidth * image_xscale, yprevious, obj_solid);
+	var _isWall = position_meeting(x + grabWidth * image_xscale, y, obj_solid);
 	
 	if (_falling and _wasntWall and _isWall and alarm[1] <= 0) {
 		hSpeed = 0;
 		vSpeed = 0;
 		
 		//align to edge horizontally
-		while (!place_meeting(x + image_xscale, y, o_solid)) {
+		while (!place_meeting(x + image_xscale, y, obj_solid)) {
 			x += image_xscale;
 		}
 		
 		//align to edge vertically
-		while (position_meeting(x + grabWidth * image_xscale, y + 1, o_solid)) {
+		while (position_meeting(x + grabWidth * image_xscale, y + 1, obj_solid)) {
 			y -= 1;
 		}
 		

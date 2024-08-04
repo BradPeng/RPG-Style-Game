@@ -30,7 +30,7 @@ function MageAttackS1(){
 			    var projectile = instance_create_layer(x, y-60, "Instances", p_mage_projectile);
     
 			    // Calculate direction towards player
-			    var dir = point_direction(x, y, o_player.x, o_player.y);
+			    var dir = point_direction(x, y, obj_player.x, obj_player.y);
     
 			    // Set projectile's speed and direction
 			    projectile.spd = 3; // Adjust this value as needed
@@ -54,7 +54,7 @@ function MageAttackS1(){
 				    var yOffset = circleRadius * sin(radians);
     
 				    // Create the object at the calculated position
-				    var _proj = instance_create_layer(x + xOffset, y + yOffset - levitationHeight - 60, "Instances", o_mage_nebula_projectile);
+				    var _proj = instance_create_layer(x + xOffset, y + yOffset - levitationHeight - 60, "Instances", obj_mage_nebula_projectile);
 					_proj.sprite_index = spr_nebula_effect;
 					_proj.alarm[1] = 30 * (i + 1);
 					_proj.spd = 7;
@@ -62,7 +62,7 @@ function MageAttackS1(){
 			} else if (randomNumber == 3) {
 				// tracking projectile
 				attackTimer = 360;
-				var projectile = instance_create_layer(x, y-60, "Instances", o_mage_tracking_projectile);
+				var projectile = instance_create_layer(x, y-60, "Instances", obj_mage_tracking_projectile);
 			
 			    // Set projectile's speed and direction
 			    projectile.spd = 3;

@@ -6,12 +6,12 @@ event_inherited();
 
 if (!global.gamePaused) {
 	depth = -bbox_bottom;	
-	if (lifted and instance_exists(o_player)) {
-		if (o_player.sprite_index != spr_player_lift) {
-			x = o_player.x;
-			y = o_player.y;
+	if (lifted and instance_exists(obj_player)) {
+		if (obj_player.sprite_index != spr_player_lift) {
+			x = obj_player.x;
+			y = obj_player.y;
 			z = 25;
-			depth = o_player.depth - 1;
+			depth = obj_player.depth - 1;
 		}
 	}
 	
@@ -21,8 +21,8 @@ if (!global.gamePaused) {
 			throwDistanceTravelled = min(throwDistanceTravelled + 3, throwDistance);
 			x = xstart + lengthdir_x(throwDistanceTravelled, direction);
 			y = ystart + lengthdir_y(throwDistanceTravelled, direction);
-			var _collisionId = instance_place(x, y, o_solid);
-			if (_collisionId != noone and _collisionId != o_player.id) {
+			var _collisionId = instance_place(x, y, obj_solid);
+			if (_collisionId != noone and _collisionId != obj_player.id) {
 				thrown = false;
 				grav = 0.1;
 			}

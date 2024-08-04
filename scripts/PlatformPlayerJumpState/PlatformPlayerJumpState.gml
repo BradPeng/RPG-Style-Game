@@ -8,6 +8,6 @@ function PlatformPlayerJumpState(){
 		vSpeed = jumpHeight;
 		sprite_index = spr_platform_player_jump
 		state = PlatformPlayerStateFree
-		PlatformMove(o_solid)
+		PlatformMove(obj_solid)
 	}
 }

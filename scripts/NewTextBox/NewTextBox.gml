@@ -1,17 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function NewTextBox(_message, _background = 0, _responses) {
-	if (instance_exists(o_player)) {
-		with (o_player) {
+	if (instance_exists(obj_player)) {
+		with (obj_player) {
 			sprite_index = spr_player;
 			image_index = CARDINAL_DIR;
 		}
 	}
 	var _obj
-	if (instance_exists(o_text)) {
-		_obj = o_text_queued;	
+	if (instance_exists(obj_text)) {
+		_obj = obj_text_queued;	
 	} else {
-		_obj = o_text; 	
+		_obj = obj_text; 	
 	}
 	
 
@@ -45,7 +45,7 @@ function NewTextBox(_message, _background = 0, _responses) {
 		}
 	}
 	
-	with (o_player) {
+	with (obj_player) {
 		if (state != PlayerStateLocked) {
 			lastState = state;	
 			state = PlayerStateLocked

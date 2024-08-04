@@ -13,8 +13,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"o_enemy_projectile",
-    "path":"objects/o_enemy_projectile/o_enemy_projectile.yy",
+    "name":"obj_enemy_projectile",
+    "path":"objects/obj_enemy_projectile/obj_enemy_projectile.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

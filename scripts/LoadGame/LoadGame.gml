@@ -4,7 +4,7 @@ function LoadGame(_slot){
 	show_debug_message(_file);
 	if (file_exists(_file)) {
 		var _json = LoadJSONFromFile(_file);
-		with (instance_exists(o_player)) {
+		with (instance_exists(obj_player)) {
 			print("test com");
 			x = _json[? "posX"];
 			y = _json[? "posY"];

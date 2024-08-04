@@ -14,7 +14,7 @@ function MageMove(){
 		x = centerX + lengthdir_x(circleRadius, theta);
 		y = centerY + lengthdir_y(circleRadius, theta);
 		
-		var _player = instance_find(o_player, 0);
+		var _player = instance_find(obj_player, 0);
 		//x = _player.x + lengthdir_x(circleRadius, theta);
 		//y = _player.y + lengthdir_y(circleRadius, theta);
 		//x = mouse_x + lengthdir_x(circleRadius, theta);
