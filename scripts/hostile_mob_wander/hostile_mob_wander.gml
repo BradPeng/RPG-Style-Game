@@ -4,7 +4,7 @@ function hostile_mob_wander(){
 	sprite_index = move_sprite;
 	image_speed = 0;
 	// At destination or given up
-	if ((x == x_to and y == y_to) || timePassed > enemyWanderDistance / enemy_speed) {
+	if ((x == x_to and y == y_to) || time_passed > enemy_wander_distance / enemy_speed) {
 		
 		// Make sure enemy finishs their movement animation before stopping
 		if (local_frame != 0) {
@@ -25,10 +25,10 @@ function hostile_mob_wander(){
 			// new target destination
 			if (++wait >= waitDuration) {
 				wait = 0;
-				timePassed = 0;
+				time_passed = 0;
 				dir = point_direction(x,y,xstart,ystart) + irandom_range(-45, 45); // always point toward the startish position, so we don't wander too far away from spawn point
-				x_to = x + lengthdir_x(enemyWanderDistance, dir);
-				y_to = y + lengthdir_y(enemyWanderDistance, dir);
+				x_to = x + lengthdir_x(enemy_wander_distance, dir);
+				y_to = y + lengthdir_y(enemy_wander_distance, dir);
 			}
 		}
 	} else { // Move toward new destination
@@ -42,7 +42,7 @@ function hostile_mob_wander(){
 			local_frame -= _total_frames
 		}	
 		
-		timePassed++;
+		time_passed++;
 		var _distance_to_go = point_distance(x, y, x_to, y_to);
 		var _speedThisFrame = enemy_speed;
 		

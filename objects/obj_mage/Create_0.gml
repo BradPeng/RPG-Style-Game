@@ -14,7 +14,7 @@ enum MAGESTATE {
 	ATTACK2,
 }
 enemyScript[ENEMYSTATE.HURT] = mage_hurt
-enemyScript[MAGESTATE.IDLE] = MageIdle
+enemyScript[MAGESTATE.IDLE] = mage_idle
 levitationHeight = 0;
 attackCooldown = 120;
 attackTimer = attackCooldown;

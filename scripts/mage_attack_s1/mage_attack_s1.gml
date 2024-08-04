@@ -1,8 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function mage_attack_s1(){
-	MageLevitate();
-	MageMove();
+	mage_levitate();
+	mage_move();
 	// Prepare to enter phase 2
 	if (enemyHP <= 75) {
 		if (phase2Dialogue == false) {

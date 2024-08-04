@@ -7,7 +7,7 @@ v_speed = 0;
 x_to = xstart;
 y_to = ystart;
 dir = 0;
-timePassed = 0;
+time_passed = 0;
 waitDuration = 60;
 wait = 0;
 local_frame = 0
@@ -26,7 +26,7 @@ move_sprite = -1;
 sprDie = -1
 hitbox_sprite = -1
 // Enemy Stats
-timePassed = 0;
+time_passed = 0;
 
 // Enemy functions
 enemyScript[ENEMYSTATE.IDLE] = -1;

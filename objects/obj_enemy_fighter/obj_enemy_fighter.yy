@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_enemy_fighter",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyWanderDistance","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_wander_distance","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_speed","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyAggroRadius","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_force_touch","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},

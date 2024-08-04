@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"MageMove",
+  "%Name":"mage_idle",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"MageMove",
+  "name":"mage_idle",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
