@@ -52,7 +52,7 @@ function platform_player_state_free(){
 	}
 		
 			
-	PlatformMove(obj_solid)
+	platform_move(obj_solid)
 	
 	// Edge Grab
 	var _falling = y - yprevious > 0;
