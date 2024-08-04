@@ -5,7 +5,7 @@ if (instance_exists(obj_player) and position_meeting(obj_player.x, obj_player.y,
 		global.targetY = targetY;
 		global.targetDirection = obj_player.direction;
 		with (obj_player) {
-			state = PlayerStateTransition;	
+			state = player_state_transition;	
 		}
 		RoomTransition(TRANS_TYPE.SLIDE, targetRoom);
 		instance_destroy();

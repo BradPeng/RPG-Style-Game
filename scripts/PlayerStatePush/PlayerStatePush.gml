@@ -8,5 +8,5 @@ function PlayerStatePush() {
 	sprite_index = spr_player_push
 	animate_cardinal_sprite();
 	x--;
-	global.iPushing.x--;
+	global.i_pushing.x--;
 }

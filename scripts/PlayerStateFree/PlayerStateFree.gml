@@ -146,7 +146,7 @@ function player_state_free(){
 	
 	// Cycle spells
 	if (global.player_has_any_spells) {
-		var _spell_cycle_direction = key_spell_select_up - keySpellSelectDown;
+		var _spell_cycle_direction = key_spell_select_up - key_spell_select_down;
 		if (_spell_cycle_direction != 0) {
 			do {
 				global.player_equipped_spell += _spell_cycle_direction;
@@ -160,7 +160,7 @@ function player_state_free(){
 				if (global.player_equipped_spell >= SPELL.TYPE_COUNT) {
 					global.player_equipped_spell = 1;	
 				}
-			} until (global.playerSpellUnlocked[global.player_equipped_spell]);
+			} until (global.player_spell_unlocked[global.player_equipped_spell]);
 		}
 	}
 	

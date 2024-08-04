@@ -8,8 +8,8 @@ if (_entity != noone) {
 		if (object_is_ancestor(object_index, p_hostile_mob)) {
 			hurt_enemy(_entity, 25, other.id, 20);
 			_break = true;
-		} else if (entityHitScript != -1) {
-			script_execute(entityHitScript);
+		} else if (entity_hit_script != -1) {
+			script_execute(entity_hit_script);
 			_break = true; // only break if we hit something
 		}
 	}

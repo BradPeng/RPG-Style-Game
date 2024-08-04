@@ -21,11 +21,11 @@ endActionFrame = -1
 invulnerable = 0;
 flash = 0;
 flashShader = shRedFlash;
-speedHook = 3.0;
-distanceHook = 88;
+speed_hook = 3.0;
+distance_hook = 88;
 hook = 0;
-hookX = 0;
-hookY = 0;
+hook_x = 0;
+hook_y = 0;
 hookSize = sprite_get_width(spr_hook_chain)
 
 run_sprite = spr_player_run;

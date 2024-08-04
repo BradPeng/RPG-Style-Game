@@ -28,9 +28,9 @@ function SaveGame(){
 	// the data in the map into a temp map, and store the temp map into the actual map
 	// when we delete _map, garbage collection will clear out the data of all the data
 	// inside the map. So we don't want to pass in the original map.
-	var _questMap = ds_map_create();
-	ds_map_copy(_questMap, global.quest_status);
-	ds_map_add_map(_map, "questStatus", _questMap);
+	var _quest_map = ds_map_create();
+	ds_map_copy(_quest_map, global.quest_status);
+	ds_map_add_map(_map, "questStatus", _quest_map);
 	
 	// save all data into string
 	var _string = json_encode(_map);

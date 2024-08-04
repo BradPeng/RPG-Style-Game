@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerStateTransition(){
+function player_state_transition(){
 	player_collision()
 	animate_cardinal_sprite();
 }

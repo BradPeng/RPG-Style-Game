@@ -16,7 +16,7 @@ function player_collision(){
 
 	/*if (_collidedObject != noone and _collidedObject.object_index == p_pushable.object_index) {
 		state = PlayerStatePush;
-		global.iPushing = _collidedObject;
+		global.i_pushing = _collidedObject;
 	}*/
 
 	// Horizontal move commit

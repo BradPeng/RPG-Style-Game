@@ -46,9 +46,9 @@ function new_text_box(_message, _background = 0, _responses) {
 	}
 	
 	with (obj_player) {
-		if (state != PlayerStateLocked) {
+		if (state != player_state_locked) {
 			lastState = state;	
-			state = PlayerStateLocked
+			state = player_state_locked
 		}
 	}
 	return _textBox.id;

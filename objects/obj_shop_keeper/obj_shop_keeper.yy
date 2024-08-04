@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_shop_keeper",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_hit_script","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_script","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"new_text_box",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_args","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"Sup bro\", 2]",},
   ],

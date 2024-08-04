@@ -9,7 +9,7 @@ global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = 0;
 global.i_lifted = noone;
-global.iPushing = noone;
+global.i_pushing = noone;
 global.playerHealthMax = 100;
 global.player_health = global.playerHealthMax;
 global.player_blood_aura_level = 0;
@@ -39,9 +39,9 @@ global.playerAmmo[ITEM.BOW] = 99;
 // Spells
 global.player_has_any_spells = false;
 global.player_equipped_spell = SPELL.FIREBOLT;
-global.playerSpellUnlocked = array_create(SPELL.TYPE_COUNT, -1);
-global.playerSpellUnlocked[SPELL.FIREBOLT] = true;
-global.playerSpellUnlocked[SPELL.SHIELD] = true;
+global.player_spell_unlocked = array_create(SPELL.TYPE_COUNT, -1);
+global.player_spell_unlocked[SPELL.FIREBOLT] = true;
+global.player_spell_unlocked[SPELL.SHIELD] = true;
 // temp spell setup
 global.player_has_any_spells = true
 global.player_equipped_spell = SPELL.FIREBOLT;

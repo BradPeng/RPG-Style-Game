@@ -11,8 +11,8 @@ if (image_index >= 8 and image_index <= 12) {
 			// damage enemy
 			if (object_is_ancestor(object_index, p_hostile_mob)) {
 				hurt_enemy(_entity, 50, other.id, 0);
-			} else if (entityHitScript != -1) {
-				script_execute(entityHitScript);
+			} else if (entity_hit_script != -1) {
+				script_execute(entity_hit_script);
 			}
 		}
 	}

@@ -8,7 +8,7 @@
   "managed":true,
   "name":"obj_quest_npc",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityHitScript","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_hit_script","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_script","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"activate_hat_npc",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"startingImageIndex","path":"objects/p_friendly/p_friendly.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],

@@ -15,8 +15,8 @@ if (!global.gamePaused) {
 					if (object_is_ancestor(object_index, p_hostile_mob)) { // if enemy
 						hurt_enemy(id, 25, other.id, 20);
 					} else { // if entity
-						if (entityHitScript != -1) {
-							script_execute(entityHitScript);	
+						if (entity_hit_script != -1) {
+							script_execute(entity_hit_script);	
 						}
 					}
 				}

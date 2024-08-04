@@ -20,8 +20,8 @@ function calc_attack(hb, _dmg, _knockback){
 					} else {
 					
 						// do something to the non enemy entity we hit
-						if (entityHitScript != -1) {
-							script_execute(entityHitScript);	
+						if (entity_hit_script != -1) {
+							script_execute(entity_hit_script);	
 						}
 					}
 				}	

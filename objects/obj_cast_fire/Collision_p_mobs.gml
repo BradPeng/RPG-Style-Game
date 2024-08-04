@@ -10,8 +10,8 @@ if (_entity != noone) {
 		// damage enemy
 		if (object_is_ancestor(object_index, p_hostile_mob)) {
 			hurt_enemy(_entity, other.dmg, other.id, 5);
-		} else if (entityHitScript != -1) {
-			script_execute(entityHitScript);
+		} else if (entity_hit_script != -1) {
+			script_execute(entity_hit_script);
 		}
 	}
 }

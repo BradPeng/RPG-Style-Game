@@ -2,7 +2,7 @@
 
 with(obj_player) {
 	if (obj_player.state != player_state_dead) {
-		state = PlayerStateTransition;	
+		state = player_state_transition;	
 	}
 }
 

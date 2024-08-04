@@ -3,7 +3,7 @@ if (room != rm_p_test) {
 }
 
 // draw hookshot in behind player
-if (state = PlayerStateHook and image_index != 3) {
+if (state = player_state_hook and image_index != 3) {
 	DrawHookChain();
 }
 
@@ -35,7 +35,7 @@ if (invulnerable != 0 and (invulnerable mod 12) < 2 == 0 and flash == 0) {
 }
 
 // draw hookshot in above of player
-if (state = PlayerStateHook and image_index == 3) {
+if (state = player_state_hook and image_index == 3) {
 	DrawHookChain();
 }
 
@@ -43,18 +43,18 @@ function DrawHookChain() {
 	var _originX = floor(x);
 	var _originY = floor(y) - 7;
 	var _chains = hook div hookSize; // div is integer division
-	var _hookDirX = sign(hookX);
-	var _hookDirY = sign(hookY);
+	var _hookDirX = sign(hook_x);
+	var _hookDirY = sign(hook_y);
 	
 	for (var i = 0; i < _chains; i++) {
 		draw_sprite ( //draw chains backward starting from blade of hook
 			spr_hook_chain,
 			0,
-			_originX + hookX - (i * hookSize * _hookDirX),
-			_originY + hookY - (i * hookSize * _hookDirY),
+			_originX + hook_x - (i * hookSize * _hookDirX),
+			_originY + hook_y - (i * hookSize * _hookDirY),
 		)
 		
-		draw_sprite(spr_hook_blade, image_index, _originX + hookX, _originY + hookY);
+		draw_sprite(spr_hook_blade, image_index, _originX + hook_x, _originY + hook_y);
 	}
 }
 
