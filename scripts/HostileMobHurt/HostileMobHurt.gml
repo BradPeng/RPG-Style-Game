@@ -8,11 +8,11 @@ function HostileMobHurt(){
 		image_speed = 0;
 		image_index = local_frame + (CARDINAL_DIR * _totalFrames);
 		dir = point_direction(x, y, xTo, yTo);
-		hSpeed = lengthdir_x(enemySpeed, dir);
+		h_speed = lengthdir_x(enemySpeed, dir);
 		vSpeed = lengthdir_y(enemySpeed, dir);
 		direction = dir;
 		// if we collide, stop where we are
-		if (EnemyTileCollision()) {
+		if (enemy_tile_collision()) {
 			xTo = x;
 			yTo = y;
 		}

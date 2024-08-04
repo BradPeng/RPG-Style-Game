@@ -22,7 +22,7 @@ function PlatformPlayerStateFree(){
 		vSpeed = 0;
 					
 		// set either idle or run animation
-		if (hSpeed == 0) {
+		if (h_speed == 0) {
 			sprite_index = spr_platform_player_idle;
 		} else {
 			sprite_index = spr_platform_player_run;
@@ -39,16 +39,16 @@ function PlatformPlayerStateFree(){
 	
 	
 	if (keyRight or keyLeft) {
-		hSpeed += (keyRight - keyLeft) * acceleration;
-		hSpeed = clamp(hSpeed, -maxSpeed, maxSpeed);
+		h_speed += (keyRight - keyLeft) * acceleration;
+		h_speed = clamp(h_speed, -maxSpeed, maxSpeed);
 				
 	} else {
 		PlatformApplyFriction(acceleration);
 	}
 	
 	//Change direction of sprite
-	if (hSpeed != 0) {
-		image_xscale = sign(hSpeed);
+	if (h_speed != 0) {
+		image_xscale = sign(h_speed);
 	}
 		
 			
@@ -60,7 +60,7 @@ function PlatformPlayerStateFree(){
 	var _isWall = position_meeting(x + grabWidth * image_xscale, y, obj_solid);
 	
 	if (_falling and _wasntWall and _isWall and alarm[1] <= 0) {
-		hSpeed = 0;
+		h_speed = 0;
 		vSpeed = 0;
 		
 		//align to edge horizontally

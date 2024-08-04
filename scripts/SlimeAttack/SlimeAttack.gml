@@ -14,9 +14,9 @@ function SlimeAttack(){
 			if (other.xTo < other.x) {
 				image_xscale = -1
 			}
-			sourceDamage = 5;
-			sourceDirection = point_direction(other.x, other.y, other.xTo, other.yTo);
-			sourceForce = 50
+			source_damage = 5;
+			source_direction = point_direction(other.x, other.y, other.xTo, other.yTo);
+			source_force = 50
 		}
 		
 		if (xTo < x) {
@@ -44,11 +44,11 @@ function SlimeAttack(){
 	// Move
 	if (_distanceToGo > _spd) {
 		dir = point_direction(x, y, xTo, yTo);
-		hSpeed = lengthdir_x(_spd, dir);
+		h_speed = lengthdir_x(_spd, dir);
 		vSpeed = lengthdir_y(_spd, dir);
 		
 		// start moving and collide if needed
-		if (EnemyTileCollision()) {
+		if (enemy_tile_collision()) {
 			xTo = x;
 			yTo = y;
 			image_speed = 1;

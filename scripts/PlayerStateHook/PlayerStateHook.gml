@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateHook(){
-	hSpeed = 0;
+	h_speed = 0;
 	vSpeed = 0;
 	
 	// if just got into this state

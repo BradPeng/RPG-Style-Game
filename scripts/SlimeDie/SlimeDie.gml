@@ -2,19 +2,19 @@ function SlimeDie(){
 	sprite_index = sprDie;
 	entityShadow = false;
 	image_speed = 1;
-	isSolid = false;
+	is_solid = false;
 	var _distanceToGo = point_distance(x, y, xTo, yTo);
 	if (_distanceToGo > enemySpeed) {
 		dir = point_direction(x, y, xTo, yTo);
-		//hSpeed = lengthdir_x(enemySpeed, dir);
+		//h_speed = lengthdir_x(enemySpeed, dir);
 		//vSpeed = lengthdir_y(enemySpeed, dir);
-		hSpeed = 0;
+		h_speed = 0;
 		vSpeed = 0;
-		if (hSpeed != 0) {
-			image_xscale = sign(hSpeed);	
+		if (h_speed != 0) {
+			image_xscale = sign(h_speed);	
 		}
 		
-		EnemyTileCollision();
+		enemy_tile_collision();
 	} else {
 		x = xTo;
 		y = yTo;

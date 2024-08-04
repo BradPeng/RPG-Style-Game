@@ -7,7 +7,7 @@ function NPCWander(){
 	if ((x == xTo and y == yTo) || timePassed > npcWanderDistance / npcSpeed) {
 		sprite_index = sprIdle;
 		image_index = CARDINAL_DIR
-		hSpeed = 0;
+		h_speed = 0;
 		vSpeed = 0;
 		
 		// new target destination
@@ -36,11 +36,11 @@ function NPCWander(){
 		}
 		
 		dir = point_direction(x, y, xTo, yTo);
-		hSpeed = lengthdir_x(_speedThisFrame, dir);
+		h_speed = lengthdir_x(_speedThisFrame, dir);
 		vSpeed = lengthdir_y(_speedThisFrame, dir);
 		direction = dir;
 		
-		EnemyTileCollision();
+		enemy_tile_collision();
 		
 	}
 }

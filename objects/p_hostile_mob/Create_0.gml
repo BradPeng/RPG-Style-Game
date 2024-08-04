@@ -2,7 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 state = ENEMYSTATE.IDLE;
-hSpeed = 0;
+h_speed = 0;
 vSpeed = 0;
 xTo = xstart;
 yTo = ystart;

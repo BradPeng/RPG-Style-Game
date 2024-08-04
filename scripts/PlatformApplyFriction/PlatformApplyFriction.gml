@@ -3,12 +3,12 @@
 function PlatformApplyFriction(amount){
 	
 	//First check to see if we're moving
-	if (hSpeed != 0) {
-		if (abs(hSpeed) - amount > 0) {
-			hSpeed -= amount * image_xscale;
+	if (h_speed != 0) {
+		if (abs(h_speed) - amount > 0) {
+			h_speed -= amount * image_xscale;
 		}
 		else {
-			hSpeed = 0;
+			h_speed = 0;
 		}
 	}
 

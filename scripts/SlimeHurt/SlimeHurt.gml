@@ -7,15 +7,15 @@ function SlimeHurt(){
 	if (_distanceToGo > enemySpeed) {
 		image_speed = 1;
 		dir = point_direction(x, y, xTo, yTo);
-		hSpeed = lengthdir_x(enemySpeed, dir);
+		h_speed = lengthdir_x(enemySpeed, dir);
 		vSpeed = lengthdir_y(enemySpeed, dir);
 		
-		if (hSpeed != 0) {
-			image_xscale = -sign(hSpeed);	
+		if (h_speed != 0) {
+			image_xscale = -sign(h_speed);	
 		}
 		
 		// if we collide, stop where we are
-		if (EnemyTileCollision()) {
+		if (enemy_tile_collision()) {
 			xTo = x;
 			yTo = y;
 		}

@@ -19,15 +19,15 @@ function HostileMobChase(){
 		image_speed = 1;
 		dir = point_direction(x, y, xTo, yTo);
 		if (_distanceToGo > enemySpeed) {
-			hSpeed = lengthdir_x(enemySpeed, dir)	
+			h_speed = lengthdir_x(enemySpeed, dir)	
 			vSpeed = lengthdir_y(enemySpeed, dir)	
 		} else {
-			hSpeed = lengthdir_x(_distanceToGo, dir)	
+			h_speed = lengthdir_x(_distanceToGo, dir)	
 			vSpeed = lengthdir_y(_distanceToGo, dir)	
 		}
 		direction = dir;
 		
-		EnemyTileCollision();
+		enemy_tile_collision();
 	}	
 	
 	// check if close enough to attack

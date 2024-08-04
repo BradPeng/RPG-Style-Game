@@ -5,7 +5,7 @@
 event_inherited();
 sprMove = -1;
 state = NPCSTATE.WANDER;
-hSpeed = 0;
+h_speed = 0;
 vSpeed = 0;
 xTo = xstart;
 yTo = ystart;

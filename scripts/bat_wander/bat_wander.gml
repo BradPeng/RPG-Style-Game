@@ -5,7 +5,7 @@ function BatWander(){
 	image_speed = 1.0;
 	// At destination or given up
 	if ((x == xTo and y == yTo) || timePassed > enemyWanderDistance / enemySpeed) {
-		hSpeed = 0;
+		h_speed = 0;
 		vSpeed = 0;
 		
 		// new target destination
@@ -27,15 +27,15 @@ function BatWander(){
 		}
 		
 		dir = point_direction(x, y, xTo, yTo);
-		hSpeed = lengthdir_x(_speedThisFrame, dir);
+		h_speed = lengthdir_x(_speedThisFrame, dir);
 		vSpeed = lengthdir_y(_speedThisFrame, dir);
 		
 		// face direction of movement
-		if (hSpeed != 0) {
-			image_xscale = sign(hSpeed);	
+		if (h_speed != 0) {
+			image_xscale = sign(h_speed);	
 		}
 		
-		EnemyTileCollision();
+		enemy_tile_collision();
 		
 	}
 	

@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateDodge(){
-	hSpeed = -lengthdir_x(speedDodge, direction);
+	h_speed = -lengthdir_x(speedDodge, direction);
 	vSpeed = lengthdir_y(speedDodge, -direction)
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedDodge);

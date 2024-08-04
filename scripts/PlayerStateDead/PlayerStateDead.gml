@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateDead(){
-	hSpeed = 0;
+	h_speed = 0;
 	vSpeed = 0;
 	global.player_blood_aura_level = 0;
 	// if just got into dead state

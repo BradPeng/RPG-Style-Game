@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateRoll(){
-	hSpeed = lengthdir_x(speedRoll, direction);
+	h_speed = lengthdir_x(speedRoll, direction);
 	vSpeed = lengthdir_y(speedRoll, direction);
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);

@@ -10,17 +10,17 @@ function bat_chase(){
 		image_speed = 1;
 		dir = point_direction(x, y, xTo, yTo);
 		if (_distanceToGo > enemySpeed) {
-			hSpeed = lengthdir_x(enemySpeed, dir)	
+			h_speed = lengthdir_x(enemySpeed, dir)	
 			vSpeed = lengthdir_y(enemySpeed, dir)	
 		} else {
-			hSpeed = lengthdir_x(_distanceToGo, dir)	
+			h_speed = lengthdir_x(_distanceToGo, dir)	
 			vSpeed = lengthdir_y(_distanceToGo, dir)	
 		}
 		
-		if (hSpeed != 0) {
-			image_xscale = sign(hSpeed);	
+		if (h_speed != 0) {
+			image_xscale = sign(h_speed);	
 		}
 		
-		EnemyTileCollision();
+		enemy_tile_collision();
 	}	
 }

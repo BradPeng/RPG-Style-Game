@@ -18,7 +18,7 @@ function HostileMobWander(){
 			sprite_index = sprIdle;
 			image_index = CARDINAL_DIR
 			local_frame = 0;
-			hSpeed = 0;
+			h_speed = 0;
 			vSpeed = 0;
 			local_frame = 0;
 		
@@ -52,12 +52,12 @@ function HostileMobWander(){
 		}
 		
 		dir = point_direction(x, y, xTo, yTo);
-		hSpeed = lengthdir_x(_speedThisFrame, dir);
+		h_speed = lengthdir_x(_speedThisFrame, dir);
 		vSpeed = lengthdir_y(_speedThisFrame, dir);
 	
 		
 		direction = dir;
-		EnemyTileCollision();
+		enemy_tile_collision();
 	}
 	
 	// check for aggro
