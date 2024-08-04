@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function EnemyAttack(hb, _direction, _force, _dmg){
+function enemy_attack(hb, _direction, _force, _dmg){
 	with (instance_create_layer(x, y, "Instances",  obj_enemy_hitbox)) {
 		sprite_index = hb;
 		image_index = other.image_index
 		image_speed = 0;
-		localFrame = other.localFrame
+		local_frame = other.local_frame
 		direction = other.direction
 		sourceDirection = _direction;
 		sourceForce = _force;

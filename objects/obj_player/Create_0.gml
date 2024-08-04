@@ -31,7 +31,7 @@ hookSize = sprite_get_width(spr_hook_chain)
 spriteRun = spr_player_run;
 spriteIdle = spr_player;
 spriteRoll = spr_player_lunge
-localFrame = 0;
+local_frame = 0;
 
 if (global.targetX != -1) {
 	x = global.targetX;

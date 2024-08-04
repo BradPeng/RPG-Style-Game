@@ -13,6 +13,6 @@ dir = 0;
 timePassed = 0;
 waitDuration = 60;
 wait = 0;
-localFrame = 0;
+local_frame = 0;
 npcScript[NPCSTATE.WANDER] = NPCWander;
 npcScript[NPCSTATE.IDLE] = -1;

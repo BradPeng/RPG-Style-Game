@@ -18,14 +18,14 @@ function attack_slash_b() {
 	// End of lag state	
 	} else if (alarm[1] == 0) {
 		state = player_state_free;
-		animationEnd = false;	
+		animation_end = false;	
 		
 	// Normal animation	
 	} else {
 		if (sprite_index != spr_player_attack_slash_b) {
 		
 			sprite_index = spr_player_attack_slash_b
-			localFrame = 0;
+			local_frame = 0;
 			image_index = 0;
 		
 			// clear hit list
@@ -41,7 +41,7 @@ function attack_slash_b() {
 	}
 	
 	// When animation ends, begin lag timer unless we are chaining an attack
-	if (animationEnd) {
+	if (animation_end) {
 		if (chainAttack) {
 			stateAttack = attack_thrust
 			chainAttack = false

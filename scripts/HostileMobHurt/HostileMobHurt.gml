@@ -6,7 +6,7 @@ function HostileMobHurt(){
 	var _totalFrames = sprite_get_number(sprite_index) / 4;
 	if (_distanceToGo > enemySpeed ) {
 		image_speed = 0;
-		image_index = localFrame + (CARDINAL_DIR * _totalFrames);
+		image_index = local_frame + (CARDINAL_DIR * _totalFrames);
 		dir = point_direction(x, y, xTo, yTo);
 		hSpeed = lengthdir_x(enemySpeed, dir);
 		vSpeed = lengthdir_y(enemySpeed, dir);

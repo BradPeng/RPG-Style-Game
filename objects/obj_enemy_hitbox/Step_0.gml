@@ -15,7 +15,7 @@ if (_entity != noone) {
 	_entity.hp -= sourceDamage
 }
 
-if (animationEnd) {
+if (animation_end) {
 	instance_destroy()	
 }
 

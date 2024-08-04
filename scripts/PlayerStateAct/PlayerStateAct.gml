@@ -2,9 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateAct(){
 	animate_cardinal_sprite();
-	if (animationEnd) {
+	if (animation_end) {
 		state = player_state_free;
-		animationEnd = false;
+		animation_end = false;
 	}	
 
 	if (animationEndScript != -1 and actionAnimationEnd) {

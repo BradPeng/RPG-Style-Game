@@ -21,10 +21,10 @@ function NPCWander(){
 	} else { // Move toward new destination
 		sprite_index = sprMove;
 		var _totalFrames = sprite_get_number(sprite_index) / 4;
-		image_index = localFrame + (CARDINAL_DIR * _totalFrames);
-		localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
-		if (localFrame >= _totalFrames) {
-			localFrame -= _totalFrames
+		image_index = local_frame + (CARDINAL_DIR * _totalFrames);
+		local_frame += sprite_get_speed(sprite_index) / FRAME_RATE;
+		if (local_frame >= _totalFrames) {
+			local_frame -= _totalFrames
 		}	
 		timePassed++;
 		var _distanceToGo = point_distance(x, y, xTo, yTo);

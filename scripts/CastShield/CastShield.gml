@@ -3,7 +3,7 @@
 function cast_shield(){
 	if (sprite_index != spr_player_cast) {
 		sprite_index = spr_player_cast
-		localFrame = 0;
+		local_frame = 0;
 		image_index = 0;
 		
 		if (global.player_health > 1) {
@@ -40,8 +40,8 @@ function cast_shield(){
 
 	
 	animate_cardinal_sprite();
-	if (animationEnd) {
+	if (animation_end) {
 		state = player_state_free;
-		animationEnd = false;
+		animation_end = false;
 	}
 }

@@ -4,22 +4,22 @@ function HostileMobAttack(){
 	if (sprite_index != sprAttack) {
 		
 		sprite_index = sprAttack
-		localFrame = 0;
+		local_frame = 0;
 		image_index = 0;
 		
 		if (instance_exists(obj_player)) {
-			EnemyAttack(sprHitbox, point_direction(x,y,obj_player.x, obj_player.y), enemyForceTouch, 10);
+			enemy_attack(sprHitbox, point_direction(x,y,obj_player.x, obj_player.y), enemyForceTouch, 10);
 		}
 	}
 
 	
 	animate_cardinal_sprite();
-	if (animationEnd) {
+	if (animation_end) {
 		if (instance_exists(obj_player) and (obj_player.state != PlayerStateDead)) {
 			state = ENEMYSTATE.CHASE;
 		} else {
 			state = ENEMYSTATE.WANDER;
 		}
-		animationEnd = false;
+		animation_end = false;
 	}
 }

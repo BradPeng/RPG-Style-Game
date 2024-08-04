@@ -33,7 +33,7 @@ global.playerAmmo[ITEM.BOMB] = 99;
 
 global.playerHasAnyItems = true;
 global.playerEquipped = ITEM.BOMB;
-global.playerItemUnlocked[ITEM.BOW] = true;
+global.playerItemUnlocked[ITEM.BOW] = false;
 global.playerAmmo[ITEM.BOW] = 99;
 
 // Spells

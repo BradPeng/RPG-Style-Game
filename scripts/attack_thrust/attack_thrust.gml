@@ -12,14 +12,14 @@ function attack_thrust() {
 	// End of lag state	
 	} else if (alarm[1] == 0) {
 		state = player_state_free;
-		animationEnd = false;	
+		animation_end = false;	
 		
 	// Normal animation	
 	} else {
 		if (sprite_index != spr_player_thrust) {
 		
 			sprite_index = spr_player_thrust
-			localFrame = 0;
+			local_frame = 0;
 			image_index = 0;
 		
 			// clear hit list
@@ -35,7 +35,7 @@ function attack_thrust() {
 	}
 	
 	// When animation ends, begin lag timer
-	if (animationEnd) {
+	if (animation_end) {
 		if (alarm[1] == -1) {
 			alarm[1] = 5;	
 		} 

@@ -1,5 +1,5 @@
 function drop_items(x, y, _items) {
-	var _items_length = array_length_1d(_items);
+	var _items_length = array_length(_items);
 	
 	if (_items_length > 1) {
 		var _angle_per_item = 360/_items_length;

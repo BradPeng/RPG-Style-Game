@@ -10,8 +10,8 @@ dir = 0;
 timePassed = 0;
 waitDuration = 60;
 wait = 0;
-localFrame = 0
-animationEnd = false; 
+local_frame = 0
+animation_end = false; 
 target = obj_player
 // check for player in radius every 5 frames
 aggroCheck = 0;

@@ -2,5 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function UseItemHook(){
 	state = PlayerStateHook;
-	localFrame = 0;
+	local_frame = 0;
 }

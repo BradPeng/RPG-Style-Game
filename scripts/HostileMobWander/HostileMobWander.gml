@@ -7,20 +7,20 @@ function HostileMobWander(){
 	if ((x == xTo and y == yTo) || timePassed > enemyWanderDistance / enemySpeed) {
 		
 		// Make sure enemy finishs their movement animation before stopping
-		if (localFrame != 0) {
+		if (local_frame != 0) {
 			var _totalFrames = sprite_get_number(sprite_index) / 4;
-			image_index = localFrame + (CARDINAL_DIR * _totalFrames);
-			localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
-			if (localFrame >= _totalFrames) {
-				localFrame = 0;
+			image_index = local_frame + (CARDINAL_DIR * _totalFrames);
+			local_frame += sprite_get_speed(sprite_index) / FRAME_RATE;
+			if (local_frame >= _totalFrames) {
+				local_frame = 0;
 			}	
 		} else {
 			sprite_index = sprIdle;
 			image_index = CARDINAL_DIR
-			localFrame = 0;
+			local_frame = 0;
 			hSpeed = 0;
 			vSpeed = 0;
-			localFrame = 0;
+			local_frame = 0;
 		
 			// new target destination
 			if (++wait >= waitDuration) {
@@ -35,11 +35,11 @@ function HostileMobWander(){
 		image_speed = 0;
 		sprite_index = sprMove;
 		var _totalFrames = sprite_get_number(sprite_index) / 4;
-		image_index = localFrame + (CARDINAL_DIR * _totalFrames);
-		localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
+		image_index = local_frame + (CARDINAL_DIR * _totalFrames);
+		local_frame += sprite_get_speed(sprite_index) / FRAME_RATE;
 		
-		if (localFrame >= _totalFrames) {
-			localFrame -= _totalFrames
+		if (local_frame >= _totalFrames) {
+			local_frame -= _totalFrames
 		}	
 		
 		timePassed++;

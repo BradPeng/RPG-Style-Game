@@ -6,10 +6,10 @@ function PlayerStateDead(){
 	global.player_blood_aura_level = 0;
 	// if just got into dead state
 	if (sprite_index != spr_player_dead) {
-		localFrame = 0;
+		local_frame = 0;
 		sprite_index = spr_player_dead;
 	} else {
-		if (!animationEnd) {
+		if (!animation_end) {
 			animate_cardinal_sprite();	
 		} else if (alarm[0] ==-1) {
 			alarm[0] = 60;

@@ -6,11 +6,11 @@ function HostileMobChase(){
 		image_speed = 0;
 		sprite_index = sprMove;
 		var _totalFrames = sprite_get_number(sprite_index) / 4;
-		image_index = localFrame + (CARDINAL_DIR * _totalFrames);
-		localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
+		image_index = local_frame + (CARDINAL_DIR * _totalFrames);
+		local_frame += sprite_get_speed(sprite_index) / FRAME_RATE;
 		
-		if (localFrame >= _totalFrames) {
-			localFrame -= _totalFrames
+		if (local_frame >= _totalFrames) {
+			local_frame -= _totalFrames
 		}	
 		xTo = target.x;
 		yTo = target.y;

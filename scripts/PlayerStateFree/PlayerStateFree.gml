@@ -28,7 +28,7 @@ function player_state_free(){
 	} 
 
 	if (_oldSprite != sprite_index) {
-		localFrame = 0;	
+		local_frame = 0;	
 	}
 
 	// Image index
