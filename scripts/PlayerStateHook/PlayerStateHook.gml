@@ -40,12 +40,12 @@ function player_state_hook(){
 			if (hook >= distance_hook) hook_status = HOOKSTATUS.MISSED;
 			
 			// check for hit
-			var _hook_hit = collision_circle(x + hook_x, y + hook_y, 4, p_entity, false, true);
+			var _hook_hit = collision_circle(x + hook_x, y + hook_y, 4, obj_p_entity, false, true);
 			if (_hook_hit != noone and global.i_lifted != _hook_hit) {
 				// act depending on what is hit
 				switch (_hook_hit.entity_hookable) {
 					default: // not hookable
-						if (object_is_ancestor(_hook_hit, p_hostile_mob)) {
+						if (object_is_ancestor(_hook_hit, obj_p_hostile_mob)) {
 							hurt_enemy(_hook_hit, 1, id, 5);
 							hook_status = HOOKSTATUS.MISSED;
 						} else {

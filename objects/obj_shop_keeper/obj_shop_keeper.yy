@@ -8,17 +8,17 @@
   "managed":true,
   "name":"obj_shop_keeper",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_hit_script","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_script","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"new_text_box",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_args","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"Sup bro\", 2]",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_hit_script","path":"objects/obj_p_entity/obj_p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EntityHitSolid",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_activatable","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"propertyId":{"name":"activatable_activate_script","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"new_text_box",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_activatable","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"propertyId":{"name":"activatable_activate_args","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[\"Sup bro\", 2]",},
   ],
   "parent":{
     "name":"NPCs",
     "path":"folders/Objects/Entities/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"p_friendly",
-    "path":"objects/p_friendly/p_friendly.yy",
+    "name":"obj_p_friendly",
+    "path":"objects/obj_p_friendly/obj_p_friendly.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -68,7 +68,7 @@ function player_state_free(){
 			_activate_y - _activate_size,
 			_activate_x + _activate_size,
 			_activate_y + _activate_size,
-			p_activatable,
+			obj_p_activatable,
 			false,
 			true,
 			_activate_list,

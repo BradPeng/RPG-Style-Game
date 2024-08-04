@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"p_collectable",
+  "%Name":"obj_p_collectable",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"p_collectable",
+  "name":"obj_p_collectable",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_hookable","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_hookable","path":"objects/obj_p_entity/obj_p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"propertyId":{"name":"is_solid","path":"objects/obj_solid/obj_solid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
@@ -17,8 +17,8 @@
     "path":"folders/Objects/Entities/Drops.yy",
   },
   "parentObjectId":{
-    "name":"p_entity",
-    "path":"objects/p_entity/p_entity.yy",
+    "name":"obj_p_entity",
+    "path":"objects/obj_p_entity/obj_p_entity.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

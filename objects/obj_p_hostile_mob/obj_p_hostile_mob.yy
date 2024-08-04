@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"p_hostile_mob",
+  "%Name":"obj_p_hostile_mob",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"p_hostile_mob",
+  "name":"obj_p_hostile_mob",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Entities/Enemies.yy",
   },
   "parentObjectId":{
-    "name":"p_mobs",
-    "path":"objects/p_mobs/p_mobs.yy",
+    "name":"obj_p_mobs",
+    "path":"objects/obj_p_mobs/obj_p_mobs.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

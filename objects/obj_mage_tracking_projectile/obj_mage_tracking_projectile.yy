@@ -14,8 +14,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"p_mage_projectile",
-    "path":"objects/p_mage_projectile/p_mage_projectile.yy",
+    "name":"obj_p_mage_projectile",
+    "path":"objects/obj_p_mage_projectile/obj_p_mage_projectile.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"p_pushable",
+  "%Name":"obj_p_pushable",
   "eventList":[],
   "managed":true,
-  "name":"p_pushable",
+  "name":"obj_p_pushable",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"p_activatable",
-    "path":"objects/p_activatable/p_activatable.yy",
+    "name":"obj_p_activatable",
+    "path":"objects/obj_p_activatable/obj_p_activatable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

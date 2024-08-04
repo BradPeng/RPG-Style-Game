@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"p_friendly",
+  "%Name":"obj_p_friendly",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"p_friendly",
+  "name":"obj_p_friendly",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"propertyId":{"name":"is_solid","path":"objects/obj_solid/obj_solid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
@@ -15,8 +15,8 @@
     "path":"folders/Objects/Entities/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"p_mobs",
-    "path":"objects/p_mobs/p_mobs.yy",
+    "name":"obj_p_mobs",
+    "path":"objects/obj_p_mobs/obj_p_mobs.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

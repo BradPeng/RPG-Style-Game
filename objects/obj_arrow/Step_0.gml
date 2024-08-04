@@ -1,11 +1,11 @@
 /// @description Hit stuff
-var _entity = instance_place(x, y, p_entity);
+var _entity = instance_place(x, y, obj_p_entity);
 var _break = false;
 if (_entity != noone) {
 	with (_entity) {
 		
 		// damage enemy
-		if (object_is_ancestor(object_index, p_hostile_mob)) {
+		if (object_is_ancestor(object_index, obj_p_hostile_mob)) {
 			hurt_enemy(_entity, 25, other.id, 20);
 			_break = true;
 		} else if (entity_hit_script != -1) {

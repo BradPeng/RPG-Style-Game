@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"p_liftable",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_p_objects",
+  "eventList":[],
   "managed":true,
-  "name":"p_liftable",
-  "overriddenProperties":[],
+  "name":"obj_p_objects",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/obj_p_entity/obj_p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"p_objects",
-    "path":"objects/p_objects/p_objects.yy",
+    "name":"obj_p_activatable",
+    "path":"objects/obj_p_activatable/obj_p_activatable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

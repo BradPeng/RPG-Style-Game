@@ -7,17 +7,17 @@
   "managed":true,
   "name":"obj_arrow_drop",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collect_script","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"collect_ammo",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collect_script_arg","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ITEM.BOW, 5]",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_entity","path":"objects/obj_p_entity/obj_p_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/obj_p_entity/obj_p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_collectable","path":"objects/obj_p_collectable/obj_p_collectable.yy",},"propertyId":{"name":"collect_script","path":"objects/obj_p_collectable/obj_p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"collect_ammo",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_collectable","path":"objects/obj_p_collectable/obj_p_collectable.yy",},"propertyId":{"name":"collect_script_arg","path":"objects/obj_p_collectable/obj_p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ITEM.BOW, 5]",},
   ],
   "parent":{
     "name":"Drops",
     "path":"folders/Objects/Entities/Drops.yy",
   },
   "parentObjectId":{
-    "name":"p_collectable",
-    "path":"objects/p_collectable/p_collectable.yy",
+    "name":"obj_p_collectable",
+    "path":"objects/obj_p_collectable/obj_p_collectable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

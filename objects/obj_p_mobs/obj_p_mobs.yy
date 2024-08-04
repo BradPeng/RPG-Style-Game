@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"p_mobs",
+  "%Name":"obj_p_mobs",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"p_mobs",
+  "name":"obj_p_mobs",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"p_activatable",
-    "path":"objects/p_activatable/p_activatable.yy",
+    "name":"obj_p_activatable",
+    "path":"objects/obj_p_activatable/obj_p_activatable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

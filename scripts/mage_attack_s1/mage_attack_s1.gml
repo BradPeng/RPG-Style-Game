@@ -27,7 +27,7 @@ function mage_attack_s1(){
 			if (_random_number == 1) {
 				attack_timer = 180;
 				// Shoot one
-			    var _projectile = instance_create_layer(x, y-60, "Instances", p_mage_projectile);
+			    var _projectile = instance_create_layer(x, y-60, "Instances", obj_p_mage_projectile);
     
 			    // Calculate direction towards player
 			    var _dir = point_direction(x, y, obj_player.x, obj_player.y);

@@ -3,7 +3,7 @@
 function calc_attack(_hb, _dmg, _knockback){
 	mask_index = _hb
 	var _hit_by_attack_now = ds_list_create();
-	var _hits = instance_place_list(x, y, p_entity, _hit_by_attack_now, false); //returns list of entities in the collision
+	var _hits = instance_place_list(x, y, obj_p_entity, _hit_by_attack_now, false); //returns list of entities in the collision
 	
 	if (_hits > 0) {
 		for (var _i = 0; _i < _hits; _i++) {
@@ -15,7 +15,7 @@ function calc_attack(_hb, _dmg, _knockback){
 				with (_hit_id) {
 					
 					// if thing we hit is an enemy
-					if (object_is_ancestor(object_index, p_hostile_mob)) {
+					if (object_is_ancestor(object_index, obj_p_hostile_mob)) {
 						hurt_enemy(id, _dmg, other.id, _knockback);
 					} else {
 					

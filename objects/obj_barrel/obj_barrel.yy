@@ -5,16 +5,16 @@
   "managed":true,
   "name":"obj_barrel",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_script","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"activate_liftable",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatable_activate_args","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[id]",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_activatable","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"propertyId":{"name":"activatable_activate_script","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"activate_liftable",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_activatable","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"propertyId":{"name":"activatable_activate_args","path":"objects/obj_p_activatable/obj_p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[id]",},
   ],
   "parent":{
     "name":"Decorative",
     "path":"folders/Objects/Entities/Decorative.yy",
   },
   "parentObjectId":{
-    "name":"p_liftable",
-    "path":"objects/p_liftable/p_liftable.yy",
+    "name":"obj_p_liftable",
+    "path":"objects/obj_p_liftable/obj_p_liftable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
