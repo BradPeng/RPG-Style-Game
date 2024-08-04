@@ -5,7 +5,7 @@ function PlayerStatePush() {
 		state = player_state_free;	
 	}
 	//image_speed = 1;
-	sprite_index = s_player_push
+	sprite_index = spr_player_push
 	animate_cardinal_sprite();
 	x--;
 	global.iPushing.x--;

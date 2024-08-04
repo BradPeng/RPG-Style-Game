@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pushable_box",
-    "path":"sprites/s_pushable_box/s_pushable_box.yy",
+    "name":"spr_pushable_box",
+    "path":"sprites/spr_pushable_box/spr_pushable_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,

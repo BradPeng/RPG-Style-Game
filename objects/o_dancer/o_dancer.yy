@@ -36,12 +36,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_dancer_walk",
-    "path":"sprites/s_dancer_walk/s_dancer_walk.yy",
+    "name":"spr_dancer_walk",
+    "path":"sprites/spr_dancer_walk/spr_dancer_walk.yy",
   },
   "spriteMaskId":{
-    "name":"s_dancer",
-    "path":"sprites/s_dancer/s_dancer.yy",
+    "name":"spr_dancer",
+    "path":"sprites/spr_dancer/spr_dancer.yy",
   },
   "visible":true,
 }

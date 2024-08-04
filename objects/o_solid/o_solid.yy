@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_col_wall",
-    "path":"sprites/s_col_wall/s_col_wall.yy",
+    "name":"spr_col_wall",
+    "path":"sprites/spr_col_wall/spr_col_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

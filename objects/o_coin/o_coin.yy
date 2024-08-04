@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_coin",
-    "path":"sprites/s_coin/s_coin.yy",
+    "name":"spr_coin",
+    "path":"sprites/spr_coin/spr_coin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

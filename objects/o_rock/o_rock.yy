@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_rock",
-    "path":"sprites/s_rock/s_rock.yy",
+    "name":"spr_rock",
+    "path":"sprites/spr_rock/spr_rock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

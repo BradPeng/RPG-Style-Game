@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_roof",
-    "path":"sprites/s_roof/s_roof.yy",
+    "name":"spr_roof",
+    "path":"sprites/spr_roof/spr_roof.yy",
   },
   "spriteMaskId":null,
   "visible":true,

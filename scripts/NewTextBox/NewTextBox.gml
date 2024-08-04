@@ -3,7 +3,7 @@
 function NewTextBox(_message, _background = 0, _responses) {
 	if (instance_exists(o_player)) {
 		with (o_player) {
-			sprite_index = s_player;
+			sprite_index = spr_player;
 			image_index = CARDINAL_DIR;
 		}
 	}

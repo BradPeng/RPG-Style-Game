@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_hat",
-    "path":"sprites/s_hat/s_hat.yy",
+    "name":"spr_hat",
+    "path":"sprites/spr_hat/spr_hat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

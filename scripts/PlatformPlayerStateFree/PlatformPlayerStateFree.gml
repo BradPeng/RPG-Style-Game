@@ -2,16 +2,16 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlatformPlayerStateFree(){
 	image_speed = 1;
-	mask_index = s_platform_player_idle;
+	mask_index = spr_platform_player_idle;
 	
 	if (!IsOnGround(o_solid)) {
 		vSpeed += gravityAcceleration;
 				
 		// set jump/fall sprite
 		if (vSpeed <= 0) {
-			sprite_index = s_platform_player_jump;
+			sprite_index = spr_platform_player_jump;
 		} else if (vSpeed > 0 and state == PlatformPlayerStateFree) {
-			sprite_index = s_platform_player_fall;
+			sprite_index = spr_platform_player_fall;
 		}
 		
 		//short hopping
@@ -23,15 +23,15 @@ function PlatformPlayerStateFree(){
 					
 		// set either idle or run animation
 		if (hSpeed == 0) {
-			sprite_index = s_platform_player_idle;
+			sprite_index = spr_platform_player_idle;
 		} else {
-			sprite_index = s_platform_player_run;
+			sprite_index = spr_platform_player_run;
 		}
 		
 		//Jumping code
 		if (keyUp) {
 			
-			sprite_index = s_platform_player_land
+			sprite_index = spr_platform_player_land
 			alarm[1] = 1 // jump lag;
 			state = PlatformPlayerJumpState;
 		}
@@ -74,7 +74,7 @@ function PlatformPlayerStateFree(){
 		}
 		
 		//Change sprite and state
-		sprite_index = s_platform_player_hang;
+		sprite_index = spr_platform_player_hang;
 		state = PlatformPlayerEdgeGrabState;
 	}
 }

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_table",
-    "path":"sprites/s_table/s_table.yy",
+    "name":"spr_table",
+    "path":"sprites/spr_table/spr_table.yy",
   },
   "spriteMaskId":null,
   "visible":true,

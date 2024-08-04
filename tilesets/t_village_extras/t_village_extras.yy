@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_village_extras",
-    "path":"sprites/s_village_extras/s_village_extras.yy",
+    "name":"spr_village_extras",
+    "path":"sprites/spr_village_extras/spr_village_extras.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_shield",
-    "path":"sprites/s_shield/s_shield.yy",
+    "name":"spr_shield",
+    "path":"sprites/spr_shield/spr_shield.yy",
   },
   "spriteMaskId":null,
   "visible":true,

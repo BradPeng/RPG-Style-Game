@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_village_wagon",
-    "path":"sprites/s_village_wagon/s_village_wagon.yy",
+    "name":"spr_village_wagon",
+    "path":"sprites/spr_village_wagon/spr_village_wagon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

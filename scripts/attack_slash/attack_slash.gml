@@ -22,9 +22,9 @@ function attack_slash() {
 		
 	// Normal animation	
 	} else {
-		if (sprite_index != s_player_attack_slash) {
+		if (sprite_index != spr_player_attack_slash) {
 		
-			sprite_index = s_player_attack_slash
+			sprite_index = spr_player_attack_slash
 			localFrame = 0;
 			image_index = 0;
 		
@@ -36,7 +36,7 @@ function attack_slash() {
 		
 		}
 
-		calc_attack(s_player_attac_slash_hb, 5, 1)
+		calc_attack(spr_player_attac_slash_hb, 5, 1)
 		animate_cardinal_sprite();
 	}
 	

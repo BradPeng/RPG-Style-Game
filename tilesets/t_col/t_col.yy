@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_col",
-    "path":"sprites/s_col/s_col.yy",
+    "name":"spr_col",
+    "path":"sprites/spr_col/spr_col.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

@@ -38,12 +38,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_dancer",
-    "path":"sprites/s_dancer/s_dancer.yy",
+    "name":"spr_dancer",
+    "path":"sprites/spr_dancer/spr_dancer.yy",
   },
   "spriteMaskId":{
-    "name":"s_dancer",
-    "path":"sprites/s_dancer/s_dancer.yy",
+    "name":"spr_dancer",
+    "path":"sprites/spr_dancer/spr_dancer.yy",
   },
   "visible":true,
 }

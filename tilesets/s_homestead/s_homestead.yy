@@ -20,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_iconic_home",
-    "path":"sprites/s_iconic_home/s_iconic_home.yy",
+    "name":"spr_iconic_home",
+    "path":"sprites/spr_iconic_home/spr_iconic_home.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_well",
-    "path":"sprites/s_well/s_well.yy",
+    "name":"spr_well",
+    "path":"sprites/spr_well/spr_well.yy",
   },
   "spriteMaskId":null,
   "visible":true,

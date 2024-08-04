@@ -16,9 +16,9 @@ function attack_thrust() {
 		
 	// Normal animation	
 	} else {
-		if (sprite_index != s_player_thrust) {
+		if (sprite_index != spr_player_thrust) {
 		
-			sprite_index = s_player_thrust
+			sprite_index = spr_player_thrust
 			localFrame = 0;
 			image_index = 0;
 		
@@ -30,7 +30,7 @@ function attack_thrust() {
 		
 		}
 
-		calc_attack(s_player_thrust_hb, 5, 20)
+		calc_attack(spr_player_thrust_hb, 5, 20)
 		animate_cardinal_sprite();
 	}
 	

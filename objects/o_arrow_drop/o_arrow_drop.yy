@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_arrow_drop",
-    "path":"sprites/s_arrow_drop/s_arrow_drop.yy",
+    "name":"spr_arrow_drop",
+    "path":"sprites/spr_arrow_drop/spr_arrow_drop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

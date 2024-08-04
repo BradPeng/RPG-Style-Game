@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_notice_board",
-    "path":"sprites/s_notice_board/s_notice_board.yy",
+    "name":"spr_notice_board",
+    "path":"sprites/spr_notice_board/spr_notice_board.yy",
   },
   "spriteMaskId":null,
   "visible":true,

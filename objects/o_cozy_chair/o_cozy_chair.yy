@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_cozy_chair_2_tile",
-    "path":"sprites/s_cozy_chair_2_tile/s_cozy_chair_2_tile.yy",
+    "name":"spr_cozy_chair_2_tile",
+    "path":"sprites/spr_cozy_chair_2_tile/spr_cozy_chair_2_tile.yy",
   },
   "spriteMaskId":null,
   "visible":true,

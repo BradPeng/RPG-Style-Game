@@ -38,12 +38,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_merchant_b",
-    "path":"sprites/s_merchant_b/s_merchant_b.yy",
+    "name":"spr_merchant_b",
+    "path":"sprites/spr_merchant_b/spr_merchant_b.yy",
   },
   "spriteMaskId":{
-    "name":"s_merchant_b",
-    "path":"sprites/s_merchant_b/s_merchant_b.yy",
+    "name":"spr_merchant_b",
+    "path":"sprites/spr_merchant_b/spr_merchant_b.yy",
   },
   "visible":true,
 }

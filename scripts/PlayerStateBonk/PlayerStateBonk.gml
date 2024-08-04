@@ -8,7 +8,7 @@ function PlayerStateBonk(){
 	var _collided = PlayerCollision();
 	
 	// update sprite
-	sprite_index = s_player_hurt;
+	sprite_index = spr_player_hurt;
 	image_index = CARDINAL_DIR - 2
 	
 	//change height (visually)

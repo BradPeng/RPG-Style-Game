@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bomb_drop",
-    "path":"sprites/s_bomb_drop/s_bomb_drop.yy",
+    "name":"spr_bomb_drop",
+    "path":"sprites/spr_bomb_drop/spr_bomb_drop.yy",
   },
   "spriteMaskId":null,
   "visible":true,

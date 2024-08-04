@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_blood_aura",
-    "path":"sprites/s_blood_aura/s_blood_aura.yy",
+    "name":"spr_blood_aura",
+    "path":"sprites/spr_blood_aura/spr_blood_aura.yy",
   },
   "spriteMaskId":null,
   "visible":true,

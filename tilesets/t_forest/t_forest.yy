@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_forest",
-    "path":"sprites/s_forest/s_forest.yy",
+    "name":"spr_forest",
+    "path":"sprites/spr_forest/spr_forest.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

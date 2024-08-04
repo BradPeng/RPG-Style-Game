@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pink_tree",
-    "path":"sprites/s_pink_tree/s_pink_tree.yy",
+    "name":"spr_pink_tree",
+    "path":"sprites/spr_pink_tree/spr_pink_tree.yy",
   },
   "spriteMaskId":null,
   "visible":true,

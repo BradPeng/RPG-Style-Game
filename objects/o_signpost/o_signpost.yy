@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_signpost",
-    "path":"sprites/s_signpost/s_signpost.yy",
+    "name":"spr_signpost",
+    "path":"sprites/spr_signpost/spr_signpost.yy",
   },
   "spriteMaskId":null,
   "visible":true,

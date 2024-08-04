@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_plant",
-    "path":"sprites/s_plant/s_plant.yy",
+    "name":"spr_plant",
+    "path":"sprites/spr_plant/spr_plant.yy",
   },
   "spriteMaskId":null,
   "visible":true,

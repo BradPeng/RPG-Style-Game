@@ -6,7 +6,7 @@
   "name":"o_p1",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatableActivateScript","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Prologue",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_player",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player",},
   ],
   "parent":{
     "name":"NPCs",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_player",
-    "path":"sprites/s_player/s_player.yy",
+    "name":"spr_player",
+    "path":"sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

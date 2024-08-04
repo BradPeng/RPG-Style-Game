@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_house",
-    "path":"sprites/s_house/s_house.yy",
+    "name":"spr_house",
+    "path":"sprites/spr_house/spr_house.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -13,12 +13,12 @@ function MageAttackS1(){
 		
 		if (actionTextbox != -1 and !instance_exists(actionTextbox)) {
 			state = MAGESTATE.ATTACK2;
-			sprite_index = s_mage_final;
+			sprite_index = spr_mage_final;
 			attackTimer = 80;
 			actionTextbox = -1;
 		}
 	} else {
-		sprite_index = s_mage_attack;
+		sprite_index = spr_mage_attack;
 	
 		if (attackTimer <= 0) {
 			var randomNumber = irandom_range(0, 0);
@@ -35,7 +35,7 @@ function MageAttackS1(){
 			    // Set projectile's speed and direction
 			    projectile.spd = 3; // Adjust this value as needed
 			    projectile.direction = dir;
-			    projectile.sprite_index = s_nebula_effect
+			    projectile.sprite_index = spr_nebula_effect
 			    projectile.damageToPlayer = 10;
 				projectile.force = 50;
 				projectile.alarm[1] = 30
@@ -55,7 +55,7 @@ function MageAttackS1(){
     
 				    // Create the object at the calculated position
 				    var _proj = instance_create_layer(x + xOffset, y + yOffset - levitationHeight - 60, "Instances", o_mage_nebula_projectile);
-					_proj.sprite_index = s_nebula_effect;
+					_proj.sprite_index = spr_nebula_effect;
 					_proj.alarm[1] = 30 * (i + 1);
 					_proj.spd = 7;
 				}

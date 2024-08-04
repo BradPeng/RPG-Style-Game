@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_fire",
-    "path":"sprites/s_fire/s_fire.yy",
+    "name":"spr_fire",
+    "path":"sprites/spr_fire/spr_fire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

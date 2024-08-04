@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_bat",
-    "path":"sprites/s_bat/s_bat.yy",
+    "name":"spr_bat",
+    "path":"sprites/spr_bat/spr_bat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,4 +1,4 @@
-draw_sprite_stretched(s_textbox_bg, background, x1, y1, x2 - x1, y2 - y1);
+draw_sprite_stretched(spr_textbox_bg, background, x1, y1, x2 - x1, y2 - y1);
 draw_set_font(f_text);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);

@@ -5,7 +5,7 @@ function PlayerStateHook(){
 	vSpeed = 0;
 	
 	// if just got into this state
-	if (sprite_index != s_player_hook) {
+	if (sprite_index != spr_player_hook) {
 		hook = 0;
 		hookX = 0;
 		hookY = 0;
@@ -13,7 +13,7 @@ function PlayerStateHook(){
 		hookedEntity = noone;
 		
 		//update sprite
-		sprite_index = s_player_hook;
+		sprite_index = spr_player_hook;
 		image_index = CARDINAL_DIR;
 		image_speed = 0;
 	}

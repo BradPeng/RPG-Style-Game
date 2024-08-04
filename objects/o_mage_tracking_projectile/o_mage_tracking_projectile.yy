@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_vortex",
-    "path":"sprites/s_vortex/s_vortex.yy",
+    "name":"spr_vortex",
+    "path":"sprites/spr_vortex/spr_vortex.yy",
   },
   "spriteMaskId":null,
   "visible":true,

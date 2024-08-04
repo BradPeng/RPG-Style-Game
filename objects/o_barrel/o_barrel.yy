@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_barrel",
-    "path":"sprites/s_barrel/s_barrel.yy",
+    "name":"spr_barrel",
+    "path":"sprites/spr_barrel/spr_barrel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

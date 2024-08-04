@@ -1,5 +1,5 @@
 if (room != rm_p_test) {
-	draw_sprite(s_shadow, 0, floor(x), floor(y));
+	draw_sprite(spr_shadow, 0, floor(x), floor(y));
 }
 
 // draw hookshot in behind player
@@ -48,13 +48,13 @@ function DrawHookChain() {
 	
 	for (var i = 0; i < _chains; i++) {
 		draw_sprite ( //draw chains backward starting from blade of hook
-			s_hook_chain,
+			spr_hook_chain,
 			0,
 			_originX + hookX - (i * hookSize * _hookDirX),
 			_originY + hookY - (i * hookSize * _hookDirY),
 		)
 		
-		draw_sprite(s_hook_blade, image_index, _originX + hookX, _originY + hookY);
+		draw_sprite(spr_hook_blade, image_index, _originX + hookX, _originY + hookY);
 	}
 }
 

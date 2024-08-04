@@ -29,5 +29,5 @@ function calc_attack(hb, _dmg, _knockback){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = s_player;
+	mask_index = spr_player;
 }

@@ -3,5 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
-sprIdle = s_merchant_b;
+sprIdle = spr_merchant_b;
 //sprite_index = startingImageIndex 

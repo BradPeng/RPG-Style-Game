@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-sprIdle = s_dancer;
+sprIdle = spr_dancer;
 //sprite_index = startingImageIndex

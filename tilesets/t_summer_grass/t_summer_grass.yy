@@ -20,8 +20,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_summer_grass",
-    "path":"sprites/s_summer_grass/s_summer_grass.yy",
+    "name":"spr_summer_grass",
+    "path":"sprites/spr_summer_grass/spr_summer_grass.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

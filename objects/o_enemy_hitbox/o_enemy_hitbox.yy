@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_slime_attack_hb",
-    "path":"sprites/s_slime_attack_hb/s_slime_attack_hb.yy",
+    "name":"spr_slime_attack_hb",
+    "path":"sprites/spr_slime_attack_hb/spr_slime_attack_hb.yy",
   },
   "spriteMaskId":null,
   "visible":false,

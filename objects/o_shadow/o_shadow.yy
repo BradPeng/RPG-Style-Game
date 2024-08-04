@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_shadow",
-    "path":"sprites/s_shadow/s_shadow.yy",
+    "name":"spr_shadow",
+    "path":"sprites/spr_shadow/spr_shadow.yy",
   },
   "spriteMaskId":null,
   "visible":true,

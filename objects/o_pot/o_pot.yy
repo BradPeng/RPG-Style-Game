@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_pot_large",
-    "path":"sprites/s_pot_large/s_pot_large.yy",
+    "name":"spr_pot_large",
+    "path":"sprites/spr_pot_large/spr_pot_large.yy",
   },
   "spriteMaskId":null,
   "visible":true,

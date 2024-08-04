@@ -7,7 +7,7 @@ event_inherited();
 if (!global.gamePaused) {
 	depth = -bbox_bottom;	
 	if (lifted and instance_exists(o_player)) {
-		if (o_player.sprite_index != s_player_lift) {
+		if (o_player.sprite_index != spr_player_lift) {
 			x = o_player.x;
 			y = o_player.y;
 			z = 25;

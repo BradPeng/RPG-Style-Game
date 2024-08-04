@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_gentle_tree",
-    "path":"sprites/s_gentle_tree/s_gentle_tree.yy",
+    "name":"spr_gentle_tree",
+    "path":"sprites/spr_gentle_tree/spr_gentle_tree.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -12,7 +12,7 @@
   "managed":true,
   "name":"o_mage",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"s_mage",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_mage",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyHP","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyAggroRadius","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"48",},
@@ -43,12 +43,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_mage",
-    "path":"sprites/s_mage/s_mage.yy",
+    "name":"spr_mage",
+    "path":"sprites/spr_mage/spr_mage.yy",
   },
   "spriteMaskId":{
-    "name":"s_mage",
-    "path":"sprites/s_mage/s_mage.yy",
+    "name":"spr_mage",
+    "path":"sprites/spr_mage/spr_mage.yy",
   },
   "visible":true,
 }

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_frag_rock",
-    "path":"sprites/s_frag_rock/s_frag_rock.yy",
+    "name":"spr_frag_rock",
+    "path":"sprites/spr_frag_rock/spr_frag_rock.yy",
   },
   "spriteMaskId":null,
   "visible":true,

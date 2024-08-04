@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_iconic_fireplace",
-    "path":"sprites/s_iconic_fireplace/s_iconic_fireplace.yy",
+    "name":"spr_iconic_fireplace",
+    "path":"sprites/spr_iconic_fireplace/spr_iconic_fireplace.yy",
   },
   "spriteMaskId":null,
   "visible":true,

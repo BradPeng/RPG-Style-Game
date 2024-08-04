@@ -14,8 +14,8 @@ function activate_hat_npc(){
 				}
 				global.iLifted = noone;
 				with (o_player) {
-					spriteIdle = s_player;
-					spriteRun = s_player_run
+					spriteIdle = spr_player;
+					spriteRun = spr_player_run
 				}	
 			} else {
 				// start quest	
@@ -32,8 +32,8 @@ function activate_hat_npc(){
 				}
 				global.iLifted = noone;
 				with (o_player) {
-					spriteIdle = s_player;
-					spriteRun = s_player_run
+					spriteIdle = spr_player;
+					spriteRun = spr_player_run
 				}	
 			} else {
 				// reminder	

@@ -22,8 +22,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_gentle_forest",
-    "path":"sprites/s_gentle_forest/s_gentle_forest.yy",
+    "name":"spr_gentle_forest",
+    "path":"sprites/spr_gentle_forest/spr_gentle_forest.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

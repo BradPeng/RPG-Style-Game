@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_village_outhouse",
-    "path":"sprites/s_village_outhouse/s_village_outhouse.yy",
+    "name":"spr_village_outhouse",
+    "path":"sprites/spr_village_outhouse/spr_village_outhouse.yy",
   },
   "spriteMaskId":null,
   "visible":true,

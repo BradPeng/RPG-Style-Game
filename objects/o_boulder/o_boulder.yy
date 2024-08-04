@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_boulder",
-    "path":"sprites/s_boulder/s_boulder.yy",
+    "name":"spr_boulder",
+    "path":"sprites/spr_boulder/spr_boulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

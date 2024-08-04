@@ -4,10 +4,10 @@ event_inherited();
 
 state = ENEMYSTATE.WANDER;
 
-sprAttack = s_bat;
-sprDie = s_bat_die;
-sprHurt = s_bat_hurt;
-sprMove = s_bat;
+sprAttack = spr_bat;
+sprDie = spr_bat_die;
+sprHurt = spr_bat_hurt;
+sprMove = spr_bat;
 
 enemyScript[ENEMYSTATE.WANDER] = bat_wander
 enemyScript[ENEMYSTATE.CHASE] = bat_chase

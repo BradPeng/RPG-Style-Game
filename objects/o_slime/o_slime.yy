@@ -38,12 +38,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_slime",
-    "path":"sprites/s_slime/s_slime.yy",
+    "name":"spr_slime",
+    "path":"sprites/spr_slime/spr_slime.yy",
   },
   "spriteMaskId":{
-    "name":"s_slime",
-    "path":"sprites/s_slime/s_slime.yy",
+    "name":"spr_slime",
+    "path":"sprites/spr_slime/spr_slime.yy",
   },
   "visible":true,
 }

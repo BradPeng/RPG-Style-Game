@@ -8,8 +8,8 @@ if (_bossId != -1) {
 	var _healthbarScale = 150
 	
 	// Draw boss healthbar
-	draw_sprite_stretched(s_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(s_healthbar) * _healthbarScale/2), 8, _healthbarScale * _currentBoss.enemyHP/_currentBoss.enemyHPMax, 12);
-	draw_sprite_stretched(s_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(s_healthbar) * _healthbarScale/2), 8, _healthbarScale, 12);
+	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbarScale/2), 8, _healthbarScale * _currentBoss.enemyHP/_currentBoss.enemyHPMax, 12);
+	draw_sprite_stretched(spr_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbarScale/2), 8, _healthbarScale, 12);
 
 	// Boss Name
 	draw_set_halign(fa_center);
@@ -17,8 +17,8 @@ if (_bossId != -1) {
 	draw_text(RESOLUTION_W/2, 30, "Aeolia Schenberg")
 }
 /// Draw health bar
-draw_sprite_stretched(s_healthbar, 0, 8, 8, 100 * _playerHealth/_playerHealthMax, 12);
-draw_sprite_stretched(s_healthbar_background, 0, 8, 8, 100, 12);
+draw_sprite_stretched(spr_healthbar, 0, 8, 8, 100 * _playerHealth/_playerHealthMax, 12);
+draw_sprite_stretched(spr_healthbar_background, 0, 8, 8, 100, 12);
 
 
 // Draw money
@@ -28,14 +28,14 @@ var _yy
 // Coin icon
 _xx = 28;
 _yy = 31;
-draw_sprite(s_coin_ui, 0, _xx, _yy);
+draw_sprite(spr_coin_ui, 0, _xx, _yy);
 
 // coin text
 draw_set_color(c_black);
 draw_set_font(f_text);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-_xx += sprite_get_width(s_coin_ui) + 4;
+_xx += sprite_get_width(spr_coin_ui) + 4;
 _yy = 27;
 var _str = string(global.player_money);
 
@@ -52,17 +52,17 @@ draw_text(_xx, _yy, _str);
 // Draw Item UI
 _xx = 8;
 _yy = 24;
-draw_sprite(s_item_ui_box, 0, _xx, _yy);
+draw_sprite(spr_item_ui_box, 0, _xx, _yy);
 if (global.playerHasAnyItems) {
-	draw_sprite(s_item_ui, global.playerEquipped, _xx, _yy);
+	draw_sprite(spr_item_ui, global.playerEquipped, _xx, _yy);
 	if (global.playerAmmo[global.playerEquipped] != -1) {
 		draw_set_color(c_white);
 		draw_set_font(f_text);
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_top);
 		draw_text(
-			_xx + sprite_get_width(s_item_ui_box) + 1,
-			_yy + sprite_get_height(s_item_ui_box) + 1,
+			_xx + sprite_get_width(spr_item_ui_box) + 1,
+			_yy + sprite_get_height(spr_item_ui_box) + 1,
 			string(global.playerAmmo[global.playerEquipped])
 		);
 	}

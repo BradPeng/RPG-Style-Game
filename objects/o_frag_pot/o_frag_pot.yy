@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_frag_pot",
-    "path":"sprites/s_frag_pot/s_frag_pot.yy",
+    "name":"spr_frag_pot",
+    "path":"sprites/spr_frag_pot/spr_frag_pot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

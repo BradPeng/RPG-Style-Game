@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_cozy_furnishing",
-    "path":"sprites/s_cozy_furnishing/s_cozy_furnishing.yy",
+    "name":"spr_cozy_furnishing",
+    "path":"sprites/spr_cozy_furnishing/spr_cozy_furnishing.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

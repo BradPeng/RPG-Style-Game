@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_item_ui",
-    "path":"sprites/s_item_ui/s_item_ui.yy",
+    "name":"spr_item_ui",
+    "path":"sprites/spr_item_ui/spr_item_ui.yy",
   },
   "spriteMaskId":null,
   "visible":true,

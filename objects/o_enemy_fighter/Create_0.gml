@@ -3,11 +3,11 @@
 
 // Inherit the parent event
 event_inherited();
-sprMove = s_enemy1_walk;
-sprIdle = s_enemy1_idle;
-sprAttack = s_player_attack_slash
-sprHurt = s_enemy1_hurt;
-sprDie = s_player_die;
-sprHitbox = s_player_attac_slash_hb
+sprMove = spr_enemy1_walk;
+sprIdle = spr_enemy1_idle;
+sprAttack = spr_player_attack_slash
+sprHurt = spr_enemy1_hurt;
+sprDie = spr_player_die;
+sprHitbox = spr_player_attac_slash_hb
 state = ENEMYSTATE.WANDER
 enemyScript[ENEMYSTATE.DIE] = SlimeDie

@@ -4,11 +4,11 @@ event_inherited();
 
 state = ENEMYSTATE.WANDER;
 
-sprAttack = s_slime_attack;
-sprDie = s_slime_die;
-sprHurt = s_slime_hurt;
-sprMove = s_slime;
-sprHitbox = s_slime_attack_hb
+sprAttack = spr_slime_attack;
+sprDie = spr_slime_die;
+sprHurt = spr_slime_hurt;
+sprMove = spr_slime;
+sprHitbox = spr_slime_attack_hb
 enemyScript[ENEMYSTATE.WANDER] = SlimeWander
 enemyScript[ENEMYSTATE.CHASE] = SlimeChase
 enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack

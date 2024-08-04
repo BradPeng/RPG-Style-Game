@@ -3,7 +3,7 @@
 function PlayerDropItem(){
 	with (o_player) {
 		global.iLifted = noone;
-		spriteIdle = s_player;
-		spriteRun = s_player_run;
+		spriteIdle = spr_player;
+		spriteRun = spr_player_run;
 	}
 }

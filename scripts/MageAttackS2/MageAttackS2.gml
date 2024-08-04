@@ -7,7 +7,7 @@ function MageAttackS2(){
 			spd = 5;
 			var directionToPlayer = point_direction(x, y, o_player.x, o_player.y);
 			direction = directionToPlayer + random_range(-30, 30);
-			sprite_index = s_sunburn
+			sprite_index = spr_sunburn
 			 damageToPlayer = 10;
 			force = 50;
 			alarm[1] = 30

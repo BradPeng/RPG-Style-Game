@@ -23,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"s_iconic_interior",
-    "path":"sprites/s_iconic_interior/s_iconic_interior.yy",
+    "name":"spr_iconic_interior",
+    "path":"sprites/spr_iconic_interior/spr_iconic_interior.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

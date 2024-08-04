@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_clothes_hanger_a",
-    "path":"sprites/s_clothes_hanger_a/s_clothes_hanger_a.yy",
+    "name":"spr_clothes_hanger_a",
+    "path":"sprites/spr_clothes_hanger_a/spr_clothes_hanger_a.yy",
   },
   "spriteMaskId":null,
   "visible":true,
