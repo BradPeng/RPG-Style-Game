@@ -8,7 +8,7 @@ function attack_thrust() {
 		if (keyRight) direction = 0;
 		if (keyUp) direction = 90
 		if (keyDown) direction = 270;
-		if (keyLeft) direction = 180;
+		if (key_left) direction = 180;
 	// End of lag state	
 	} else if (alarm[1] == 0) {
 		state = player_state_free;

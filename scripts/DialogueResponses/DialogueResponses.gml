@@ -14,7 +14,7 @@ function dialogue_responses(_response){
 			break;
 		case 6:
 			new_text_box("Dam that crazy", 2); break;
-		case 7: PurchaseItem(activate.item, activate.item_amount, activate.item_cost); break;
+		case 7: purchase_item(activate.item, activate.item_amount, activate.item_cost); break;
 		default: break;
 	
 	}

@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerStatePush() {
-	if (!keyLeft) {
+function player_state_push() {
+	if (!key_left) {
 		state = player_state_free;	
 	}
 	//image_speed = 1;

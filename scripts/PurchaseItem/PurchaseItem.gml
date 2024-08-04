@@ -1,10 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PurchaseItem(_item, _amount, _cost){
+function purchase_item(_item, _amount, _cost){
 	if (global.player_money >= _cost) {
 		global.player_has_any_items = true;
 		global.player_item_unlocked[_item] = true;
-		global.playerAmmo[_item] += _amount
+		global.player_ammo[_item] += _amount
 		global.player_money -= _cost;
 		global.player_equipped = _item;
 		instance_destroy(activate);

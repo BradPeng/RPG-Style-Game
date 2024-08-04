@@ -8,7 +8,7 @@ function attack_slash() {
 		if (keyRight) direction = 0;
 		if (keyUp) direction = 90
 		if (keyDown) direction = 270;
-		if (keyLeft) direction = 180;
+		if (key_left) direction = 180;
 		
 		// Check chain attack
 		if (key_attack) {

@@ -21,20 +21,20 @@ global.currentBoss = -1;
 // items
 global.player_has_any_items = false;
 global.player_equipped = ITEM.BOMB;
-global.playerAmmo = array_create(ITEM.TYPE_COUNT, -1); // fills array with -1's. -1 means don't show ammo amount
+global.player_ammo = array_create(ITEM.TYPE_COUNT, -1); // fills array with -1's. -1 means don't show ammo amount
 global.player_item_unlocked = array_create(ITEM.TYPE_COUNT, -1); // fills array with -1's
-global.playerAmmo[ITEM.BOMB] = 0;
-global.playerAmmo[ITEM.BOW] = 0;
+global.player_ammo[ITEM.BOMB] = 0;
+global.player_ammo[ITEM.BOW] = 0;
 
 global.player_has_any_items = true;
 global.player_equipped = ITEM.BOMB;
 global.player_item_unlocked[ITEM.BOMB] = true;
-global.playerAmmo[ITEM.BOMB] = 99;
+global.player_ammo[ITEM.BOMB] = 99;
 
 global.player_has_any_items = true;
 global.player_equipped = ITEM.BOMB;
 global.player_item_unlocked[ITEM.BOW] = true;
-global.playerAmmo[ITEM.BOW] = 99;
+global.player_ammo[ITEM.BOW] = 99;
 
 // Spells
 global.player_has_any_spells = false;

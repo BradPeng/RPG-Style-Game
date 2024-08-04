@@ -55,7 +55,7 @@ _yy = 24;
 draw_sprite(spr_item_ui_box, 0, _xx, _yy);
 if (global.player_has_any_items) {
 	draw_sprite(spr_item_ui, global.player_equipped, _xx, _yy);
-	if (global.playerAmmo[global.player_equipped] != -1) {
+	if (global.player_ammo[global.player_equipped] != -1) {
 		draw_set_color(c_white);
 		draw_set_font(f_text);
 		draw_set_halign(fa_left);
@@ -63,7 +63,7 @@ if (global.player_has_any_items) {
 		draw_text(
 			_xx + sprite_get_width(spr_item_ui_box) + 1,
 			_yy + sprite_get_height(spr_item_ui_box) + 1,
-			string(global.playerAmmo[global.player_equipped])
+			string(global.player_ammo[global.player_equipped])
 		);
 	}
 }

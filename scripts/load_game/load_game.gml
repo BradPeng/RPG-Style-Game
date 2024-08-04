@@ -25,7 +25,7 @@ function load_game(_slot){
 		// so we need to convert lists to arrays
 		for (var _i = 0; _i < ITEM.TYPE_COUNT; _i++) {
 			global.player_item_unlocked[_i] = _json[? "player_item_unlocked"][| _i];
-			global.playerAmmo[_i] = _json[? "playerAmmo"][|_i];
+			global.player_ammo[_i] = _json[? "player_ammo"][|_i];
 		}
 		
 		ds_map_copy(global.quest_status, _json[? "questStatus"]);

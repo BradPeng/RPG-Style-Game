@@ -15,7 +15,7 @@ function player_collision(){
 	
 
 	/*if (_collided_object != noone and _collided_object.object_index == p_pushable.object_index) {
-		state = PlayerStatePush;
+		state = player_state_push;
 		global.i_pushing = _collided_object;
 	}*/
 

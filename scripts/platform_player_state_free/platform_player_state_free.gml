@@ -38,8 +38,8 @@ function platform_player_state_free(){
 	}
 	
 	
-	if (keyRight or keyLeft) {
-		h_speed += (keyRight - keyLeft) * acceleration;
+	if (keyRight or key_left) {
+		h_speed += (keyRight - key_left) * acceleration;
 		h_speed = clamp(h_speed, -maxSpeed, maxSpeed);
 				
 	} else {

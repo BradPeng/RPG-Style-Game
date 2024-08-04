@@ -89,7 +89,7 @@ function player_state_free(){
 		if (activate == noone) {
 			//Throw item if held
 			if (global.i_lifted != noone) {
-				PlayerThrow();	
+				player_throw();	
 			} else {
 				state = player_state_roll;
 				move_distance_remaining = distance_roll;

@@ -14,7 +14,7 @@ function platform_player_edge_grab_state(){
 			
 	// facing right, click left
 	if (image_xscale = 1) {
-		if (keyLeft) {
+		if (key_left) {
 			state = platform_player_state_free;
 			alarm[1] = 15;
 		} 

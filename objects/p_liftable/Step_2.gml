@@ -18,17 +18,17 @@ if (!global.gamePaused) {
 	if (!lifted) {
 		if (thrown) {
 			is_solid = true;
-			throwDistanceTravelled = min(throwDistanceTravelled + 3, throwDistance);
-			x = xstart + lengthdir_x(throwDistanceTravelled, direction);
-			y = ystart + lengthdir_y(throwDistanceTravelled, direction);
+			throw_distance_travelled = min(throw_distance_travelled + 3, throw_distance);
+			x = xstart + lengthdir_x(throw_distance_travelled, direction);
+			y = ystart + lengthdir_y(throw_distance_travelled, direction);
 			var _collision_id = instance_place(x, y, obj_solid);
 			if (_collision_id != noone and _collision_id != obj_player.id) {
 				thrown = false;
 				grav = 0.1;
 			}
-			throwPercent = throwStartPercent + lerp(0, 1 - throwStartPercent, throwDistanceTravelled / throwDistance);
-			z = throwPeakHeight * sin(throwPercent * pi);
-			if (throwDistance == throwDistanceTravelled) {
+			throw_percent = throw_start_percent + lerp(0, 1 - throw_start_percent, throw_distance_travelled / throw_distance);
+			z = throw_peak_height * sin(throw_percent * pi);
+			if (throw_distance == throw_distance_travelled) {
 				thrown = false;
 				if (entityThrowBreak) {
 					instance_destroy();	
