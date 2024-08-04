@@ -5,6 +5,8 @@ if (entity_fragment_count > 0) {
 	drop_items(x, y, _fragment_array);
 }
 
-if (entity_drop_list != -1) {
-	drop_items(x, y, entity_drop_list);	
+var _entity_drop_list_array = []
+_entity_drop_list_array = entity_drop_list
+if (_entity_drop_list_array != -1) {
+	drop_items(x, y, _entity_drop_list_array);	
 }
