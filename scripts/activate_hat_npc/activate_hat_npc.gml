@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function ActivateHatNPC(){
+function activate_hat_npc(){
 	var _hasHat = global.iLifted != noone and global.iLifted.object_index == o_hat;
 	
 	switch (global.questStatus[? "TheHatQuest"]) {

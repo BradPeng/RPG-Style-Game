@@ -4,6 +4,6 @@ function UseItemBomb(){
 	if (global.playerAmmo[ITEM.BOMB] > 0 and global.iLifted == noone) {
 		global.playerAmmo[ITEM.BOMB]--;
 		var _bomb = instance_create_layer(x + CARDINAL_DIR * 5, y + 10, "Instances", o_bomb);
-		ActivateLiftable(_bomb);
+		activate_liftable(_bomb);
 	}	
 }

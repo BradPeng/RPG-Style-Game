@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"ActivateHatNPC",
+  "%Name":"activate_liftable",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ActivateHatNPC",
+  "name":"activate_liftable",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
