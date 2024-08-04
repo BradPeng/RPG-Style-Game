@@ -20,7 +20,7 @@ input_magnitude = 0
 
 state = player_state_free;
 state_attack = attack_slash;
-lastState = state;
+last_state = state;
 hit_by_attack_list = -1;
 chain_attack = false
 image_speed = 0;
@@ -32,10 +32,10 @@ speed_roll = 5.0;
 distance_dodge = 50;
 speed_dodge = 3
 distance_bonk = 60;
-distanceBonkHeight = 20;
+distance_bonk_height = 20;
 distance_roll = 60;
 speed_bonk = 1.5
-animationEndScript = -1;
+animation_end_script = -1;
 action_animation_end = false
 end_action_frame = -1
 invulnerable = 0;
@@ -50,7 +50,7 @@ hook_size = sprite_get_width(spr_hook_chain)
 
 run_sprite = spr_player_run;
 idle_sprite = spr_player;
-spriteRoll = spr_player_lunge
+roll_sprite = spr_player_lunge
 local_frame = 0;
 
 if (global.target_x != -1) {
@@ -68,8 +68,8 @@ if (global.i_lifted != noone) {
 // PLATFORM VARIABLES
 
 // Platform Variables
-maxSpeed = 4;
+max_speed = 4;
 acceleration = 1;
-gravityAcceleration = .3;
-jumpHeight = -8;
-grabWidth = 14;
+gravity_acceleration = .3;
+jump_height = -8;
+grab_width = 14;

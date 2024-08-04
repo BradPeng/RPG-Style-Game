@@ -1,5 +1,5 @@
 lerp_progress += (1 - lerp_progress) / 50;
-text_progress += global.textSpeed;
+text_progress += global.text_speed;
 
 x1 = lerp(x1, x1_target, lerp_progress);
 x2 = lerp(x2, x2_target, lerp_progress);
@@ -7,24 +7,24 @@ x2 = lerp(x2, x2_target, lerp_progress);
 // cycle through responses
 key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
-responseSelected += (key_down - key_up); 
+response_selected += (key_down - key_up); 
 var _max = array_length(responses) - 1;
 var _min = 0;
 
-if (responseSelected > _max) {
-	responseSelected = _min;	
+if (response_selected > _max) {
+	response_selected = _min;	
 }
 
-if (responseSelected < _min) {
-	responseSelected = _max;	
+if (response_selected < _min) {
+	response_selected = _max;	
 }
 
 if (keyboard_check_pressed(vk_space)) {
-	var _message_length = string_length(messageText);
+	var _message_length = string_length(message_text);
 	if (text_progress >= _message_length) {
 		if (responses[0] != -1) {
 			with (origin_instance) {
-				dialogue_responses(other.response_scripts[other.responseSelected]) 	
+				dialogue_responses(other.response_scripts[other.response_selected]) 	
 			}
 		}
 		instance_destroy();	
@@ -34,7 +34,7 @@ if (keyboard_check_pressed(vk_space)) {
 			}
 		} else {
 			with (obj_player) {
-				state = lastState	
+				state = last_state	
 			}
 		}
 	} else {

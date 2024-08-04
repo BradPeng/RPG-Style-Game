@@ -19,7 +19,7 @@ function new_text_box(_message, _background = 0, _responses) {
 	var _obj_id = _text_box.id;
 	with (_text_box) {
 		_obj_id = id;
-		messageText = _message
+		message_text = _message
 		background = _background
 		if (instance_exists(other)) {
 			origin_instance = other.id 	
@@ -47,7 +47,7 @@ function new_text_box(_message, _background = 0, _responses) {
 	
 	with (obj_player) {
 		if (state != player_state_locked) {
-			lastState = state;	
+			last_state = state;	
 			state = player_state_locked
 		}
 	}

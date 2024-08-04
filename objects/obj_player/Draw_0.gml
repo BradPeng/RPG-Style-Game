@@ -4,7 +4,7 @@ if (room != rm_p_test) {
 
 // draw hookshot in behind player
 if (state = player_state_hook and image_index != 3) {
-	DrawHookChain();
+	draw_hook_chain();
 }
 
 // every 8 frames
@@ -13,8 +13,8 @@ if (invulnerable != 0 and (invulnerable mod 12) < 2 == 0 and flash == 0) {
 } else {
 	if (flash != 0) {
 		shader_set(flash_shader);
-		uFlash = shader_get_uniform(flash_shader,"flash");
-		shader_set_uniform_f(uFlash, flash);
+		u_flash = shader_get_uniform(flash_shader,"flash");
+		shader_set_uniform_f(u_flash, flash);
 	}
 	
 	draw_sprite_ext(
@@ -36,10 +36,10 @@ if (invulnerable != 0 and (invulnerable mod 12) < 2 == 0 and flash == 0) {
 
 // draw hookshot in above of player
 if (state = player_state_hook and image_index == 3) {
-	DrawHookChain();
+	draw_hook_chain();
 }
 
-function DrawHookChain() {
+function draw_hook_chain() {
 	var _origin_x = floor(x);
 	var _origin_y = floor(y) - 7;
 	var _chains = hook div hook_size; // div is integer division

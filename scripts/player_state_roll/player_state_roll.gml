@@ -8,7 +8,7 @@ function player_state_roll(){
 	var _collided = player_collision();
 	
 	// update sprite
-	sprite_index = spriteRoll;
+	sprite_index = roll_sprite;
 	var _total_frames = sprite_get_number(sprite_index)/4;
 	image_index = (CARDINAL_DIR * _total_frames) + min(((1 - (move_distance_remaining / distance_roll)) * _total_frames), _total_frames - 1);
 	

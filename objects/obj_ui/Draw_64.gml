@@ -85,7 +85,7 @@ if (global.game_paused) {
 	draw_text(RESOLUTION_W * 0.5, RESOLUTION_H * 0.5, "...Game Paused...");
 	for (var _i = 0; _i < array_length(pause_option); _i++) {
 		var _print = "";
-		if (_i == pauseOptionSelected) {
+		if (_i == pause_option_selected) {
 			_print += "> " + pause_option[_i] + " <";	
 		} else {
 			_print += pause_option[_i];

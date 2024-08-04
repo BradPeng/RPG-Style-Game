@@ -9,6 +9,6 @@ x2_target = RESOLUTION_W;
 lerp_progress = 0;
 text_progress = 0;
 
-responseSelected = 0;
+response_selected = 0;
 
 // Holds the id that corresponds with the case in DialogueReponses

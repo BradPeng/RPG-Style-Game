@@ -8,7 +8,7 @@ function platform_player_edge_grab_state(){
 		
 	if (key_up) {
 		state = platform_player_state_free;
-		v_speed = jumpHeight;
+		v_speed = jump_height;
 		alarm[1] = 15;
 	}
 			

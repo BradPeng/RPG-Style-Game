@@ -14,5 +14,5 @@ time_passed = 0;
 wait_duration = 60;
 wait = 0;
 local_frame = 0;
-npcScript[NPCSTATE.WANDER] = npc_wander;
-npcScript[NPCSTATE.IDLE] = -1;
+npc_script[NPCSTATE.WANDER] = npc_wander;
+npc_script[NPCSTATE.IDLE] = -1;

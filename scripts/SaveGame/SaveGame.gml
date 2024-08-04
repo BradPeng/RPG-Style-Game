@@ -34,7 +34,7 @@ function save_game(){
 	
 	// save all data into string
 	var _string = json_encode(_map);
-	SaveStringToFile("save" + string(global.game_save_slot) + ".sav", _string);
+	save_string_to_file("save" + string(global.game_save_slot) + ".sav", _string);
 	show_debug_message(_string);
 	
 	// nuke data
@@ -43,7 +43,7 @@ function save_game(){
 }
 
 // save to file REEEEEEEEEEEEEEEEEEEE
-function SaveStringToFile(_filename, _string) {
+function save_string_to_file(_filename, _string) {
 	var _buffer = buffer_create(string_byte_length(_string) + 1, buffer_fixed, 1);
 	buffer_write(_buffer, buffer_string, _string);
 	buffer_save(_buffer, _filename);

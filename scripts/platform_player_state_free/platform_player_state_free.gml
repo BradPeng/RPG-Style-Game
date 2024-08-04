@@ -5,7 +5,7 @@ function platform_player_state_free(){
 	mask_index = spr_platform_player_idle;
 	
 	if (!is_on_ground(obj_solid)) {
-		v_speed += gravityAcceleration;
+		v_speed += gravity_acceleration;
 				
 		// set jump/fall sprite
 		if (v_speed <= 0) {
@@ -40,7 +40,7 @@ function platform_player_state_free(){
 	
 	if (key_right or key_left) {
 		h_speed += (key_right - key_left) * acceleration;
-		h_speed = clamp(h_speed, -maxSpeed, maxSpeed);
+		h_speed = clamp(h_speed, -max_speed, max_speed);
 				
 	} else {
 		platform_apply_friction(acceleration);
@@ -56,8 +56,8 @@ function platform_player_state_free(){
 	
 	// Edge Grab
 	var _falling = y - yprevious > 0;
-	var _wasnt_wall = !position_meeting(x + grabWidth * image_xscale, yprevious, obj_solid);
-	var _is_wall = position_meeting(x + grabWidth * image_xscale, y, obj_solid);
+	var _wasnt_wall = !position_meeting(x + grab_width * image_xscale, yprevious, obj_solid);
+	var _is_wall = position_meeting(x + grab_width * image_xscale, y, obj_solid);
 	
 	if (_falling and _wasnt_wall and _is_wall and alarm[1] <= 0) {
 		h_speed = 0;
@@ -69,7 +69,7 @@ function platform_player_state_free(){
 		}
 		
 		//align to edge vertically
-		while (position_meeting(x + grabWidth * image_xscale, y + 1, obj_solid)) {
+		while (position_meeting(x + grab_width * image_xscale, y + 1, obj_solid)) {
 			y -= 1;
 		}
 		

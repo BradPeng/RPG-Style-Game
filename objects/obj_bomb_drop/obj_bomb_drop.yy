@@ -8,9 +8,9 @@
   "name":"obj_bomb_drop",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_shadow","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"collect_ammo",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ITEM.BOMB, 1]",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityFragmentCount","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collect_script","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"collect_ammo",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collect_script_arg","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ITEM.BOMB, 1]",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entity_fragment_count","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
     "name":"Drops",

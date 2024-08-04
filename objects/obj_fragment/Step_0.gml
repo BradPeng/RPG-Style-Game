@@ -14,8 +14,8 @@ if(!global.game_paused) {
 	
 	// Deteriorate
 	deteriorate++;
-	if (deteriorate > deteriorateAfter) {
-		image_alpha -= 1/deteriorateTime;
+	if (deteriorate > deteriorate_after) {
+		image_alpha -= 1/deteriorate_time;
 		if (image_alpha <= 0) {
 			instance_destroy();	
 		}

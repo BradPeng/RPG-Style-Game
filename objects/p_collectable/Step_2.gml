@@ -17,10 +17,10 @@ if (instance_exists(obj_player)) {
 		spd = min(spd, 3);
 		fric = 0;
 		if (_dist < 5) { //collect radius
-			if (collectScriptArg != -1) {
-				script_execute(collectScript, collectScriptArg);	
-			} else if (collectScript != -1) {
-				script_execute(collectScript);
+			if (collect_script_arg != -1) {
+				script_execute(collect_script, collect_script_arg);	
+			} else if (collect_script != -1) {
+				script_execute(collect_script);
 			}
 			
 			instance_destroy();

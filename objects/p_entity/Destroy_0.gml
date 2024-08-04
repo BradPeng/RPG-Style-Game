@@ -1,8 +1,8 @@
 /// Drop fragments and items
 
-if (entityFragmentCount > 0) {
-	fragmentArray = array_create(entityFragmentCount, entityFragment);
-	drop_items(x, y, fragmentArray);
+if (entity_fragment_count > 0) {
+	fragment_array = array_create(entity_fragment_count, entity_fragment);
+	drop_items(x, y, fragment_array);
 }
 
 if (entity_drop_list != -1) {

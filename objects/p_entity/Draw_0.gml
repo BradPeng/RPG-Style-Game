@@ -4,7 +4,7 @@ if (entity_shadow) {
 
 if (flash != 0) {
 	shader_set(flash_shader);	
-	shader_set_uniform_f(uFlash, flash);
+	shader_set_uniform_f(u_flash, flash);
 }
 draw_sprite_ext(
 	sprite_index,

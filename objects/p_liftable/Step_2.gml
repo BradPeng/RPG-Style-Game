@@ -30,7 +30,7 @@ if (!global.game_paused) {
 			z = throw_peak_height * sin(throw_percent * pi);
 			if (throw_distance == throw_distance_travelled) {
 				thrown = false;
-				if (entityThrowBreak) {
+				if (entity_throw_break) {
 					instance_destroy();	
 				}
 			}
@@ -39,7 +39,7 @@ if (!global.game_paused) {
 			if (z > 0) {
 				z = max(z - grav, 0);
 				grav += 0.1;
-				if (z == 0 && entityThrowBreak) {
+				if (z == 0 && entity_throw_break) {
 					instance_destroy();
 				}
 			} else {

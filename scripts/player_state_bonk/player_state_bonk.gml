@@ -12,7 +12,7 @@ function player_state_bonk(){
 	image_index = CARDINAL_DIR - 2
 	
 	//change height (visually)
-	z = sin((move_distance_remaining / distance_bonk * pi)) * distanceBonkHeight;
+	z = sin((move_distance_remaining / distance_bonk * pi)) * distance_bonk_height;
 	
 	
 	// state

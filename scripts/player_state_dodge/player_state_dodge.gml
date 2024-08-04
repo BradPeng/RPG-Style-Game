@@ -11,7 +11,7 @@ function player_state_dodge(){
 	sprite_index = spr_player_backstep;
 	var _total_frames = sprite_get_number(sprite_index)/4;
 	image_index = (CARDINAL_DIR * _total_frames) + min(((1 - (move_distance_remaining / distance_dodge)) * _total_frames), _total_frames - 1);
-	z = sin((move_distance_remaining / distance_dodge * pi)) * distanceBonkHeight;
+	z = sin((move_distance_remaining / distance_dodge * pi)) * distance_bonk_height;
 	// state
 	if (move_distance_remaining <= 0) {
 		state = player_state_free;

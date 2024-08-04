@@ -3,13 +3,13 @@
 if (global.game_paused) {
 	key_up = keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up);
 	key_down = keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down);
-	pauseOptionSelected += (key_down - key_up);
-	 if (pauseOptionSelected >= array_length(pause_option)) pauseOptionSelected = 0;
-	 if (pauseOptionSelected < 0) pauseOptionSelected = array_length(pause_option) - 1;
+	pause_option_selected += (key_down - key_up);
+	 if (pause_option_selected >= array_length(pause_option)) pause_option_selected = 0;
+	 if (pause_option_selected < 0) pause_option_selected = array_length(pause_option) - 1;
 	 
 	 key_activate = keyboard_check_pressed(vk_space);
 	 if (key_activate) {
-		 switch (pauseOptionSelected) {
+		 switch (pause_option_selected) {
 			case 0: //continue	 
 				global.game_paused = false;
 				with (all) {
