@@ -4,10 +4,12 @@ function load_game(_slot){
 	show_debug_message(_file);
 	if (file_exists(_file)) {
 		var _json = load_json_from_file(_file);
-		with (instance_exists(obj_player)) {
-			print("test com");
-			x = _json[? "posX"];
-			y = _json[? "posY"];
+		if (instance_exists(obj_player)) {
+			with (obj_player) {
+				print("test com");
+				x = _json[? "posX"];
+				y = _json[? "posY"];
+			}
 		}
 	
 		//global variables

@@ -11,7 +11,6 @@ key_down = 0
 
 lerp_progress = 0;
 text_progress = 0;
-
 response_selected = 0;
 
 // Holds the id that corresponds with the case in DialogueReponses
