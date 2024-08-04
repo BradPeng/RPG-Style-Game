@@ -7,6 +7,6 @@ enum TRANS_TYPE {
 
 width = RESOLUTION_W;
 height = RESOLUTION_H;
-heightHalf = height * 0.5  + 20
+height_half = height * 0.5  + 20
 percentage = 0;
 leading = OUT;

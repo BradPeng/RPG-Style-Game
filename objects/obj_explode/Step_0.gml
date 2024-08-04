@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!global.gamePaused) {
+if (!global.game_paused) {
 	image_speed = 1
 	
 	if (image_index < 4) {
@@ -10,7 +10,7 @@ if (!global.gamePaused) {
 		
 		while (_entity_count > 0) {
 			_entity = _entity_list[| 0];
-			if (ds_list_find_index(collisionHistory, _entity) == -1) { // if we haven't hit this thing already
+			if (ds_list_find_index(collision_history, _entity) == -1) { // if we haven't hit this thing already
 				with (_entity) {
 					if (object_is_ancestor(object_index, p_hostile_mob)) { // if enemy
 						hurt_enemy(id, 25, other.id, 20);
@@ -20,7 +20,7 @@ if (!global.gamePaused) {
 						}
 					}
 				}
-				ds_list_add(collisionHistory, _entity);
+				ds_list_add(collision_history, _entity);
 			}
 			ds_list_delete(_entity_list, 0);
 			_entity_count--;

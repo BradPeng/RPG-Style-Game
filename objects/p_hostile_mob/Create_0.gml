@@ -20,7 +20,7 @@ state_target = state;
 state_previous = state;
 state_wait = 0;
 state_wait_duration = 0;
-enemy_hpMax = enemy_hp;
+enemy_hp_max = enemy_hp;
 // Enemy Sprites
 move_sprite = -1;
 die_sprite = -1

@@ -42,7 +42,7 @@ if (state = player_state_hook and image_index == 3) {
 function DrawHookChain() {
 	var _origin_x = floor(x);
 	var _origin_y = floor(y) - 7;
-	var _chains = hook div hookSize; // div is integer division
+	var _chains = hook div hook_size; // div is integer division
 	var _hook_dir_x = sign(hook_x);
 	var _hook_dir_y = sign(hook_y);
 	
@@ -50,8 +50,8 @@ function DrawHookChain() {
 		draw_sprite ( //draw chains backward starting from blade of hook
 			spr_hook_chain,
 			0,
-			_origin_x + hook_x - (_i * hookSize * _hook_dir_x),
-			_origin_y + hook_y - (_i * hookSize * _hook_dir_y)
+			_origin_x + hook_x - (_i * hook_size * _hook_dir_x),
+			_origin_y + hook_y - (_i * hook_size * _hook_dir_y)
 		)
 		
 		draw_sprite(spr_hook_blade, image_index, _origin_x + hook_x, _origin_y + hook_y);

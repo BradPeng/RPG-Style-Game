@@ -1,13 +1,13 @@
 randomize()
 global.game_save_slot = 0;
-global.gamePaused = false;
-global.iCamera = instance_create_layer(0, 0, layer, obj_camera)
-global.iUI =  instance_create_layer(0,0,layer,obj_ui);
+global.game_paused = false;
+global.i_camera = instance_create_layer(0, 0, layer, obj_camera)
+global.i_ui =  instance_create_layer(0,0,layer,obj_ui);
 global.textSpeed = 0.75;
-global.targetRoom = -1;
+global.target_room = -1;
 global.target_x = -1;
 global.target_y = -1;
-global.targetDirection = 0;
+global.target_direction = 0;
 global.i_lifted = noone;
 global.i_pushing = noone;
 global.player_health_max = 100;
@@ -17,7 +17,7 @@ global.player_blood_aura_level_max = 5;
 global.player_money = 100;
 global.quest_status = ds_map_create();
 global.quest_status[? "TheHatQuest"] = 0;
-global.currentBoss = -1;
+global.current_boss = -1;
 // items
 global.player_has_any_items = false;
 global.player_equipped = ITEM.BOMB;

@@ -1,1 +1,1 @@
-collisionHistory = ds_list_create();
+collision_history = ds_list_create();

@@ -1,10 +1,10 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_state_roll(){
-	h_speed = lengthdir_x(speedRoll, direction);
-	v_speed = lengthdir_y(speedRoll, direction);
+	h_speed = lengthdir_x(speed_roll, direction);
+	v_speed = lengthdir_y(speed_roll, direction);
 	
-	move_distance_remaining = max(0, move_distance_remaining - speedRoll);
+	move_distance_remaining = max(0, move_distance_remaining - speed_roll);
 	var _collided = player_collision();
 	
 	// update sprite
@@ -19,7 +19,7 @@ function player_state_roll(){
 
 	if (_collided) {
 		state = player_state_bonk;
-		move_distance_remaining = distanceBonk;
+		move_distance_remaining = distance_bonk;
 		screen_shake(4, 15);
 	}
 		

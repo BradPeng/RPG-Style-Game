@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if (!global.gamePaused) {
+if (!global.game_paused) {
 	depth = -bbox_bottom;	
 	if (lifted and instance_exists(obj_player)) {
 		if (obj_player.sprite_index != spr_player_lift) {

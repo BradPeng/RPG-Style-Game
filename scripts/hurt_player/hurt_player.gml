@@ -22,7 +22,7 @@ function hurt_player(_direction, _force, _damage){
 	}
 }
 
-function DrainPlayerHP(_damage){
+function drain_player_hp(_damage){
 	if (obj_player.invulnerable <= 0) {
 		global.player_health = max(0, global.player_health - _damage);
 		

@@ -1,8 +1,8 @@
-lerpProgress += (1 - lerpProgress) / 50;
-textProgress += global.textSpeed;
+lerp_progress += (1 - lerp_progress) / 50;
+text_progress += global.textSpeed;
 
-x1 = lerp(x1, x1Target, lerpProgress);
-x2 = lerp(x2, x2Target, lerpProgress);
+x1 = lerp(x1, x1_target, lerp_progress);
+x2 = lerp(x2, x2_target, lerp_progress);
 
 // cycle through responses
 key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
@@ -21,10 +21,10 @@ if (responseSelected < _min) {
 
 if (keyboard_check_pressed(vk_space)) {
 	var _message_length = string_length(messageText);
-	if (textProgress >= _message_length) {
+	if (text_progress >= _message_length) {
 		if (responses[0] != -1) {
-			with (originInstance) {
-				dialogue_responses(other.responseScripts[other.responseSelected]) 	
+			with (origin_instance) {
+				dialogue_responses(other.response_scripts[other.responseSelected]) 	
 			}
 		}
 		instance_destroy();	
@@ -38,8 +38,8 @@ if (keyboard_check_pressed(vk_space)) {
 			}
 		}
 	} else {
-		if (textProgress > 2) {
-			textProgress = _message_length;	
+		if (text_progress > 2) {
+			text_progress = _message_length;	
 		}
 	}
 }

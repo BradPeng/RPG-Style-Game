@@ -1,13 +1,13 @@
-if(!global.gamePaused) {
-	if(bounceCount != 0) {
-		bounce += (pi * bounceSpeed);	
+if(!global.game_paused) {
+	if(bounce_count != 0) {
+		bounce += (pi * bounce_speed);	
 		if (bounce > pi) {
 			bounce -= pi;
-			bounceHeight *= 0.6;
-			bounceCount--;
+			bounce_height *= 0.6;
+			bounce_count--;
 		}
 		
-		z = sin(bounce) * bounceHeight;
+		z = sin(bounce) * bounce_height;
 	} else {
 		z = 0;	
 	}

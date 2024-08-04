@@ -70,7 +70,7 @@
   },
   "name":"Game_001",
   "resources":[
-    {"id":{"name":"f_text","path":"fonts/f_text/f_text.yy",},},
+    {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
     {"id":{"name":"obj_arrow_drop","path":"objects/obj_arrow_drop/obj_arrow_drop.yy",},},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_barrel","path":"objects/obj_barrel/obj_barrel.yy",},},

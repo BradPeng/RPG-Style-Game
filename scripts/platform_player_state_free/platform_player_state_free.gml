@@ -15,7 +15,7 @@ function platform_player_state_free(){
 		}
 		
 		//short hopping
-		if (keyUpRelease and v_speed < -6) {
+		if (key_up_release and v_speed < -6) {
 			v_speed = -5;
 		}
 	} else { // on the ground

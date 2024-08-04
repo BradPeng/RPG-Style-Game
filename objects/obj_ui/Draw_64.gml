@@ -1,14 +1,14 @@
 var _player_health = global.player_health;
 var _player_health_max = global.player_health_max;
-var _boss_id = global.currentBoss;
+var _boss_id = global.current_boss;
 
 if (_boss_id != -1) {	
-	var _current_boss = instance_find(global.currentBoss, 0);
+	var _current_boss = instance_find(global.current_boss, 0);
 		
 	var _healthbar_scale = 150
 	
 	// Draw boss healthbar
-	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale * _current_boss.enemy_hp/_current_boss.enemy_hpMax, 12);
+	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale * _current_boss.enemy_hp/_current_boss.enemy_hp_max, 12);
 	draw_sprite_stretched(spr_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale, 12);
 
 	// Boss Name
@@ -32,7 +32,7 @@ draw_sprite(spr_coin_ui, 0, _xx, _yy);
 
 // coin text
 draw_set_color(c_black);
-draw_set_font(f_text);
+draw_set_font(fnt_text);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 _xx += sprite_get_width(spr_coin_ui) + 4;
@@ -57,7 +57,7 @@ if (global.player_has_any_items) {
 	draw_sprite(spr_item_ui, global.player_equipped, _xx, _yy);
 	if (global.player_ammo[global.player_equipped] != -1) {
 		draw_set_color(c_white);
-		draw_set_font(f_text);
+		draw_set_font(fnt_text);
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_top);
 		draw_text(
@@ -69,7 +69,7 @@ if (global.player_has_any_items) {
 }
 
 // Pause screen
-if (global.gamePaused) {
+if (global.game_paused) {
 	// dim background
 	draw_set_color(c_black)
 	draw_set_alpha(0.75)
@@ -78,17 +78,17 @@ if (global.gamePaused) {
 	// text
 	draw_set_alpha(1);
 	draw_set_color(c_white);
-	draw_set_font(f_text);
+	draw_set_font(fnt_text);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	
 	draw_text(RESOLUTION_W * 0.5, RESOLUTION_H * 0.5, "...Game Paused...");
-	for (var _i = 0; _i < array_length(pauseOption); _i++) {
+	for (var _i = 0; _i < array_length(pause_option); _i++) {
 		var _print = "";
 		if (_i == pauseOptionSelected) {
-			_print += "> " + pauseOption[_i] + " <";	
+			_print += "> " + pause_option[_i] + " <";	
 		} else {
-			_print += pauseOption[_i];
+			_print += pause_option[_i];
 			draw_set_alpha(0.75);
 		}
 		

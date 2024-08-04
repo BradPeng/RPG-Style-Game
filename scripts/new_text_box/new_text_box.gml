@@ -22,9 +22,9 @@ function new_text_box(_message, _background = 0, _responses) {
 		messageText = _message
 		background = _background
 		if (instance_exists(other)) {
-			originInstance = other.id 	
+			origin_instance = other.id 	
 		} else {
-			originInstance = noone;	
+			origin_instance = noone;	
 		}
 		
 		
@@ -36,12 +36,12 @@ function new_text_box(_message, _background = 0, _responses) {
 				var _marker_position = string_pos(":", responses[_i]);
 				
 				// get id
-				responseScripts[_i] = real(string_copy(responses[_i], 1, _marker_position - 1));
+				response_scripts[_i] = real(string_copy(responses[_i], 1, _marker_position - 1));
 				responses[_i] = string_delete(responses[_i], 1, _marker_position);
 			}	
 		} else {
 			responses = [-1];
-			responseScripts = [-1];
+			response_scripts = [-1];
 		}
 	}
 	

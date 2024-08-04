@@ -5,10 +5,10 @@ function mage_attack_s1(){
 	mage_move();
 	// Prepare to enter phase 2
 	if (enemy_hp <= 75) {
-		if (phase2Dialogue == false) {
+		if (phase_2_dialogue == false) {
 			new_text_box("Okay bro now I'm mad", 1);
 			action_textbox = new_text_box("Prepare for my ultimate form!", 1);
-			phase2Dialogue = true;
+			phase_2_dialogue = true;
 		}
 		
 		if (action_textbox != -1 and !instance_exists(action_textbox)) {

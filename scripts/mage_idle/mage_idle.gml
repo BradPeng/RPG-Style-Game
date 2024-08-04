@@ -1,4 +1,4 @@
-function MageIdle(){	
+function mage_idle(){	
 
 	if (instance_exists(obj_player) and point_distance(x, y, obj_player.x, obj_player.y) < enemy_aggro_radius) {
 		var _action_textbox = -1;
@@ -16,7 +16,7 @@ function MageIdle(){
 		z += 0.5;
 		if (z >= 15) {
 			state = MAGESTATE.ATTACK;
-			global.currentBoss = id
+			global.current_boss = id
 
 			// reset action_textbox so it can be reused to enter attack state 2
 			action_textbox = -1;
