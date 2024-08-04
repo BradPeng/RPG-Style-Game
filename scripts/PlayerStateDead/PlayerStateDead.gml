@@ -10,7 +10,7 @@ function PlayerStateDead(){
 		sprite_index = s_player_dead;
 	} else {
 		if (!animationEnd) {
-			AnimateCardinalSprite();	
+			animate_cardinal_sprite();	
 		} else if (alarm[0] ==-1) {
 			alarm[0] = 60;
 		}

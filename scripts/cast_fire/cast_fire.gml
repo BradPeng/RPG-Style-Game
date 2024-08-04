@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function CastFire(){
+function cast_fire(){
 	if (sprite_index != s_player_cast) {
 		
 		sprite_index = s_player_cast
@@ -57,7 +57,7 @@ function CastFire(){
 	}
 
 	
-	AnimateCardinalSprite();
+	animate_cardinal_sprite();
 	if (animationEnd) {
 		state = PlayerStateFree;
 		animationEnd = false;

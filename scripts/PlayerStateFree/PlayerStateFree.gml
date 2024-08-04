@@ -32,19 +32,19 @@ function PlayerStateFree(){
 	}
 
 	// Image index
-	AnimateCardinalSprite()
+	animate_cardinal_sprite()
 	
 	// attack
 	if (keyAttack) {
 		state = PlayerStateAttack;
-		stateAttack = AttackSlash;
+		stateAttack = attack_slash;
 	}
 	
 	if (keyCast and global.iLifted == noone) {
 		state = PlayerStateCast;
 		switch (global.playerEquippedSpell) {
 			case SPELL.FIREBOLT:
-				stateCast = CastFire;
+				stateCast = cast_fire;
 				break;
 			case SPELL.SHIELD:
 				stateCast = CastShield;

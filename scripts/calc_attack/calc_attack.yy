@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"CastFire",
+  "%Name":"calc_attack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CastFire",
+  "name":"calc_attack",
   "parent":{
-    "name":"Casts",
-    "path":"folders/Scripts/Player/Casts.yy",
+    "name":"Attacks",
+    "path":"folders/Scripts/Player/Attacks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

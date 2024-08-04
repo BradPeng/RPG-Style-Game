@@ -6,7 +6,7 @@ function PlayerStatePush() {
 	}
 	//image_speed = 1;
 	sprite_index = s_player_push
-	AnimateCardinalSprite();
+	animate_cardinal_sprite();
 	x--;
 	global.iPushing.x--;
 }

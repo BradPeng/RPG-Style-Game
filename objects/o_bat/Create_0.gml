@@ -9,8 +9,8 @@ sprDie = s_bat_die;
 sprHurt = s_bat_hurt;
 sprMove = s_bat;
 
-enemyScript[ENEMYSTATE.WANDER] = BatWander
-enemyScript[ENEMYSTATE.CHASE] = BatChase
+enemyScript[ENEMYSTATE.WANDER] = bat_wander
+enemyScript[ENEMYSTATE.CHASE] = bat_chase
 enemyScript[ENEMYSTATE.ATTACK] = -1
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt
 enemyScript[ENEMYSTATE.DIE] = SlimeDie

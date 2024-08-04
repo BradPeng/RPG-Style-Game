@@ -13,7 +13,7 @@ function HostileMobAttack(){
 	}
 
 	
-	AnimateCardinalSprite();
+	animate_cardinal_sprite();
 	if (animationEnd) {
 		if (instance_exists(o_player) and (o_player.state != PlayerStateDead)) {
 			state = ENEMYSTATE.CHASE;

@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function CalcAttack(hb, _dmg, _knockback){
+function calc_attack(hb, _dmg, _knockback){
 	mask_index = hb
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x, y, p_entity, hitByAttackNow, false); //returns list of entities in the collision

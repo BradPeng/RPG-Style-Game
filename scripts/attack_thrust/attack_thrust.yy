@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"AttackThrust",
+  "%Name":"attack_thrust",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"AttackThrust",
+  "name":"attack_thrust",
   "parent":{
     "name":"Attacks",
     "path":"folders/Scripts/Player/Attacks.yy",

@@ -8,5 +8,5 @@ function PlayerActOutAnimation(sprite, endscript = -1){
 	localFrame = 0;
 	image_index = 0;
 
-	AnimateCardinalSprite();
+	animate_cardinal_sprite();
 }

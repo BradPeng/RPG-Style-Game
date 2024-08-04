@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"AttackSlashB",
+  "%Name":"bat_wander",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"AttackSlashB",
+  "name":"bat_wander",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Scripts/Player/Attacks.yy",
+    "name":"Bat States",
+    "path":"folders/Scripts/Enemies/Bat States.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

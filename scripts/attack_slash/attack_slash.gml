@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function AttackSlash() {
+function attack_slash() {
 
 	// Lag state
 	if (alarm[1] != 0 and alarm[1] != -1) {
@@ -36,14 +36,14 @@ function AttackSlash() {
 		
 		}
 
-		CalcAttack(s_player_attac_slash_hb, 5, 1)
-		AnimateCardinalSprite();
+		calc_attack(s_player_attac_slash_hb, 5, 1)
+		animate_cardinal_sprite();
 	}
 	
 	// When animation ends, begin lag timer unless we are chaining an attack
 	if (animationEnd) {
 		if (chainAttack) {
-			stateAttack = AttackSlashB
+			stateAttack = attack_slash_b
 			chainAttack = false
 			
 			// If we chain attack, the first attack's lag should end early

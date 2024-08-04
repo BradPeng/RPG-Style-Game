@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"AttackSlash",
+  "%Name":"cast_fire",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"AttackSlash",
+  "name":"cast_fire",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Scripts/Player/Attacks.yy",
+    "name":"Casts",
+    "path":"folders/Scripts/Player/Casts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

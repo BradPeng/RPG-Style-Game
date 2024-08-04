@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"BatWander",
+  "%Name":"bat_chase",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"BatWander",
+  "name":"bat_chase",
   "parent":{
     "name":"Bat States",
     "path":"folders/Scripts/Enemies/Bat States.yy",

@@ -39,7 +39,7 @@ function CastShield(){
 	}
 
 	
-	AnimateCardinalSprite();
+	animate_cardinal_sprite();
 	if (animationEnd) {
 		state = PlayerStateFree;
 		animationEnd = false;

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"BatChase",
+  "%Name":"attack_slash_b",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"BatChase",
+  "name":"attack_slash_b",
   "parent":{
-    "name":"Bat States",
-    "path":"folders/Scripts/Enemies/Bat States.yy",
+    "name":"Attacks",
+    "path":"folders/Scripts/Player/Attacks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

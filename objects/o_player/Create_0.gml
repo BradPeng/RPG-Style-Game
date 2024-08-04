@@ -1,5 +1,5 @@
 state = PlayerStateFree;
-stateAttack = AttackSlash;
+stateAttack = attack_slash;
 lastState = state;
 hitByAttackList = -1;
 chainAttack = false

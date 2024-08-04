@@ -1,15 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function AttackSlashB() {
-	
-	// Check chain attack
-	
+function attack_thrust() {
 	
 	// Lag state
 	if (alarm[1] != 0 and alarm[1] != -1) {
-		if (keyAttack) {
-			chainAttack = true;
-		}
 		// do nothing
 		if (keyRight) direction = 0;
 		if (keyUp) direction = 90
@@ -22,9 +16,9 @@ function AttackSlashB() {
 		
 	// Normal animation	
 	} else {
-		if (sprite_index != s_player_attack_slash_b) {
+		if (sprite_index != s_player_thrust) {
 		
-			sprite_index = s_player_attack_slash_b
+			sprite_index = s_player_thrust
 			localFrame = 0;
 			image_index = 0;
 		
@@ -36,22 +30,14 @@ function AttackSlashB() {
 		
 		}
 
-		CalcAttack(s_player_attack_slash_b_hb, 5, 1)
-		AnimateCardinalSprite();
+		calc_attack(s_player_thrust_hb, 5, 20)
+		animate_cardinal_sprite();
 	}
 	
-	// When animation ends, begin lag timer unless we are chaining an attack
+	// When animation ends, begin lag timer
 	if (animationEnd) {
-		if (chainAttack) {
-			stateAttack = AttackTrust
-			chainAttack = false
-			
-			// If we chain attack, the first attack's lag should end early
-			alarm[1] = -1
-		} else {
-			if (alarm[1] == -1) {
-				alarm[1] = 10;	
-			} 
-		}
+		if (alarm[1] == -1) {
+			alarm[1] = 5;	
+		} 
 	}
 }
