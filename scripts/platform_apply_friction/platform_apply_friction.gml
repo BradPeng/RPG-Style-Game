@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlatformApplyFriction(amount){
+function platform_apply_friction(amount){
 	
 	//First check to see if we're moving
 	if (h_speed != 0) {

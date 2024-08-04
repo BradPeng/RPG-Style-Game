@@ -17,8 +17,8 @@ function PurchaseItem(_item, _amount, _cost){
 			default: _desc = "No Item Description Found" break;
 		}
 		
-		NewTextBox(_desc, 1);
+		new_text_box(_desc, 1);
 	} else {
-		NewTextBox("You broke af boy", 1);	
+		new_text_box("You broke af boy", 1);	
 	}
 }

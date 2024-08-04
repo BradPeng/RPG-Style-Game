@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_state_free(){
 	if (room == rm_p_test) {
-		state = PlatformPlayerStateFree;
+		state = platform_player_state_free;
 		return;
 	}
 	if (bloodAuraMagnitude == 1 and global.player_blood_aura_level < global.playerBloodAuraLevelMax) {

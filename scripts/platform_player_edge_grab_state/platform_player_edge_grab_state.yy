@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlatformPlayerJumpState",
+  "%Name":"platform_player_edge_grab_state",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlatformPlayerJumpState",
+  "name":"platform_player_edge_grab_state",
   "parent":{
     "name":"PlatformPlayerStates",
     "path":"folders/Scripts/PlatformPlayerStates.yy",

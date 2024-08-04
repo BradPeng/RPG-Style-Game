@@ -6,7 +6,7 @@
   "name":"obj_p1",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_activatable","path":"objects/p_activatable/p_activatable.yy",},"propertyId":{"name":"activatableActivateScript","path":"objects/p_activatable/p_activatable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Prologue",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"sprIdle","path":"objects/p_mobs/p_mobs.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_mobs","path":"objects/p_mobs/p_mobs.yy",},"propertyId":{"name":"idle_sprite","path":"objects/p_mobs/p_mobs.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_player",},
   ],
   "parent":{
     "name":"NPCs",

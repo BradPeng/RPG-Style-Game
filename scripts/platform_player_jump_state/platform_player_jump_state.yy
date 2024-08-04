@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlatformPlayerStateFree",
+  "%Name":"platform_player_jump_state",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlatformPlayerStateFree",
+  "name":"platform_player_jump_state",
   "parent":{
     "name":"PlatformPlayerStates",
     "path":"folders/Scripts/PlatformPlayerStates.yy",

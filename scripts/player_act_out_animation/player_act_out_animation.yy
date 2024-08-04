@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerActOutAnimation",
+  "%Name":"player_act_out_animation",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerActOutAnimation",
+  "name":"player_act_out_animation",
   "parent":{
     "name":"Player",
     "path":"folders/Scripts/Player.yy",

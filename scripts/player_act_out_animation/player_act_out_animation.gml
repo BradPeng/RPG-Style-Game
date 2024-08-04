@@ -1,6 +1,6 @@
 // carry out animation and optionally carry out 
 // a script when the act ends
-function PlayerActOutAnimation(sprite, endscript = -1){
+function player_act_out_animation(sprite, endscript = -1){
 	state = PlayerStateAct;
 	sprite_index = sprite;
 	animationEndScript = endscript;

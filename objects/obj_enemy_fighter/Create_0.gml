@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 move_sprite = spr_enemy1_walk;
-sprIdle = spr_enemy1_idle;
+idle_sprite = spr_enemy1_idle;
 attack_sprite = spr_player_attack_slash
 sprHurt = spr_enemy1_hurt;
 sprDie = spr_player_die;

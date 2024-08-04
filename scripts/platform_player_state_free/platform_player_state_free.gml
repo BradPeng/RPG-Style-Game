@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlatformPlayerStateFree(){
+function platform_player_state_free(){
 	image_speed = 1;
 	mask_index = spr_platform_player_idle;
 	
@@ -10,7 +10,7 @@ function PlatformPlayerStateFree(){
 		// set jump/fall sprite
 		if (v_speed <= 0) {
 			sprite_index = spr_platform_player_jump;
-		} else if (v_speed > 0 and state == PlatformPlayerStateFree) {
+		} else if (v_speed > 0 and state == platform_player_state_free) {
 			sprite_index = spr_platform_player_fall;
 		}
 		
@@ -33,7 +33,7 @@ function PlatformPlayerStateFree(){
 			
 			sprite_index = spr_platform_player_land
 			alarm[1] = 1 // jump lag;
-			state = PlatformPlayerJumpState;
+			state = platform_player_jump_state;
 		}
 	}
 	
@@ -43,7 +43,7 @@ function PlatformPlayerStateFree(){
 		h_speed = clamp(h_speed, -maxSpeed, maxSpeed);
 				
 	} else {
-		PlatformApplyFriction(acceleration);
+		platform_apply_friction(acceleration);
 	}
 	
 	//Change direction of sprite
@@ -75,6 +75,6 @@ function PlatformPlayerStateFree(){
 		
 		//Change sprite and state
 		sprite_index = spr_platform_player_hang;
-		state = PlatformPlayerEdgeGrabState;
+		state = platform_player_edge_grab_state;
 	}
 }

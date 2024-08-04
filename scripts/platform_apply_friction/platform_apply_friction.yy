@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlatformApplyFriction",
+  "%Name":"platform_apply_friction",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlatformApplyFriction",
+  "name":"platform_apply_friction",
   "parent":{
     "name":"PlatformPlayerStates",
     "path":"folders/Scripts/PlatformPlayerStates.yy",

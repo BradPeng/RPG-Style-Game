@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlatformPlayerEdgeGrabState",
+  "%Name":"platform_player_state_free",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlatformPlayerEdgeGrabState",
+  "name":"platform_player_state_free",
   "parent":{
     "name":"PlatformPlayerStates",
     "path":"folders/Scripts/PlatformPlayerStates.yy",

@@ -8,7 +8,7 @@
   "name":"obj_dancer",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"npc_wander_distance","path":"objects/p_friendly/p_friendly.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"npcSpeed","path":"objects/p_friendly/p_friendly.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_friendly","path":"objects/p_friendly/p_friendly.yy",},"propertyId":{"name":"npc_speed","path":"objects/p_friendly/p_friendly.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"NPCs",

@@ -4,14 +4,14 @@ function npc_wander(){
 	
 	
 	// At destination or given up
-	if ((x == x_to and y == y_to) || time_passed > npc_wander_distance / npcSpeed) {
-		sprite_index = sprIdle;
+	if ((x == x_to and y == y_to) || time_passed > npc_wander_distance / npc_speed) {
+		sprite_index = idle_sprite;
 		image_index = CARDINAL_DIR
 		h_speed = 0;
 		v_speed = 0;
 		
 		// new target destination
-		if (++wait >= waitDuration) {
+		if (++wait >= wait_duration) {
 			wait = 0;
 			time_passed = 0;
 			dir = point_direction(x,y,xstart,ystart) + irandom_range(-45, 45); // always point toward the startish position, so we don't wander too far away from spawn point
@@ -28,16 +28,16 @@ function npc_wander(){
 		}	
 		time_passed++;
 		var _distance_to_go = point_distance(x, y, x_to, y_to);
-		var _speedThisFrame = npcSpeed;
+		var _speed_this_frame = npc_speed;
 		
 		// make sure we don't overshoot destination
-		if (_distance_to_go < npcSpeed) {
-			_speedThisFrame = _distance_to_go	
+		if (_distance_to_go < npc_speed) {
+			_speed_this_frame = _distance_to_go	
 		}
 		
 		dir = point_direction(x, y, x_to, y_to);
-		h_speed = lengthdir_x(_speedThisFrame, dir);
-		v_speed = lengthdir_y(_speedThisFrame, dir);
+		h_speed = lengthdir_x(_speed_this_frame, dir);
+		v_speed = lengthdir_y(_speed_this_frame, dir);
 		direction = dir;
 		
 		enemy_tile_collision();

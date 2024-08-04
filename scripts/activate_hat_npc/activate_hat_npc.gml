@@ -7,7 +7,7 @@ function activate_hat_npc(){
 		case 0: // not started
 			if (_hasHat) {// player already has hat on them 	
 				// complete quest
-				NewTextBox("ty", 2);
+				new_text_box("ty", 2);
 				global.quest_status[? "TheHatQuest"] = 2;
 				with (obj_hat) {
 					instance_destroy();	
@@ -19,13 +19,13 @@ function activate_hat_npc(){
 				}	
 			} else {
 				// start quest	
-				NewTextBox("Hello there get me my hat", 2);
-				NewTextBox("Are you going or what", 2, ["5:Yes", "6:no"]);
+				new_text_box("Hello there get me my hat", 2);
+				new_text_box("Are you going or what", 2, ["5:Yes", "6:no"]);
 			}
 			break;
 		case 1:
 			if (_hasHat) {
-				NewTextBox("ty", 2);
+				new_text_box("ty", 2);
 				global.quest_status[? "TheHatQuest"] = 2;
 				with (obj_hat) {
 					instance_destroy();	
@@ -37,12 +37,12 @@ function activate_hat_npc(){
 				}	
 			} else {
 				// reminder	
-				NewTextBox("bruh its right there go get it", 2);
+				new_text_box("bruh its right there go get it", 2);
 			}
 			break;
 		case 2: // case already completed
 			// thank you message
-			NewTextBox("ty", 2);
+			new_text_box("ty", 2);
 			break;
 		
 		

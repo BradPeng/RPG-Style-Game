@@ -9,7 +9,7 @@ function BatWander(){
 		v_speed = 0;
 		
 		// new target destination
-		if (++wait >= waitDuration) {
+		if (++wait >= wait_duration) {
 			wait = 0;
 			time_passed = 0;
 			dir = point_direction(x,y,xstart,ystart) + irandom_range(-45, 45); // always point toward the startish position, so we don't wander too far away from spawn point
@@ -19,16 +19,16 @@ function BatWander(){
 	} else { // Move toward new destination
 		time_passed++;
 		var _distance_to_go = point_distance(x, y, x_to, y_to);
-		var _speedThisFrame = enemy_speed;
+		var _speed_this_frame = enemy_speed;
 		
 		// make sure we don't overshoot destination
 		if (_distance_to_go < enemy_speed) {
-			_speedThisFrame = _distance_to_go	
+			_speed_this_frame = _distance_to_go	
 		}
 		
 		dir = point_direction(x, y, x_to, y_to);
-		h_speed = lengthdir_x(_speedThisFrame, dir);
-		v_speed = lengthdir_y(_speedThisFrame, dir);
+		h_speed = lengthdir_x(_speed_this_frame, dir);
+		v_speed = lengthdir_y(_speed_this_frame, dir);
 		
 		// face direction of movement
 		if (h_speed != 0) {
