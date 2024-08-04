@@ -11,7 +11,7 @@ function attack_thrust() {
 		if (keyLeft) direction = 180;
 	// End of lag state	
 	} else if (alarm[1] == 0) {
-		state = PlayerStateFree;
+		state = player_state_free;
 		animationEnd = false;	
 		
 	// Normal animation	

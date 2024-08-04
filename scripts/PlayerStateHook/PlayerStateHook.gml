@@ -92,6 +92,6 @@ function PlayerStateHook(){
 	// Finish retract and end state
 	if (hook <= 0) {
 		hookedEntity = noone;
-		state = PlayerStateFree;
+		state = player_state_free;
 	}
 }

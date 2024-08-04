@@ -31,7 +31,7 @@ function cast_shield(){
 			
 			}	
 			with (instance_create_layer(x + _x, y + _y, "Instances", obj_cast_shield)) {
-				hp = 10 + 15 * global.playerBloodAuraLevel 
+				hp = 10 + 15 * global.player_blood_aura_level 
 				image_index = round(other.direction/90)
 			}
 			global.player_health -= 1
@@ -41,7 +41,7 @@ function cast_shield(){
 	
 	animate_cardinal_sprite();
 	if (animationEnd) {
-		state = PlayerStateFree;
+		state = player_state_free;
 		animationEnd = false;
 	}
 }

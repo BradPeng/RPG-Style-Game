@@ -18,7 +18,7 @@ if (leading == OUT) {
 	
 	if (percentage <= 0) {
 		with (o_player) {
-			state = PlayerStateFree;	
+			state = player_state_free;	
 		}
 		instance_destroy();	
 	}

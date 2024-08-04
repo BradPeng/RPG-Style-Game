@@ -21,7 +21,7 @@ function SaveGame(){
 	
 	_map[? "posY"] = global.targetY;
 	
-	_map[? "playerBloodAuraLevel"] = global.playerBloodAuraLevel;
+	_map[? "playerBloodAuraLevel"] = global.player_blood_aura_level;
 	_map[? "playerBloodAuraLevelMax"] = global.playerBloodAuraLevelMax;
 	
 	// maps hold pointers to actual map data, so we need to copy 

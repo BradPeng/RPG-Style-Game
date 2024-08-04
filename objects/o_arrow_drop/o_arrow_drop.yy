@@ -8,7 +8,7 @@
   "name":"o_arrow_drop",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"CollectAmmo",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"collect_ammo",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[ITEM.BOW, 5]",},
   ],
   "parent":{

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStatePush() {
 	if (!keyLeft) {
-		state = PlayerStateFree;	
+		state = player_state_free;	
 	}
 	//image_speed = 1;
 	sprite_index = s_player_push

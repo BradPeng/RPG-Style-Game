@@ -23,8 +23,8 @@ if (!global.gamePaused) {
 	
 	script_execute(state);
 	invulnerable = max(invulnerable - 1, 0);
-	if (!invulnerable and global.playerBloodAuraLevel != 0) {
-		DrainPlayerHP(global.playerBloodAuraLevel/FRAME_RATE)
+	if (!invulnerable and global.player_blood_aura_level != 0) {
+		DrainPlayerHP(global.player_blood_aura_level/FRAME_RATE)
 	}
 	flash = max(flash - 0.05, 0);
 }

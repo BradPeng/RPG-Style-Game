@@ -17,7 +17,7 @@ function PlayerStateBonk(){
 	
 	// state
 	if (moveDistanceRemaining <= 0) {
-		state = PlayerStateFree;
+		state = player_state_free;
 	}
 		
 }

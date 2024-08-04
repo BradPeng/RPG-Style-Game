@@ -3,7 +3,7 @@
 function PlayerStateAct(){
 	animate_cardinal_sprite();
 	if (animationEnd) {
-		state = PlayerStateFree;
+		state = player_state_free;
 		animationEnd = false;
 	}	
 

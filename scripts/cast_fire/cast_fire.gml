@@ -40,7 +40,7 @@ function cast_fire(){
 			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_fire)) {
 				direction = other.direction;
 				direction = CARDINAL_DIR * 90;
-				var _scale = 1 + 0.5 * global.playerBloodAuraLevel
+				var _scale = 1 + 0.5 * global.player_blood_aura_level
 				image_xscale = _scale 
 				image_yscale = _scale
 				switch direction {
@@ -59,7 +59,7 @@ function cast_fire(){
 	
 	animate_cardinal_sprite();
 	if (animationEnd) {
-		state = PlayerStateFree;
+		state = player_state_free;
 		animationEnd = false;
 	}
 }

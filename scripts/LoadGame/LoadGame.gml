@@ -18,7 +18,7 @@ function LoadGame(_slot){
 		global.playerHasAnyItems = _json[? "playerHasAnyItems"];
 		//global.targetX = _json[? "targetX"];
 		//global.targetY = _json[? "targetY"];
-		global.playerBloodAuraLevel = _json[? "playerBloodAuraLevel"];
+		global.player_blood_aura_level = _json[? "playerBloodAuraLevel"];
 		global.playerBloodAuraLevelMax = _json[? "playerBloodAuraLevelMax"];
 		
 		// when decoding json, the arrays we encoded are decoded as lists

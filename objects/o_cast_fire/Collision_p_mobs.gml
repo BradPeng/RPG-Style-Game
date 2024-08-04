@@ -3,7 +3,7 @@
 var _entity = instance_place(x, y, p_entity);
 if (_entity != noone) {
 	if (place_meeting(x, y,o_blood_aura)) {
-		dmg = dmg * global.playerBloodAuraLevel 	
+		dmg = dmg * global.player_blood_aura_level 	
 	}
 	with (_entity) {
 		
@@ -16,5 +16,5 @@ if (_entity != noone) {
 	}
 }
 
-instance_create_layer(x, y, "Instances", o_explosion);
+instance_create_layer(x, y, "Instances", obj_explosion);
 instance_destroy();

@@ -14,7 +14,7 @@ function PlayerStateRoll(){
 	
 	// state
 	if (moveDistanceRemaining <= 0) {
-		state = PlayerStateFree;
+		state = player_state_free;
 	}
 
 	if (_collided) {

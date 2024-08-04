@@ -3,7 +3,7 @@
 function PlayerStateDead(){
 	hSpeed = 0;
 	vSpeed = 0;
-	global.playerBloodAuraLevel = 0;
+	global.player_blood_aura_level = 0;
 	// if just got into dead state
 	if (sprite_index != s_player_dead) {
 		localFrame = 0;

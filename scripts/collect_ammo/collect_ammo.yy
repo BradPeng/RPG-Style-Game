@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"CollectAmmo",
+  "%Name":"collect_ammo",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CollectAmmo",
+  "name":"collect_ammo",
   "parent":{
     "name":"Player",
     "path":"folders/Scripts/Player.yy",

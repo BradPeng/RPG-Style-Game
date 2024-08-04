@@ -14,11 +14,11 @@ function PlayerStateDodge(){
 	z = sin((moveDistanceRemaining / distanceDodge * pi)) * distanceBonkHeight;
 	// state
 	if (moveDistanceRemaining <= 0) {
-		state = PlayerStateFree;
+		state = player_state_free;
 	}
 
 	if (_collided) {
-		state = PlayerStateFree;
+		state = player_state_free;
 		z = 0 
 		moveDistanceRemaining = 0;
 	}

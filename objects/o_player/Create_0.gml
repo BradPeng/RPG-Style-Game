@@ -1,4 +1,4 @@
-state = PlayerStateFree;
+state = player_state_free;
 stateAttack = attack_slash;
 lastState = state;
 hitByAttackList = -1;
