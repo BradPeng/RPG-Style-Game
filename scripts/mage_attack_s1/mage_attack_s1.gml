@@ -7,25 +7,25 @@ function mage_attack_s1(){
 	if (enemy_hp <= 75) {
 		if (phase2Dialogue == false) {
 			new_text_box("Okay bro now I'm mad", 1);
-			actionTextbox = new_text_box("Prepare for my ultimate form!", 1);
+			action_textbox = new_text_box("Prepare for my ultimate form!", 1);
 			phase2Dialogue = true;
 		}
 		
-		if (actionTextbox != -1 and !instance_exists(actionTextbox)) {
+		if (action_textbox != -1 and !instance_exists(action_textbox)) {
 			state = MAGESTATE.ATTACK2;
 			sprite_index = spr_mage_final;
-			attackTimer = 80;
-			actionTextbox = -1;
+			attack_timer = 80;
+			action_textbox = -1;
 		}
 	} else {
 		sprite_index = spr_mage_attack;
 	
-		if (attackTimer <= 0) {
+		if (attack_timer <= 0) {
 			var _random_number = irandom_range(0, 0);
 	
 		
 			if (_random_number == 1) {
-				attackTimer = 180;
+				attack_timer = 180;
 				// Shoot one
 			    var _projectile = instance_create_layer(x, y-60, "Instances", p_mage_projectile);
     
@@ -36,11 +36,11 @@ function mage_attack_s1(){
 			    _projectile.spd = 3; // Adjust this value as needed
 			    _projectile.direction = _dir;
 			    _projectile.sprite_index = spr_nebula_effect
-			    _projectile.damageToPlayer = 10;
+			    _projectile.damage_to_player = 10;
 				_projectile.force = 50;
 				_projectile.alarm[1] = 30
 			} else if (_random_number == 2) {
-				attackTimer = 480;
+				attack_timer = 480;
 				// Nebula attack
 				var _circle_radius = 70; // Adjust this value to set the radius of the circle
 				var _num_objects = 8; // Adjust this value to set the number of objects
@@ -61,17 +61,17 @@ function mage_attack_s1(){
 				}
 			} else if (_random_number == 3) {
 				// tracking projectile
-				attackTimer = 360;
+				attack_timer = 360;
 				var _projectile = instance_create_layer(x, y-60, "Instances", obj_mage_tracking_projectile);
 			
 			    // Set projectile's speed and direction
 			    _projectile.spd = 3;
-			    _projectile.damageToPlayer = 10;
+			    _projectile.damage_to_player = 10;
 				_projectile.force = 50;
 				_projectile.alarm[1] = 30
 			}
 		} else {
-		    attackTimer--;
+		    attack_timer--;
 		}
 	}
 }

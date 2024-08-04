@@ -9,13 +9,13 @@ die_sprite = spr_slime_die;
 hurt_sprite = spr_slime_hurt;
 move_sprite = spr_slime;
 hitbox_sprite = spr_slime_attack_hb
-enemyScript[ENEMYSTATE.WANDER] = SlimeWander
-enemyScript[ENEMYSTATE.CHASE] = slime_chase
-enemyScript[ENEMYSTATE.ATTACK] = slime_attack
-enemyScript[ENEMYSTATE.HURT] = slime_hurt
-enemyScript[ENEMYSTATE.DIE] = slime_die
+enemy_script[ENEMYSTATE.WANDER] = slime_wander
+enemy_script[ENEMYSTATE.CHASE] = slime_chase
+enemy_script[ENEMYSTATE.ATTACK] = slime_attack
+enemy_script[ENEMYSTATE.HURT] = slime_hurt
+enemy_script[ENEMYSTATE.DIE] = slime_die
 
-entityDropList = choose(
+entity_drop_list = choose(
 	[obj_coin],
 	[obj_coin, obj_coin],
 	[obj_coin, obj_coin, obj_coin],

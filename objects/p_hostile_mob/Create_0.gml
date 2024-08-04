@@ -29,13 +29,13 @@ hitbox_sprite = -1
 time_passed = 0;
 
 // Enemy functions
-enemyScript[ENEMYSTATE.IDLE] = -1;
-enemyScript[ENEMYSTATE.WANDER] = hostile_mob_wander;
-enemyScript[ENEMYSTATE.CHASE] = hostile_mob_chase;
-enemyScript[ENEMYSTATE.ATTACK] = hostile_mob_attack;
-enemyScript[ENEMYSTATE.HURT] = hostile_mob_hurt;
-enemyScript[ENEMYSTATE.DIE] = -1;
-enemyScript[ENEMYSTATE.WAIT] = enemy_wait;
+enemy_script[ENEMYSTATE.IDLE] = -1;
+enemy_script[ENEMYSTATE.WANDER] = hostile_mob_wander;
+enemy_script[ENEMYSTATE.CHASE] = hostile_mob_chase;
+enemy_script[ENEMYSTATE.ATTACK] = hostile_mob_attack;
+enemy_script[ENEMYSTATE.HURT] = hostile_mob_hurt;
+enemy_script[ENEMYSTATE.DIE] = -1;
+enemy_script[ENEMYSTATE.WAIT] = enemy_wait;
 
 
 

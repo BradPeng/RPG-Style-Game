@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function SlimeWander(){
+function slime_wander(){
 	sprite_index = move_sprite;
 	// At destination or given up
 	if ((x == x_to and y == y_to) || time_passed > enemy_wander_distance / enemy_speed) {
@@ -47,7 +47,7 @@ function SlimeWander(){
 	// check for aggro
 	if (++aggro_check >= aggro_check_duration) {
 		aggro_check = 0;
-		if (instance_exists(obj_player) and point_distance(x, y, obj_player.x, obj_player.y) < enemyAggroRadius) {
+		if (instance_exists(obj_player) and point_distance(x, y, obj_player.x, obj_player.y) < enemy_aggro_radius) {
 			state = ENEMYSTATE.CHASE;
 			target = obj_player; // optional to make slime follow something other than player
 		}

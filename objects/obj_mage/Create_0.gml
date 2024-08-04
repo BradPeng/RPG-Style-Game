@@ -13,22 +13,22 @@ enum MAGESTATE {
 	WAIT,
 	ATTACK2,
 }
-enemyScript[ENEMYSTATE.HURT] = mage_hurt
-enemyScript[MAGESTATE.IDLE] = mage_idle
+enemy_script[ENEMYSTATE.HURT] = mage_hurt
+enemy_script[MAGESTATE.IDLE] = mage_idle
 levitation_height = 0;
 attackCooldown = 120;
-attackTimer = attackCooldown;
-enemyScript[MAGESTATE.WANDER] = -1;
-enemyScript[MAGESTATE.CHASE] = -1;
-enemyScript[MAGESTATE.ATTACK] = mage_attack_s1;
-enemyScript[MAGESTATE.ATTACK2] = mage_attack_s2
+attack_timer = attackCooldown;
+enemy_script[MAGESTATE.WANDER] = -1;
+enemy_script[MAGESTATE.CHASE] = -1;
+enemy_script[MAGESTATE.ATTACK] = mage_attack_s1;
+enemy_script[MAGESTATE.ATTACK2] = mage_attack_s2
 z = 0;
 state = MAGESTATE.IDLE
 instanceShadow = instance_create_layer(x, y, "Instances", obj_shadow);
 instanceShadow.instance_to_follow = id;
 aggro_dialogue = false;
 phase2Dialogue = false;
-actionTextbox = -1;
+action_textbox = -1;
 
 // Circular movmement
 center_x = 340;

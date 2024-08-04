@@ -10,4 +10,4 @@ hurt_sprite = spr_enemy1_hurt;
 die_sprite = spr_player_die;
 hitbox_sprite = spr_player_attac_slash_hb
 state = ENEMYSTATE.WANDER
-enemyScript[ENEMYSTATE.DIE] = slime_die
+enemy_script[ENEMYSTATE.DIE] = slime_die

@@ -3,14 +3,14 @@
 event_inherited();
 if (!global.gamePaused) {
 	
-	bombTick--;
-	if (bombTick == 0) {
+	bomb_tick--;
+	if (bomb_tick == 0) {
 		flash = 0.75;
-		bombStage++;
-		bombTick = bombTickRate[bombStage];
+		bomb_stage++;
+		bomb_tick = bomb_tick_rate[bomb_stage];
 	}
 	
-	if (bombTick < 0) {
+	if (bomb_tick < 0) {
 		y -= z; // forces bomb to be on the ground
 		if (lifted) {
 			player_drop_item();

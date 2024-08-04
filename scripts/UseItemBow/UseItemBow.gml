@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function UseItemBow(){
+function use_item_bow(){
 	if (global.player_ammo[ITEM.BOW] > 0 and global.i_lifted == noone) {
 		global.player_ammo[ITEM.BOW]--;
 		end_action_frame = 5;

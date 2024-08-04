@@ -1,7 +1,7 @@
 /// Drop coins
 event_inherited();
 
-entityDropList = choose(
+entity_drop_list = choose(
 	[obj_coin],
 	[obj_coin, obj_coin],
 	[obj_coin, obj_coin, obj_coin],

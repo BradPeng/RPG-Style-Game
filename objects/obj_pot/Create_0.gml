@@ -1,7 +1,7 @@
 /// @description Drop items
 event_inherited();
 image_speed = 0;
-entityDropList = choose(
+entity_drop_list = choose(
 	[obj_coin],
 	[obj_coin, obj_coin],
 	[obj_coin, obj_coin, obj_coin],

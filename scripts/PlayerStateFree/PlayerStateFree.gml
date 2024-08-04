@@ -115,7 +115,7 @@ function player_state_free(){
 				use_item_bomb();
 				break;
 			case ITEM.BOW:
-				UseItemBow();
+				use_item_bow();
 				break;
 			case ITEM.HOOK:
 				use_item_hook();

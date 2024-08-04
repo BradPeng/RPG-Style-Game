@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SlimeWander",
+  "%Name":"slime_wander",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlimeWander",
+  "name":"slime_wander",
   "parent":{
     "name":"SlimeStates",
     "path":"folders/Scripts/Enemies/SlimeStates.yy",

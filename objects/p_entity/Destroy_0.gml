@@ -5,6 +5,6 @@ if (entityFragmentCount > 0) {
 	drop_items(x, y, fragmentArray);
 }
 
-if (entityDropList != -1) {
-	drop_items(x, y, entityDropList);	
+if (entity_drop_list != -1) {
+	drop_items(x, y, entity_drop_list);	
 }

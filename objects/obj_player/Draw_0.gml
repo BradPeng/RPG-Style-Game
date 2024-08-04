@@ -12,8 +12,8 @@ if (invulnerable != 0 and (invulnerable mod 12) < 2 == 0 and flash == 0) {
 	// don't draw
 } else {
 	if (flash != 0) {
-		shader_set(flashShader);
-		uFlash = shader_get_uniform(flashShader,"flash");
+		shader_set(flash_shader);
+		uFlash = shader_get_uniform(flash_shader,"flash");
 		shader_set_uniform_f(uFlash, flash);
 	}
 	

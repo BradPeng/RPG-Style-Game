@@ -3,7 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
-flashShader = shRedFlash;
-bombStage = 0;
-bombTickRate = [60, 60, 60, 30, 30, 30, 30, 10, 10, 10, 10, 10, 10, -1];
-bombTick = bombTickRate[0];
+flash_shader = sh_red_flash;
+bomb_stage = 0;
+bomb_tick_rate = [60, 60, 60, 30, 30, 30, 30, 10, 10, 10, 10, 10, 10, -1];
+bomb_tick = bomb_tick_rate[0];

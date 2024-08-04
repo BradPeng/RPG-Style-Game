@@ -180,7 +180,7 @@
     {"name":"UseItemBomb","order":3,"path":"scripts/UseItemBomb/UseItemBomb.yy",},
     {"name":"UseItemBow","order":4,"path":"scripts/UseItemBow/UseItemBow.yy",},
     {"name":"UseItemHook","order":1,"path":"scripts/UseItemHook/UseItemHook.yy",},
-    {"name":"shRedFlash","order":1,"path":"shaders/shRedFlash/shRedFlash.yy",},
+    {"name":"sh_red_flash","order":1,"path":"shaders/sh_red_flash/sh_red_flash.yy",},
     {"name":"ClassDiagram","order":14,"path":"sprites/ClassDiagram/ClassDiagram.yy",},
     {"name":"spr_aro_comn_v01","order":8,"path":"sprites/spr_aro_comn_v01/spr_aro_comn_v01.yy",},
     {"name":"spr_arrow_drop","order":2,"path":"sprites/spr_arrow_drop/spr_arrow_drop.yy",},

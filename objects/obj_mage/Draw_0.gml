@@ -6,7 +6,7 @@ if (entity_shadow) {
 }
 
 if (flash != 0) {
-	shader_set(flashShader);	
+	shader_set(flash_shader);	
 	shader_set_uniform_f(uFlash, flash);
 }
 
