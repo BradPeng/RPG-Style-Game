@@ -4,6 +4,6 @@ function UseItemBow(){
 	if (global.playerAmmo[ITEM.BOW] > 0 and global.iLifted == noone) {
 		global.playerAmmo[ITEM.BOW]--;
 		endActionFrame = 5;
-		player_act_out_animation(spr_player_bow, PlayerFireArrow);
+		player_act_out_animation(spr_player_bow, player_fire_arrow);
 	}
 }

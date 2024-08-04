@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerStateBonk(){
+function player_state_bonk(){
 	h_speed = lengthdir_x(speedBonk, direction - 180);
 	v_speed = lengthdir_y(speedBonk, direction - 180);
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);
-	var _collided = PlayerCollision();
+	var _collided = player_collision();
 	
 	// update sprite
 	sprite_index = spr_player_hurt;

@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerStateDodge(){
+function player_state_dodge(){
 	h_speed = -lengthdir_x(speedDodge, direction);
 	v_speed = lengthdir_y(speedDodge, -direction)
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedDodge);
-	var _collided = PlayerCollision();
+	var _collided = player_collision();
 	
 	// update sprite
 	sprite_index = spr_player_backstep;

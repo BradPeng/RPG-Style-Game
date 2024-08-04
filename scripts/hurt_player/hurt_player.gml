@@ -6,7 +6,7 @@ function hurt_player(_direction, _force, _damage){
 		
 		if (global.player_health > 0) {
 			with (obj_player) {
-				state = PlayerStateBonk;
+				state = player_state_bonk;
 				direction = _direction -180;
 				moveDistanceRemaining = _force;
 				ScreenShake(2, 10);

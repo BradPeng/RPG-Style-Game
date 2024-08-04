@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerFireArrow",
+  "%Name":"player_fire_arrow",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerFireArrow",
+  "name":"player_fire_arrow",
   "parent":{
     "name":"Attacks",
     "path":"folders/Scripts/Player/Attacks.yy",

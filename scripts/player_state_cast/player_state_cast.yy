@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerCollision",
+  "%Name":"player_state_cast",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerCollision",
+  "name":"player_state_cast",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"PlayerStates",
+    "path":"folders/Scripts/Player/PlayerStates.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

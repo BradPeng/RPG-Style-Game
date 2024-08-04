@@ -5,7 +5,7 @@ function PlayerStateRoll(){
 	v_speed = lengthdir_y(speedRoll, direction);
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);
-	var _collided = PlayerCollision();
+	var _collided = player_collision();
 	
 	// update sprite
 	sprite_index = spriteRoll;
@@ -18,7 +18,7 @@ function PlayerStateRoll(){
 	}
 
 	if (_collided) {
-		state = PlayerStateBonk;
+		state = player_state_bonk;
 		moveDistanceRemaining = distanceBonk;
 		ScreenShake(4, 15);
 	}

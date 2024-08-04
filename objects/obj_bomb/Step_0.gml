@@ -13,7 +13,7 @@ if (!global.gamePaused) {
 	if (bombTick < 0) {
 		y -= z; // forces bomb to be on the ground
 		if (lifted) {
-			PlayerDropItem();
+			player_drop_item();
 		}
 		instance_destroy();
 	}

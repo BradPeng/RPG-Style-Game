@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerDropItem",
+  "%Name":"player_collision",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerDropItem",
+  "name":"player_collision",
   "parent":{
     "name":"Player",
     "path":"folders/Scripts/Player.yy",

@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerCollision(){
+function player_collision(){
 	var _collision = false;
 	
 	var _collidedObject = instance_place(x + h_speed, y, obj_solid)

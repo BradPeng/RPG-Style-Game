@@ -5,22 +5,22 @@ function player_state_free(){
 		state = platform_player_state_free;
 		return;
 	}
-	if (bloodAuraMagnitude == 1 and global.player_blood_aura_level < global.playerBloodAuraLevelMax) {
+	if (blood_aura_magnitude == 1 and global.player_blood_aura_level < global.player_blood_aura_level_max) {
 		global.player_blood_aura_level++;
-	} else if (bloodAuraMagnitude == -1 and global.player_blood_aura_level > 0) {
+	} else if (blood_aura_magnitude == -1 and global.player_blood_aura_level > 0) {
 		global.player_blood_aura_level--;
 	}
 	
 	
 	// Movement
-	h_speed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-	v_speed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+	h_speed = lengthdir_x(input_magnitude * speedWalk, inputDirection);
+	v_speed = lengthdir_y(input_magnitude * speedWalk, inputDirection);
 
 	
 
 	// Sprite Index
 	var _oldSprite = sprite_index;
-	if (inputMagnitude != 0) {	
+	if (input_magnitude != 0) {	
 		direction = inputDirection;
 		sprite_index = spriteRun;
 	} else {
@@ -36,12 +36,12 @@ function player_state_free(){
 	
 	// attack
 	if (keyAttack) {
-		state = PlayerStateAttack;
+		state = player_state_attack;
 		stateAttack = attack_slash;
 	}
 	
 	if (keyCast and global.iLifted == noone) {
-		state = PlayerStateCast;
+		state = player_state_cast;
 		switch (global.playerEquippedSpell) {
 			case SPELL.FIREBOLT:
 				stateCast = cast_fire;
@@ -104,7 +104,7 @@ function player_state_free(){
 		}
 	}
 	if (keyDodge) {
-		state = PlayerStateDodge;
+		state = player_state_dodge;
 		moveDistanceRemaining = distanceDodge;
 	}
 	
@@ -164,7 +164,7 @@ function player_state_free(){
 		}
 	}
 	
-	PlayerCollision();
+	player_collision();
 }
 
 

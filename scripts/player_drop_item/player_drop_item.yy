@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerStateCast",
+  "%Name":"player_drop_item",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerStateCast",
+  "name":"player_drop_item",
   "parent":{
-    "name":"PlayerStates",
-    "path":"folders/Scripts/Player/PlayerStates.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
