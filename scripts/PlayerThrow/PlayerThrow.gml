@@ -8,7 +8,7 @@ function player_throw(){
 		
 		z = 13;
 		throw_peak_height = z + 10;
-		throw_distance = entityThrowDistance;
+		throw_distance = entity_throw_distance;
 		throw_distance_travelled = 0;
 		throw_start_percent = 13/throw_peak_height * 0.5;
 		throw_percent = throw_start_percent

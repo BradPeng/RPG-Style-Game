@@ -19,11 +19,11 @@ if (global.gamePaused) {
 				break;
 			case 1: 
 				with(obj_game) instance_destroy();
-				SaveGame();
+				save_game();
 				game_restart();
 				break
 			case 2: // save and quit to desktop
-				SaveGame();
+				save_game();
 				game_end();
 				break;
 		 }

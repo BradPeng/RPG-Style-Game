@@ -23,7 +23,7 @@ state_wait_duration = 0;
 enemyHPMax = enemyHP;
 // Enemy Sprites
 move_sprite = -1;
-sprDie = -1
+die_sprite = -1
 hitbox_sprite = -1
 // Enemy Stats
 time_passed = 0;

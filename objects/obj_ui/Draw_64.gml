@@ -1,5 +1,5 @@
 var _player_health = global.player_health;
-var _player_health_max = global.playerHealthMax;
+var _player_health_max = global.player_health_max;
 var _boss_id = global.currentBoss;
 
 if (_boss_id != -1) {	

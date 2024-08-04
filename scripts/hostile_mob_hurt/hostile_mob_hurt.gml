@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function hostile_mob_hurt(){
-	sprite_index = sprHurt;
+	sprite_index = hurt_sprite;
 	var _distance_to_go = point_distance(x, y, x_to, y_to);
 	var _total_frames = sprite_get_number(sprite_index) / 4;
 	if (_distance_to_go > enemy_speed ) {

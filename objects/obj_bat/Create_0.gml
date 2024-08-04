@@ -5,15 +5,15 @@ event_inherited();
 state = ENEMYSTATE.WANDER;
 
 attack_sprite = spr_bat;
-sprDie = spr_bat_die;
-sprHurt = spr_bat_hurt;
+die_sprite = spr_bat_die;
+hurt_sprite = spr_bat_hurt;
 move_sprite = spr_bat;
 
 enemyScript[ENEMYSTATE.WANDER] = bat_wander
 enemyScript[ENEMYSTATE.CHASE] = bat_chase
 enemyScript[ENEMYSTATE.ATTACK] = -1
-enemyScript[ENEMYSTATE.HURT] = SlimeHurt
-enemyScript[ENEMYSTATE.DIE] = SlimeDie
+enemyScript[ENEMYSTATE.HURT] = slime_hurt
+enemyScript[ENEMYSTATE.DIE] = slime_die
 
 entityDropList = choose(
 	[obj_coin],

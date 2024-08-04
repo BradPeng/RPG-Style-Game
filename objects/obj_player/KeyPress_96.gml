@@ -1,2 +1,2 @@
 /// @description Autosave
-SaveGame();
+save_game();

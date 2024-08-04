@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function SaveGame(){
+function save_game(){
 	// Create Save Map
 	var _map = ds_map_create();
 	if (instance_exists(obj_player)) {
@@ -10,16 +10,16 @@ function SaveGame(){
 	}
 	_map[? "room"] = room;
 	_map[? "playerHealth"] = global.player_health;
-	_map[? "playerHealthMax"] = global.playerHealthMax;
+	_map[? "player_health_max"] = global.player_health_max;
 	_map[? "playerMoney"] = global.player_money;
 	_map[? "player_item_unlocked"] = global.player_item_unlocked;
 	_map[? "player_ammo"] = global.player_ammo;
 	_map[? "player_equipped"] = global.player_equipped;
 	_map[? "player_has_any_items"] = global.player_has_any_items;
-	_map[? "targetX"] = global.targetX;
-	_map[? "targetY"] = global.targetY;
+	_map[? "target_x"] = global.target_x;
+	_map[? "target_y"] = global.target_y;
 	
-	_map[? "posY"] = global.targetY;
+	_map[? "posY"] = global.target_y;
 	
 	_map[? "playerBloodAuraLevel"] = global.player_blood_aura_level;
 	_map[? "player_blood_aura_level_max"] = global.player_blood_aura_level_max;
@@ -34,7 +34,7 @@ function SaveGame(){
 	
 	// save all data into string
 	var _string = json_encode(_map);
-	SaveStringToFile("save" + string(global.gameSaveSlot) + ".sav", _string);
+	SaveStringToFile("save" + string(global.game_save_slot) + ".sav", _string);
 	show_debug_message(_string);
 	
 	// nuke data

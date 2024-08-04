@@ -5,7 +5,7 @@ y_to = ystart;
 
 shakeLength = 0;
 shakeMagnitude = 0;
-shakeRemain = 0;
+shake_remain = 0;
 
 
 

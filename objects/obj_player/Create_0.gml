@@ -33,9 +33,9 @@ idle_sprite = spr_player;
 spriteRoll = spr_player_lunge
 local_frame = 0;
 
-if (global.targetX != -1) {
-	x = global.targetX;
-	y = global.targetY;
+if (global.target_x != -1) {
+	x = global.target_x;
+	y = global.target_y;
 	direction = global.targetDirection;
 }
 

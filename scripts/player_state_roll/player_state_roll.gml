@@ -20,7 +20,7 @@ function player_state_roll(){
 	if (_collided) {
 		state = player_state_bonk;
 		move_distance_remaining = distanceBonk;
-		ScreenShake(4, 15);
+		screen_shake(4, 15);
 	}
 		
 }

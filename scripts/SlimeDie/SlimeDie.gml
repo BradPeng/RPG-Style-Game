@@ -1,6 +1,6 @@
-function SlimeDie(){
-	sprite_index = sprDie;
-	entityShadow = false;
+function slime_die(){
+	sprite_index = die_sprite;
+	entity_shadow = false;
 	image_speed = 1;
 	is_solid = false;
 	var _distance_to_go = point_distance(x, y, x_to, y_to);

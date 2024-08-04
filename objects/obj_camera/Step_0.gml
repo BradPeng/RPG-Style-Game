@@ -11,10 +11,10 @@ y += (y_to - y)
 x = clamp(x, viewWidthHalf, room_width - viewWidthHalf);
 y = clamp(y, viewHeightHalf, room_height - viewHeightHalf);
 
-// screenshake
-x += random_range(-shakeRemain, shakeRemain);
-y += random_range(-shakeRemain, shakeRemain);
+// screen_shake
+x += random_range(-shake_remain, shake_remain);
+y += random_range(-shake_remain, shake_remain);
 
-shakeRemain = max(0, shakeRemain - ((1/shakeLength) * shakeMagnitude));
+shake_remain = max(0, shake_remain - ((1/shakeLength) * shakeMagnitude));
 
 camera_set_view_pos(cam, x - viewWidthHalf, y - viewHeightHalf);

@@ -1,4 +1,4 @@
-if (entityShadow) {
+if (entity_shadow) {
 	draw_sprite(spr_shadow, 0,floor(x), floor(y));	
 }
 

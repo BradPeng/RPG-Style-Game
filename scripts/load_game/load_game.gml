@@ -1,6 +1,6 @@
 function load_game(_slot){
-	global.gameSaveSlot = _slot;
-	var _file = "save" + string(global.gameSaveSlot) + ".sav";
+	global.game_save_slot = _slot;
+	var _file = "save" + string(global.game_save_slot) + ".sav";
 	show_debug_message(_file);
 	if (file_exists(_file)) {
 		var _json = LoadJSONFromFile(_file);
@@ -12,12 +12,12 @@ function load_game(_slot){
 	
 		//global variables
 		global.player_health = _json[? "playerHealth"];
-		global.playerHealthMax = _json[? "playerHealthMax"];
+		global.player_health_max = _json[? "player_health_max"];
 		global.player_money = _json[? "playerMoney"];
 		global.player_equipped = _json[? "player_equipped"];
 		global.player_has_any_items = _json[? "player_has_any_items"];
-		//global.targetX = _json[? "targetX"];
-		//global.targetY = _json[? "targetY"];
+		//global.target_x = _json[? "target_x"];
+		//global.target_y = _json[? "target_y"];
 		global.player_blood_aura_level = _json[? "playerBloodAuraLevel"];
 		global.player_blood_aura_level_max = _json[? "player_blood_aura_level_max"];
 		
@@ -29,7 +29,7 @@ function load_game(_slot){
 		}
 		
 		ds_map_copy(global.quest_status, _json[? "questStatus"]);
-		RoomTransition(TRANS_TYPE.SLIDE, _json[? "room"]);
+		room_transition(TRANS_TYPE.SLIDE, _json[? "room"]);
 		ds_map_destroy(_json);
 		
 		return true;
