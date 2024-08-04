@@ -6,14 +6,14 @@ draw_set_color(c_black);
 
 var _print = string_copy(messageText, 1, textProgress);
 if (array_length(responses)> 0 and responses[0] != -1 and textProgress >= string_length(messageText)) {
-	for (var i = 0; i < array_length(responses); i++) {
+	for (var _i = 0; _i < array_length(responses); _i++) {
 		_print += "\n";
-		if (i == responseSelected) {
+		if (_i == responseSelected) {
 			_print += "> ";
 			
 		}
-		_print += responses[i];
-		if (i == responseSelected) {
+		_print += responses[_i];
+		if (_i == responseSelected) {
 			_print += " <";	
 		}
 	}

@@ -1,11 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function activate_hat_npc(){
-	var _hasHat = global.i_lifted != noone and global.i_lifted.object_index == obj_hat;
+	var _has_hat = global.i_lifted != noone and global.i_lifted.object_index == obj_hat;
 	
 	switch (global.quest_status[? "TheHatQuest"]) {
 		case 0: // not started
-			if (_hasHat) {// player already has hat on them 	
+			if (_has_hat) {// player already has hat on them 	
 				// complete quest
 				new_text_box("ty", 2);
 				global.quest_status[? "TheHatQuest"] = 2;
@@ -24,7 +24,7 @@ function activate_hat_npc(){
 			}
 			break;
 		case 1:
-			if (_hasHat) {
+			if (_has_hat) {
 				new_text_box("ty", 2);
 				global.quest_status[? "TheHatQuest"] = 2;
 				with (obj_hat) {

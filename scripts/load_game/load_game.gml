@@ -23,9 +23,9 @@ function load_game(_slot){
 		
 		// when decoding json, the arrays we encoded are decoded as lists
 		// so we need to convert lists to arrays
-		for (var i = 0; i < ITEM.TYPE_COUNT; i++) {
-			global.player_item_unlocked[i] = _json[? "player_item_unlocked"][| i];
-			global.playerAmmo[i] = _json[? "playerAmmo"][|i];
+		for (var _i = 0; _i < ITEM.TYPE_COUNT; _i++) {
+			global.player_item_unlocked[_i] = _json[? "player_item_unlocked"][| _i];
+			global.playerAmmo[_i] = _json[? "playerAmmo"][|_i];
 		}
 		
 		ds_map_copy(global.quest_status, _json[? "questStatus"]);
@@ -39,8 +39,8 @@ function load_game(_slot){
 	}
 }
 
-function LoadJSONFromFile(_fileName) {
-	var _buffer = buffer_load(_fileName);
+function LoadJSONFromFile(_file_name) {
+	var _buffer = buffer_load(_file_name);
 	var _string = buffer_read(_buffer, buffer_string);
 	buffer_delete(_buffer);
 	var _json = json_decode(_string);

@@ -21,8 +21,8 @@ if (!global.gamePaused) {
 			throwDistanceTravelled = min(throwDistanceTravelled + 3, throwDistance);
 			x = xstart + lengthdir_x(throwDistanceTravelled, direction);
 			y = ystart + lengthdir_y(throwDistanceTravelled, direction);
-			var _collisionId = instance_place(x, y, obj_solid);
-			if (_collisionId != noone and _collisionId != obj_player.id) {
+			var _collision_id = instance_place(x, y, obj_solid);
+			if (_collision_id != noone and _collision_id != obj_player.id) {
 				thrown = false;
 				grav = 0.1;
 			}

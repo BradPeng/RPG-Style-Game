@@ -1,18 +1,18 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function calc_attack(hb, _dmg, _knockback){
-	mask_index = hb
-	var hitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x, y, p_entity, hitByAttackNow, false); //returns list of entities in the collision
+function calc_attack(_hb, _dmg, _knockback){
+	mask_index = _hb
+	var _hit_by_attack_now = ds_list_create();
+	var _hits = instance_place_list(x, y, p_entity, _hit_by_attack_now, false); //returns list of entities in the collision
 	
-	if (hits > 0) {
-		for (var i = 0; i < hits; i++) {
+	if (_hits > 0) {
+		for (var _i = 0; _i < _hits; _i++) {
 			// if instance not yet hit, hit it
-			var hitID = ds_list_find_value(hitByAttackNow, i);
-			if (ds_list_find_index(hitByAttackList, hitID) == -1) { // if the instance we are checking is not already in the hit list
-				ds_list_add(hitByAttackList, hitID);
+			var _hit_id = ds_list_find_value(_hit_by_attack_now, _i);
+			if (ds_list_find_index(hitByAttackList, _hit_id) == -1) { // if the instance we are checking is not already in the hit list
+				ds_list_add(hitByAttackList, _hit_id);
 				
-				with (hitID) {
+				with (_hit_id) {
 					
 					// if thing we hit is an enemy
 					if (object_is_ancestor(object_index, p_hostile_mob)) {
@@ -28,6 +28,6 @@ function calc_attack(hb, _dmg, _knockback){
 			}
 		}
 	}
-	ds_list_destroy(hitByAttackNow);
+	ds_list_destroy(_hit_by_attack_now);
 	mask_index = spr_player;
 }

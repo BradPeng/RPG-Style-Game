@@ -56,10 +56,10 @@ function platform_player_state_free(){
 	
 	// Edge Grab
 	var _falling = y - yprevious > 0;
-	var _wasntWall = !position_meeting(x + grabWidth * image_xscale, yprevious, obj_solid);
-	var _isWall = position_meeting(x + grabWidth * image_xscale, y, obj_solid);
+	var _wasnt_wall = !position_meeting(x + grabWidth * image_xscale, yprevious, obj_solid);
+	var _is_wall = position_meeting(x + grabWidth * image_xscale, y, obj_solid);
 	
-	if (_falling and _wasntWall and _isWall and alarm[1] <= 0) {
+	if (_falling and _wasnt_wall and _is_wall and alarm[1] <= 0) {
 		h_speed = 0;
 		v_speed = 0;
 		

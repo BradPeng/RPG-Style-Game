@@ -21,54 +21,54 @@ function mage_attack_s1(){
 		sprite_index = spr_mage_attack;
 	
 		if (attackTimer <= 0) {
-			var randomNumber = irandom_range(0, 0);
+			var _random_number = irandom_range(0, 0);
 	
 		
-			if (randomNumber == 1) {
+			if (_random_number == 1) {
 				attackTimer = 180;
 				// Shoot one
-			    var projectile = instance_create_layer(x, y-60, "Instances", p_mage_projectile);
+			    var _projectile = instance_create_layer(x, y-60, "Instances", p_mage_projectile);
     
 			    // Calculate direction towards player
-			    var dir = point_direction(x, y, obj_player.x, obj_player.y);
+			    var _dir = point_direction(x, y, obj_player.x, obj_player.y);
     
 			    // Set projectile's speed and direction
-			    projectile.spd = 3; // Adjust this value as needed
-			    projectile.direction = dir;
-			    projectile.sprite_index = spr_nebula_effect
-			    projectile.damageToPlayer = 10;
-				projectile.force = 50;
-				projectile.alarm[1] = 30
-			} else if (randomNumber == 2) {
+			    _projectile.spd = 3; // Adjust this value as needed
+			    _projectile.direction = _dir;
+			    _projectile.sprite_index = spr_nebula_effect
+			    _projectile.damageToPlayer = 10;
+				_projectile.force = 50;
+				_projectile.alarm[1] = 30
+			} else if (_random_number == 2) {
 				attackTimer = 480;
 				// Nebula attack
-				var circleRadius = 70; // Adjust this value to set the radius of the circle
-				var numObjects = 8; // Adjust this value to set the number of objects
+				var _circle_radius = 70; // Adjust this value to set the radius of the circle
+				var _num_objects = 8; // Adjust this value to set the number of objects
 
-				for (var i = 0; i < numObjects; i++) {
-				    var angle = i * 360 / numObjects; // Calculate angle in degrees
-				    var radians = degtorad(angle); // Convert angle to radians
+				for (var _i = 0; _i < _num_objects; _i++) {
+				    var _angle = _i * 360 / _num_objects; // Calculate angle in degrees
+				    var _radians = degtorad(_angle); // Convert angle to radians
     
 				    // Calculate the position offsets based on the angle and radius
-				    var xOffset = circleRadius * cos(radians);
-				    var yOffset = circleRadius * sin(radians);
+				    var _x_offset = _circle_radius * cos(_radians);
+				    var _y_offset = _circle_radius * sin(_radians);
     
 				    // Create the object at the calculated position
-				    var _proj = instance_create_layer(x + xOffset, y + yOffset - levitationHeight - 60, "Instances", obj_mage_nebula_projectile);
+				    var _proj = instance_create_layer(x + _x_offset, y + _y_offset - levitationHeight - 60, "Instances", obj_mage_nebula_projectile);
 					_proj.sprite_index = spr_nebula_effect;
 					_proj.alarm[1] = 30 * (i + 1);
 					_proj.spd = 7;
 				}
-			} else if (randomNumber == 3) {
+			} else if (_random_number == 3) {
 				// tracking projectile
 				attackTimer = 360;
-				var projectile = instance_create_layer(x, y-60, "Instances", obj_mage_tracking_projectile);
+				var _projectile = instance_create_layer(x, y-60, "Instances", obj_mage_tracking_projectile);
 			
 			    // Set projectile's speed and direction
-			    projectile.spd = 3;
-			    projectile.damageToPlayer = 10;
-				projectile.force = 50;
-				projectile.alarm[1] = 30
+			    _projectile.spd = 3;
+			    _projectile.damageToPlayer = 10;
+				_projectile.force = 50;
+				_projectile.alarm[1] = 30
 			}
 		} else {
 		    attackTimer--;

@@ -4,12 +4,12 @@ if (!global.gamePaused) {
 	image_speed = 1
 	
 	if (image_index < 4) {
-		var _entityList = ds_list_create();
-		var _entityCount = instance_place_list(x, y, p_entity, _entityList, false);
+		var _entity_list = ds_list_create();
+		var _entity_count = instance_place_list(x, y, p_entity, _entity_list, false);
 		var _entity = noone;
 		
-		while (_entityCount > 0) {
-			_entity = _entityList[| 0];
+		while (_entity_count > 0) {
+			_entity = _entity_list[| 0];
 			if (ds_list_find_index(collisionHistory, _entity) == -1) { // if we haven't hit this thing already
 				with (_entity) {
 					if (object_is_ancestor(object_index, p_hostile_mob)) { // if enemy
@@ -22,10 +22,10 @@ if (!global.gamePaused) {
 				}
 				ds_list_add(collisionHistory, _entity);
 			}
-			ds_list_delete(_entityList, 0);
-			_entityCount--;
+			ds_list_delete(_entity_list, 0);
+			_entity_count--;
 		}
-		ds_list_destroy(_entityList);
+		ds_list_destroy(_entity_list);
 	}
 } else {
 	image_speed = 0;	

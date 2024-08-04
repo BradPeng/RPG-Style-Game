@@ -20,8 +20,8 @@ if (responseSelected < _min) {
 }
 
 if (keyboard_check_pressed(vk_space)) {
-	var _messageLength = string_length(messageText);
-	if (textProgress >= _messageLength) {
+	var _message_length = string_length(messageText);
+	if (textProgress >= _message_length) {
 		if (responses[0] != -1) {
 			with (originInstance) {
 				dialogue_responses(other.responseScripts[other.responseSelected]) 	
@@ -39,7 +39,7 @@ if (keyboard_check_pressed(vk_space)) {
 		}
 	} else {
 		if (textProgress > 2) {
-			textProgress = _messageLength;	
+			textProgress = _message_length;	
 		}
 	}
 }

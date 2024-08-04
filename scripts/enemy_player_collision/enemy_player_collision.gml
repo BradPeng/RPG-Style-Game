@@ -3,8 +3,8 @@
 function enemy_player_collision(){
 	var _collision = false;
 	
-	var _collidedObject = instance_place(x + h_speed, y, obj_player)
-	if (_collidedObject != noone and _collidedObject.is_solid) {
+	var _collided_object = instance_place(x + h_speed, y, obj_player)
+	if (_collided_object != noone and _collided_object.is_solid) {
 		while (!place_meeting(x + sign(h_speed), y, obj_player)) {
 			x += sign(h_speed);
 		}
@@ -15,8 +15,8 @@ function enemy_player_collision(){
 	// Horizontal move commit
 	x += h_speed;
 	
-	var _collidedObject = instance_place(x, y + v_speed, obj_player)
-	if (_collidedObject != noone and _collidedObject.is_solid) {
+	var _collided_object = instance_place(x, y + v_speed, obj_player)
+	if (_collided_object != noone and _collided_object.is_solid) {
 		while (!place_meeting(x, y + sign(v_speed), obj_player)) {
 			y += sign(v_speed);
 		}

@@ -1,15 +1,15 @@
-var _playerHealth = global.player_health;
-var _playerHealthMax = global.playerHealthMax;
-var _bossId = global.currentBoss;
+var _player_health = global.player_health;
+var _player_health_max = global.playerHealthMax;
+var _boss_id = global.currentBoss;
 
-if (_bossId != -1) {	
-	var _currentBoss = instance_find(global.currentBoss, 0);
+if (_boss_id != -1) {	
+	var _current_boss = instance_find(global.currentBoss, 0);
 		
-	var _healthbarScale = 150
+	var _healthbar_scale = 150
 	
 	// Draw boss healthbar
-	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbarScale/2), 8, _healthbarScale * _currentBoss.enemyHP/_currentBoss.enemyHPMax, 12);
-	draw_sprite_stretched(spr_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbarScale/2), 8, _healthbarScale, 12);
+	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale * _current_boss.enemyHP/_current_boss.enemyHPMax, 12);
+	draw_sprite_stretched(spr_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale, 12);
 
 	// Boss Name
 	draw_set_halign(fa_center);
@@ -17,7 +17,7 @@ if (_bossId != -1) {
 	draw_text(RESOLUTION_W/2, 30, "Aeolia Schenberg")
 }
 /// Draw health bar
-draw_sprite_stretched(spr_healthbar, 0, 8, 8, 100 * _playerHealth/_playerHealthMax, 12);
+draw_sprite_stretched(spr_healthbar, 0, 8, 8, 100 * _player_health/_player_health_max, 12);
 draw_sprite_stretched(spr_healthbar_background, 0, 8, 8, 100, 12);
 
 
@@ -83,16 +83,16 @@ if (global.gamePaused) {
 	draw_set_valign(fa_middle);
 	
 	draw_text(RESOLUTION_W * 0.5, RESOLUTION_H * 0.5, "...Game Paused...");
-	for (var i = 0; i < array_length(pauseOption); i++) {
+	for (var _i = 0; _i < array_length(pauseOption); _i++) {
 		var _print = "";
-		if (i == pauseOptionSelected) {
-			_print += "> " + pauseOption[i] + " <";	
+		if (_i == pauseOptionSelected) {
+			_print += "> " + pauseOption[_i] + " <";	
 		} else {
-			_print += pauseOption[i];
+			_print += pauseOption[_i];
 			draw_set_alpha(0.75);
 		}
 		
-		draw_text(RESOLUTION_W * 0.5, RESOLUTION_H * 0.5 + 18 + i * 16, _print);
+		draw_text(RESOLUTION_W * 0.5, RESOLUTION_H * 0.5 + 18 + _i * 16, _print);
 		draw_set_alpha(1)
 	}
 	

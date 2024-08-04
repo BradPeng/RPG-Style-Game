@@ -15,10 +15,10 @@ function new_text_box(_message, _background = 0, _responses) {
 	}
 	
 
-	var _textBox = instance_create_layer(0, 0, "Instances", _obj)
-	var _objId = _textBox.id;
-	with (_textBox) {
-		_objId = id;
+	var _text_box = instance_create_layer(0, 0, "Instances", _obj)
+	var _obj_id = _text_box.id;
+	with (_text_box) {
+		_obj_id = id;
 		messageText = _message
 		background = _background
 		if (instance_exists(other)) {
@@ -31,13 +31,13 @@ function new_text_box(_message, _background = 0, _responses) {
 		if (array_length(_responses) > 0) {
 			responses = [];
 			array_copy(responses, 0, _responses, 0, array_length(_responses))
-			for (var i = 0; i < array_length(responses); i++) {
+			for (var _i = 0; _i < array_length(responses); _i++) {
 				// split the colon from response
-				var _markerPosition = string_pos(":", responses[i]);
+				var _marker_position = string_pos(":", responses[_i]);
 				
 				// get id
-				responseScripts[i] = real(string_copy(responses[i], 1, _markerPosition - 1));
-				responses[i] = string_delete(responses[i], 1, _markerPosition);
+				responseScripts[_i] = real(string_copy(responses[_i], 1, _marker_position - 1));
+				responses[_i] = string_delete(responses[_i], 1, _marker_position);
 			}	
 		} else {
 			responses = [-1];
@@ -51,5 +51,5 @@ function new_text_box(_message, _background = 0, _responses) {
 			state = player_state_locked
 		}
 	}
-	return _textBox.id;
+	return _text_box.id;
 }
