@@ -11,7 +11,7 @@ function attack_slash() {
 		if (keyLeft) direction = 180;
 		
 		// Check chain attack
-		if (keyAttack) {
+		if (key_attack) {
 			chainAttack = true;
 		}
 	
@@ -43,7 +43,7 @@ function attack_slash() {
 	// When animation ends, begin lag timer unless we are chaining an attack
 	if (animation_end) {
 		if (chainAttack) {
-			stateAttack = attack_slash_b
+			state_attack = attack_slash_b
 			chainAttack = false
 			
 			// If we chain attack, the first attack's lag should end early

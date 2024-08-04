@@ -13,21 +13,21 @@ function player_state_free(){
 	
 	
 	// Movement
-	h_speed = lengthdir_x(input_magnitude * speedWalk, inputDirection);
-	v_speed = lengthdir_y(input_magnitude * speedWalk, inputDirection);
+	h_speed = lengthdir_x(input_magnitude * speed_walk, input_direction);
+	v_speed = lengthdir_y(input_magnitude * speed_walk, input_direction);
 
 	
 
 	// Sprite Index
-	var _oldSprite = sprite_index;
+	var _old_sprite = sprite_index;
 	if (input_magnitude != 0) {	
-		direction = inputDirection;
-		sprite_index = spriteRun;
+		direction = input_direction;
+		sprite_index = run_sprite;
 	} else {
-		sprite_index = spriteIdle;
+		sprite_index = idle_sprite;
 	} 
 
-	if (_oldSprite != sprite_index) {
+	if (_old_sprite != sprite_index) {
 		local_frame = 0;	
 	}
 
@@ -35,19 +35,19 @@ function player_state_free(){
 	animate_cardinal_sprite()
 	
 	// attack
-	if (keyAttack) {
+	if (key_attack) {
 		state = player_state_attack;
-		stateAttack = attack_slash;
+		state_attack = attack_slash;
 	}
 	
-	if (keyCast and global.iLifted == noone) {
+	if (key_cast and global.i_lifted == noone) {
 		state = player_state_cast;
-		switch (global.playerEquippedSpell) {
+		switch (global.player_equipped_spell) {
 			case SPELL.FIREBOLT:
-				stateCast = cast_fire;
+				state_cast = cast_fire;
 				break;
 			case SPELL.SHIELD:
-				stateCast = cast_shield;
+				state_cast = cast_shield;
 				break;
 
 			default: break;
@@ -55,40 +55,40 @@ function player_state_free(){
 		
 	}
 		
-	if (keyActivate) {
+	if (key_activate) {
 		// check for an entity with script
-		var _activateX = x + lengthdir_x(ACTIVATE_RANGE, direction);
-		var _activateY = y + lengthdir_y(ACTIVATE_RANGE, direction);
-		var _activateSize = 12;
-		var _activateList = ds_list_create();
+		var _activate_x = x + lengthdir_x(ACTIVATE_RANGE, direction);
+		var _activate_y = y + lengthdir_y(ACTIVATE_RANGE, direction);
+		var _activate_size = 12;
+		var _activate_list = ds_list_create();
 		
 		activate = noone;
 		var _entitiesFound = collision_rectangle_list( 
-			_activateX - _activateSize,
-			_activateY - _activateSize,
-			_activateX + _activateSize,
-			_activateY + _activateSize,
+			_activate_x - _activate_size,
+			_activate_y - _activate_size,
+			_activate_x + _activate_size,
+			_activate_y + _activate_size,
 			p_activatable,
 			false,
 			true,
-			_activateList,
+			_activate_list,
 			true
 		);
 		
 		// if first instance is either our lifted entry, or has no script, try next
 		while (_entitiesFound > 0) {
-			var _check = _activateList[| --_entitiesFound];	//last element in list //-- reduces then number by 1 first, then returns it
-			if (_check != global.iLifted and _check.activatableActivateScript != -1) {
+			var _check = _activate_list[| --_entitiesFound];	//last element in list //-- reduces then number by 1 first, then returns it
+			if (_check != global.i_lifted and _check.activatableActivateScript != -1) {
 				activate = _check;	
 				break;
 			}
 		}
 		
-		ds_list_destroy(_activateList);
+		ds_list_destroy(_activate_list);
 
 		if (activate == noone) {
 			//Throw item if held
-			if (global.iLifted != noone) {
+			if (global.i_lifted != noone) {
 				PlayerThrow();	
 			} else {
 				state = PlayerStateRoll;
@@ -109,7 +109,7 @@ function player_state_free(){
 	}
 	
 	// Use item
-	if (keyItem and !keyActivate and global.playerHasAnyItems and global.playerEquipped != ITEM.NONE) {
+	if (keyItem and !key_activate and global.playerHasAnyItems and global.playerEquipped != ITEM.NONE) {
 		switch (global.playerEquipped) {
 			case ITEM.BOMB:
 				UseItemBomb();
@@ -149,18 +149,18 @@ function player_state_free(){
 		var _spellCycleDirection = keySpellSelectUp - keySpellSelectDown;
 		if (_spellCycleDirection != 0) {
 			do {
-				global.playerEquippedSpell += _spellCycleDirection;
+				global.player_equipped_spell += _spellCycleDirection;
 
 				// If we are at first spell, go to last spell
-				if (global.playerEquippedSpell < 1) {
-					global.playerEquippedSpell = SPELL.TYPE_COUNT - 1;	
+				if (global.player_equipped_spell < 1) {
+					global.player_equipped_spell = SPELL.TYPE_COUNT - 1;	
 				}
 				
 				// if we are at last spell, go to first spell
-				if (global.playerEquippedSpell >= SPELL.TYPE_COUNT) {
-					global.playerEquippedSpell = 1;	
+				if (global.player_equipped_spell >= SPELL.TYPE_COUNT) {
+					global.player_equipped_spell = 1;	
 				}
-			} until (global.playerSpellUnlocked[global.playerEquippedSpell]);
+			} until (global.playerSpellUnlocked[global.player_equipped_spell]);
 		}
 	}
 	

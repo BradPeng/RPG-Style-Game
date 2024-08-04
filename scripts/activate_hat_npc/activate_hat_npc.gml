@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function activate_hat_npc(){
-	var _hasHat = global.iLifted != noone and global.iLifted.object_index == obj_hat;
+	var _hasHat = global.i_lifted != noone and global.i_lifted.object_index == obj_hat;
 	
 	switch (global.quest_status[? "TheHatQuest"]) {
 		case 0: // not started
@@ -12,10 +12,10 @@ function activate_hat_npc(){
 				with (obj_hat) {
 					instance_destroy();	
 				}
-				global.iLifted = noone;
+				global.i_lifted = noone;
 				with (obj_player) {
-					spriteIdle = spr_player;
-					spriteRun = spr_player_run
+					idle_sprite = spr_player;
+					run_sprite = spr_player_run
 				}	
 			} else {
 				// start quest	
@@ -30,10 +30,10 @@ function activate_hat_npc(){
 				with (obj_hat) {
 					instance_destroy();	
 				}
-				global.iLifted = noone;
+				global.i_lifted = noone;
 				with (obj_player) {
-					spriteIdle = spr_player;
-					spriteRun = spr_player_run
+					idle_sprite = spr_player;
+					run_sprite = spr_player_run
 				}	
 			} else {
 				// reminder	

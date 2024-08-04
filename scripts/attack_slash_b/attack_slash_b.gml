@@ -7,7 +7,7 @@ function attack_slash_b() {
 	
 	// Lag state
 	if (alarm[1] != 0 and alarm[1] != -1) {
-		if (keyAttack) {
+		if (key_attack) {
 			chainAttack = true;
 		}
 		// do nothing
@@ -43,7 +43,7 @@ function attack_slash_b() {
 	// When animation ends, begin lag timer unless we are chaining an attack
 	if (animation_end) {
 		if (chainAttack) {
-			stateAttack = attack_thrust
+			state_attack = attack_thrust
 			chainAttack = false
 			
 			// If we chain attack, the first attack's lag should end early

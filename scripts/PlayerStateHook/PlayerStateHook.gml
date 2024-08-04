@@ -41,7 +41,7 @@ function PlayerStateHook(){
 			
 			// check for hit
 			var _hookHit = collision_circle(x + hookX, y + hookY, 4, p_entity, false, true);
-			if (_hookHit != noone and global.iLifted != _hookHit) {
+			if (_hookHit != noone and global.i_lifted != _hookHit) {
 				// act depending on what is hit
 				switch (_hookHit.entityHookable) {
 					default: // not hookable

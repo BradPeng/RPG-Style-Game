@@ -8,7 +8,7 @@ global.targetRoom = -1;
 global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = 0;
-global.iLifted = noone;
+global.i_lifted = noone;
 global.iPushing = noone;
 global.playerHealthMax = 100;
 global.player_health = global.playerHealthMax;
@@ -38,12 +38,12 @@ global.playerAmmo[ITEM.BOW] = 99;
 
 // Spells
 global.playerHasAnySpells = false;
-global.playerEquippedSpell = SPELL.FIREBOLT;
+global.player_equipped_spell = SPELL.FIREBOLT;
 global.playerSpellUnlocked = array_create(SPELL.TYPE_COUNT, -1);
 global.playerSpellUnlocked[SPELL.FIREBOLT] = true;
 global.playerSpellUnlocked[SPELL.SHIELD] = true;
 // temp spell setup
 global.playerHasAnySpells = true
-global.playerEquippedSpell = SPELL.FIREBOLT;
+global.player_equipped_spell = SPELL.FIREBOLT;
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H)
 room_goto(ROOM_START);

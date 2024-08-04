@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerThrow(){
-	with(global.iLifted) {
+	with(global.i_lifted) {
 		lifted = false;
 		persistent = false;
 		thrown = true
@@ -18,7 +18,7 @@ function PlayerThrow(){
 	}
 	
 	player_act_out_animation(spr_player_lift);
-	global.iLifted = noone;
-	spriteIdle = spr_player;
-	spriteRun = spr_player_run;
+	global.i_lifted = noone;
+	idle_sprite = spr_player;
+	run_sprite = spr_player_run;
 }
