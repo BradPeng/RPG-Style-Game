@@ -9,8 +9,8 @@ function PlayerStateRoll(){
 	
 	// update sprite
 	sprite_index = spriteRoll;
-	var _totalFrames = sprite_get_number(sprite_index)/4;
-	image_index = (CARDINAL_DIR * _totalFrames) + min(((1 - (moveDistanceRemaining / distanceRoll)) * _totalFrames), _totalFrames - 1);
+	var _total_frames = sprite_get_number(sprite_index)/4;
+	image_index = (CARDINAL_DIR * _total_frames) + min(((1 - (moveDistanceRemaining / distanceRoll)) * _total_frames), _total_frames - 1);
 	
 	// state
 	if (moveDistanceRemaining <= 0) {

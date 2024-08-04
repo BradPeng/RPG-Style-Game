@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"HostileMobHurt",
+  "%Name":"hostile_mob_hurt",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"HostileMobHurt",
+  "name":"hostile_mob_hurt",
   "parent":{
     "name":"EnemyFighterStates",
     "path":"folders/Scripts/Enemies/EnemyFighterStates.yy",

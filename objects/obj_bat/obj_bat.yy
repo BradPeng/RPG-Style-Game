@@ -7,10 +7,10 @@
   "managed":true,
   "name":"obj_bat",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyAttackRadius","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_attack_radius","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"40",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyAggroRadius","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyHP","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemySpeed","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_speed","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"Enemies",

@@ -1,20 +1,20 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SlimeChase(){
-	sprite_index = sprMove;
+	sprite_index = move_sprite;
 	if (instance_exists(target)) {
-		xTo = target.x;
-		yTo = target.y;
+		x_to = target.x;
+		y_to = target.y;
 		
-		var _distanceToGo = point_distance(x, y, xTo, yTo);
+		var _distance_to_go = point_distance(x, y, x_to, y_to);
 		image_speed = 1;
-		dir = point_direction(x, y, xTo, yTo);
-		if (_distanceToGo > enemySpeed) {
-			h_speed = lengthdir_x(enemySpeed, dir)	
-			v_speed = lengthdir_y(enemySpeed, dir)	
+		dir = point_direction(x, y, x_to, y_to);
+		if (_distance_to_go > enemy_speed) {
+			h_speed = lengthdir_x(enemy_speed, dir)	
+			v_speed = lengthdir_y(enemy_speed, dir)	
 		} else {
-			h_speed = lengthdir_x(_distanceToGo, dir)	
-			v_speed = lengthdir_y(_distanceToGo, dir)	
+			h_speed = lengthdir_x(_distance_to_go, dir)	
+			v_speed = lengthdir_y(_distance_to_go, dir)	
 		}
 		
 		if (h_speed != 0) {
@@ -25,11 +25,11 @@ function SlimeChase(){
 	}	
 	
 	// check if close enough to attack
-	if (instance_exists(target) and point_distance(x, y, target.x, target.y) <= enemyAttackRadius) {
+	if (instance_exists(target) and point_distance(x, y, target.x, target.y) <= enemy_attack_radius) {
 		state = ENEMYSTATE.ATTACK;
 		
 		//target 8px past the player
-		xTo += lengthdir_x(30, dir);
-		yTo += lengthdir_y(30, dir);
+		x_to += lengthdir_x(30, dir);
+		y_to += lengthdir_y(30, dir);
 	}
 }

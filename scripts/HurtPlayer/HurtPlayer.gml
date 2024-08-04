@@ -16,7 +16,7 @@ function HurtPlayer(_direction, _force, _damage){
 		} else {
 			with (obj_player) {
 				direction = _direction
-				state = PlayerStateDead;
+				state = player_state_dead;
 			}
 		}
 	}
@@ -28,7 +28,7 @@ function DrainPlayerHP(_damage){
 		
 		if (global.player_health <= 0) {
 			with (obj_player) {
-				state = PlayerStateDead;
+				state = player_state_dead;
 			}
 		}
 	}

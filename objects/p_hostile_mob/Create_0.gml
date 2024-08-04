@@ -4,8 +4,8 @@ event_inherited();
 state = ENEMYSTATE.IDLE;
 h_speed = 0;
 v_speed = 0;
-xTo = xstart;
-yTo = ystart;
+x_to = xstart;
+y_to = ystart;
 dir = 0;
 timePassed = 0;
 waitDuration = 60;
@@ -22,7 +22,7 @@ state_wait = 0;
 state_wait_duration = 0;
 enemyHPMax = enemyHP;
 // Enemy Sprites
-sprMove = -1;
+move_sprite = -1;
 sprDie = -1
 hitbox_sprite = -1
 // Enemy Stats
@@ -31,9 +31,9 @@ timePassed = 0;
 // Enemy functions
 enemyScript[ENEMYSTATE.IDLE] = -1;
 enemyScript[ENEMYSTATE.WANDER] = HostileMobWander;
-enemyScript[ENEMYSTATE.CHASE] = HostileMobChase;
+enemyScript[ENEMYSTATE.CHASE] = hostile_mob_chase;
 enemyScript[ENEMYSTATE.ATTACK] = hostile_mob_attack;
-enemyScript[ENEMYSTATE.HURT] = HostileMobHurt;
+enemyScript[ENEMYSTATE.HURT] = hostile_mob_hurt;
 enemyScript[ENEMYSTATE.DIE] = -1;
 enemyScript[ENEMYSTATE.WAIT] = enemy_wait;
 

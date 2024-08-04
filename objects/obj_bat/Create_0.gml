@@ -7,7 +7,7 @@ state = ENEMYSTATE.WANDER;
 attack_sprite = spr_bat;
 sprDie = spr_bat_die;
 sprHurt = spr_bat_hurt;
-sprMove = spr_bat;
+move_sprite = spr_bat;
 
 enemyScript[ENEMYSTATE.WANDER] = bat_wander
 enemyScript[ENEMYSTATE.CHASE] = bat_chase

@@ -1,12 +1,12 @@
 if (instance_exists(follow)) {
-	xTo = follow.x;
-	yTo = follow.y;
+	x_to = follow.x;
+	y_to = follow.y;
 	
 }
 
 // update obj position
-x += (xTo - x)
-y += (yTo - y)
+x += (x_to - x)
+y += (y_to - y)
 // keep camera cenetered in room
 x = clamp(x, viewWidthHalf, room_width - viewWidthHalf);
 y = clamp(y, viewHeightHalf, room_height - viewHeightHalf);

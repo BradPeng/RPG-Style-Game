@@ -3,12 +3,12 @@
 
 // Inherit the parent event
 event_inherited();
-sprMove = -1;
+move_sprite = -1;
 state = NPCSTATE.WANDER;
 h_speed = 0;
 v_speed = 0;
-xTo = xstart;
-yTo = ystart;
+x_to = xstart;
+y_to = ystart;
 dir = 0;
 timePassed = 0;
 waitDuration = 60;

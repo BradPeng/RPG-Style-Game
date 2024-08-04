@@ -1,7 +1,7 @@
 
 follow = obj_player;
-xTo = xstart;
-yTo = ystart;
+x_to = xstart;
+y_to = ystart;
 
 shakeLength = 0;
 shakeMagnitude = 0;

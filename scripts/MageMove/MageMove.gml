@@ -20,18 +20,18 @@ function MageMove(){
 		//x = mouse_x + lengthdir_x(circleRadius, theta);
 		//y = mouse_y + lengthdir_y(circleRadius, theta);
 	} else {
-		if ((x <= xTo - 10 or x >= xTo + 10) and (y<= yTo -10 or y >= yTo + 10)) {
+		if ((x <= x_to - 10 or x >= x_to + 10) and (y<= y_to -10 or y >= y_to + 10)) {
 
-			dir = point_direction(x, y, xTo, yTo);
+			dir = point_direction(x, y, x_to, y_to);
 			x += lengthdir_x(2, dir);
 			y += lengthdir_y(2, dir);
 			
 		} else {
 			
-			xTo = irandom_range(300, 350)
-			yTo = irandom_range(300, 350)
-			centerX = xTo + circleRadius;
-			centerY = yTo + circleRadius;
+			x_to = irandom_range(300, 350)
+			y_to = irandom_range(300, 350)
+			centerX = x_to + circleRadius;
+			centerY = y_to + circleRadius;
 			theta = point_direction(centerX, centerY, x, y)
 			print(theta);
 			

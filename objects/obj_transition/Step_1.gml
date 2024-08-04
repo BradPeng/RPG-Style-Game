@@ -1,7 +1,7 @@
 /// @description Progress Transistion
 
 with(obj_player) {
-	if (obj_player.state != PlayerStateDead) {
+	if (obj_player.state != player_state_dead) {
 		state = PlayerStateTransition;	
 	}
 }

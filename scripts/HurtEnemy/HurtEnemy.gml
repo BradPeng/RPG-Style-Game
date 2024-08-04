@@ -20,8 +20,8 @@ function HurtEnemy(_enemy, _damage, _source, _knockback){
 				state = ENEMYSTATE.HURT;
 				if (_knockback != 0) {
 					var _knockDirection = point_direction(x, y, _source.x, _source.y);
-					xTo = x - lengthdir_x(_knockback, _knockDirection);
-					yTo = y - lengthdir_y(_knockback, _knockDirection);
+					x_to = x - lengthdir_x(_knockback, _knockDirection);
+					y_to = y - lengthdir_y(_knockback, _knockDirection);
 				}
 			}
 		}	

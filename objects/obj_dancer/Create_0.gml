@@ -3,6 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-sprMove = spr_dancer_walk;
+move_sprite = spr_dancer_walk;
 sprIdle = spr_dancer
 

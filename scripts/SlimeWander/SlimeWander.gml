@@ -1,9 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SlimeWander(){
-	sprite_index = sprMove;
+	sprite_index = move_sprite;
 	// At destination or given up
-	if ((x == xTo and y == yTo) || timePassed > enemyWanderDistance / enemySpeed) {
+	if ((x == x_to and y == y_to) || timePassed > enemyWanderDistance / enemy_speed) {
 		h_speed = 0;
 		v_speed = 0;
 		// end our move animation
@@ -17,21 +17,21 @@ function SlimeWander(){
 			wait = 0;
 			timePassed = 0;
 			dir = point_direction(x,y,xstart,ystart) + irandom_range(-45, 45); // always point toward the startish position, so we don't wander too far away from spawn point
-			xTo = x + lengthdir_x(enemyWanderDistance, dir);
-			yTo = y + lengthdir_y(enemyWanderDistance, dir);
+			x_to = x + lengthdir_x(enemyWanderDistance, dir);
+			y_to = y + lengthdir_y(enemyWanderDistance, dir);
 		}
 	} else { // Move toward new destination
 		timePassed++;
-		var _distanceToGo = point_distance(x, y, xTo, yTo);
-		var _speedThisFrame = enemySpeed;
+		var _distance_to_go = point_distance(x, y, x_to, y_to);
+		var _speedThisFrame = enemy_speed;
 		
 		// make sure we don't overshoot destination
-		if (_distanceToGo < enemySpeed) {
-			_speedThisFrame = _distanceToGo	
+		if (_distance_to_go < enemy_speed) {
+			_speedThisFrame = _distance_to_go	
 		}
 		image_speed = 1.0
 		
-		dir = point_direction(x, y, xTo, yTo);
+		dir = point_direction(x, y, x_to, y_to);
 		h_speed = lengthdir_x(_speedThisFrame, dir);
 		v_speed = lengthdir_y(_speedThisFrame, dir);
 		

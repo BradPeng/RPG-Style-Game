@@ -8,14 +8,14 @@ function hostile_mob_attack(){
 		image_index = 0;
 		
 		if (instance_exists(obj_player)) {
-			enemy_attack(hitbox_sprite, point_direction(x,y,obj_player.x, obj_player.y), enemyForceTouch, 10);
+			enemy_attack(hitbox_sprite, point_direction(x,y,obj_player.x, obj_player.y), enemy_force_touch, 10);
 		}
 	}
 
 	
 	animate_cardinal_sprite();
 	if (animation_end) {
-		if (instance_exists(obj_player) and (obj_player.state != PlayerStateDead)) {
+		if (instance_exists(obj_player) and (obj_player.state != player_state_dead)) {
 			state = ENEMYSTATE.CHASE;
 		} else {
 			state = ENEMYSTATE.WANDER;

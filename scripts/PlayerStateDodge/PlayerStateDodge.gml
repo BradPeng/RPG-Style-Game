@@ -9,8 +9,8 @@ function PlayerStateDodge(){
 	
 	// update sprite
 	sprite_index = spr_player_backstep;
-	var _totalFrames = sprite_get_number(sprite_index)/4;
-	image_index = (CARDINAL_DIR * _totalFrames) + min(((1 - (moveDistanceRemaining / distanceDodge)) * _totalFrames), _totalFrames - 1);
+	var _total_frames = sprite_get_number(sprite_index)/4;
+	image_index = (CARDINAL_DIR * _total_frames) + min(((1 - (moveDistanceRemaining / distanceDodge)) * _total_frames), _total_frames - 1);
 	z = sin((moveDistanceRemaining / distanceDodge * pi)) * distanceBonkHeight;
 	// state
 	if (moveDistanceRemaining <= 0) {

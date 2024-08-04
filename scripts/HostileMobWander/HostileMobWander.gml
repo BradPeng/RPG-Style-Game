@@ -1,17 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function HostileMobWander(){
-	sprite_index = sprMove;
+	sprite_index = move_sprite;
 	image_speed = 0;
 	// At destination or given up
-	if ((x == xTo and y == yTo) || timePassed > enemyWanderDistance / enemySpeed) {
+	if ((x == x_to and y == y_to) || timePassed > enemyWanderDistance / enemy_speed) {
 		
 		// Make sure enemy finishs their movement animation before stopping
 		if (local_frame != 0) {
-			var _totalFrames = sprite_get_number(sprite_index) / 4;
-			image_index = local_frame + (CARDINAL_DIR * _totalFrames);
+			var _total_frames = sprite_get_number(sprite_index) / 4;
+			image_index = local_frame + (CARDINAL_DIR * _total_frames);
 			local_frame += sprite_get_speed(sprite_index) / FRAME_RATE;
-			if (local_frame >= _totalFrames) {
+			if (local_frame >= _total_frames) {
 				local_frame = 0;
 			}	
 		} else {
@@ -27,31 +27,31 @@ function HostileMobWander(){
 				wait = 0;
 				timePassed = 0;
 				dir = point_direction(x,y,xstart,ystart) + irandom_range(-45, 45); // always point toward the startish position, so we don't wander too far away from spawn point
-				xTo = x + lengthdir_x(enemyWanderDistance, dir);
-				yTo = y + lengthdir_y(enemyWanderDistance, dir);
+				x_to = x + lengthdir_x(enemyWanderDistance, dir);
+				y_to = y + lengthdir_y(enemyWanderDistance, dir);
 			}
 		}
 	} else { // Move toward new destination
 		image_speed = 0;
-		sprite_index = sprMove;
-		var _totalFrames = sprite_get_number(sprite_index) / 4;
-		image_index = local_frame + (CARDINAL_DIR * _totalFrames);
+		sprite_index = move_sprite;
+		var _total_frames = sprite_get_number(sprite_index) / 4;
+		image_index = local_frame + (CARDINAL_DIR * _total_frames);
 		local_frame += sprite_get_speed(sprite_index) / FRAME_RATE;
 		
-		if (local_frame >= _totalFrames) {
-			local_frame -= _totalFrames
+		if (local_frame >= _total_frames) {
+			local_frame -= _total_frames
 		}	
 		
 		timePassed++;
-		var _distanceToGo = point_distance(x, y, xTo, yTo);
-		var _speedThisFrame = enemySpeed;
+		var _distance_to_go = point_distance(x, y, x_to, y_to);
+		var _speedThisFrame = enemy_speed;
 		
 		// make sure we don't overshoot destination
-		if (_distanceToGo < enemySpeed) {
-			_speedThisFrame = _distanceToGo	
+		if (_distance_to_go < enemy_speed) {
+			_speedThisFrame = _distance_to_go	
 		}
 		
-		dir = point_direction(x, y, xTo, yTo);
+		dir = point_direction(x, y, x_to, y_to);
 		h_speed = lengthdir_x(_speedThisFrame, dir);
 		v_speed = lengthdir_y(_speedThisFrame, dir);
 	
@@ -64,7 +64,7 @@ function HostileMobWander(){
 	if (++aggroCheck >= aggroCheckDuration) {
 		aggroCheck = 0;
 		if (instance_exists(obj_player) and point_distance(x, y, obj_player.x, obj_player.y) < enemyAggroRadius) {
-			if (target.state == PlayerStateDead) {
+			if (target.state == player_state_dead) {
 				state = ENEMYSTATE.WANDER;
 			} else {
 				state = ENEMYSTATE.CHASE;

@@ -1,5 +1,5 @@
 if (instance_exists(obj_player) and position_meeting(obj_player.x, obj_player.y, id)) {
-	if (!instance_exists(obj_transition) and obj_player.state != PlayerStateDead) {
+	if (!instance_exists(obj_transition) and obj_player.state != player_state_dead) {
 		global.targetRoom = targetRoom;
 		global.targetX = targetX;
 		global.targetY = targetY;
