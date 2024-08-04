@@ -61,8 +61,8 @@ function hostile_mob_wander(){
 	}
 	
 	// check for aggro
-	if (++aggroCheck >= aggroCheckDuration) {
-		aggroCheck = 0;
+	if (++aggro_check >= aggro_check_duration) {
+		aggro_check = 0;
 		if (instance_exists(obj_player) and point_distance(x, y, obj_player.x, obj_player.y) < enemyAggroRadius) {
 			if (target.state == player_state_dead) {
 				state = ENEMYSTATE.WANDER;

@@ -8,7 +8,7 @@ if (_boss_id != -1) {
 	var _healthbar_scale = 150
 	
 	// Draw boss healthbar
-	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale * _current_boss.enemyHP/_current_boss.enemyHPMax, 12);
+	draw_sprite_stretched(spr_healthbar, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale * _current_boss.enemy_hp/_current_boss.enemy_hpMax, 12);
 	draw_sprite_stretched(spr_healthbar_background, 0, RESOLUTION_W/2  - (sprite_get_width(spr_healthbar) * _healthbar_scale/2), 8, _healthbar_scale, 12);
 
 	// Boss Name

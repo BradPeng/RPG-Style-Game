@@ -12,7 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyAggroRadius","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_force_touch","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_damage_touch","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemyHP","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_hostile_mob","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"propertyId":{"name":"enemy_hp","path":"objects/p_hostile_mob/p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"50",},
   ],
   "parent":{
     "name":"Enemies",

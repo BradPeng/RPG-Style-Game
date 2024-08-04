@@ -1,1 +1,1 @@
-movementType = !movementType;
+movement_type = !movement_type;

@@ -9,7 +9,7 @@ function slime_attack(){
 		sprite_index = attack_sprite;
 		image_index = 0;
 		with (instance_create_layer(x, y, "Instances", obj_enemy_hitbox)) {
-			sourceObject = other.id;	
+			source_object = other.id;	
 			sprite_index = other.hitbox_sprite
 			if (other.x_to < other.x) {
 				image_xscale = -1

@@ -18,14 +18,14 @@ function hostile_mob_hurt(){
 		}
 		
 	} else { // snap to destination
-		hurtStunDurationCurrent = 0
+		hurt_stun_duration_current = 0
 		x = x_to;
 		y = y_to;
 		
 		// only return to prev state if enemy was not attacking;
 		// if enemy was attacking, chase instead
-		if (statePrevious != ENEMYSTATE.ATTACK) {
-			state = statePrevious;	
+		if (state_previous != ENEMYSTATE.ATTACK) {
+			state = state_previous;	
 		} else {
 			state = ENEMYSTATE.CHASE;	
 		}

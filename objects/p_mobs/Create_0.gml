@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-endActionFrame = -1;
+end_action_frame = -1;

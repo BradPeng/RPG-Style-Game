@@ -26,8 +26,8 @@ function slime_hurt(){
 		
 		// only return to prev state if enemy was not attacking;
 		// if enemy was attacking, chase instead
-		if (statePrevious != ENEMYSTATE.ATTACK) {
-			state = statePrevious;	
+		if (state_previous != ENEMYSTATE.ATTACK) {
+			state = state_previous;	
 		} else {
 			state = ENEMYSTATE.CHASE;	
 		}

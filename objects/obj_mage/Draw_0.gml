@@ -1,6 +1,6 @@
 if (entity_shadow) {
 	draw_sprite(spr_shadow, 0,floor(x), floor(y));
-	draw_sprite_ext(spr_shadow, image_index, x, y, 4 + -abs(sin(levitationHeight/2 + 5)), 4 +  -abs(sin(levitationHeight/2 + 5)), image_angle,
+	draw_sprite_ext(spr_shadow, image_index, x, y, 4 + -abs(sin(levitation_height/2 + 5)), 4 +  -abs(sin(levitation_height/2 + 5)), image_angle,
 	image_blend,
 	image_alpha) 
 }

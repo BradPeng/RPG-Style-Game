@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function SlimeChase(){
+function slime_chase(){
 	sprite_index = move_sprite;
 	if (instance_exists(target)) {
 		x_to = target.x;

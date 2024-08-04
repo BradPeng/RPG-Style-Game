@@ -3,7 +3,7 @@ function load_game(_slot){
 	var _file = "save" + string(global.game_save_slot) + ".sav";
 	show_debug_message(_file);
 	if (file_exists(_file)) {
-		var _json = LoadJSONFromFile(_file);
+		var _json = load_json_from_file(_file);
 		with (instance_exists(obj_player)) {
 			print("test com");
 			x = _json[? "posX"];
@@ -39,7 +39,7 @@ function load_game(_slot){
 	}
 }
 
-function LoadJSONFromFile(_file_name) {
+function load_json_from_file(_file_name) {
 	var _buffer = buffer_load(_file_name);
 	var _string = buffer_read(_buffer, buffer_string);
 	buffer_delete(_buffer);

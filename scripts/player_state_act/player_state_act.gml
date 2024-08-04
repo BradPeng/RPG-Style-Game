@@ -7,9 +7,9 @@ function player_state_act(){
 		animation_end = false;
 	}	
 
-	if (animationEndScript != -1 and actionAnimationEnd) {
+	if (animationEndScript != -1 and action_animation_end) {
 		script_execute(animationEndScript);	
 		animationEndScript = -1;
-		endActionFrame = -1
+		end_action_frame = -1
 	}
 }

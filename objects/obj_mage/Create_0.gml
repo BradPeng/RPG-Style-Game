@@ -15,7 +15,7 @@ enum MAGESTATE {
 }
 enemyScript[ENEMYSTATE.HURT] = mage_hurt
 enemyScript[MAGESTATE.IDLE] = mage_idle
-levitationHeight = 0;
+levitation_height = 0;
 attackCooldown = 120;
 attackTimer = attackCooldown;
 enemyScript[MAGESTATE.WANDER] = -1;
@@ -31,11 +31,11 @@ phase2Dialogue = false;
 actionTextbox = -1;
 
 // Circular movmement
-centerX = 340;
-centerY = 250;
-circleRadius = 100;
+center_x = 340;
+center_y = 250;
+circle_radius = 100;
 theta = 0;
 theta_speed = 2;
 xTo = 300;
 yTo = 200;
-movementType = true;
+movement_type = true;

@@ -1,8 +1,8 @@
 function screen_shake(_magnitude, _frames){
 	with (global.iCamera) {
 		if (_magnitude > shake_remain) {
-			shakeMagnitude = _magnitude;
-			shake_remain = shakeMagnitude; 
+			shake_magnitude = _magnitude;
+			shake_remain = shake_magnitude; 
 			shakeLength = _frames;
 		}
 	}

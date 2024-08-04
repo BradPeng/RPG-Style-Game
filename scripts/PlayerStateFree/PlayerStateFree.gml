@@ -95,7 +95,7 @@ function player_state_free(){
 				move_distance_remaining = distance_roll;
 			}
 		} else { 
-			ScriptExecuteArray(activate.activatable_activate_script, activate.activatable_activate_args);	
+			script_execute_array(activate.activatable_activate_script, activate.activatable_activate_args);	
 			// npc face player
 			with (activate) {
 				direction = point_direction(x, y, other.x, other.y);

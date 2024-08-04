@@ -4,7 +4,7 @@ function mage_attack_s1(){
 	mage_levitate();
 	mage_move();
 	// Prepare to enter phase 2
-	if (enemyHP <= 75) {
+	if (enemy_hp <= 75) {
 		if (phase2Dialogue == false) {
 			new_text_box("Okay bro now I'm mad", 1);
 			actionTextbox = new_text_box("Prepare for my ultimate form!", 1);
@@ -54,7 +54,7 @@ function mage_attack_s1(){
 				    var _y_offset = _circle_radius * sin(_radians);
     
 				    // Create the object at the calculated position
-				    var _proj = instance_create_layer(x + _x_offset, y + _y_offset - levitationHeight - 60, "Instances", obj_mage_nebula_projectile);
+				    var _proj = instance_create_layer(x + _x_offset, y + _y_offset - levitation_height - 60, "Instances", obj_mage_nebula_projectile);
 					_proj.sprite_index = spr_nebula_effect;
 					_proj.alarm[1] = 30 * (i + 1);
 					_proj.spd = 7;
