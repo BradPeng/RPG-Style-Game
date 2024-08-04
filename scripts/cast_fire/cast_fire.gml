@@ -1,13 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function cast_fire(){
-	if (sprite_index != s_player_cast) {
+	if (sprite_index != spr_player_cast) {
 		
-		sprite_index = s_player_cast
+		sprite_index = spr_player_cast
 		localFrame = 0;
 		image_index = 0;
 		
-		if (global.playerHealth > 1) {
+		if (global.player_health > 1) {
 			// clear hit list
 			if (!ds_exists(hitByAttackList, ds_type_list)) {
 				hitByAttackList = ds_list_create();	
@@ -52,7 +52,7 @@ function cast_fire(){
 				}
 				speed = 6;
 			}
-			global.playerHealth -= 1
+			global.player_health -= 1
 		}
 	}
 

@@ -10,7 +10,7 @@ if (sourceObject != -1) {
 	}
 }
 
-var _entity = instance_place(x, y, o_cast_shield);
+var _entity = instance_place(x, y, obj_cast_shield);
 if (_entity != noone) {
 	_entity.hp -= sourceDamage
 }

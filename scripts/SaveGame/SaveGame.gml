@@ -9,7 +9,7 @@ function SaveGame(){
 		_map[? "posY"] = o_player.y;	
 	}
 	_map[? "room"] = room;
-	_map[? "playerHealth"] = global.playerHealth;
+	_map[? "playerHealth"] = global.player_health;
 	_map[? "playerHealthMax"] = global.playerHealthMax;
 	_map[? "playerMoney"] = global.playerMoney;
 	_map[? "playerItemUnlocked"] = global.playerItemUnlocked;

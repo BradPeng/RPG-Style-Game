@@ -47,7 +47,7 @@ function PlayerStateFree(){
 				stateCast = cast_fire;
 				break;
 			case SPELL.SHIELD:
-				stateCast = CastShield;
+				stateCast = cast_shield;
 				break;
 
 			default: break;

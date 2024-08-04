@@ -2,9 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function HurtPlayer(_direction, _force, _damage){
 	if (o_player.invulnerable <= 0) {
-		global.playerHealth = max(0, global.playerHealth - _damage);
+		global.player_health = max(0, global.player_health - _damage);
 		
-		if (global.playerHealth > 0) {
+		if (global.player_health > 0) {
 			with (o_player) {
 				state = PlayerStateBonk;
 				direction = _direction -180;
@@ -24,9 +24,9 @@ function HurtPlayer(_direction, _force, _damage){
 
 function DrainPlayerHP(_damage){
 	if (o_player.invulnerable <= 0) {
-		global.playerHealth = max(0, global.playerHealth - _damage);
+		global.player_health = max(0, global.player_health - _damage);
 		
-		if (global.playerHealth <= 0) {
+		if (global.player_health <= 0) {
 			with (o_player) {
 				state = PlayerStateDead;
 			}

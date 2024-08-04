@@ -1,4 +1,4 @@
-var _playerHealth = global.playerHealth;
+var _playerHealth = global.player_health;
 var _playerHealthMax = global.playerHealthMax;
 var _bossId = global.currentBoss;
 

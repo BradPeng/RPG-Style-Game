@@ -1,12 +1,12 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function CastShield(){
-	if (sprite_index != s_player_cast) {
-		sprite_index = s_player_cast
+function cast_shield(){
+	if (sprite_index != spr_player_cast) {
+		sprite_index = spr_player_cast
 		localFrame = 0;
 		image_index = 0;
 		
-		if (global.playerHealth > 1) {
+		if (global.player_health > 1) {
 			var _y;
 			switch (CARDINAL_DIR) {
 				case 0: //right
@@ -30,11 +30,11 @@ function CastShield(){
 					_y = 0;
 			
 			}	
-			with (instance_create_layer(x + _x, y + _y, "Instances", o_cast_shield)) {
+			with (instance_create_layer(x + _x, y + _y, "Instances", obj_cast_shield)) {
 				hp = 10 + 15 * global.playerBloodAuraLevel 
 				image_index = round(other.direction/90)
 			}
-			global.playerHealth -= 1
+			global.player_health -= 1
 		}
 	}
 

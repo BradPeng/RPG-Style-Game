@@ -11,7 +11,7 @@ function LoadGame(_slot){
 		}
 	
 		//global variables
-		global.playerHealth = _json[? "playerHealth"];
+		global.player_health = _json[? "playerHealth"];
 		global.playerHealthMax = _json[? "playerHealthMax"];
 		global.playerMoney = _json[? "playerMoney"];
 		global.playerEquipped = _json[? "playerEquipped"];

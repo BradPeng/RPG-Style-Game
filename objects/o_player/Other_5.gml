@@ -1,3 +1,3 @@
 if (state == PlayerStateDead) {
-	global.playerHealth = global.playerHealthMax;
+	global.player_health = global.playerHealthMax;
 }	
