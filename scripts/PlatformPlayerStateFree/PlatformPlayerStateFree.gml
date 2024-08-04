@@ -5,21 +5,21 @@ function PlatformPlayerStateFree(){
 	mask_index = spr_platform_player_idle;
 	
 	if (!IsOnGround(obj_solid)) {
-		vSpeed += gravityAcceleration;
+		v_speed += gravityAcceleration;
 				
 		// set jump/fall sprite
-		if (vSpeed <= 0) {
+		if (v_speed <= 0) {
 			sprite_index = spr_platform_player_jump;
-		} else if (vSpeed > 0 and state == PlatformPlayerStateFree) {
+		} else if (v_speed > 0 and state == PlatformPlayerStateFree) {
 			sprite_index = spr_platform_player_fall;
 		}
 		
 		//short hopping
-		if (keyUpRelease and vSpeed < -6) {
-			vSpeed = -5;
+		if (keyUpRelease and v_speed < -6) {
+			v_speed = -5;
 		}
 	} else { // on the ground
-		vSpeed = 0;
+		v_speed = 0;
 					
 		// set either idle or run animation
 		if (h_speed == 0) {
@@ -61,7 +61,7 @@ function PlatformPlayerStateFree(){
 	
 	if (_falling and _wasntWall and _isWall and alarm[1] <= 0) {
 		h_speed = 0;
-		vSpeed = 0;
+		v_speed = 0;
 		
 		//align to edge horizontally
 		while (!place_meeting(x + image_xscale, y, obj_solid)) {

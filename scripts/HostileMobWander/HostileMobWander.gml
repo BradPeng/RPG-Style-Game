@@ -19,7 +19,7 @@ function HostileMobWander(){
 			image_index = CARDINAL_DIR
 			local_frame = 0;
 			h_speed = 0;
-			vSpeed = 0;
+			v_speed = 0;
 			local_frame = 0;
 		
 			// new target destination
@@ -53,7 +53,7 @@ function HostileMobWander(){
 		
 		dir = point_direction(x, y, xTo, yTo);
 		h_speed = lengthdir_x(_speedThisFrame, dir);
-		vSpeed = lengthdir_y(_speedThisFrame, dir);
+		v_speed = lengthdir_y(_speedThisFrame, dir);
 	
 		
 		direction = dir;

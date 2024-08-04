@@ -5,7 +5,7 @@ function SlimeWander(){
 	// At destination or given up
 	if ((x == xTo and y == yTo) || timePassed > enemyWanderDistance / enemySpeed) {
 		h_speed = 0;
-		vSpeed = 0;
+		v_speed = 0;
 		// end our move animation
 		if (image_index < 1) {
 			image_speed = 0;
@@ -33,7 +33,7 @@ function SlimeWander(){
 		
 		dir = point_direction(x, y, xTo, yTo);
 		h_speed = lengthdir_x(_speedThisFrame, dir);
-		vSpeed = lengthdir_y(_speedThisFrame, dir);
+		v_speed = lengthdir_y(_speedThisFrame, dir);
 		
 		// face direction of movement
 		if (h_speed != 0) {

@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateDead(){
 	h_speed = 0;
-	vSpeed = 0;
+	v_speed = 0;
 	global.player_blood_aura_level = 0;
 	// if just got into dead state
 	if (sprite_index != spr_player_dead) {

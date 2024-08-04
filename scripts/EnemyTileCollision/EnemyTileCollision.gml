@@ -15,18 +15,18 @@ function enemy_tile_collision(){
 	// Horizontal move commit
 	x += h_speed;
 	
-	var _collided_object = instance_place(x, y + vSpeed, obj_solid)
+	_collided_object = instance_place(x, y + v_speed, obj_solid)
 	if (_collided_object != noone and _collided_object.is_solid) {
-		while (!place_meeting(x, y + sign(vSpeed), obj_solid)) {
-			y += sign(vSpeed);
+		while (!place_meeting(x, y + sign(v_speed), obj_solid)) {
+			y += sign(v_speed);
 		}
 		
-		//y -= sign(vSpeed);
-		vSpeed = 0;
+		//y -= sign(v_speed);
+		v_speed = 0;
 		_collision = true;
 	}
 
 	// vertial move commit
-	y += vSpeed;
+	y += v_speed;
 	return _collision
 }

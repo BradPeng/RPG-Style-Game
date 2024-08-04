@@ -8,7 +8,7 @@ function SlimeHurt(){
 		image_speed = 1;
 		dir = point_direction(x, y, xTo, yTo);
 		h_speed = lengthdir_x(enemySpeed, dir);
-		vSpeed = lengthdir_y(enemySpeed, dir);
+		v_speed = lengthdir_y(enemySpeed, dir);
 		
 		if (h_speed != 0) {
 			image_xscale = -sign(h_speed);	

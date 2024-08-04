@@ -45,7 +45,7 @@ function SlimeAttack(){
 	if (_distanceToGo > _spd) {
 		dir = point_direction(x, y, xTo, yTo);
 		h_speed = lengthdir_x(_spd, dir);
-		vSpeed = lengthdir_y(_spd, dir);
+		v_speed = lengthdir_y(_spd, dir);
 		
 		// start moving and collide if needed
 		if (enemy_tile_collision()) {
@@ -58,8 +58,8 @@ function SlimeAttack(){
 		y = yTo;
 		
 		if (floor(image_index) == 22) {
-			stateTarget = ENEMYSTATE.CHASE;
-			stateWaitDuration = 15;
+			state_target = ENEMYSTATE.CHASE;
+			state_wait_duration = 15;
 			state = ENEMYSTATE.WAIT;
 			image_speed = 0;
 		} 

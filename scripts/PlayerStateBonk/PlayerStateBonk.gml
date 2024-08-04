@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerStateBonk(){
 	h_speed = lengthdir_x(speedBonk, direction - 180);
-	vSpeed = lengthdir_y(speedBonk, direction - 180);
+	v_speed = lengthdir_y(speedBonk, direction - 180);
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);
 	var _collided = PlayerCollision();

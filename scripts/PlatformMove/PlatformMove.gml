@@ -11,12 +11,12 @@ function PlatformMove(collision_object){
 
 	x += h_speed;
 
-	if (place_meeting(x, y + vSpeed, collision_object)) {
-		while (!place_meeting(x, y + sign(vSpeed), collision_object)) {
-			y += sign(vSpeed);
+	if (place_meeting(x, y + v_speed, collision_object)) {
+		while (!place_meeting(x, y + sign(v_speed), collision_object)) {
+			y += sign(v_speed);
 		}
-		vSpeed = 0;
+		v_speed = 0;
 	}
 
-	y += vSpeed;
+	y += v_speed;
 }

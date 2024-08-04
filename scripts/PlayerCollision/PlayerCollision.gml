@@ -22,19 +22,19 @@ function PlayerCollision(){
 	// Horizontal move commit
 	x += h_speed;
 	
-	var _collidedObject = instance_place(x, y + vSpeed, obj_solid)
+	var _collidedObject = instance_place(x, y + v_speed, obj_solid)
 	if (_collidedObject != noone and _collidedObject.is_solid and _collidedObject != global.iLifted) {
-		while (!place_meeting(x, y + sign(vSpeed), obj_solid)) {
-			y += sign(vSpeed);
+		while (!place_meeting(x, y + sign(v_speed), obj_solid)) {
+			y += sign(v_speed);
 		}
 		
-		//y -= sign(vSpeed);
-		vSpeed = 0;
+		//y -= sign(v_speed);
+		v_speed = 0;
 		_collision = true;
 	}
 
 	// vertial move commit
-	y += vSpeed;
+	y += v_speed;
 	
 	return _collision;
 }

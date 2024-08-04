@@ -8,7 +8,7 @@ function NPCWander(){
 		sprite_index = sprIdle;
 		image_index = CARDINAL_DIR
 		h_speed = 0;
-		vSpeed = 0;
+		v_speed = 0;
 		
 		// new target destination
 		if (++wait >= waitDuration) {
@@ -37,7 +37,7 @@ function NPCWander(){
 		
 		dir = point_direction(x, y, xTo, yTo);
 		h_speed = lengthdir_x(_speedThisFrame, dir);
-		vSpeed = lengthdir_y(_speedThisFrame, dir);
+		v_speed = lengthdir_y(_speedThisFrame, dir);
 		direction = dir;
 		
 		enemy_tile_collision();

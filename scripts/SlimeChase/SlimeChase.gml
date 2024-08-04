@@ -11,10 +11,10 @@ function SlimeChase(){
 		dir = point_direction(x, y, xTo, yTo);
 		if (_distanceToGo > enemySpeed) {
 			h_speed = lengthdir_x(enemySpeed, dir)	
-			vSpeed = lengthdir_y(enemySpeed, dir)	
+			v_speed = lengthdir_y(enemySpeed, dir)	
 		} else {
 			h_speed = lengthdir_x(_distanceToGo, dir)	
-			vSpeed = lengthdir_y(_distanceToGo, dir)	
+			v_speed = lengthdir_y(_distanceToGo, dir)	
 		}
 		
 		if (h_speed != 0) {

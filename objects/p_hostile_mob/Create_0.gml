@@ -3,7 +3,7 @@
 event_inherited();
 state = ENEMYSTATE.IDLE;
 h_speed = 0;
-vSpeed = 0;
+v_speed = 0;
 xTo = xstart;
 yTo = ystart;
 dir = 0;
@@ -16,10 +16,10 @@ target = obj_player
 // check for player in radius every 5 frames
 aggroCheck = 0;
 aggroCheckDuration = 5;
-stateTarget = state;
+state_target = state;
 statePrevious = state;
-stateWait = 0;
-stateWaitDuration = 0;
+state_wait = 0;
+state_wait_duration = 0;
 enemyHPMax = enemyHP;
 // Enemy Sprites
 sprMove = -1;
@@ -35,7 +35,7 @@ enemyScript[ENEMYSTATE.CHASE] = HostileMobChase;
 enemyScript[ENEMYSTATE.ATTACK] = HostileMobAttack;
 enemyScript[ENEMYSTATE.HURT] = HostileMobHurt;
 enemyScript[ENEMYSTATE.DIE] = -1;
-enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
+enemyScript[ENEMYSTATE.WAIT] = enemy_wait;
 
 
 

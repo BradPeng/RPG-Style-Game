@@ -8,7 +8,7 @@ function PlatformPlayerEdgeGrabState(){
 		
 	if (keyUp) {
 		state = PlatformPlayerStateFree;
-		vSpeed = jumpHeight;
+		v_speed = jumpHeight;
 		alarm[1] = 15;
 	}
 			

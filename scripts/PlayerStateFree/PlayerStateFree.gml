@@ -14,7 +14,7 @@ function player_state_free(){
 	
 	// Movement
 	h_speed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
+	v_speed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
 	
 
