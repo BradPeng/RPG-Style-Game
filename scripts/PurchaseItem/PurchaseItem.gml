@@ -2,11 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PurchaseItem(_item, _amount, _cost){
 	if (global.player_money >= _cost) {
-		global.playerHasAnyItems = true;
-		global.playerItemUnlocked[_item] = true;
+		global.player_has_any_items = true;
+		global.player_item_unlocked[_item] = true;
 		global.playerAmmo[_item] += _amount
 		global.player_money -= _cost;
-		global.playerEquipped = _item;
+		global.player_equipped = _item;
 		instance_destroy(activate);
 		
 		var _desc = "";

@@ -12,10 +12,10 @@ function SaveGame(){
 	_map[? "playerHealth"] = global.player_health;
 	_map[? "playerHealthMax"] = global.playerHealthMax;
 	_map[? "playerMoney"] = global.player_money;
-	_map[? "playerItemUnlocked"] = global.playerItemUnlocked;
+	_map[? "player_item_unlocked"] = global.player_item_unlocked;
 	_map[? "playerAmmo"] = global.playerAmmo;
-	_map[? "playerEquipped"] = global.playerEquipped;
-	_map[? "playerHasAnyItems"] = global.playerHasAnyItems;
+	_map[? "player_equipped"] = global.player_equipped;
+	_map[? "player_has_any_items"] = global.player_has_any_items;
 	_map[? "targetX"] = global.targetX;
 	_map[? "targetY"] = global.targetY;
 	

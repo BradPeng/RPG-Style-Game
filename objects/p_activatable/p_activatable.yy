@@ -27,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"activatableActivateScript","filters":[],"listItems":[],"multiselect":false,"name":"activatableActivateScript","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"activatableActivateArgs","filters":[],"listItems":[],"multiselect":false,"name":"activatableActivateArgs","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[-1]","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"activatable_activate_script","filters":[],"listItems":[],"multiselect":false,"name":"activatable_activate_script","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"activatable_activate_args","filters":[],"listItems":[],"multiselect":false,"name":"activatable_activate_args","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[-1]","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

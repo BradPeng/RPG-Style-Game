@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"PlayerStateRoll",
+  "%Name":"player_state_roll",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"PlayerStateRoll",
+  "name":"player_state_roll",
   "parent":{
     "name":"PlayerStates",
     "path":"folders/Scripts/Player/PlayerStates.yy",

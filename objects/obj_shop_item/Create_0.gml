@@ -5,4 +5,4 @@
 event_inherited();
 image_speed = 0;
 depth = -9999
-if (global.playerItemUnlocked[item]) instance_destroy();
+if (global.player_item_unlocked[item]) instance_destroy();

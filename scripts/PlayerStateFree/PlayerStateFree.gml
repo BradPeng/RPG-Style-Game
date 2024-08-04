@@ -63,7 +63,7 @@ function player_state_free(){
 		var _activate_list = ds_list_create();
 		
 		activate = noone;
-		var _entitiesFound = collision_rectangle_list( 
+		var _entities_found = collision_rectangle_list( 
 			_activate_x - _activate_size,
 			_activate_y - _activate_size,
 			_activate_x + _activate_size,
@@ -76,9 +76,9 @@ function player_state_free(){
 		);
 		
 		// if first instance is either our lifted entry, or has no script, try next
-		while (_entitiesFound > 0) {
-			var _check = _activate_list[| --_entitiesFound];	//last element in list //-- reduces then number by 1 first, then returns it
-			if (_check != global.i_lifted and _check.activatableActivateScript != -1) {
+		while (_entities_found > 0) {
+			var _check = _activate_list[| --_entities_found];	//last element in list //-- reduces then number by 1 first, then returns it
+			if (_check != global.i_lifted and _check.activatable_activate_script != -1) {
 				activate = _check;	
 				break;
 			}
@@ -91,11 +91,11 @@ function player_state_free(){
 			if (global.i_lifted != noone) {
 				PlayerThrow();	
 			} else {
-				state = PlayerStateRoll;
-				moveDistanceRemaining = distanceRoll;
+				state = player_state_roll;
+				move_distance_remaining = distance_roll;
 			}
 		} else { 
-			ScriptExecuteArray(activate.activatableActivateScript, activate.activatableActivateArgs);	
+			ScriptExecuteArray(activate.activatable_activate_script, activate.activatable_activate_args);	
 			// npc face player
 			with (activate) {
 				direction = point_direction(x, y, other.x, other.y);
@@ -103,14 +103,14 @@ function player_state_free(){
 			}
 		}
 	}
-	if (keyDodge) {
+	if (key_dodge) {
 		state = player_state_dodge;
-		moveDistanceRemaining = distanceDodge;
+		move_distance_remaining = distance_dodge;
 	}
 	
 	// Use item
-	if (keyItem and !key_activate and global.playerHasAnyItems and global.playerEquipped != ITEM.NONE) {
-		switch (global.playerEquipped) {
+	if (key_item and !key_activate and global.player_has_any_items and global.player_equipped != ITEM.NONE) {
+		switch (global.player_equipped) {
 			case ITEM.BOMB:
 				UseItemBomb();
 				break;
@@ -125,31 +125,31 @@ function player_state_free(){
 	}
 	
 	//Cycle items
-	if (global.playerHasAnyItems) {
-		var _cycleDirection = keyItemSelectUp - keyItemSelectDown;
-		if (_cycleDirection != 0) {
+	if (global.player_has_any_items) {
+		var _cycle_direction = key_item_select_up - key_item_select_down;
+		if (_cycle_direction != 0) {
 			do {
-				global.playerEquipped += _cycleDirection;
+				global.player_equipped += _cycle_direction;
 				
 				// If we are at first itme, go to last item
-				if (global.playerEquipped < 1) {
-					global.playerEquipped = ITEM.TYPE_COUNT - 1;	
+				if (global.player_equipped < 1) {
+					global.player_equipped = ITEM.TYPE_COUNT - 1;	
 				}
 				
 				// if we are at last item, go to first item
-				if (global.playerEquipped >= ITEM.TYPE_COUNT) {
-					global.playerEquipped = 1;	
+				if (global.player_equipped >= ITEM.TYPE_COUNT) {
+					global.player_equipped = 1;	
 				}
-			} until (global.playerItemUnlocked[global.playerEquipped]);
+			} until (global.player_item_unlocked[global.player_equipped]);
 		}
 	}
 	
 	// Cycle spells
-	if (global.playerHasAnySpells) {
-		var _spellCycleDirection = keySpellSelectUp - keySpellSelectDown;
-		if (_spellCycleDirection != 0) {
+	if (global.player_has_any_spells) {
+		var _spell_cycle_direction = key_spell_select_up - keySpellSelectDown;
+		if (_spell_cycle_direction != 0) {
 			do {
-				global.player_equipped_spell += _spellCycleDirection;
+				global.player_equipped_spell += _spell_cycle_direction;
 
 				// If we are at first spell, go to last spell
 				if (global.player_equipped_spell < 1) {

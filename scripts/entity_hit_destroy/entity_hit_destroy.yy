@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"EntityHitDestroy",
+  "%Name":"entity_hit_destroy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"EntityHitDestroy",
+  "name":"entity_hit_destroy",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

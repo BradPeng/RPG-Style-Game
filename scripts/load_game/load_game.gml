@@ -14,8 +14,8 @@ function load_game(_slot){
 		global.player_health = _json[? "playerHealth"];
 		global.playerHealthMax = _json[? "playerHealthMax"];
 		global.player_money = _json[? "playerMoney"];
-		global.playerEquipped = _json[? "playerEquipped"];
-		global.playerHasAnyItems = _json[? "playerHasAnyItems"];
+		global.player_equipped = _json[? "player_equipped"];
+		global.player_has_any_items = _json[? "player_has_any_items"];
 		//global.targetX = _json[? "targetX"];
 		//global.targetY = _json[? "targetY"];
 		global.player_blood_aura_level = _json[? "playerBloodAuraLevel"];
@@ -24,7 +24,7 @@ function load_game(_slot){
 		// when decoding json, the arrays we encoded are decoded as lists
 		// so we need to convert lists to arrays
 		for (var i = 0; i < ITEM.TYPE_COUNT; i++) {
-			global.playerItemUnlocked[i] = _json[? "playerItemUnlocked"][| i];
+			global.player_item_unlocked[i] = _json[? "player_item_unlocked"][| i];
 			global.playerAmmo[i] = _json[? "playerAmmo"][|i];
 		}
 		

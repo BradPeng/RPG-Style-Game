@@ -8,7 +8,7 @@ function hurt_player(_direction, _force, _damage){
 			with (obj_player) {
 				state = player_state_bonk;
 				direction = _direction -180;
-				moveDistanceRemaining = _force;
+				move_distance_remaining = _force;
 				ScreenShake(2, 10);
 				flash = 0.7;
 				invulnerable = 60;
