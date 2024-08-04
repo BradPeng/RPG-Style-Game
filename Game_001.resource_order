@@ -120,6 +120,7 @@
     {"name":"attack_slash_b","order":7,"path":"scripts/attack_slash_b/attack_slash_b.yy",},
     {"name":"attack_thrust","order":8,"path":"scripts/attack_thrust/attack_thrust.yy",},
     {"name":"bat_wander","order":1,"path":"scripts/bat_wander/bat_wander.yy",},
+    {"name":"blank_script","order":19,"path":"scripts/blank_script/blank_script.yy",},
     {"name":"calc_attack","order":2,"path":"scripts/calc_attack/calc_attack.yy",},
     {"name":"CastShield","order":1,"path":"scripts/CastShield/CastShield.yy",},
     {"name":"collect_ammo","order":10,"path":"scripts/collect_ammo/collect_ammo.yy",},

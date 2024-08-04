@@ -51,7 +51,10 @@ function player_state_hook(){
 						} else {
 							if (_hook_hit.entity_hit_script != -1) {
 								with(_hook_hit) {
-									script_execute(entity_hit_script);	
+									// force cast entity_hit_script to a script
+									var _entity_hit_script_script = blank_script
+									_entity_hit_script_script = entity_hit_script
+									script_execute(_entity_hit_script_script);	
 								}
 								hook_status = HOOKSTATUS.MISSED;
 							}

@@ -18,9 +18,15 @@ if (instance_exists(obj_player)) {
 		fric = 0;
 		if (_dist < 5) { //collect radius
 			if (collect_script_arg != -1) {
-				script_execute(collect_script, collect_script_arg);	
+				// force cast entity_hit_script to a script
+				var _collect_script_script = blank_script
+				_collect_script_script = collect_script
+				script_execute(_collect_script_script, collect_script_arg);	
 			} else if (collect_script != -1) {
-				script_execute(collect_script);
+				// force cast entity_hit_script to a script
+				var _collect_script_script = blank_script
+				_collect_script_script = collect_script
+				script_execute(_collect_script_script);
 			}
 			
 			instance_destroy();

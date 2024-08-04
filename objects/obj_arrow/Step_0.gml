@@ -9,7 +9,11 @@ if (_entity != noone) {
 			hurt_enemy(_entity, 25, other.id, 20);
 			_break = true;
 		} else if (entity_hit_script != -1) {
-			script_execute(entity_hit_script);
+			
+			// force cast entity_hit_script to a script
+			var _entity_hit_script_script = blank_script
+			_entity_hit_script_script = entity_hit_script
+			script_execute(_entity_hit_script_script);
 			_break = true; // only break if we hit something
 		}
 	}

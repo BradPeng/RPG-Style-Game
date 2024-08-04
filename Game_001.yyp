@@ -159,6 +159,7 @@
     {"id":{"name":"attack_thrust","path":"scripts/attack_thrust/attack_thrust.yy",},},
     {"id":{"name":"bat_chase","path":"scripts/bat_chase/bat_chase.yy",},},
     {"id":{"name":"bat_wander","path":"scripts/bat_wander/bat_wander.yy",},},
+    {"id":{"name":"blank_script","path":"scripts/blank_script/blank_script.yy",},},
     {"id":{"name":"calc_attack","path":"scripts/calc_attack/calc_attack.yy",},},
     {"id":{"name":"cast_fire","path":"scripts/cast_fire/cast_fire.yy",},},
     {"id":{"name":"CastShield","path":"scripts/CastShield/CastShield.yy",},},
