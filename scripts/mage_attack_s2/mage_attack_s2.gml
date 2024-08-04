@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function MageAttackS2(){
+function mage_attack_s2(){
 	MageLevitate();
 	if (attackTimer <= 0) {
 		with (instance_create_layer(x, y-60, "Instances", p_mage_projectile)) {

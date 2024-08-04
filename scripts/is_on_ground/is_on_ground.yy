@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"LoadGame",
+  "%Name":"is_on_ground",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"LoadGame",
+  "name":"is_on_ground",
   "parent":{
-    "name":"Game",
-    "path":"folders/Scripts/Game.yy",
+    "name":"PlatformPlayerStates",
+    "path":"folders/Scripts/PlatformPlayerStates.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -16,7 +16,7 @@ function calc_attack(hb, _dmg, _knockback){
 					
 					// if thing we hit is an enemy
 					if (object_is_ancestor(object_index, p_hostile_mob)) {
-						HurtEnemy(id, _dmg, other.id, _knockback);
+						hurt_enemy(id, _dmg, other.id, _knockback);
 					} else {
 					
 						// do something to the non enemy entity we hit

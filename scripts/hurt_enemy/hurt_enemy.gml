@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function HurtEnemy(_enemy, _damage, _source, _knockback){
+function hurt_enemy(_enemy, _damage, _source, _knockback){
 	with (_enemy) {
 		if (state != ENEMYSTATE.DIE) {
 			enemyHP -= _damage;

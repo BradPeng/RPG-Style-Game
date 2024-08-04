@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"HurtPlayer",
+  "%Name":"mage_attack_s1",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"HurtPlayer",
+  "name":"mage_attack_s1",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

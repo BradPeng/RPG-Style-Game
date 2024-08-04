@@ -13,15 +13,15 @@ enum MAGESTATE {
 	WAIT,
 	ATTACK2,
 }
-enemyScript[ENEMYSTATE.HURT] = MageHurt
+enemyScript[ENEMYSTATE.HURT] = mage_hurt
 enemyScript[MAGESTATE.IDLE] = MageIdle
 levitationHeight = 0;
 attackCooldown = 120;
 attackTimer = attackCooldown;
 enemyScript[MAGESTATE.WANDER] = -1;
 enemyScript[MAGESTATE.CHASE] = -1;
-enemyScript[MAGESTATE.ATTACK] = MageAttackS1;
-enemyScript[MAGESTATE.ATTACK2] = MageAttackS2
+enemyScript[MAGESTATE.ATTACK] = mage_attack_s1;
+enemyScript[MAGESTATE.ATTACK2] = mage_attack_s2
 z = 0;
 state = MAGESTATE.IDLE
 instanceShadow = instance_create_layer(x, y, "Instances", obj_shadow);
@@ -36,6 +36,6 @@ centerY = 250;
 circleRadius = 100;
 theta = 0;
 theta_speed = 2;
-x_to = 300;
-y_to = 200;
+xTo = 300;
+yTo = 200;
 movementType = true;

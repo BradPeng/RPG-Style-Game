@@ -1,4 +1,4 @@
-function LoadGame(_slot){
+function load_game(_slot){
 	global.gameSaveSlot = _slot;
 	var _file = "save" + string(global.gameSaveSlot) + ".sav";
 	show_debug_message(_file);

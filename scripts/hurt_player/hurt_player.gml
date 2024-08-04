@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function HurtPlayer(_direction, _force, _damage){
+function hurt_player(_direction, _force, _damage){
 	if (obj_player.invulnerable <= 0) {
 		global.player_health = max(0, global.player_health - _damage);
 		

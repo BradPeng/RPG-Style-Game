@@ -4,7 +4,7 @@ function PlatformPlayerStateFree(){
 	image_speed = 1;
 	mask_index = spr_platform_player_idle;
 	
-	if (!IsOnGround(obj_solid)) {
+	if (!is_on_ground(obj_solid)) {
 		v_speed += gravityAcceleration;
 				
 		// set jump/fall sprite

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"MageHurt",
+  "%Name":"hurt_player",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"MageHurt",
+  "name":"hurt_player",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

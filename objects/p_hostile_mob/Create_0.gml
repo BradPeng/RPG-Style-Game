@@ -30,7 +30,7 @@ timePassed = 0;
 
 // Enemy functions
 enemyScript[ENEMYSTATE.IDLE] = -1;
-enemyScript[ENEMYSTATE.WANDER] = HostileMobWander;
+enemyScript[ENEMYSTATE.WANDER] = hostile_mob_wander;
 enemyScript[ENEMYSTATE.CHASE] = hostile_mob_chase;
 enemyScript[ENEMYSTATE.ATTACK] = hostile_mob_attack;
 enemyScript[ENEMYSTATE.HURT] = hostile_mob_hurt;

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"IsOnGround",
+  "%Name":"mage_hurt",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"IsOnGround",
+  "name":"mage_hurt",
   "parent":{
-    "name":"PlatformPlayerStates",
-    "path":"folders/Scripts/PlatformPlayerStates.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

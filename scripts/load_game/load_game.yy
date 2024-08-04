@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"MageAttackS2",
+  "%Name":"load_game",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"MageAttackS2",
+  "name":"load_game",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Game",
+    "path":"folders/Scripts/Game.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

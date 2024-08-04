@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"HostileMobWander",
+  "%Name":"hostile_mob_wander",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"HostileMobWander",
+  "name":"hostile_mob_wander",
   "parent":{
     "name":"EnemyFighterStates",
     "path":"folders/Scripts/Enemies/EnemyFighterStates.yy",

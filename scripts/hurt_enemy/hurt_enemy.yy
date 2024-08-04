@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"MageAttackS1",
+  "%Name":"hurt_enemy",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"MageAttackS1",
+  "name":"hurt_enemy",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Attacks",
+    "path":"folders/Scripts/Player/Attacks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
