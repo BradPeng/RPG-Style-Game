@@ -1,5 +1,5 @@
 /// Make hat persistent
 event_inherited();
-if (global.questStatus[? "TheHatQuest"] == 2) {
+if (global.quest_status[? "TheHatQuest"] == 2) {
 	instance_destroy();	
 }

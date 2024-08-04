@@ -3,12 +3,12 @@
 function activate_hat_npc(){
 	var _hasHat = global.iLifted != noone and global.iLifted.object_index == o_hat;
 	
-	switch (global.questStatus[? "TheHatQuest"]) {
+	switch (global.quest_status[? "TheHatQuest"]) {
 		case 0: // not started
 			if (_hasHat) {// player already has hat on them 	
 				// complete quest
 				NewTextBox("ty", 2);
-				global.questStatus[? "TheHatQuest"] = 2;
+				global.quest_status[? "TheHatQuest"] = 2;
 				with (o_hat) {
 					instance_destroy();	
 				}
@@ -26,7 +26,7 @@ function activate_hat_npc(){
 		case 1:
 			if (_hasHat) {
 				NewTextBox("ty", 2);
-				global.questStatus[? "TheHatQuest"] = 2;
+				global.quest_status[? "TheHatQuest"] = 2;
 				with (o_hat) {
 					instance_destroy();	
 				}

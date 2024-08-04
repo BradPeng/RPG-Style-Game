@@ -11,7 +11,7 @@ function SaveGame(){
 	_map[? "room"] = room;
 	_map[? "playerHealth"] = global.player_health;
 	_map[? "playerHealthMax"] = global.playerHealthMax;
-	_map[? "playerMoney"] = global.playerMoney;
+	_map[? "playerMoney"] = global.player_money;
 	_map[? "playerItemUnlocked"] = global.playerItemUnlocked;
 	_map[? "playerAmmo"] = global.playerAmmo;
 	_map[? "playerEquipped"] = global.playerEquipped;
@@ -29,7 +29,7 @@ function SaveGame(){
 	// when we delete _map, garbage collection will clear out the data of all the data
 	// inside the map. So we don't want to pass in the original map.
 	var _questMap = ds_map_create();
-	ds_map_copy(_questMap, global.questStatus);
+	ds_map_copy(_questMap, global.quest_status);
 	ds_map_add_map(_map, "questStatus", _questMap);
 	
 	// save all data into string

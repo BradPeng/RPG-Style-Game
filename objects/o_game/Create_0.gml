@@ -14,9 +14,9 @@ global.playerHealthMax = 100;
 global.player_health = global.playerHealthMax;
 global.player_blood_aura_level = 0;
 global.playerBloodAuraLevelMax = 5;
-global.playerMoney = 100;
-global.questStatus = ds_map_create();
-global.questStatus[? "TheHatQuest"] = 0;
+global.player_money = 100;
+global.quest_status = ds_map_create();
+global.quest_status[? "TheHatQuest"] = 0;
 global.currentBoss = -1;
 // items
 global.playerHasAnyItems = false;

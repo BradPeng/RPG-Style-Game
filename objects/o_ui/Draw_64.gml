@@ -37,7 +37,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 _xx += sprite_get_width(s_coin_ui) + 4;
 _yy = 27;
-var _str = string(global.playerMoney);
+var _str = string(global.player_money);
 
 // black outline
 draw_text(_xx + 1, _yy, _str);

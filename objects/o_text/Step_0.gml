@@ -24,7 +24,7 @@ if (keyboard_check_pressed(vk_space)) {
 	if (textProgress >= _messageLength) {
 		if (responses[0] != -1) {
 			with (originInstance) {
-				DialogueResponses(other.responseScripts[other.responseSelected]) 	
+				dialogue_responses(other.responseScripts[other.responseSelected]) 	
 			}
 		}
 		instance_destroy();	

@@ -13,7 +13,7 @@ function LoadGame(_slot){
 		//global variables
 		global.player_health = _json[? "playerHealth"];
 		global.playerHealthMax = _json[? "playerHealthMax"];
-		global.playerMoney = _json[? "playerMoney"];
+		global.player_money = _json[? "playerMoney"];
 		global.playerEquipped = _json[? "playerEquipped"];
 		global.playerHasAnyItems = _json[? "playerHasAnyItems"];
 		//global.targetX = _json[? "targetX"];
@@ -28,7 +28,7 @@ function LoadGame(_slot){
 			global.playerAmmo[i] = _json[? "playerAmmo"][|i];
 		}
 		
-		ds_map_copy(global.questStatus, _json[? "questStatus"]);
+		ds_map_copy(global.quest_status, _json[? "questStatus"]);
 		RoomTransition(TRANS_TYPE.SLIDE, _json[? "room"]);
 		ds_map_destroy(_json);
 		

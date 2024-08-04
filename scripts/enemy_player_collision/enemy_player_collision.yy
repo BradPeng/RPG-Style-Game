@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"CollectCoin",
+  "%Name":"enemy_player_collision",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"CollectCoin",
+  "name":"enemy_player_collision",
   "parent":{
-    "name":"Player",
-    "path":"folders/Scripts/Player.yy",
+    "name":"Enemies",
+    "path":"folders/Scripts/Enemies.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

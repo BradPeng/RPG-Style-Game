@@ -6,7 +6,7 @@
   "name":"o_coin",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_entity","path":"objects/p_entity/p_entity.yy",},"propertyId":{"name":"entityShadow","path":"objects/p_entity/p_entity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"CollectCoin",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScript","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"collect_coin",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"p_collectable","path":"objects/p_collectable/p_collectable.yy",},"propertyId":{"name":"collectScriptArg","path":"objects/p_collectable/p_collectable.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
