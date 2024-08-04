@@ -9,8 +9,8 @@ function calc_attack(_hb, _dmg, _knockback){
 		for (var _i = 0; _i < _hits; _i++) {
 			// if instance not yet hit, hit it
 			var _hit_id = ds_list_find_value(_hit_by_attack_now, _i);
-			if (ds_list_find_index(hitByAttackList, _hit_id) == -1) { // if the instance we are checking is not already in the hit list
-				ds_list_add(hitByAttackList, _hit_id);
+			if (ds_list_find_index(hit_by_attack_list, _hit_id) == -1) { // if the instance we are checking is not already in the hit list
+				ds_list_add(hit_by_attack_list, _hit_id);
 				
 				with (_hit_id) {
 					

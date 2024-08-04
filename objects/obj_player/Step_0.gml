@@ -1,8 +1,8 @@
 // inputs
 key_left = keyboard_check(ord("A"))
-keyRight = keyboard_check(ord("D")) 
-keyUp = keyboard_check(ord("W")) 
-keyDown = keyboard_check(ord("S"))
+key_right = keyboard_check(ord("D")) 
+key_up = keyboard_check(ord("W")) 
+key_down = keyboard_check(ord("S"))
 keyBloodAuraUp = keyboard_check_pressed(vk_up);
 keyBloodAuraDown = keyboard_check_pressed(vk_down);
 key_activate = keyboard_check_pressed(vk_space);
@@ -16,8 +16,8 @@ key_spell_select_down = keyboard_check_pressed(vk_left);
 key_dodge = keyboard_check_pressed(ord("G"))
 keyUpRelease = keyboard_check_released(ord("W"));
 blood_aura_magnitude = (keyBloodAuraUp - keyBloodAuraDown);
-input_direction = point_direction(0, 0, keyRight - key_left, keyDown - keyUp);
-input_magnitude = (keyRight - key_left != 0) || (keyDown - keyUp != 0); 
+input_direction = point_direction(0, 0, key_right - key_left, key_down - key_up);
+input_magnitude = (key_right - key_left != 0) || (key_down - key_up != 0); 
 
 if (!global.gamePaused) {
 	

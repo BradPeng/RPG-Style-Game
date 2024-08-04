@@ -112,7 +112,7 @@ function player_state_free(){
 	if (key_item and !key_activate and global.player_has_any_items and global.player_equipped != ITEM.NONE) {
 		switch (global.player_equipped) {
 			case ITEM.BOMB:
-				UseItemBomb();
+				use_item_bomb();
 				break;
 			case ITEM.BOW:
 				UseItemBow();

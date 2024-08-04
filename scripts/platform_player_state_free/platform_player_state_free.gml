@@ -29,7 +29,7 @@ function platform_player_state_free(){
 		}
 		
 		//Jumping code
-		if (keyUp) {
+		if (key_up) {
 			
 			sprite_index = spr_platform_player_land
 			alarm[1] = 1 // jump lag;
@@ -38,8 +38,8 @@ function platform_player_state_free(){
 	}
 	
 	
-	if (keyRight or key_left) {
-		h_speed += (keyRight - key_left) * acceleration;
+	if (key_right or key_left) {
+		h_speed += (key_right - key_left) * acceleration;
 		h_speed = clamp(h_speed, -maxSpeed, maxSpeed);
 				
 	} else {

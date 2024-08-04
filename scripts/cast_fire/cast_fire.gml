@@ -9,10 +9,10 @@ function cast_fire(){
 		
 		if (global.player_health > 1) {
 			// clear hit list
-			if (!ds_exists(hitByAttackList, ds_type_list)) {
-				hitByAttackList = ds_list_create();	
+			if (!ds_exists(hit_by_attack_list, ds_type_list)) {
+				hit_by_attack_list = ds_list_create();	
 			}
-			ds_list_clear(hitByAttackList);
+			ds_list_clear(hit_by_attack_list);
 			var _x;
 			var _y;
 			switch (CARDINAL_DIR) {

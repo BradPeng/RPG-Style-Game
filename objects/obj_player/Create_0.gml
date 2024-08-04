@@ -1,8 +1,8 @@
 state = player_state_free;
 state_attack = attack_slash;
 lastState = state;
-hitByAttackList = -1;
-chainAttack = false
+hit_by_attack_list = -1;
+chain_attack = false
 image_speed = 0;
 h_speed = 0;
 v_speed = 0;

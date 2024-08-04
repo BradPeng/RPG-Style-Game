@@ -5,14 +5,14 @@ function attack_slash() {
 	// Lag state
 	if (alarm[1] != 0 and alarm[1] != -1) {
 
-		if (keyRight) direction = 0;
-		if (keyUp) direction = 90
-		if (keyDown) direction = 270;
+		if (key_right) direction = 0;
+		if (key_up) direction = 90
+		if (key_down) direction = 270;
 		if (key_left) direction = 180;
 		
 		// Check chain attack
 		if (key_attack) {
-			chainAttack = true;
+			chain_attack = true;
 		}
 	
 	// End of lag state	
@@ -29,10 +29,10 @@ function attack_slash() {
 			image_index = 0;
 		
 			// clear hit list
-			if (!ds_exists(hitByAttackList, ds_type_list)) {
-				hitByAttackList = ds_list_create();	
+			if (!ds_exists(hit_by_attack_list, ds_type_list)) {
+				hit_by_attack_list = ds_list_create();	
 			}
-			ds_list_clear(hitByAttackList);
+			ds_list_clear(hit_by_attack_list);
 		
 		}
 
@@ -42,9 +42,9 @@ function attack_slash() {
 	
 	// When animation ends, begin lag timer unless we are chaining an attack
 	if (animation_end) {
-		if (chainAttack) {
+		if (chain_attack) {
 			state_attack = attack_slash_b
-			chainAttack = false
+			chain_attack = false
 			
 			// If we chain attack, the first attack's lag should end early
 			alarm[1] = -1
