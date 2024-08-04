@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function new_text_box(_message, _background = 0, _responses) {
+function new_text_box(_message, _background = 0, _responses = []) {
 	if (instance_exists(obj_player)) {
 		with (obj_player) {
 			sprite_index = spr_player;

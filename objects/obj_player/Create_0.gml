@@ -73,3 +73,5 @@ acceleration = 1;
 gravity_acceleration = .3;
 jump_height = -8;
 grab_width = 14;
+
+u_flash = 0

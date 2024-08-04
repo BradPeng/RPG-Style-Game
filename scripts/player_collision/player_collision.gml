@@ -22,7 +22,7 @@ function player_collision(){
 	// Horizontal move commit
 	x += h_speed;
 	
-	var _collided_object = instance_place(x, y + v_speed, obj_solid)
+	_collided_object = instance_place(x, y + v_speed, obj_solid)
 	if (_collided_object != noone and _collided_object.is_solid and _collided_object != global.i_lifted) {
 		while (!place_meeting(x, y + sign(v_speed), obj_solid)) {
 			y += sign(v_speed);
