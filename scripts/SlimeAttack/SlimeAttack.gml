@@ -5,12 +5,12 @@ function SlimeAttack(){
 	var _spd = enemySpeed;
 
 	// just started the attack
-	if (sprite_index != sprAttack) {
-		sprite_index = sprAttack;
+	if (sprite_index != attack_sprite) {
+		sprite_index = attack_sprite;
 		image_index = 0;
 		with (instance_create_layer(x, y, "Instances", obj_enemy_hitbox)) {
 			sourceObject = other.id;	
-			sprite_index = other.sprHitbox
+			sprite_index = other.hitbox_sprite
 			if (other.xTo < other.x) {
 				image_xscale = -1
 			}

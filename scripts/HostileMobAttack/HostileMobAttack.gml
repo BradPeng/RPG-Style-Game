@@ -1,14 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function HostileMobAttack(){
-	if (sprite_index != sprAttack) {
+function hostile_mob_attack(){
+	if (sprite_index != attack_sprite) {
 		
-		sprite_index = sprAttack
+		sprite_index = attack_sprite
 		local_frame = 0;
 		image_index = 0;
 		
 		if (instance_exists(obj_player)) {
-			enemy_attack(sprHitbox, point_direction(x,y,obj_player.x, obj_player.y), enemyForceTouch, 10);
+			enemy_attack(hitbox_sprite, point_direction(x,y,obj_player.x, obj_player.y), enemyForceTouch, 10);
 		}
 	}
 

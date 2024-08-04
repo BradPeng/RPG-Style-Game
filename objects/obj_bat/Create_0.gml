@@ -4,7 +4,7 @@ event_inherited();
 
 state = ENEMYSTATE.WANDER;
 
-sprAttack = spr_bat;
+attack_sprite = spr_bat;
 sprDie = spr_bat_die;
 sprHurt = spr_bat_hurt;
 sprMove = spr_bat;

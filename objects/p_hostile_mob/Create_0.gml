@@ -24,7 +24,7 @@ enemyHPMax = enemyHP;
 // Enemy Sprites
 sprMove = -1;
 sprDie = -1
-sprHitbox = -1
+hitbox_sprite = -1
 // Enemy Stats
 timePassed = 0;
 
@@ -32,7 +32,7 @@ timePassed = 0;
 enemyScript[ENEMYSTATE.IDLE] = -1;
 enemyScript[ENEMYSTATE.WANDER] = HostileMobWander;
 enemyScript[ENEMYSTATE.CHASE] = HostileMobChase;
-enemyScript[ENEMYSTATE.ATTACK] = HostileMobAttack;
+enemyScript[ENEMYSTATE.ATTACK] = hostile_mob_attack;
 enemyScript[ENEMYSTATE.HURT] = HostileMobHurt;
 enemyScript[ENEMYSTATE.DIE] = -1;
 enemyScript[ENEMYSTATE.WAIT] = enemy_wait;
