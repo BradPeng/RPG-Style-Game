@@ -57,6 +57,14 @@ global.weapon_list = {
 		9,
 		1,
 		0
+	), 
+	weapon2 : weapon_create(
+		spr_barrel, 
+		sprite_get_bbox_right(spr_arrow), 
+		obj_arrow, 
+		9,
+		50,
+		360
 	)
 }
 

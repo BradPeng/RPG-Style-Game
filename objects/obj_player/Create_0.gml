@@ -83,8 +83,9 @@ grab_width = 14;
 u_flash = 0
 
 // SHOOTING
-bullet_obj = obj_arrow
+bullet_obj = noone
 array_push(global.player_weapons, global.weapon_list.weapon1)
+array_push(global.player_weapons, global.weapon_list.weapon2)
 
-selected_weapon = 0;
+selected_weapon = 1;
 weapon = global.player_weapons[selected_weapon]

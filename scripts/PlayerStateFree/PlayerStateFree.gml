@@ -42,13 +42,13 @@ function player_state_free(){
 		var _y_offset  = lengthdir_y(weapon.length /*+weapon_offset_distance*/, aim_direction)
 	
 		var _spread = weapon.spread
-	
+
 		// we want to count spaces between bullets, not number of bullets
 		var _spread_division = _spread / max(1, weapon.num_bullets - 1)
 		for (var _i = 0; _i < weapon.num_bullets; _i++) {
 			var _bullet = instance_create_depth(floor(x), floor(y) - 15, depth, weapon.bullet_obj)	
 			with (_bullet) {
-				direction = other.direction;
+				direction = other.aim_direction - _spread / 2 + _spread_division * _i;
 				//direction = CARDINAL_DIR * 90;
 				image_speed = 0;
 				image_index = 0;
