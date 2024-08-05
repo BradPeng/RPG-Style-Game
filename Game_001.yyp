@@ -139,6 +139,7 @@
     {"id":{"name":"obj_signpost","path":"objects/obj_signpost/obj_signpost.yy",},},
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},},
     {"id":{"name":"obj_text_queued","path":"objects/obj_text_queued/obj_text_queued.yy",},},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},},
