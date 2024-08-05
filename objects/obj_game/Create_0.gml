@@ -63,8 +63,8 @@ global.weapon_list = {
 		sprite_get_bbox_right(spr_arrow), 
 		obj_arrow, 
 		9,
-		50,
-		360
+		5,
+		30
 	)
 }
 
