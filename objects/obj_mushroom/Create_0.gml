@@ -7,7 +7,7 @@ event_inherited();
 enemy_script[ENEMYSTATE.CHASE] = hostile_mob_basic_chase;
 state = ENEMYSTATE.CHASE;
 idle_sprite = spr_mushroom_idle;
-hurt_sprite = spr_mushroom_walk;
+hurt_sprite = spr_mushroom_hurt;
 move_sprite = spr_mushroom_walk;
 
 
