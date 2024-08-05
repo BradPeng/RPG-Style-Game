@@ -91,6 +91,7 @@
     {"name":"inst_A5B9417","path":"rooms/rm_village/rm_village.yy",},
     {"name":"inst_417DAB4E","path":"rooms/rm_village/rm_village.yy",},
     {"name":"inst_76FC5E81","path":"rooms/rm_village/rm_village.yy",},
+    {"name":"inst_3AF41034","path":"rooms/rm_village/rm_village.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -192,6 +193,7 @@
         {"$GMRInstance":"v1","%Name":"inst_A5B9417","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A5B9417","objectId":{"name":"obj_mushroom_medium","path":"objects/obj_mushroom_medium/obj_mushroom_medium.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":392.0,},
         {"$GMRInstance":"v1","%Name":"inst_417DAB4E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_417DAB4E","objectId":{"name":"obj_mushroom_medium","path":"objects/obj_mushroom_medium/obj_mushroom_medium.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":400.0,},
         {"$GMRInstance":"v1","%Name":"inst_76FC5E81","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76FC5E81","objectId":{"name":"obj_mushroom_medium","path":"objects/obj_mushroom_medium/obj_mushroom_medium.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":400.0,"y":496.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3AF41034","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3AF41034","objectId":{"name":"obj_mushroom_mega","path":"objects/obj_mushroom_mega/obj_mushroom_mega.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":432.0,"y":728.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"tiles_upper","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"tiles_upper","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":50,"SerialiseWidth":50,"TileCompressedData":[
           -536,0,-14,-2147483648,-36,0,-14,-2147483648,-36,0,-14,-2147483648,-36,0,-14,-2147483648,-36,0,-14,-2147483648,
