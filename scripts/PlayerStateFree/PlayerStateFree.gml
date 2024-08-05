@@ -22,7 +22,6 @@ function player_state_free(){
 	// Sprite Index
 	var _old_sprite = sprite_index;
 	if (input_magnitude != 0) {	
-		print(direction)
 		sprite_index = run_sprite;
 	} else {
 		sprite_index = idle_sprite;
@@ -34,6 +33,33 @@ function player_state_free(){
 
 	// Image index
 	animate_cardinal_sprite()
+	
+	
+	// shoot
+	if (shoot_timer > 0) {shoot_timer--}
+	if (shoot_key and shoot_timer <= 0 ) {
+		var _x_offset  = lengthdir_x(weapon.length /*+weapon_offset_distance*/, aim_direction)
+		var _y_offset  = lengthdir_y(weapon.length /*+weapon_offset_distance*/, aim_direction)
+	
+		var _spread = weapon.spread
+	
+		// we want to count spaces between bullets, not number of bullets
+		var _spread_division = _spread / max(1, weapon.num_bullets - 1)
+		for (var _i = 0; _i < weapon.num_bullets; _i++) {
+			var _bullet = instance_create_depth(floor(x), floor(y) - 15, depth, weapon.bullet_obj)	
+			with (_bullet) {
+				direction = other.direction;
+				//direction = CARDINAL_DIR * 90;
+				image_speed = 0;
+				image_index = 0;
+				image_angle = direction
+				speed = 12;
+			}
+		}
+	
+	
+		shoot_timer = weapon.cooldown
+	}
 	
 	// attack
 	if (key_attack) {

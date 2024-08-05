@@ -47,3 +47,17 @@ global.player_has_any_spells = true
 global.player_equipped_spell = SPELL.FIREBOLT;
 surface_resize(application_surface, RESOLUTION_W, RESOLUTION_H)
 room_goto(ROOM_START);
+
+// SHOOTING
+global.weapon_list = {
+	weapon1 : weapon_create(
+		spr_arrow, 
+		sprite_get_bbox_right(spr_arrow), 
+		obj_arrow, 
+		9,
+		1,
+		0
+	)
+}
+
+global.player_weapons = array_create(0)

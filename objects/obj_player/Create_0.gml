@@ -18,6 +18,11 @@ blood_aura_magnitude = 0
 input_direction = 0
 input_magnitude = 0
 aim_direction = 0
+shoot_key = 0
+
+// time before next shot
+shoot_timer = 0;
+
 
 state = player_state_free;
 state_attack = attack_slash;
@@ -76,3 +81,10 @@ jump_height = -8;
 grab_width = 14;
 
 u_flash = 0
+
+// SHOOTING
+bullet_obj = obj_arrow
+array_push(global.player_weapons, global.weapon_list.weapon1)
+
+selected_weapon = 0;
+weapon = global.player_weapons[selected_weapon]

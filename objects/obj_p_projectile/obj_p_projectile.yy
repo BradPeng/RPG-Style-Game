@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_arrow",
-  "eventList":[],
+  "%Name":"obj_p_projectile",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_arrow",
+  "name":"obj_p_projectile",
   "overriddenProperties":[],
   "parent":{
     "name":"Items",
     "path":"folders/Objects/Entities/Items.yy",
   },
-  "parentObjectId":{
-    "name":"obj_p_projectile",
-    "path":"objects/obj_p_projectile/obj_p_projectile.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
