@@ -6,7 +6,10 @@
   ],
   "managed":true,
   "name":"obj_mushroom",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_hostile_mob","path":"objects/obj_p_hostile_mob/obj_p_hostile_mob.yy",},"propertyId":{"name":"enemy_hp","path":"objects/obj_p_hostile_mob/obj_p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"500",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_p_hostile_mob","path":"objects/obj_p_hostile_mob/obj_p_hostile_mob.yy",},"propertyId":{"name":"enemy_damage_touch","path":"objects/obj_p_hostile_mob/obj_p_hostile_mob.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+  ],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Entities/Enemies.yy",

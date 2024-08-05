@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hostile_mob_basic_chase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hostile_mob_basic_chase",
+  "parent":{
+    "name":"EnemyFighterStates",
+    "path":"folders/Scripts/Enemies/EnemyFighterStates.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

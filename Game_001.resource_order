@@ -136,6 +136,7 @@
     {"name":"EnemyWait","order":4,"path":"scripts/EnemyWait/EnemyWait.yy",},
     {"name":"entity_hit_destroy","order":6,"path":"scripts/entity_hit_destroy/entity_hit_destroy.yy",},
     {"name":"EntityHitSolid","order":7,"path":"scripts/EntityHitSolid/EntityHitSolid.yy",},
+    {"name":"hostile_mob_basic_chase","order":8,"path":"scripts/hostile_mob_basic_chase/hostile_mob_basic_chase.yy",},
     {"name":"hostile_mob_hurt","order":7,"path":"scripts/hostile_mob_hurt/hostile_mob_hurt.yy",},
     {"name":"hostile_mob_wander","order":5,"path":"scripts/hostile_mob_wander/hostile_mob_wander.yy",},
     {"name":"HostileMobAttack","order":6,"path":"scripts/HostileMobAttack/HostileMobAttack.yy",},

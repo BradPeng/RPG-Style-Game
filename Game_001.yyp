@@ -176,6 +176,7 @@
     {"id":{"name":"EnemyWait","path":"scripts/EnemyWait/EnemyWait.yy",},},
     {"id":{"name":"entity_hit_destroy","path":"scripts/entity_hit_destroy/entity_hit_destroy.yy",},},
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},},
+    {"id":{"name":"hostile_mob_basic_chase","path":"scripts/hostile_mob_basic_chase/hostile_mob_basic_chase.yy",},},
     {"id":{"name":"hostile_mob_hurt","path":"scripts/hostile_mob_hurt/hostile_mob_hurt.yy",},},
     {"id":{"name":"hostile_mob_wander","path":"scripts/hostile_mob_wander/hostile_mob_wander.yy",},},
     {"id":{"name":"HostileMobAttack","path":"scripts/HostileMobAttack/HostileMobAttack.yy",},},
