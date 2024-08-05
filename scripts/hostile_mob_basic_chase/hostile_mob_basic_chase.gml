@@ -30,7 +30,7 @@ function hostile_mob_basic_chase(){
 		direction = dir;
 		
 		if (place_meeting(x + h_speed, y + v_speed, target)) {
-			hurt_player(dir, 20, enemy_damage_touch);
+			hurt_player(dir, enemy_force_touch, enemy_damage_touch);
 			
 		}
 		
