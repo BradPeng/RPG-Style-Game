@@ -18,7 +18,7 @@ key_up_release = keyboard_check_released(ord("W"));
 blood_aura_magnitude = (key_blood_aura_up - key_blood_aura_down);
 input_direction = point_direction(0, 0, key_right - key_left, key_down - key_up);
 input_magnitude = (key_right - key_left != 0) || (key_down - key_up != 0); 
-aim_direction = point_direction(x, y, mouse_x, mouse_y)
+aim_direction = point_direction(x, y - 16, mouse_x, mouse_y) //temp 16 offset, same as in free state
 shoot_key = mouse_check_button(mb_left)
 key_next_weapon = mouse_check_button_pressed(mb_right)
 if (!global.game_paused) {
