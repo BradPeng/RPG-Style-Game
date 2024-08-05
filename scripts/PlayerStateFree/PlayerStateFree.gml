@@ -34,7 +34,13 @@ function player_state_free(){
 	// Image index
 	animate_cardinal_sprite()
 	
-	
+	var _player_weapons = global.player_weapons
+	if (key_next_weapon) {
+		selected_weapon++
+		if (selected_weapon >= array_length(_player_weapons)) { selected_weapon = 0 }
+		weapon = _player_weapons[selected_weapon]
+	}
+
 	// shoot
 	if (shoot_timer > 0) {shoot_timer--}
 	if (shoot_key and shoot_timer <= 0 ) {

@@ -19,6 +19,7 @@ input_direction = 0
 input_magnitude = 0
 aim_direction = 0
 shoot_key = 0
+key_next_weapon = 0
 
 // time before next shot
 shoot_timer = 0;
