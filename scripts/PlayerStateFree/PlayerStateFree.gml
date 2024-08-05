@@ -17,11 +17,12 @@ function player_state_free(){
 	v_speed = lengthdir_y(input_magnitude * speed_walk, input_direction);
 
 	
-
+	// Always point toward mouse
+	direction = aim_direction;
 	// Sprite Index
 	var _old_sprite = sprite_index;
 	if (input_magnitude != 0) {	
-		direction = input_direction;
+		print(direction)
 		sprite_index = run_sprite;
 	} else {
 		sprite_index = idle_sprite;

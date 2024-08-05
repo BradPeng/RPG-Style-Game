@@ -17,6 +17,7 @@ key_up_release = 0
 blood_aura_magnitude = 0
 input_direction = 0
 input_magnitude = 0
+aim_direction = 0
 
 state = player_state_free;
 state_attack = attack_slash;
