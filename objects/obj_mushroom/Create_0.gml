@@ -4,8 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-state = ENEMYSTATE.CHASE;
-
+state = ENEMYSTATE.WANDER;
+idle_sprite = spr_mushroom_idle;
 attack_sprite = spr_mushroom_walk;
 die_sprite = spr_mushroom_walk;
 hurt_sprite = spr_mushroom_walk;

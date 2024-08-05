@@ -237,6 +237,7 @@
     {"name":"spr_mage","order":24,"path":"sprites/spr_mage/spr_mage.yy",},
     {"name":"spr_merchant_b_walk","order":3,"path":"sprites/spr_merchant_b_walk/spr_merchant_b_walk.yy",},
     {"name":"spr_merchant_b","order":2,"path":"sprites/spr_merchant_b/spr_merchant_b.yy",},
+    {"name":"spr_mushroom_idle","order":39,"path":"sprites/spr_mushroom_idle/spr_mushroom_idle.yy",},
     {"name":"spr_mushroom_master","order":36,"path":"sprites/spr_mushroom_master/spr_mushroom_master.yy",},
     {"name":"spr_mushroom_walk","order":38,"path":"sprites/spr_mushroom_walk/spr_mushroom_walk.yy",},
     {"name":"spr_nebula_effect","order":28,"path":"sprites/spr_nebula_effect/spr_nebula_effect.yy",},

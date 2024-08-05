@@ -36,6 +36,9 @@
     "name":"spr_mushroom_walk",
     "path":"sprites/spr_mushroom_walk/spr_mushroom_walk.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_mushroom_idle",
+    "path":"sprites/spr_mushroom_idle/spr_mushroom_idle.yy",
+  },
   "visible":true,
 }
