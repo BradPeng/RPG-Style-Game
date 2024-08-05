@@ -34,7 +34,7 @@ enemy_script[ENEMYSTATE.WANDER] = hostile_mob_wander;
 enemy_script[ENEMYSTATE.CHASE] = hostile_mob_chase;
 enemy_script[ENEMYSTATE.ATTACK] = hostile_mob_attack;
 enemy_script[ENEMYSTATE.HURT] = hostile_mob_hurt;
-enemy_script[ENEMYSTATE.DIE] = -1;
+enemy_script[ENEMYSTATE.DIE] = hostile_mob_basic_die;
 enemy_script[ENEMYSTATE.WAIT] = enemy_wait;
 
 
