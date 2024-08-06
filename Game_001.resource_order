@@ -48,6 +48,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_arrow_drop","order":3,"path":"objects/obj_arrow_drop/obj_arrow_drop.yy",},
     {"name":"obj_arrow","order":3,"path":"objects/obj_arrow/obj_arrow.yy",},
+    {"name":"obj_barrel_bullet","order":5,"path":"objects/obj_barrel_bullet/obj_barrel_bullet.yy",},
     {"name":"obj_barrel","order":13,"path":"objects/obj_barrel/obj_barrel.yy",},
     {"name":"obj_bat","order":1,"path":"objects/obj_bat/obj_bat.yy",},
     {"name":"obj_blood_aura","order":6,"path":"objects/obj_blood_aura/obj_blood_aura.yy",},

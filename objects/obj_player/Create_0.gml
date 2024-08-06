@@ -87,6 +87,7 @@ u_flash = 0
 bullet_obj = noone
 array_push(global.player_weapons, global.weapon_list.weapon1)
 array_push(global.player_weapons, global.weapon_list.weapon2)
+array_push(global.player_weapons, global.weapon_list.weapon3)
 
 selected_weapon = 1;
 weapon = global.player_weapons[selected_weapon]

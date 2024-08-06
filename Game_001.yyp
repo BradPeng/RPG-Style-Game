@@ -73,6 +73,7 @@
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},},
     {"id":{"name":"obj_arrow_drop","path":"objects/obj_arrow_drop/obj_arrow_drop.yy",},},
     {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
+    {"id":{"name":"obj_barrel_bullet","path":"objects/obj_barrel_bullet/obj_barrel_bullet.yy",},},
     {"id":{"name":"obj_barrel","path":"objects/obj_barrel/obj_barrel.yy",},},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},},
     {"id":{"name":"obj_blood_aura","path":"objects/obj_blood_aura/obj_blood_aura.yy",},},

@@ -6,7 +6,7 @@ if (_entity != noone) {
 		
 		// damage enemy
 		if (object_is_ancestor(object_index, obj_p_hostile_mob)) {
-			hurt_enemy(_entity, 25, other.id, 20);
+			hurt_enemy(_entity, other.damage, other.id, other.knockback);
 			_break = true;
 		} else if (entity_hit_script != -1) {
 			
