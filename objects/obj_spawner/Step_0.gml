@@ -14,5 +14,9 @@ if (timer >= spawn_delay) {
     // Generate random x and y coordinates within the sprite's bounds
     var _random_x = x + irandom(_spawner_width) - _spawner_width / 2;
     var _random_y = y + irandom(_spawner_height) - _spawner_height / 2;
-	instance_create_layer(_random_x, _random_y, "Instances", enemy_type)	
+	
+	// Force cast to silence error
+	var _enemy_type_asset = obj_p_hostile_mob
+	_enemy_type_asset = enemy_type
+	instance_create_layer(_random_x, _random_y, "Instances", _enemy_type_asset)	
 }
