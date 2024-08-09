@@ -271,7 +271,6 @@
     {"id":{"name":"spr_enemy1_walk","path":"sprites/spr_enemy1_walk/spr_enemy1_walk.yy",},},
     {"id":{"name":"spr_explode","path":"sprites/spr_explode/spr_explode.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
-    {"id":{"name":"spr_explosion1","path":"sprites/spr_explosion1/spr_explosion1.yy",},},
     {"id":{"name":"spr_fire_spin","path":"sprites/spr_fire_spin/spr_fire_spin.yy",},},
     {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
     {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},},

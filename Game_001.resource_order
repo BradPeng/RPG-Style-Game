@@ -216,7 +216,6 @@
     {"name":"spr_enemy1_walk","order":2,"path":"sprites/spr_enemy1_walk/spr_enemy1_walk.yy",},
     {"name":"spr_explode","order":1,"path":"sprites/spr_explode/spr_explode.yy",},
     {"name":"spr_explosion","order":15,"path":"sprites/spr_explosion/spr_explosion.yy",},
-    {"name":"spr_explosion1","order":14,"path":"sprites/spr_explosion1/spr_explosion1.yy",},
     {"name":"spr_fire_spin","order":29,"path":"sprites/spr_fire_spin/spr_fire_spin.yy",},
     {"name":"spr_fire","order":19,"path":"sprites/spr_fire/spr_fire.yy",},
     {"name":"spr_forest","order":1,"path":"sprites/spr_forest/spr_forest.yy",},
