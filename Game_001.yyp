@@ -339,6 +339,8 @@
     {"id":{"name":"spr_player_hurt","path":"sprites/spr_player_hurt/spr_player_hurt.yy",},},
     {"id":{"name":"spr_player_lift","path":"sprites/spr_player_lift/spr_player_lift.yy",},},
     {"id":{"name":"spr_player_lunge","path":"sprites/spr_player_lunge/spr_player_lunge.yy",},},
+    {"id":{"name":"spr_player_master","path":"sprites/spr_player_master/spr_player_master.yy",},},
+    {"id":{"name":"spr_player_old","path":"sprites/spr_player_old/spr_player_old.yy",},},
     {"id":{"name":"spr_player_push","path":"sprites/spr_player_push/spr_player_push.yy",},},
     {"id":{"name":"spr_player_roll","path":"sprites/spr_player_roll/spr_player_roll.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
