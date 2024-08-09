@@ -20,7 +20,8 @@ if (!global.game_paused) {
 			is_solid = true;
 			var _throw_distance_int = 0
 			_throw_distance_int = throw_distance
-			throw_distance_travelled = min(throw_distance_travelled + 3, _throw_distance_int);
+			var _move_speed = 5
+			throw_distance_travelled = min(throw_distance_travelled + _move_speed, _throw_distance_int);
 			x = xstart + lengthdir_x(throw_distance_travelled, direction);
 			y = ystart + lengthdir_y(throw_distance_travelled, direction);
 			var _collision_id = instance_place(x, y, obj_solid);
