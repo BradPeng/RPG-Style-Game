@@ -225,6 +225,7 @@
     {"name":"spr_freezing_spirit","order":30,"path":"sprites/spr_freezing_spirit/spr_freezing_spirit.yy",},
     {"name":"spr_gentle_forest","order":3,"path":"sprites/spr_gentle_forest/spr_gentle_forest.yy",},
     {"name":"spr_gentle_tree","order":7,"path":"sprites/spr_gentle_tree/spr_gentle_tree.yy",},
+    {"name":"spr_greedy_gremlin_hurt","order":52,"path":"sprites/spr_greedy_gremlin_hurt/spr_greedy_gremlin_hurt.yy",},
     {"name":"spr_greedy_gremlin_idle","order":51,"path":"sprites/spr_greedy_gremlin_idle/spr_greedy_gremlin_idle.yy",},
     {"name":"spr_greedy_gremlin_master","order":49,"path":"sprites/spr_greedy_gremlin_master/spr_greedy_gremlin_master.yy",},
     {"name":"spr_greedy_gremlin_move","order":50,"path":"sprites/spr_greedy_gremlin_move/spr_greedy_gremlin_move.yy",},
