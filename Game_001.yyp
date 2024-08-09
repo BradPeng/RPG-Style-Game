@@ -343,6 +343,7 @@
     {"id":{"name":"spr_player_old","path":"sprites/spr_player_old/spr_player_old.yy",},},
     {"id":{"name":"spr_player_push","path":"sprites/spr_player_push/spr_player_push.yy",},},
     {"id":{"name":"spr_player_roll","path":"sprites/spr_player_roll/spr_player_roll.yy",},},
+    {"id":{"name":"spr_player_run_old","path":"sprites/spr_player_run_old/spr_player_run_old.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"spr_player_thrust_hb","path":"sprites/spr_player_thrust_hb/spr_player_thrust_hb.yy",},},
     {"id":{"name":"spr_player_thrust","path":"sprites/spr_player_thrust/spr_player_thrust.yy",},},
