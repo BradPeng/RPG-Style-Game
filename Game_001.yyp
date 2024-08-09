@@ -378,6 +378,7 @@
     {"id":{"name":"spr_village_wagon","path":"sprites/spr_village_wagon/spr_village_wagon.yy",},},
     {"id":{"name":"spr_vortex","path":"sprites/spr_vortex/spr_vortex.yy",},},
     {"id":{"name":"spr_well","path":"sprites/spr_well/spr_well.yy",},},
+    {"id":{"name":"temp","path":"sprites/temp/temp.yy",},},
     {"id":{"name":"s_homestead","path":"tilesets/s_homestead/s_homestead.yy",},},
     {"id":{"name":"t_cave","path":"tilesets/t_cave/t_cave.yy",},},
     {"id":{"name":"t_col","path":"tilesets/t_col/t_col.yy",},},

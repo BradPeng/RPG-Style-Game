@@ -318,6 +318,7 @@
     {"name":"spr_village_wagon","order":11,"path":"sprites/spr_village_wagon/spr_village_wagon.yy",},
     {"name":"spr_vortex","order":31,"path":"sprites/spr_vortex/spr_vortex.yy",},
     {"name":"spr_well","order":8,"path":"sprites/spr_well/spr_well.yy",},
+    {"name":"temp","order":48,"path":"sprites/temp/temp.yy",},
     {"name":"s_homestead","order":7,"path":"tilesets/s_homestead/s_homestead.yy",},
     {"name":"t_cave","order":3,"path":"tilesets/t_cave/t_cave.yy",},
     {"name":"t_cozy_furnishings","order":11,"path":"tilesets/t_cozy_furnishings/t_cozy_furnishings.yy",},
