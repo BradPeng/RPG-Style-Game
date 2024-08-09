@@ -330,6 +330,7 @@
     {"id":{"name":"spr_player_attack_slash","path":"sprites/spr_player_attack_slash/spr_player_attack_slash.yy",},},
     {"id":{"name":"spr_player_backstep","path":"sprites/spr_player_backstep/spr_player_backstep.yy",},},
     {"id":{"name":"spr_player_bow","path":"sprites/spr_player_bow/spr_player_bow.yy",},},
+    {"id":{"name":"spr_player_carry_run_old","path":"sprites/spr_player_carry_run_old/spr_player_carry_run_old.yy",},},
     {"id":{"name":"spr_player_carry_run","path":"sprites/spr_player_carry_run/spr_player_carry_run.yy",},},
     {"id":{"name":"spr_player_carry","path":"sprites/spr_player_carry/spr_player_carry.yy",},},
     {"id":{"name":"spr_player_cast","path":"sprites/spr_player_cast/spr_player_cast.yy",},},
