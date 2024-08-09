@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-damage = 50
-knockback = 50
+damage = 5
+knockback = 10

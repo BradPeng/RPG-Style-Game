@@ -22,6 +22,8 @@ function hurt_enemy(_enemy, _damage, _source, _knockback){
 					var _knock_direction = point_direction(x, y, _source.x, _source.y);
 					x_to = x - lengthdir_x(_knockback, _knock_direction);
 					y_to = y - lengthdir_y(_knockback, _knock_direction);
+				} else {
+					state = state_previous
 				}
 			}
 		}	
